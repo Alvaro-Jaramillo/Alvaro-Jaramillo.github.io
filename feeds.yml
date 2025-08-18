@@ -1,0 +1,40 @@
+sites:
+  - name: Area Development
+    url: https://www.areadevelopment.com/rss/
+    max_items: 8
+  - name: Modern Materials Handling
+    url: http://feeds.feedburner.com/mmh/rss
+    max_items: 8
+  - name: Logistics Management
+    url: https://www.logisticsmgmt.com/site/rss
+    max_items: 8
+  - name: Supply Chain Management Review
+    url: https://www.scmr.com/rss/resources
+    max_items: 8
+  - name: Material Handling Product News
+    url: https://peerlessmedia.com/mhpn/rss
+    max_items: 8
+  - name: DC Velocity
+    url: https://www.dcvelocity.com/section/rss.xml
+    max_items: 8
+  - name: Food Logistics
+    url: https://www.foodlogistics.com/site/rss
+    max_items: 8
+  - name: Refrigerated & Frozen Foods
+    url: https://www.refrigeratedfrozenfood.com/rss
+    max_items: 8
+  - name: Plant Engineering
+    url: https://www.plantengineering.com/rss-feeds-2/
+    max_items: 8
+  - name: Industry Today
+    url: https://industrytoday.com/feed/
+    max_items: 8
+  - name: Automation World
+    url: https://www.automationworld.com/rss
+    max_items: 8
+  - name: Automation.com
+    url: https://www.automation.com/rss
+    max_items: 8
+  - name: Robotics & Automation News
+    url: https://roboticsandautomationnews.com/feed/
+    max_items: 8
