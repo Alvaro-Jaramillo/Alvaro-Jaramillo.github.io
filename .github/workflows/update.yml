@@ -3,13 +3,20 @@ name: Update news
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '17 */6 * * *'  # every 6 hours at minute 17
+    - cron: '17 */6 * * *'  # every 6 hours
+
+permissions:
+  contents: write        # to commit changes back to the repo
+  pages: write           # to deploy to GitHub Pages
+  id-token: write        # required by actions/deploy-pages
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,9 +32,9 @@ jobs:
           pip install -r scripts/requirements.txt
 
       - name: Generate site
-        run: |
-          python scripts/generate.py
+        run: python scripts/generate.py
 
+      # Optional but recommended so your repo always has the latest JSON/HTML
       - name: Commit and push changes
         run: |
           git config user.name "${{ github.actor }}"
@@ -35,3 +42,18 @@ jobs:
           git add -A
           git commit -m "chore: refresh news [skip ci]" || echo "No changes to commit"
           git push
+
+      # Upload the current repository content (including the freshly generated files)
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
