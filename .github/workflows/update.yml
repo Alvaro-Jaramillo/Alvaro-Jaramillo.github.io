@@ -6,9 +6,9 @@ on:
     - cron: '17 */6 * * *'  # every 6 hours
 
 permissions:
-  contents: write        # to commit changes back to the repo
-  pages: write           # to deploy to GitHub Pages
-  id-token: write        # required by actions/deploy-pages
+  contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pages"
@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # allow pull --rebase
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,16 +36,21 @@ jobs:
       - name: Generate site
         run: python scripts/generate.py
 
-      # Optional but recommended so your repo always has the latest JSON/HTML
-      - name: Commit and push changes
+      # Keep repo in sync but don't fail if nothing to commit
+      - name: Commit changes
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
           git commit -m "chore: refresh news [skip ci]" || echo "No changes to commit"
+
+      # Rebase onto latest main to avoid non-fast-forward errors, then push
+      - name: Rebase and push
+        run: |
+          git pull --rebase origin ${{ github.ref_name }}
           git push
 
-      # Upload the current repository content (including the freshly generated files)
+      # Deploy via Pages (since Pages source is set to GitHub Actions)
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
