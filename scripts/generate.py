@@ -204,13 +204,59 @@ def is_us_or_ca(item: dict) -> bool:
     return country in {"US", "CA"} or region is not None
 
 
+def _parse_published(published: Optional[str]) -> Optional[datetime]:
+    """Parse GDELT seendate strings into datetimes.
+
+    Observed formats can vary; we handle the common ones:
+    - '2026-01-07 13:02:00'
+    - ISO 8601
+    """
+    if not published:
+        return None
+    s = published.strip()
+    # GDELT commonly returns "YYYY-MM-DD HH:MM:SS".
+    try:
+        if "T" in s:
+            dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        else:
+            dt = datetime.strptime(s, "%Y-%m-%d %H:%M:%S")
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        return None
+
+
+def _load_existing_items() -> List[dict]:
+    path = os.path.join(DATA_DIR, "items.json")
+    if not os.path.exists(path):
+        return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+        return payload.get("items") or []
+    except Exception:
+        return []
+
+
 def build_items(now_utc: datetime) -> Tuple[List[dict], dict]:
-    # Query window: last 2 hours to reduce missed items due to API hiccups,
-    # then de-dupe by URL.
+    # Query window: look back far enough that the dashboard is usually populated
+    # even during slow news periods.
     end = now_utc
-    start = now_utc - timedelta(hours=2)
+    start = now_utc - timedelta(hours=48)
+
+    existing_items = _load_existing_items()
 
     seen_urls: Set[str] = set()
+    # Seed seen URLs/IDs from existing items so we don't keep re-adding the same stories.
+    seen_ids: Set[str] = set()
+    for it in existing_items:
+        if isinstance(it, dict):
+            if it.get("url"):
+                seen_urls.add(it["url"])
+            if it.get("id"):
+                seen_ids.add(it["id"])
+
     items: List[dict] = []
     meta = {
         "generated_at": now_utc.isoformat(),
@@ -271,9 +317,37 @@ def build_items(now_utc: datetime) -> Tuple[List[dict], dict]:
             merged[mid]["topics"] = sorted(set(merged[mid]["topics"]) | set(it["topics"]))
             merged[mid]["topic_labels"] = sorted(set(merged[mid]["topic_labels"]) | set(it["topic_labels"]))
 
-    out = list(merged.values())
-    out.sort(key=lambda x: (x.get("published") or ""), reverse=True)
-    return out, meta
+    # Now merge newly fetched items into the existing store, de-duping by ID.
+    store: Dict[str, dict] = {}
+    for it in existing_items:
+        if not isinstance(it, dict) or not it.get("id"):
+            continue
+        store[it["id"]] = it
+
+    for mid, it in merged.items():
+        if mid in store:
+            # Merge topic tags if we already have this story.
+            store[mid]["topics"] = sorted(set(store[mid].get("topics") or []) | set(it.get("topics") or []))
+            store[mid]["topic_labels"] = sorted(set(store[mid].get("topic_labels") or []) | set(it.get("topic_labels") or []))
+            # Prefer newer/filled fields where possible.
+            for k in ["title", "source", "source_country", "published", "region", "country", "signals"]:
+                if not store[mid].get(k) and it.get(k):
+                    store[mid][k] = it[k]
+        else:
+            store[mid] = it
+
+    # Trim store to keep the dashboard fast and relevant.
+    # Keep items published in the last 30 days (fallback: keep if published missing).
+    cutoff = now_utc - timedelta(days=30)
+    trimmed: List[dict] = []
+    for it in store.values():
+        dt = _parse_published(it.get("published"))
+        if dt is None or dt >= cutoff:
+            trimmed.append(it)
+
+    # Sort newest-first by parsed publish time.
+    trimmed.sort(key=lambda x: (_parse_published(x.get("published")) or datetime(1970, 1, 1, tzinfo=timezone.utc)), reverse=True)
+    return trimmed, meta
 
 
 def _stable_id(url: str) -> str:
