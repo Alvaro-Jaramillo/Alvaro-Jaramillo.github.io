@@ -275,10 +275,10 @@ def build_items(now_utc: datetime) -> Tuple[List[dict], dict]:
     }
 
     for topic in TOPICS:
-        parts = [f"({topic.query})", GEO_QUERY]
-            if SOURCE_COUNTRY_QUERY:
-                parts.append(SOURCE_COUNTRY_QUERY)
-            q = " AND ".join(parts)
+        parts = [f'({topic.query})', GEO_QUERY]
+        if SOURCE_COUNTRY_QUERY:
+            parts.append(SOURCE_COUNTRY_QUERY)
+        q = ' AND '.join(parts)
         try:
             arts = gdelt_fetch(q, start=start, end=end, max_records=250)
         except Exception as e:
