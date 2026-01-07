@@ -67,49 +67,50 @@ TOPICS: List[Topic] = [
     Topic(
         key="facility_new",
         label="New facility / warehouse / DC",
-        query='("new warehouse" OR "new distribution center" OR "new distribution centre" OR "new DC" OR "new fulfillment center" OR "new fulfilment centre" OR "opens new" OR "opening a new" OR groundbreaking OR "ribbon cutting")',
+        query='("new warehouse" OR "new distribution center" OR "new DC" OR "new fulfillment center" OR "opens new warehouse" OR "opened a new warehouse" OR groundbreaking OR "ribbon cutting" OR "to build a new" OR "plans a new" OR "announced a new" OR "new logistics facility")',
     ),
     Topic(
         key="facility_expansion",
         label="Expansion / modernization",
-        query='("warehouse expansion" OR "distribution center expansion" OR "plant expansion" OR expansion OR expanded OR expanding OR modernization OR modernisation OR upgrade OR renovation OR "adds capacity" OR "adding capacity")',
+        query='("warehouse expansion" OR "distribution center expansion" OR "expanding its warehouse" OR "expands distribution center" OR "facility expansion" OR "expansion project" OR modernization OR modernize OR upgrade OR renovation OR "adds capacity" OR "adding capacity" OR "expanding operations")',
     ),
     Topic(
         key="manufacturing_investment",
         label="Manufacturing investment",
-        query='("manufacturing investment" OR "plant investment" OR "capital investment" OR capex OR "production expansion" OR "new plant" OR "new factory" OR "manufacturing facility")',
+        query='("manufacturing investment" OR "plant investment" OR "invests in manufacturing" OR "manufacturing expansion" OR "production expansion" OR "new plant" OR "new factory" OR "manufacturing facility" OR "production facility" OR "new production line" OR "adds production capacity")',
     ),
     Topic(
         key="warehouse_investment",
         label="Warehouse / logistics investment",
-        query='("warehouse investment" OR "distribution investment" OR "logistics investment" OR "supply chain investment" OR "capital investment" OR capex OR "investing" OR "invests")',
+        query='(("warehouse investment" OR "logistics investment" OR "distribution investment" OR "supply chain investment" OR "capital investment" OR capex OR "capital expenditure") AND (warehouse OR "distribution center" OR logistics OR "supply chain"))',
     ),
     Topic(
         key="real_estate_signal",
         label="Industrial real estate / build-to-suit",
-        query='("build-to-suit" OR "industrial lease" OR "leased" OR "site selection" OR "selects site" OR "planning commission" OR rezoning OR permit OR permitting OR zoning)',
+        query='("build-to-suit" OR "industrial lease" OR "industrial real estate" OR "site selection" OR "planning commission" OR rezoning OR permit OR permitting OR zoning OR "economic development" OR "tax incentive" OR "incentive package" OR "land purchase" OR "break ground")',
     ),
     Topic(
         key="automation_signal",
         label="Automation project signal",
-        query='("AS/RS" OR ASRS OR "automated storage" OR shuttle OR "goods-to-person" OR GTP OR AMR OR "autonomous mobile" OR robotics OR robotic OR palletizing OR sortation OR conveyor OR "WMS" OR "WES" OR "WCS" OR "warehouse automation" OR "distribution automation")',
+        query='("AS/RS" OR ASRS OR "automated storage" OR shuttle OR "goods-to-person" OR "automated guided vehicle" OR AGV OR AMR OR "autonomous mobile" OR robotics OR robotic OR palletizing OR sortation OR "material handling automation" OR "warehouse automation" OR "automated picking" OR "robotic picking" OR "WMS" OR "WCS" OR "WES")',
     ),
     Topic(
         key="leadership_change",
         label="Leadership change (CEO/VP/Automation)",
-        query='((appointed OR names OR named OR joins OR hired OR promoted OR resigns OR "steps down") AND (CEO OR COO OR CFO OR "Chief Executive" OR VP OR "Vice President" OR "Head of" OR Director) AND ("supply chain" OR operations OR logistics OR automation OR engineering))',
+        query='((appointed OR names OR named OR "joins as" OR "hired as" OR "promoted to" OR "steps down" OR resigns OR resignation) AND (CEO OR COO OR CFO OR "Chief Executive Officer" OR VP OR "Vice President" OR "Head of" OR Director) AND (automation OR "supply chain" OR logistics OR operations OR distribution OR manufacturing))',
     ),
     Topic(
         key="revenue_update",
         label="Revenue / earnings update",
-        query='((revenue OR "net sales" OR earnings OR guidance OR quarter OR Q1 OR Q2 OR Q3 OR Q4) AND ("supply chain" OR distribution OR logistics OR capex OR investment))',
+        query='(("revenue" OR earnings OR guidance OR "quarter" OR "annual report" OR "net sales") AND (capex OR "capital expenditure" OR "supply chain" OR logistics OR distribution OR warehouse))',
     ),
     Topic(
         key="risk_urgency",
         label="Risk / urgency (closure, labor, disruption)",
-        query='((layoffs OR closure OR "shutting down" OR consolidation OR strike OR union OR "labor shortage" OR "labour shortage" OR fire OR recall) AND (plant OR warehouse OR "distribution center" OR "distribution centre" OR facility))',
+        query='((closure OR closing OR "shut down" OR layoffs OR strike OR union OR "labor dispute" OR "fire at" OR disruption OR recall OR outage) AND (warehouse OR "distribution center" OR plant OR facility OR logistics))',
     ),
 ]
+
 
 
 # --------- Fetch ---------
@@ -119,7 +120,7 @@ def gdelt_fetch(query: str, start: datetime, end: datetime, max_records: int = 2
         "query": query,
         "mode": "ArtList",
         "format": "json",
-        "sort": "HybridRel",
+        "sort": "Date",
         "maxrecords": str(max_records),
         "startdatetime": _dt_to_gdelt(start),
         "enddatetime": _dt_to_gdelt(end),
