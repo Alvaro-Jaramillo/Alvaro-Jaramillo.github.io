@@ -10,63 +10,134 @@ import random
 import re
 import sys
 import time
-from typing import List
+import xml.etree.ElementTree as ET
+from typing import Dict, List, Optional, Tuple
 
 import requests
 
-GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc"
-MODE = "ArtList"
-SORT = "Date"
+# -----------------------------
+# High-level strategy
+# -----------------------------
+# Your GitHub Actions runners are getting HTTP 429 from GDELT consistently.
+# To make the site populate reliably:
+#   1) Make ONE broad GDELT request per run (instead of per-topic requests).
+#   2) Classify articles into topics locally (regex keyword packs).
+#   3) If GDELT is still rate-limiting, fall back to Google News RSS (no API key).
+#   4) NEVER overwrite data/items.json with empty results if upstream is rate-limiting.
+#
+# Output: data/items.json
+# -----------------------------
 
-LOOKBACK_HOURS = 24 * 7
+# --- Config
+LOOKBACK_HOURS = 24 * 7           # seed window
 RETENTION_DAYS = 30
-
-MAX_RECORDS = 75
-TOPICS_PER_RUN = 3
-
+MAX_RECORDS = 250                 # only ONE request per run
 MIN_DELAY_SECONDS = 2.0
 MAX_RETRIES = 5
 BACKOFF_BASE_SECONDS = 2.0
 
 ITEMS_PATH = "data/items.json"
-STATE_PATH = "data/state.json"
+
+# --- GDELT (Doc 2.1)
+GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc"
+GDELT_MODE = "ArtList"
+GDELT_SORT = "Date"
+
+# Broad query (short enough to avoid URL length issues)
+# We keep it broad and do topic classification locally.
+BROAD_QUERY = (
+    '(warehouse OR "distribution center" OR "fulfillment center" OR logistics OR "supply chain" OR manufacturing OR plant OR automation) '
+    'AND (investment OR invest OR expansion OR expand OR "new facility" OR "new warehouse" OR "new plant" OR groundbreaking OR "ribbon cutting" '
+    'OR modernization OR upgrade OR capex OR "capital expenditure" OR earnings OR revenue OR guidance OR appointed OR named OR resigns OR layoffs OR strike)'
+)
+
+# Google News RSS fallback (broad)
+# Note: Google News RSS query is URL-encoded automatically by requests when passed in params.
+GN_RSS_URL = "https://news.google.com/rss/search"
+GN_RSS_PARAMS = {
+    "q": "new warehouse OR new distribution center OR warehouse expansion OR manufacturing investment OR warehouse automation OR AS/RS OR AGV OR AMR OR capex OR logistics investment OR plant expansion OR appointed CEO logistics",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+}
 
 @dataclasses.dataclass(frozen=True)
 class Topic:
     key: str
     label: str
-    query: str
 
 TOPICS: List[Topic] = [
-    Topic("facility_new","New facility / warehouse / DC",
-          '("new warehouse" OR "new distribution center" OR "new fulfillment center" '
-          'OR groundbreaking OR "ribbon cutting" OR "new logistics facility")'),
-    Topic("facility_expansion","Expansion / modernization",
-          '("warehouse expansion" OR "distribution center expansion" OR modernization '
-          'OR upgrade OR renovation OR "adds capacity")'),
-    Topic("manufacturing_investment","Manufacturing investment",
-          '("manufacturing investment" OR "manufacturing expansion" OR "new plant" OR "new factory")'),
-    Topic("warehouse_investment","Warehouse / logistics investment",
-          '(("warehouse investment" OR "logistics investment" OR capex) '
-          'AND (warehouse OR "distribution center" OR logistics))'),
-    Topic("real_estate_signal","Industrial real estate / build-to-suit",
-          '("build-to-suit" OR "industrial lease" OR "site selection" OR rezoning OR permitting '
-          'OR zoning OR "economic development" OR "tax incentive")'),
-    Topic("automation_signal","Automation project signal",
-          '("AS/RS" OR ASRS OR "warehouse automation" OR AGV OR AMR OR robotics '
-          'OR palletizing OR sortation OR WMS OR WCS OR WES)'),
-    Topic("leadership_change","Leadership change",
-          '((appointed OR named OR "joins as" OR "hired as" OR resigns) '
-          'AND (CEO OR COO OR CFO OR VP OR Director))'),
-    Topic("revenue_update","Revenue / earnings update",
-          '(("revenue" OR earnings OR guidance) AND (capex OR logistics OR warehouse))'),
-    Topic("risk_urgency","Risk / urgency",
-          '((closure OR layoffs OR strike OR recall OR disruption) '
-          'AND (warehouse OR plant OR facility))'),
+    Topic("facility_new", "New facility / warehouse / DC"),
+    Topic("facility_expansion", "Expansion / modernization"),
+    Topic("manufacturing_investment", "Manufacturing investment"),
+    Topic("warehouse_investment", "Warehouse / logistics investment"),
+    Topic("real_estate_signal", "Industrial real estate / build-to-suit"),
+    Topic("automation_signal", "Automation project signal"),
+    Topic("leadership_change", "Leadership change (CEO/VP/Automation)"),
+    Topic("revenue_update", "Revenue / earnings update"),
+    Topic("risk_urgency", "Risk / urgency (closure, labor, disruption)"),
 ]
 
-US_HINTS = [r"\bUSA\b", r"\bUnited States\b", r"\bCalifornia\b", r"\bTexas\b", r"\bNew York\b"]
-CA_HINTS = [r"\bCanada\b", r"\bOntario\b", r"\bQuebec\b", r"\bBritish Columbia\b"]
+# --- Topic classifiers (keep simple + robust)
+TOPIC_PATTERNS: Dict[str, List[str]] = {
+    "facility_new": [
+        r"\bnew\s+(warehouse|distribution\s+center|fulfillment\s+center|dc)\b",
+        r"\bopens?\b.*\bwarehouse\b",
+        r"\bgroundbreaking\b", r"\bribbon\s+cutting\b",
+        r"\bnew\s+logistics\s+facility\b",
+    ],
+    "facility_expansion": [
+        r"\bwarehouse\s+expansion\b", r"\bexpanding\b.*\bwarehouse\b",
+        r"\bdistribution\s+center\s+expansion\b",
+        r"\bmoderni[sz]ation\b", r"\bupgrade\b", r"\brenovation\b",
+        r"\badds?\s+capacity\b", r"\badding\s+capacity\b",
+    ],
+    "manufacturing_investment": [
+        r"\bmanufacturing\s+investment\b", r"\bplant\s+investment\b",
+        r"\bnew\s+(plant|factory)\b", r"\bproduction\s+expansion\b",
+        r"\badds?\s+production\s+capacity\b",
+    ],
+    "warehouse_investment": [
+        r"\bwarehouse\s+investment\b", r"\blogistics\s+investment\b",
+        r"\bsupply\s+chain\s+investment\b", r"\bcapex\b",
+        r"\bcapital\s+expenditure\b", r"\bdistribution\s+investment\b",
+    ],
+    "real_estate_signal": [
+        r"\bbuild-?to-?suit\b", r"\bindustrial\s+lease\b",
+        r"\bsite\s+selection\b", r"\brezoning\b", r"\bpermitting\b",
+        r"\bzoning\b", r"\beconomic\s+development\b", r"\btax\s+incentive\b",
+        r"\bland\s+purchase\b",
+    ],
+    "automation_signal": [
+        r"\bAS/RS\b", r"\bASRS\b", r"\bwarehouse\s+automation\b",
+        r"\bmaterial\s+handling\s+automation\b",
+        r"\bAGV\b", r"\bAMR\b", r"\brobotics?\b", r"\bpalleti[sz]ing\b",
+        r"\bsortation\b", r"\bWMS\b", r"\bWCS\b", r"\bWES\b",
+    ],
+    "leadership_change": [
+        r"\bappointed\b.*\b(CEO|COO|CFO|VP|Vice\s+President|Director)\b",
+        r"\bnamed\b.*\b(CEO|COO|CFO|VP|Vice\s+President|Director)\b",
+        r"\bjoins\s+as\b", r"\bhired\s+as\b", r"\bpromoted\s+to\b",
+        r"\bsteps\s+down\b", r"\bresigns?\b", r"\bresignation\b",
+    ],
+    "revenue_update": [
+        r"\brevenue\b", r"\bearnings\b", r"\bguidance\b",
+        r"\bannual\s+report\b", r"\bnet\s+sales\b",
+    ],
+    "risk_urgency": [
+        r"\bclosure\b", r"\bclosing\b", r"\blayoffs\b",
+        r"\bstrike\b", r"\bunion\b", r"\blabor\s+dispute\b",
+        r"\brecall\b", r"\boutage\b", r"\bdisruption\b",
+        r"\bfire\b.*\b(warehouse|plant|facility)\b",
+    ],
+}
+
+US_HINTS = [
+    r"\bUSA\b", r"\bU\.S\.\b", r"\bUnited States\b",
+    r"\bCalifornia\b", r"\bTexas\b", r"\bFlorida\b", r"\bNew York\b",
+    r"\bGeorgia\b", r"\bIllinois\b", r"\bOhio\b",
+]
+CA_HINTS = [r"\bCanada\b", r"\bOntario\b", r"\bQuebec\b", r"\bQuébec\b", r"\bAlberta\b", r"\bBritish Columbia\b"]
 
 _last_call_ts = 0.0
 
@@ -81,35 +152,98 @@ def gdelt_dt(d: dt.datetime) -> str:
     return d.astimezone(dt.timezone.utc).strftime("%Y%m%d%H%M%S")
 
 def url_id(url: str) -> str:
-    return hashlib.sha256(url.encode()).hexdigest()[:16]
+    return hashlib.sha256((url or "").encode("utf-8")).hexdigest()[:16]
 
-def is_us_or_ca(a: dict) -> bool:
-    blob = f"{a.get('title','')} {a.get('snippet','')}"
-    if a.get("sourceCountry") in {"US","CA"}:
+def load_json(path: str) -> dict:
+    if os.path.exists(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f) or {}
+        except Exception:
+            return {}
+    return {}
+
+def save_json(path: str, obj: dict) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, indent=2)
+
+def is_us_or_ca_blob(blob: str, url: str, source_country: str | None) -> bool:
+    sc = (source_country or "").upper()
+    if sc in {"US", "CA"}:
         return True
-    for pat in US_HINTS + CA_HINTS:
+    u = (url or "").lower()
+    if u.endswith(".ca") or ".ca/" in u:
+        return True
+    for pat in CA_HINTS:
         if re.search(pat, blob, re.IGNORECASE):
             return True
-    if ".ca/" in (a.get("url") or ""):
-        return True
+    for pat in US_HINTS:
+        if re.search(pat, blob, re.IGNORECASE):
+            return True
     return False
 
-def fetch_gdelt(query: str, start: dt.datetime, end: dt.datetime):
+def classify_topics(blob: str) -> List[str]:
+    hits = []
+    for key, patterns in TOPIC_PATTERNS.items():
+        for p in patterns:
+            if re.search(p, blob, re.IGNORECASE):
+                hits.append(key)
+                break
+    return sorted(set(hits))
+
+def prune(items: List[dict], now: dt.datetime) -> List[dict]:
+    cutoff = now - dt.timedelta(days=RETENTION_DAYS)
+    out = []
+    for it in items:
+        ts = it.get("published_at") or it.get("seendate") or ""
+        keep = True
+        try:
+            if ts and ts[0].isdigit() and len(ts) >= 14:
+                d = dt.datetime.strptime(ts[:14], "%Y%m%d%H%M%S").replace(tzinfo=dt.timezone.utc)
+            else:
+                d = dt.datetime.fromisoformat(ts.replace("Z", "+00:00"))
+            if d < cutoff:
+                keep = False
+        except Exception:
+            pass
+        if keep:
+            out.append(it)
+    return out
+
+def merge(existing: List[dict], new_items: List[dict]) -> List[dict]:
+    by_id = {it.get("id"): it for it in existing if it.get("id")}
+    for it in new_items:
+        iid = it.get("id")
+        if not iid:
+            continue
+        if iid in by_id:
+            cur = by_id[iid]
+            cur_topics = set(cur.get("topics") or [])
+            new_topics = set(it.get("topics") or [])
+            cur["topics"] = sorted(cur_topics | new_topics)
+        else:
+            by_id[iid] = it
+    merged = list(by_id.values())
+    merged.sort(key=lambda x: x.get("seendate") or x.get("published_at") or "", reverse=True)
+    return merged
+
+def fetch_gdelt_broad(start: dt.datetime, end: dt.datetime) -> Tuple[List[dict], str]:
     params = {
-        "query": query,
-        "mode": MODE,
+        "query": BROAD_QUERY,
+        "mode": GDELT_MODE,
         "format": "json",
-        "sort": SORT,
+        "sort": GDELT_SORT,
         "maxrecords": str(MAX_RECORDS),
         "startdatetime": gdelt_dt(start),
         "enddatetime": gdelt_dt(end),
     }
-
     for attempt in range(1, MAX_RETRIES + 1):
         throttle()
-        r = requests.get(GDELT_ENDPOINT, params=params, timeout=25)
+        r = requests.get(GDELT_ENDPOINT, params=params, timeout=25, headers={"User-Agent": "AJ-IndustrySignals/1.0"})
         if r.status_code == 200:
-            return r.json().get("articles", [])
+            data = r.json()
+            return (data.get("articles") or []), "gdelt"
         if r.status_code == 429:
             retry_after = r.headers.get("Retry-After")
             try:
@@ -117,69 +251,116 @@ def fetch_gdelt(query: str, start: dt.datetime, end: dt.datetime):
             except ValueError:
                 wait = BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
             wait *= random.uniform(0.8, 1.3)
-            print(f"[429] Retry-After={retry_after} sleeping={wait:.1f}s", file=sys.stderr)
+            print(f"[warn] GDELT 429. Retry-After={retry_after} attempt={attempt}/{MAX_RETRIES} sleeping={wait:.1f}s", file=sys.stderr)
             time.sleep(wait)
             continue
+        # Other errors: raise
         r.raise_for_status()
-    return []
+    return [], "gdelt_429"
 
-def load_json(path):
-    if os.path.exists(path):
-        with open(path,"r",encoding="utf-8") as f:
-            return json.load(f)
-    return {}
+def fetch_google_news_rss() -> List[dict]:
+    # Simple RSS fetch + parse
+    r = requests.get(GN_RSS_URL, params=GN_RSS_PARAMS, timeout=25, headers={"User-Agent": "AJ-IndustrySignals/1.0"})
+    r.raise_for_status()
+    root = ET.fromstring(r.text)
+    channel = root.find("channel")
+    if channel is None:
+        return []
+    items = []
+    for it in channel.findall("item"):
+        title = (it.findtext("title") or "").strip()
+        link = (it.findtext("link") or "").strip()
+        pub = (it.findtext("pubDate") or "").strip()
+        source = it.find("source")
+        source_name = (source.text.strip() if source is not None and source.text else "")
+        items.append({
+            "title": title,
+            "url": link,
+            "published_at": pub,
+            "source_name": source_name,
+            "snippet": "",  # RSS doesn't give snippet reliably
+            "seendate": "",  # leave blank
+            "sourceCountry": None,
+            "domain": "",
+        })
+    return items
 
-def save_json(path, obj):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path,"w",encoding="utf-8") as f:
-        json.dump(obj, f, indent=2)
-
-def pick_topics():
-    state = load_json(STATE_PATH)
-    cur = state.get("topic_cursor", 0)
-    chosen = [TOPICS[(cur+i)%len(TOPICS)] for i in range(TOPICS_PER_RUN)]
-    state["topic_cursor"] = (cur + TOPICS_PER_RUN) % len(TOPICS)
-    save_json(STATE_PATH, state)
-    return chosen
-
-def main():
+def main() -> int:
     now = dt.datetime.now(tz=dt.timezone.utc)
-    start = now - dt.timedelta(hours=LOOKBACK_HOURS)
+    window_start = now - dt.timedelta(hours=LOOKBACK_HOURS)
+    window_end = now
 
-    existing = load_json(ITEMS_PATH).get("items", [])
-    by_id = {i["id"]: i for i in existing if "id" in i}
+    existing_doc = load_json(ITEMS_PATH)
+    existing_items = existing_doc.get("items") or []
 
-    for t in pick_topics():
-        arts = fetch_gdelt(t.query, start, now)
-        kept = [a for a in arts if is_us_or_ca(a)]
-        print(f"[topic] {t.key}: fetched={len(arts)} kept={len(kept)}")
-        for a in kept:
-            url = a.get("url")
-            if not url:
-                continue
-            by_id.setdefault(url_id(url), {
-                "id": url_id(url),
-                "title": a.get("title",""),
-                "url": url,
-                "source_name": a.get("domain",""),
-                "seendate": a.get("seendate",""),
-                "topics": [t.key],
-                "snippet": a.get("snippet",""),
-            })
+    articles, source = fetch_gdelt_broad(window_start, window_end)
+
+    if not articles and source == "gdelt_429":
+        print("[warn] GDELT rate-limited. Falling back to Google News RSS.", file=sys.stderr)
+        try:
+            articles = fetch_google_news_rss()
+            source = "google_news_rss"
+        except Exception as e:
+            print(f"[warn] Google News RSS fetch failed: {e}", file=sys.stderr)
+            # Do not overwrite existing data if both sources fail
+            print("[summary] No new data. Keeping existing items.json as-is.", file=sys.stderr)
+            return 0
+
+    fetched = len(articles)
+    kept = 0
+    collected: List[dict] = []
+
+    for a in articles:
+        title = a.get("title") or ""
+        snippet = a.get("snippet") or a.get("description") or ""
+        url = a.get("url") or ""
+        if not url:
+            continue
+        blob = f"{title} {snippet}"
+        if not is_us_or_ca_blob(blob, url, a.get("sourceCountry")):
+            continue
+
+        topics = classify_topics(blob)
+        if not topics:
+            continue
+
+        kept += 1
+        collected.append({
+            "id": url_id(url),
+            "title": title,
+            "url": url,
+            "source_name": a.get("domain") or a.get("source_name") or "",
+            "published_at": a.get("published_at") or "",
+            "seendate": a.get("seendate") or "",
+            "topics": topics,
+            "snippet": snippet,
+            "signals": {},
+        })
+
+    merged = merge(existing_items, collected)
+    merged = prune(merged, now)
 
     out = {
         "meta": {
             "generated_at": now.isoformat(),
-            "window_start": start.isoformat(),
-            "window_end": now.isoformat(),
-            "source": "GDELT 2.1 Doc API",
+            "window_start": window_start.isoformat(),
+            "window_end": window_end.isoformat(),
+            "source": source,
+            "fetched": fetched,
+            "kept": kept,
         },
         "topics": [{"key": t.key, "label": t.label} for t in TOPICS],
-        "items": sorted(by_id.values(), key=lambda x: x.get("seendate",""), reverse=True)
+        "items": merged,
     }
 
+    # IMPORTANT: If we fetched 0 and collected 0, keep existing file (avoid wiping)
+    if fetched == 0 and kept == 0 and len(existing_items) > 0:
+        print("[summary] Upstream returned nothing; preserving existing items.json.", file=sys.stderr)
+        return 0
+
     save_json(ITEMS_PATH, out)
-    print(f"[summary] stored={len(out['items'])}")
+    print(f"[summary] source={source} fetched={fetched} kept={kept} stored={len(merged)}")
+    return 0
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
