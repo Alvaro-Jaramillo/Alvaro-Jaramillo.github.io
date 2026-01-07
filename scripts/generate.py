@@ -123,7 +123,7 @@ def build_geo_query() -> str:
     return "(" + " OR ".join(geo_terms) + ")"
 
 
-GEO_QUERY = build_geo_query()
+GEO_QUERY = ""  # filter to US/CA after fetching; do not require geo terms in query
 SOURCE_COUNTRY_QUERY = ""  # don't restrict by publisher country; it drops too many NA-relevant stories
 
 
@@ -275,10 +275,12 @@ def build_items(now_utc: datetime) -> Tuple[List[dict], dict]:
     }
 
     for topic in TOPICS:
-        parts = [f'({topic.query})', GEO_QUERY]
+        parts = [f"({topic.query})"]
+        if GEO_QUERY:
+            parts.append(GEO_QUERY)
         if SOURCE_COUNTRY_QUERY:
             parts.append(SOURCE_COUNTRY_QUERY)
-        q = ' AND '.join(parts)
+        q = " AND ".join(parts)
         try:
             arts = gdelt_fetch(q, start=start, end=end, max_records=250)
         except Exception as e:
@@ -388,39 +390,12 @@ def render_index(updated_human: str) -> None:
 
 
 def main() -> None:
-    """Generate items + index.
-
-    We keep this workflow *resilient*: transient API failures should not break
-    GitHub Pages deploys. If anything unexpected happens, we log the traceback
-    and keep the last known-good `data/items.json` intact.
-    """
     now = datetime.now(timezone.utc)
+    items, meta = build_items(now)
+    write_json(items, meta)
     updated_human = now.strftime("%Y-%m-%d %H:%M UTC")
-
-    try:
-        items, meta = build_items(now)
-        write_json(items, meta)
-        render_index(updated_human)
-        print(f"Rendered {len(items)} items.")
-    except Exception:
-        import traceback
-
-        traceback.print_exc()
-        # Fall back to existing items so the site continues to function.
-        existing = _load_existing_items()
-        meta = {
-            "generated_at": now.isoformat(),
-            "window_start": (now - timedelta(hours=48)).isoformat(),
-            "window_end": now.isoformat(),
-            "source": "GDELT 2.1 Doc API (error - using cached items)",
-        }
-        # Do NOT overwrite items.json if we have nothing cached.
-        if existing:
-            write_json(existing, meta)
-        render_index(updated_human)
-        print("[warn] Generation failed; deployed cached items.")
-        # Exit success so Pages still deploys.
-        return
+    render_index(updated_human)
+    print(f"Rendered {len(items)} items.")
 
 
 if __name__ == "__main__":
