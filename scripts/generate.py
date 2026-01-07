@@ -10,6 +10,7 @@ import time
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from typing import Dict, List, Optional, Tuple
+from urllib.parse import urlparse
 
 import requests
 
@@ -51,6 +52,10 @@ NON_NA_COUNTRY_HINTS = re.compile(
     r"\b(UK|United Kingdom|England|Scotland|Wales|Ireland|EU|European Union|Germany|France|Spain|Italy|Netherlands|Sweden|Norway|Finland|Denmark|Poland|India|China|Japan|Korea|Australia|New Zealand|Brazil|Mexico|Nigeria|South Africa)\b",
     re.IGNORECASE,
 )
+
+MONEY_RE = re.compile(r"(\$\s*\d|\bUSD\b|\bCAD\b|\bmillion\b|\bbillion\b)", re.IGNORECASE)
+SQFT_RE = re.compile(r"(\b\d{1,3}(?:,\d{3})+\s*(?:sq\.?\s*ft|sqft|square\s*feet)\b|\b\d+\s*(?:sq\.?\s*ft|sqft|square\s*feet)\b)", re.IGNORECASE)
+JOBS_RE = re.compile(r"(\b\d{1,3}(?:,\d{3})+\s*jobs\b|\b\d+\s*jobs\b|\bnew\s+jobs\b|\bhiring\b)", re.IGNORECASE)
 
 def _hash_id(url: str) -> str:
     return hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
@@ -109,7 +114,7 @@ def _prune(items: List[dict], now: dt.datetime) -> List[dict]:
     cutoff = now - dt.timedelta(days=RETENTION_DAYS)
     out = []
     for it in items:
-        iso = it.get("published_at") or ""
+        iso = it.get("published_at") or it.get("seendate") or ""
         keep = True
         if iso:
             try:
@@ -125,11 +130,24 @@ def _prune(items: List[dict], now: dt.datetime) -> List[dict]:
             out.append(it)
     return out
 
+def _domain(url: str) -> str:
+    try:
+        return urlparse(url).netloc.lower()
+    except Exception:
+        return ""
+
+def _signals_from_title(title: str) -> dict:
+    return {
+        "has_investment": bool(MONEY_RE.search(title)),
+        "has_sqft": bool(SQFT_RE.search(title)),
+        "has_jobs": bool(JOBS_RE.search(title)),
+    }
+
 def main() -> int:
     now = dt.datetime.now(tz=dt.timezone.utc)
     window_start = now - dt.timedelta(hours=LOOKBACK_HOURS)
 
-    existing = {}
+    existing: Dict[str, dict] = {}
     if os.path.exists(ITEMS_PATH):
         try:
             with open(ITEMS_PATH, "r", encoding="utf-8") as f:
@@ -144,9 +162,10 @@ def main() -> int:
     new_total = 0
     errors = []
 
+    # IMPORTANT: UI filters expect country fields. We set them based on edition.
     editions = [
-        ("en-US", "US", "US:en"),
-        ("en-CA", "CA", "CA:en"),
+        ("en-US", "US", "US:en", "USA"),
+        ("en-CA", "CA", "CA:en", "Canada"),
     ]
 
     for topic in TOPICS:
@@ -155,7 +174,7 @@ def main() -> int:
         if not query:
             continue
 
-        for hl, gl, ceid in editions:
+        for hl, gl, ceid, country_name in editions:
             feed_items, err = _fetch_rss(query=query, hl=hl, gl=gl, ceid=ceid)
             if err:
                 errors.append(f"{key} {gl}: {err}")
@@ -170,10 +189,24 @@ def main() -> int:
                     continue
 
                 iid = _hash_id(url)
+                dom = _domain(url)
+                sig = _signals_from_title(title)
+
                 if iid in existing:
                     tset = set(existing[iid].get("topics") or [])
                     tset.add(key)
                     existing[iid]["topics"] = sorted(tset)
+
+                    existing[iid].setdefault("country", country_name)
+                    existing[iid].setdefault("country_code", gl)
+                    existing[iid].setdefault("domain", dom)
+
+                    # merge signals
+                    old_sig = existing[iid].get("signals") or {}
+                    for k2, v2 in sig.items():
+                        old_sig[k2] = bool(old_sig.get(k2)) or bool(v2)
+                    existing[iid]["signals"] = old_sig
+
                     if not existing[iid].get("source_name") and a.get("source_name"):
                         existing[iid]["source_name"] = a.get("source_name") or ""
                     if not existing[iid].get("published_at") and a.get("published_at"):
@@ -184,12 +217,17 @@ def main() -> int:
                         "id": iid,
                         "title": title,
                         "url": url,
+                        "domain": dom,
                         "source_name": a.get("source_name") or "",
                         "published_at": a.get("published_at") or "",
                         "seendate": a.get("published_at") or "",
                         "topics": [key],
+                        "country": country_name,
+                        "country_code": gl,
+                        "region": "",
+                        "city": "",
                         "snippet": "",
-                        "signals": {},
+                        "signals": sig,
                     }
                     new_total += 1
 
