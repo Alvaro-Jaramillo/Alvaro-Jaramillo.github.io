@@ -1,372 +1,185 @@
 #!/usr/bin/env python3
-"""Generate the data file for the GitHub Pages dashboard.
-
-This script runs in GitHub Actions and produces `data/items.json` consumed by
-`index.html`.
-
-Key behavior (tuned for "broad monitoring"):
-- Query GDELT Doc API with high-signal keyword packs.
-- DO NOT require geo terms in the query (too many headlines omit them).
-- Filter to USA/Canada heuristically after fetching (title+snippet+sourceCountry+URL).
-- Merge into existing `data/items.json` and keep last 30 days.
-"""
-
 from __future__ import annotations
 
+import dataclasses
+import datetime as dt
 import hashlib
 import json
 import os
+import random
 import re
 import sys
-from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
-from typing import Dict, List, Optional, Set, Tuple
+import time
+from typing import List
 
 import requests
-from jinja2 import Template
 
-ROOT = os.path.dirname(os.path.dirname(__file__))
-DATA_DIR = os.path.join(ROOT, "data")
-TPL_DIR = os.path.join(ROOT, "templates")
+GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc"
+MODE = "ArtList"
+SORT = "Date"
 
-GDELT_DOC_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc"
+LOOKBACK_HOURS = 24 * 7
+RETENTION_DAYS = 30
 
-# --------- Geo dictionaries (used only for post-filter + region detection) ---------
-US_STATES = [
-    "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut",
-    "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa",
-    "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan",
-    "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada",
-    "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina",
-    "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island",
-    "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont",
-    "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming",
-    "District of Columbia",
-]
+MAX_RECORDS = 75
+TOPICS_PER_RUN = 3
 
-CA_PROVINCES = [
-    "Alberta", "British Columbia", "Manitoba", "New Brunswick", "Newfoundland",
-    "Newfoundland and Labrador", "Nova Scotia", "Northwest Territories", "Nunavut",
-    "Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon",
-]
+MIN_DELAY_SECONDS = 2.0
+MAX_RETRIES = 5
+BACKOFF_BASE_SECONDS = 2.0
 
+ITEMS_PATH = "data/items.json"
+STATE_PATH = "data/state.json"
 
-def _dt_to_gdelt(dt: datetime) -> str:
-    return dt.astimezone(timezone.utc).strftime("%Y%m%d%H%M%S")
-
-
-@dataclass(frozen=True)
+@dataclasses.dataclass(frozen=True)
 class Topic:
     key: str
     label: str
     query: str
 
-
-# High-signal keyword packs. We keep these fairly broad and rely on post-filtering.
 TOPICS: List[Topic] = [
-    Topic(
-        key="facility_new",
-        label="New facility / warehouse / DC",
-        query='("new warehouse" OR "new distribution center" OR "new DC" OR "new fulfillment center" OR "opens new warehouse" OR "opened a new warehouse" OR groundbreaking OR "ribbon cutting" OR "to build a new" OR "plans a new" OR "announced a new" OR "new logistics facility")',
-    ),
-    Topic(
-        key="facility_expansion",
-        label="Expansion / modernization",
-        query='("warehouse expansion" OR "distribution center expansion" OR "expanding its warehouse" OR "expands distribution center" OR "facility expansion" OR "expansion project" OR modernization OR modernize OR upgrade OR renovation OR "adds capacity" OR "adding capacity" OR "expanding operations")',
-    ),
-    Topic(
-        key="manufacturing_investment",
-        label="Manufacturing investment",
-        query='("manufacturing investment" OR "plant investment" OR "invests in manufacturing" OR "manufacturing expansion" OR "production expansion" OR "new plant" OR "new factory" OR "manufacturing facility" OR "production facility" OR "new production line" OR "adds production capacity")',
-    ),
-    Topic(
-        key="warehouse_investment",
-        label="Warehouse / logistics investment",
-        query='(("warehouse investment" OR "logistics investment" OR "distribution investment" OR "supply chain investment" OR "capital investment" OR capex OR "capital expenditure") AND (warehouse OR "distribution center" OR logistics OR "supply chain"))',
-    ),
-    Topic(
-        key="real_estate_signal",
-        label="Industrial real estate / build-to-suit",
-        query='("build-to-suit" OR "industrial lease" OR "industrial real estate" OR "site selection" OR "planning commission" OR rezoning OR permit OR permitting OR zoning OR "economic development" OR "tax incentive" OR "incentive package" OR "land purchase" OR "break ground")',
-    ),
-    Topic(
-        key="automation_signal",
-        label="Automation project signal",
-        query='("AS/RS" OR ASRS OR "automated storage" OR shuttle OR "goods-to-person" OR "automated guided vehicle" OR AGV OR AMR OR "autonomous mobile" OR robotics OR robotic OR palletizing OR sortation OR "material handling automation" OR "warehouse automation" OR "automated picking" OR "robotic picking" OR "WMS" OR "WCS" OR "WES")',
-    ),
-    Topic(
-        key="leadership_change",
-        label="Leadership change (CEO/VP/Automation)",
-        query='((appointed OR names OR named OR "joins as" OR "hired as" OR "promoted to" OR "steps down" OR resigns OR resignation) AND (CEO OR COO OR CFO OR "Chief Executive Officer" OR VP OR "Vice President" OR "Head of" OR Director) AND (automation OR "supply chain" OR logistics OR operations OR distribution OR manufacturing))',
-    ),
-    Topic(
-        key="revenue_update",
-        label="Revenue / earnings update",
-        query='(("revenue" OR earnings OR guidance OR "quarter" OR "annual report" OR "net sales") AND (capex OR "capital expenditure" OR "supply chain" OR logistics OR distribution OR warehouse))',
-    ),
-    Topic(
-        key="risk_urgency",
-        label="Risk / urgency (closure, labor, disruption)",
-        query='((closure OR closing OR "shut down" OR layoffs OR strike OR union OR "labor dispute" OR "fire at" OR disruption OR recall OR outage) AND (warehouse OR "distribution center" OR plant OR facility OR logistics))',
-    ),
+    Topic("facility_new","New facility / warehouse / DC",
+          '("new warehouse" OR "new distribution center" OR "new fulfillment center" '
+          'OR groundbreaking OR "ribbon cutting" OR "new logistics facility")'),
+    Topic("facility_expansion","Expansion / modernization",
+          '("warehouse expansion" OR "distribution center expansion" OR modernization '
+          'OR upgrade OR renovation OR "adds capacity")'),
+    Topic("manufacturing_investment","Manufacturing investment",
+          '("manufacturing investment" OR "manufacturing expansion" OR "new plant" OR "new factory")'),
+    Topic("warehouse_investment","Warehouse / logistics investment",
+          '(("warehouse investment" OR "logistics investment" OR capex) '
+          'AND (warehouse OR "distribution center" OR logistics))'),
+    Topic("real_estate_signal","Industrial real estate / build-to-suit",
+          '("build-to-suit" OR "industrial lease" OR "site selection" OR rezoning OR permitting '
+          'OR zoning OR "economic development" OR "tax incentive")'),
+    Topic("automation_signal","Automation project signal",
+          '("AS/RS" OR ASRS OR "warehouse automation" OR AGV OR AMR OR robotics '
+          'OR palletizing OR sortation OR WMS OR WCS OR WES)'),
+    Topic("leadership_change","Leadership change",
+          '((appointed OR named OR "joins as" OR "hired as" OR resigns) '
+          'AND (CEO OR COO OR CFO OR VP OR Director))'),
+    Topic("revenue_update","Revenue / earnings update",
+          '(("revenue" OR earnings OR guidance) AND (capex OR logistics OR warehouse))'),
+    Topic("risk_urgency","Risk / urgency",
+          '((closure OR layoffs OR strike OR recall OR disruption) '
+          'AND (warehouse OR plant OR facility))'),
 ]
 
+US_HINTS = [r"\bUSA\b", r"\bUnited States\b", r"\bCalifornia\b", r"\bTexas\b", r"\bNew York\b"]
+CA_HINTS = [r"\bCanada\b", r"\bOntario\b", r"\bQuebec\b", r"\bBritish Columbia\b"]
 
+_last_call_ts = 0.0
 
-# --------- Fetch ---------
+def throttle():
+    global _last_call_ts
+    now = time.time()
+    if now - _last_call_ts < MIN_DELAY_SECONDS:
+        time.sleep(MIN_DELAY_SECONDS - (now - _last_call_ts))
+    _last_call_ts = time.time()
 
-def gdelt_fetch(query: str, start: datetime, end: datetime, max_records: int = 250) -> List[dict]:
+def gdelt_dt(d: dt.datetime) -> str:
+    return d.astimezone(dt.timezone.utc).strftime("%Y%m%d%H%M%S")
+
+def url_id(url: str) -> str:
+    return hashlib.sha256(url.encode()).hexdigest()[:16]
+
+def is_us_or_ca(a: dict) -> bool:
+    blob = f"{a.get('title','')} {a.get('snippet','')}"
+    if a.get("sourceCountry") in {"US","CA"}:
+        return True
+    for pat in US_HINTS + CA_HINTS:
+        if re.search(pat, blob, re.IGNORECASE):
+            return True
+    if ".ca/" in (a.get("url") or ""):
+        return True
+    return False
+
+def fetch_gdelt(query: str, start: dt.datetime, end: dt.datetime):
     params = {
         "query": query,
-        "mode": "ArtList",
+        "mode": MODE,
         "format": "json",
-        "sort": "Date",
-        "maxrecords": str(max_records),
-        "startdatetime": _dt_to_gdelt(start),
-        "enddatetime": _dt_to_gdelt(end),
-    }
-    r = requests.get(GDELT_DOC_ENDPOINT, params=params, timeout=45)
-    r.raise_for_status()
-    data = r.json() if r.content else {}
-    return data.get("articles") or []
-
-
-# --------- Enrichment ---------
-
-_MONEY_RE = re.compile(r"\$\s?([0-9]+(?:\.[0-9]+)?)\s?(B|M|K|billion|million|thousand)?", re.IGNORECASE)
-_SQFT_RE = re.compile(r"([0-9][0-9,]{2,})\s?(sq\.?\s?ft\.?|square\s+feet|sf)", re.IGNORECASE)
-_JOBS_RE = re.compile(r"([0-9][0-9,]{1,})\s+(jobs|job)", re.IGNORECASE)
-
-
-def _normalize_money(m: re.Match) -> Optional[float]:
-    try:
-        v = float(m.group(1))
-    except Exception:
-        return None
-    mult = (m.group(2) or "").lower()
-    if mult in {"b", "billion"}:
-        v *= 1_000_000_000
-    elif mult in {"m", "million"}:
-        v *= 1_000_000
-    elif mult in {"k", "thousand"}:
-        v *= 1_000
-    return v
-
-
-def extract_signals(text: str) -> Dict[str, Optional[float]]:
-    out: Dict[str, Optional[float]] = {"investment_usd": None, "sqft": None, "jobs": None}
-    if not text:
-        return out
-    mm = _MONEY_RE.search(text)
-    if mm:
-        out["investment_usd"] = _normalize_money(mm)
-    sm = _SQFT_RE.search(text)
-    if sm:
-        out["sqft"] = float(sm.group(1).replace(",", ""))
-    jm = _JOBS_RE.search(text)
-    if jm:
-        out["jobs"] = float(jm.group(1).replace(",", ""))
-    return out
-
-
-def detect_region_and_country(text: str, source_country: Optional[str]) -> Tuple[Optional[str], Optional[str]]:
-    t = text or ""
-    for p in CA_PROVINCES:
-        if re.search(r"\b" + re.escape(p) + r"\b", t, re.IGNORECASE):
-            return p, "CA"
-    for s in US_STATES:
-        if re.search(r"\b" + re.escape(s) + r"\b", t, re.IGNORECASE):
-            return s, "US"
-
-    sc = (source_country or "").upper()
-    if sc in {"US", "CA"}:
-        return None, sc
-
-    if re.search(r"\bcanada\b|\bontario\b|\bquebec\b", t, re.IGNORECASE):
-        return None, "CA"
-    if re.search(r"\bunited states\b|\busa\b|\bu\.s\.\b", t, re.IGNORECASE):
-        return None, "US"
-
-    return None, None
-
-
-def is_us_or_ca(article: dict) -> bool:
-    title = article.get("title") or ""
-    snippet = article.get("snippet") or article.get("description") or ""
-    blob = f"{title} {snippet}"
-
-    region, country = detect_region_and_country(blob, article.get("sourceCountry"))
-
-    url = (article.get("url") or "").lower()
-    if url.endswith(".ca") or ".ca/" in url:
-        return True
-
-    return country in {"US", "CA"} or region is not None
-
-
-def _parse_published(published: Optional[str]) -> Optional[datetime]:
-    if not published:
-        return None
-    s = published.strip()
-    try:
-        if "T" in s:
-            dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
-        else:
-            dt = datetime.strptime(s, "%Y-%m-%d %H:%M:%S")
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(timezone.utc)
-    except Exception:
-        return None
-
-
-def _stable_id(url: str) -> str:
-    return hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
-
-
-def _load_existing_items() -> List[dict]:
-    path = os.path.join(DATA_DIR, "items.json")
-    if not os.path.exists(path):
-        return []
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            payload = json.load(f)
-        return payload.get("items") or []
-    except Exception:
-        return []
-
-
-def build_items(now_utc: datetime) -> Tuple[List[dict], dict]:
-    end = now_utc
-    # Seed window: 7 days to ensure initial population, then history is retained/trimmed.
-    start = now_utc - timedelta(days=7)
-
-    existing_items = _load_existing_items()
-
-    seen_urls: Set[str] = set()
-    store: Dict[str, dict] = {}
-
-    for it in existing_items:
-        if not isinstance(it, dict) or not it.get("id"):
-            continue
-        store[it["id"]] = it
-        if it.get("url"):
-            seen_urls.add(it["url"])
-
-    meta = {
-        "generated_at": now_utc.isoformat(),
-        "window_start": start.isoformat(),
-        "window_end": end.isoformat(),
-        "source": "GDELT 2.1 Doc API",
+        "sort": SORT,
+        "maxrecords": str(MAX_RECORDS),
+        "startdatetime": gdelt_dt(start),
+        "enddatetime": gdelt_dt(end),
     }
 
-    total_fetched = 0
-    total_kept = 0
-
-    for topic in TOPICS:
-        q = f"({topic.query})"  # intentionally no GEO constraint
-        try:
-            arts = gdelt_fetch(q, start=start, end=end, max_records=250)
-        except Exception as e:
-            print(f"[warn] GDELT fetch failed for topic {topic.key}: {e}", file=sys.stderr)
+    for attempt in range(1, MAX_RETRIES + 1):
+        throttle()
+        r = requests.get(GDELT_ENDPOINT, params=params, timeout=25)
+        if r.status_code == 200:
+            return r.json().get("articles", [])
+        if r.status_code == 429:
+            retry_after = r.headers.get("Retry-After")
+            try:
+                wait = int(retry_after) if retry_after else BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
+            except ValueError:
+                wait = BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
+            wait *= random.uniform(0.8, 1.3)
+            print(f"[429] Retry-After={retry_after} sleeping={wait:.1f}s", file=sys.stderr)
+            time.sleep(wait)
             continue
+        r.raise_for_status()
+    return []
 
-        total_fetched += len(arts)
-        kept_this_topic = 0
+def load_json(path):
+    if os.path.exists(path):
+        with open(path,"r",encoding="utf-8") as f:
+            return json.load(f)
+    return {}
 
-        for a in arts:
-            url = (a.get("url") or "").strip()
-            title = (a.get("title") or "").strip()
-            if not url or not title:
+def save_json(path, obj):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path,"w",encoding="utf-8") as f:
+        json.dump(obj, f, indent=2)
+
+def pick_topics():
+    state = load_json(STATE_PATH)
+    cur = state.get("topic_cursor", 0)
+    chosen = [TOPICS[(cur+i)%len(TOPICS)] for i in range(TOPICS_PER_RUN)]
+    state["topic_cursor"] = (cur + TOPICS_PER_RUN) % len(TOPICS)
+    save_json(STATE_PATH, state)
+    return chosen
+
+def main():
+    now = dt.datetime.now(tz=dt.timezone.utc)
+    start = now - dt.timedelta(hours=LOOKBACK_HOURS)
+
+    existing = load_json(ITEMS_PATH).get("items", [])
+    by_id = {i["id"]: i for i in existing if "id" in i}
+
+    for t in pick_topics():
+        arts = fetch_gdelt(t.query, start, now)
+        kept = [a for a in arts if is_us_or_ca(a)]
+        print(f"[topic] {t.key}: fetched={len(arts)} kept={len(kept)}")
+        for a in kept:
+            url = a.get("url")
+            if not url:
                 continue
-            if url in seen_urls:
-                continue
-            if not is_us_or_ca(a):
-                continue
-
-            seen_urls.add(url)
-
-            domain = (a.get("domain") or "").strip()
-            source_country = (a.get("sourceCountry") or "").strip().upper() or None
-            published = (a.get("seendate") or "").strip() or None
-
-            snippet = (a.get("snippet") or a.get("description") or "").strip()
-            blob = f"{title} {snippet}".strip()
-
-            region, country = detect_region_and_country(blob, source_country)
-            signals = extract_signals(blob)
-
-            item_id = _stable_id(url)
-            new_item = {
-                "id": item_id,
-                "title": title,
+            by_id.setdefault(url_id(url), {
+                "id": url_id(url),
+                "title": a.get("title",""),
                 "url": url,
-                "source": domain or a.get("sourceCollection") or "(unknown)",
-                "source_country": source_country,
-                "published": published,
-                "topics": [topic.key],
-                "topic_labels": [topic.label],
-                "region": region,
-                "country": country,
-                "signals": signals,
-            }
+                "source_name": a.get("domain",""),
+                "seendate": a.get("seendate",""),
+                "topics": [t.key],
+                "snippet": a.get("snippet",""),
+            })
 
-            if item_id in store:
-                # Merge topic tags.
-                store[item_id]["topics"] = sorted(set(store[item_id].get("topics") or []) | {topic.key})
-                store[item_id]["topic_labels"] = sorted(set(store[item_id].get("topic_labels") or []) | {topic.label})
-            else:
-                store[item_id] = new_item
-
-            kept_this_topic += 1
-
-        total_kept += kept_this_topic
-        print(f"[topic] {topic.key}: fetched={len(arts)} kept={kept_this_topic}")
-
-    # Keep last 30 days.
-    cutoff = now_utc - timedelta(days=30)
-    trimmed: List[dict] = []
-    for it in store.values():
-        dt = _parse_published(it.get("published"))
-        if dt is None or dt >= cutoff:
-            trimmed.append(it)
-
-    trimmed.sort(
-        key=lambda x: (_parse_published(x.get("published")) or datetime(1970, 1, 1, tzinfo=timezone.utc)),
-        reverse=True,
-    )
-
-    print(f"[summary] total_fetched={total_fetched} total_kept={total_kept} stored={len(trimmed)}")
-    return trimmed, meta
-
-
-def write_json(items: List[dict], meta: dict) -> None:
-    os.makedirs(DATA_DIR, exist_ok=True)
-    payload = {
-        "meta": meta,
+    out = {
+        "meta": {
+            "generated_at": now.isoformat(),
+            "window_start": start.isoformat(),
+            "window_end": now.isoformat(),
+            "source": "GDELT 2.1 Doc API",
+        },
         "topics": [{"key": t.key, "label": t.label} for t in TOPICS],
-        "items": items,
+        "items": sorted(by_id.values(), key=lambda x: x.get("seendate",""), reverse=True)
     }
-    with open(os.path.join(DATA_DIR, "items.json"), "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
 
-
-def render_index(updated_human: str) -> None:
-    with open(os.path.join(TPL_DIR, "base.html"), "r", encoding="utf-8") as f:
-        tpl = Template(f.read())
-    html = tpl.render(title="Industry Signals Dashboard", updated_human=updated_human)
-    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
-        f.write(html)
-
-
-def main() -> None:
-    now = datetime.now(timezone.utc)
-    items, meta = build_items(now)
-    write_json(items, meta)
-    updated_human = now.strftime("%Y-%m-%d %H:%M UTC")
-    render_index(updated_human)
-    print(f"Rendered {len(items)} items.")
-
+    save_json(ITEMS_PATH, out)
+    print(f"[summary] stored={len(out['items'])}")
 
 if __name__ == "__main__":
     main()
