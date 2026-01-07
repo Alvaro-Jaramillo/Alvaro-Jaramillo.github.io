@@ -124,7 +124,7 @@ def build_geo_query() -> str:
 
 
 GEO_QUERY = build_geo_query()
-SOURCE_COUNTRY_QUERY = "(sourceCountry:US OR sourceCountry:CA)"
+SOURCE_COUNTRY_QUERY = ""  # don't restrict by publisher country; it drops too many NA-relevant stories
 
 
 def gdelt_fetch(query: str, start: datetime, end: datetime, max_records: int = 250) -> List[dict]:
@@ -200,7 +200,16 @@ def detect_region_and_country(title: str, source_country: str | None) -> Tuple[O
 
 def is_us_or_ca(item: dict) -> bool:
     title = item.get("title") or ""
-    region, country = detect_region_and_country(title, item.get("sourceCountry"))
+    snippet = item.get("snippet") or item.get("description") or ""
+    blob = f"{title} {snippet}"
+
+    region, country = detect_region_and_country(blob, item.get("sourceCountry"))
+
+    # Lightweight Canada hint from URL when location text is missing
+    url = (item.get("url") or "").lower()
+    if url.endswith(".ca") or ".ca/" in url:
+        return True
+
     return country in {"US", "CA"} or region is not None
 
 
@@ -266,7 +275,10 @@ def build_items(now_utc: datetime) -> Tuple[List[dict], dict]:
     }
 
     for topic in TOPICS:
-        q = f"({topic.query}) AND {GEO_QUERY} AND {SOURCE_COUNTRY_QUERY}"
+        parts = [f"({topic.query})", GEO_QUERY]
+            if SOURCE_COUNTRY_QUERY:
+                parts.append(SOURCE_COUNTRY_QUERY)
+            q = " AND ".join(parts)
         try:
             arts = gdelt_fetch(q, start=start, end=end, max_records=250)
         except Exception as e:
