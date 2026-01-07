@@ -11,48 +11,39 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Tuple, Optional
 
 import requests
 
 # -----------------------------
-# High-level strategy
+# Strategy
 # -----------------------------
-# Your GitHub Actions runners are getting HTTP 429 from GDELT consistently.
-# To make the site populate reliably:
-#   1) Make ONE broad GDELT request per run (instead of per-topic requests).
-#   2) Classify articles into topics locally (regex keyword packs).
-#   3) If GDELT is still rate-limiting, fall back to Google News RSS (no API key).
-#   4) NEVER overwrite data/items.json with empty results if upstream is rate-limiting.
-#
-# Output: data/items.json
+# 1) ONE broad GDELT request per run (minimizes 429 risk).
+# 2) Respect Retry-After + retry/backoff.
+# 3) If GDELT fails (429 or non-JSON/HTML response), fall back to Google News RSS.
+# 4) Never overwrite items.json with empty results if upstream is failing.
 # -----------------------------
 
-# --- Config
-LOOKBACK_HOURS = 24 * 7           # seed window
+LOOKBACK_HOURS = 24 * 7
 RETENTION_DAYS = 30
-MAX_RECORDS = 250                 # only ONE request per run
+MAX_RECORDS = 250
+
 MIN_DELAY_SECONDS = 2.0
-MAX_RETRIES = 5
+MAX_RETRIES = 6
 BACKOFF_BASE_SECONDS = 2.0
 
 ITEMS_PATH = "data/items.json"
 
-# --- GDELT (Doc 2.1)
 GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc"
 GDELT_MODE = "ArtList"
 GDELT_SORT = "Date"
 
-# Broad query (short enough to avoid URL length issues)
-# We keep it broad and do topic classification locally.
 BROAD_QUERY = (
     '(warehouse OR "distribution center" OR "fulfillment center" OR logistics OR "supply chain" OR manufacturing OR plant OR automation) '
     'AND (investment OR invest OR expansion OR expand OR "new facility" OR "new warehouse" OR "new plant" OR groundbreaking OR "ribbon cutting" '
     'OR modernization OR upgrade OR capex OR "capital expenditure" OR earnings OR revenue OR guidance OR appointed OR named OR resigns OR layoffs OR strike)'
 )
 
-# Google News RSS fallback (broad)
-# Note: Google News RSS query is URL-encoded automatically by requests when passed in params.
 GN_RSS_URL = "https://news.google.com/rss/search"
 GN_RSS_PARAMS = {
     "q": "new warehouse OR new distribution center OR warehouse expansion OR manufacturing investment OR warehouse automation OR AS/RS OR AGV OR AMR OR capex OR logistics investment OR plant expansion OR appointed CEO logistics",
@@ -78,7 +69,6 @@ TOPICS: List[Topic] = [
     Topic("risk_urgency", "Risk / urgency (closure, labor, disruption)"),
 ]
 
-# --- Topic classifiers (keep simple + robust)
 TOPIC_PATTERNS: Dict[str, List[str]] = {
     "facility_new": [
         r"\bnew\s+(warehouse|distribution\s+center|fulfillment\s+center|dc)\b",
@@ -168,7 +158,7 @@ def save_json(path: str, obj: dict) -> None:
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, indent=2)
 
-def is_us_or_ca_blob(blob: str, url: str, source_country: str | None) -> bool:
+def is_us_or_ca_blob(blob: str, url: str, source_country: Optional[str]) -> bool:
     sc = (source_country or "").upper()
     if sc in {"US", "CA"}:
         return True
@@ -196,7 +186,7 @@ def prune(items: List[dict], now: dt.datetime) -> List[dict]:
     cutoff = now - dt.timedelta(days=RETENTION_DAYS)
     out = []
     for it in items:
-        ts = it.get("published_at") or it.get("seendate") or ""
+        ts = it.get("seendate") or it.get("published_at") or ""
         keep = True
         try:
             if ts and ts[0].isdigit() and len(ts) >= 14:
@@ -219,14 +209,22 @@ def merge(existing: List[dict], new_items: List[dict]) -> List[dict]:
             continue
         if iid in by_id:
             cur = by_id[iid]
-            cur_topics = set(cur.get("topics") or [])
-            new_topics = set(it.get("topics") or [])
-            cur["topics"] = sorted(cur_topics | new_topics)
+            cur["topics"] = sorted(set(cur.get("topics") or []) | set(it.get("topics") or []))
         else:
             by_id[iid] = it
     merged = list(by_id.values())
     merged.sort(key=lambda x: x.get("seendate") or x.get("published_at") or "", reverse=True)
     return merged
+
+def _sleep_for_429(r: requests.Response, attempt: int) -> None:
+    retry_after = r.headers.get("Retry-After")
+    try:
+        wait = int(retry_after) if retry_after else BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
+    except ValueError:
+        wait = BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
+    wait *= random.uniform(0.8, 1.3)
+    print(f"[warn] GDELT 429. Retry-After={retry_after} attempt={attempt}/{MAX_RETRIES} sleeping={wait:.1f}s", file=sys.stderr)
+    time.sleep(wait)
 
 def fetch_gdelt_broad(start: dt.datetime, end: dt.datetime) -> Tuple[List[dict], str]:
     params = {
@@ -238,48 +236,72 @@ def fetch_gdelt_broad(start: dt.datetime, end: dt.datetime) -> Tuple[List[dict],
         "startdatetime": gdelt_dt(start),
         "enddatetime": gdelt_dt(end),
     }
+
+    last_status = None
     for attempt in range(1, MAX_RETRIES + 1):
         throttle()
         r = requests.get(GDELT_ENDPOINT, params=params, timeout=25, headers={"User-Agent": "AJ-IndustrySignals/1.0"})
+        last_status = r.status_code
+
         if r.status_code == 200:
-            data = r.json()
-            return (data.get("articles") or []), "gdelt"
-        if r.status_code == 429:
-            retry_after = r.headers.get("Retry-After")
+            # Sometimes upstream returns HTML/empty even with 200. Guard JSON parsing.
             try:
-                wait = int(retry_after) if retry_after else BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
-            except ValueError:
-                wait = BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
-            wait *= random.uniform(0.8, 1.3)
-            print(f"[warn] GDELT 429. Retry-After={retry_after} attempt={attempt}/{MAX_RETRIES} sleeping={wait:.1f}s", file=sys.stderr)
-            time.sleep(wait)
+                data = r.json()
+            except Exception as e:
+                # Treat as transient failure and retry.
+                backoff = BACKOFF_BASE_SECONDS * (2 ** (attempt - 1)) + random.uniform(0, 1.0)
+                print(f"[warn] GDELT 200 but non-JSON response. attempt={attempt}/{MAX_RETRIES} sleeping={backoff:.1f}s err={e}", file=sys.stderr)
+                time.sleep(backoff)
+                continue
+            return (data.get("articles") or []), "gdelt"
+
+        if r.status_code == 429:
+            _sleep_for_429(r, attempt)
             continue
-        # Other errors: raise
-        r.raise_for_status()
-    return [], "gdelt_429"
+
+        # For other 5xx, retry; otherwise break and fall back
+        if 500 <= r.status_code < 600:
+            backoff = BACKOFF_BASE_SECONDS * (2 ** (attempt - 1)) + random.uniform(0, 1.0)
+            print(f"[warn] GDELT {r.status_code}. attempt={attempt}/{MAX_RETRIES} sleeping={backoff:.1f}s", file=sys.stderr)
+            time.sleep(backoff)
+            continue
+
+        # Non-retryable
+        try:
+            r.raise_for_status()
+        except Exception as e:
+            print(f"[warn] GDELT request failed: {e}", file=sys.stderr)
+        break
+
+    return [], f"gdelt_failed_{last_status}"
 
 def fetch_google_news_rss() -> List[dict]:
-    # Simple RSS fetch + parse
     r = requests.get(GN_RSS_URL, params=GN_RSS_PARAMS, timeout=25, headers={"User-Agent": "AJ-IndustrySignals/1.0"})
     r.raise_for_status()
+
+    # Google RSS sometimes includes namespaces; handle both.
     root = ET.fromstring(r.text)
     channel = root.find("channel")
     if channel is None:
+        # Namespace fallback
+        channel = root.find("{http://purl.org/rss/1.0/}channel")
+    if channel is None:
         return []
+
     items = []
     for it in channel.findall("item"):
         title = (it.findtext("title") or "").strip()
         link = (it.findtext("link") or "").strip()
         pub = (it.findtext("pubDate") or "").strip()
-        source = it.find("source")
-        source_name = (source.text.strip() if source is not None and source.text else "")
+        source_el = it.find("source")
+        source_name = (source_el.text.strip() if source_el is not None and source_el.text else "")
         items.append({
             "title": title,
             "url": link,
             "published_at": pub,
             "source_name": source_name,
-            "snippet": "",  # RSS doesn't give snippet reliably
-            "seendate": "",  # leave blank
+            "snippet": "",
+            "seendate": "",
             "sourceCountry": None,
             "domain": "",
         })
@@ -295,15 +317,15 @@ def main() -> int:
 
     articles, source = fetch_gdelt_broad(window_start, window_end)
 
-    if not articles and source == "gdelt_429":
-        print("[warn] GDELT rate-limited. Falling back to Google News RSS.", file=sys.stderr)
+    if not articles:
+        print(f"[warn] GDELT returned 0 articles (source={source}). Falling back to Google News RSS.", file=sys.stderr)
         try:
             articles = fetch_google_news_rss()
             source = "google_news_rss"
         except Exception as e:
             print(f"[warn] Google News RSS fetch failed: {e}", file=sys.stderr)
-            # Do not overwrite existing data if both sources fail
-            print("[summary] No new data. Keeping existing items.json as-is.", file=sys.stderr)
+            # Do not overwrite existing file
+            print("[summary] No upstream data. Preserving existing items.json.", file=sys.stderr)
             return 0
 
     fetched = len(articles)
@@ -316,6 +338,7 @@ def main() -> int:
         url = a.get("url") or ""
         if not url:
             continue
+
         blob = f"{title} {snippet}"
         if not is_us_or_ca_blob(blob, url, a.get("sourceCountry")):
             continue
@@ -353,9 +376,9 @@ def main() -> int:
         "items": merged,
     }
 
-    # IMPORTANT: If we fetched 0 and collected 0, keep existing file (avoid wiping)
-    if fetched == 0 and kept == 0 and len(existing_items) > 0:
-        print("[summary] Upstream returned nothing; preserving existing items.json.", file=sys.stderr)
+    # Never wipe the feed if upstream returned nothing useful
+    if kept == 0 and len(existing_items) > 0:
+        print("[summary] Kept=0; preserving existing items.json.", file=sys.stderr)
         return 0
 
     save_json(ITEMS_PATH, out)
