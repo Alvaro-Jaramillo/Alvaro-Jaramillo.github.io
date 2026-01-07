@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "generated_at": "2026-01-07T14:31:14.572281+00:00",
+    "window_start": "2026-01-07T12:31:14.572281+00:00",
+    "window_end": "2026-01-07T14:31:14.572281+00:00",
+    "source": "GDELT 2.1 Doc API"
+  },
+  "topics": [
+    {
+      "key": "facility_new",
+      "label": "New facility / warehouse / DC"
+    },
+    {
+      "key": "facility_expansion",
+      "label": "Expansion / modernization"
+    },
+    {
+      "key": "manufacturing_investment",
+      "label": "Manufacturing investment"
+    },
+    {
+      "key": "warehouse_investment",
+      "label": "Warehouse / logistics investment"
+    },
+    {
+      "key": "real_estate_signal",
+      "label": "Industrial real estate / build-to-suit"
+    },
+    {
+      "key": "automation_signal",
+      "label": "Automation project signal"
+    },
+    {
+      "key": "leadership_change",
+      "label": "Leadership change (CEO/VP/Automation)"
+    },
+    {
+      "key": "revenue_update",
+      "label": "Revenue / earnings update"
+    },
+    {
+      "key": "risk_urgency",
+      "label": "Risk / urgency (closure, labor, disruption)"
+    }
+  ],
+  "items": []
+}
