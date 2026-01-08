@@ -17,9 +17,40 @@ const els = {
 
 let allItems = [];
 let filtered = [];
+let companyFilter = "";
+
+const companyStopWords = new Set([
+  "news",
+  "how",
+  "analysis",
+  "report",
+  "review",
+  "guide",
+  "overview",
+  "latest",
+  "today",
+  "update",
+  "updates"
+]);
 
 function norm(s) {
   return (s || "").toString().toLowerCase().trim();
+}
+
+function getCompanyKey(raw) {
+  return norm(raw);
+}
+
+function isGeneralCompany(raw) {
+  const cleaned = (raw || "").toString().trim();
+  if (!cleaned) return true;
+  const key = getCompanyKey(cleaned);
+  if (!key) return true;
+  if (companyStopWords.has(key)) return true;
+  const words = cleaned.split(/\s+/);
+  if (words.length > 6) return true;
+  if (cleaned.length > 60) return true;
+  return false;
 }
 
 function formatDate(iso) {
@@ -72,6 +103,14 @@ function applyFilters() {
     ].join(" "));
     return hay.includes(q);
   });
+
+  if (companyFilter) {
+    if (companyFilter === "__general__") {
+      filtered = filtered.filter(item => isGeneralCompany(item.company_guess));
+    } else {
+      filtered = filtered.filter(item => getCompanyKey(item.company_guess) === companyFilter);
+    }
+  }
 
   render();
 }
@@ -146,10 +185,14 @@ function render() {
   }
 
   const companyMap = new Map();
+  let generalCount = 0;
   for (const item of filtered) {
     const raw = (item.company_guess || "").toString().trim();
-    if (!raw) continue;
-    const key = raw.toLowerCase();
+    if (isGeneralCompany(raw)) {
+      generalCount += 1;
+      continue;
+    }
+    const key = getCompanyKey(raw);
     const entry = companyMap.get(key) || { name: raw, count: 0 };
     entry.count += 1;
     companyMap.set(key, entry);
@@ -161,24 +204,47 @@ function render() {
   });
 
   els.companyCount.textContent = companyStats.length.toLocaleString();
+  const allBtn = document.createElement("button");
+  allBtn.type = "button";
+  allBtn.className = "company-item" + (companyFilter === "" ? " is-active" : "");
+  allBtn.innerHTML = `<span>All results</span><span class="company-count">${filtered.length.toLocaleString()}</span>`;
+  allBtn.addEventListener("click", () => {
+    companyFilter = "";
+    applyFilters();
+  });
+  els.companyList.appendChild(allBtn);
+
+  const generalBtn = document.createElement("button");
+  generalBtn.type = "button";
+  generalBtn.className = "company-item" + (companyFilter === "__general__" ? " is-active" : "");
+  generalBtn.innerHTML = `<span>General news</span><span class="company-count">${generalCount.toLocaleString()}</span>`;
+  if (generalCount === 0) {
+    generalBtn.disabled = true;
+  } else {
+    generalBtn.addEventListener("click", () => {
+      companyFilter = "__general__";
+      applyFilters();
+    });
+  }
+  els.companyList.appendChild(generalBtn);
+
   if (companyStats.length === 0) {
     const empty = document.createElement("div");
     empty.className = "company-empty";
     empty.textContent = "No companies yet.";
     els.companyList.appendChild(empty);
-    return;
-  }
-
-  for (const company of companyStats) {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "company-item";
-    btn.innerHTML = `<span>${company.name}</span><span class="company-count">${company.count.toLocaleString()}</span>`;
-    btn.addEventListener("click", () => {
-      els.search.value = company.name;
-      applyFilters();
-    });
-    els.companyList.appendChild(btn);
+  } else {
+    for (const company of companyStats) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "company-item" + (companyFilter === getCompanyKey(company.name) ? " is-active" : "");
+      btn.innerHTML = `<span>${company.name}</span><span class="company-count">${company.count.toLocaleString()}</span>`;
+      btn.addEventListener("click", () => {
+        companyFilter = getCompanyKey(company.name);
+        applyFilters();
+      });
+      els.companyList.appendChild(btn);
+    }
   }
 }
 
@@ -226,6 +292,7 @@ els.clearBtn.addEventListener("click", () => {
   els.sourceFilter.value = "";
   els.tagFilter.value = "";
   els.signalFilter.value = "";
+  companyFilter = "";
   applyFilters();
 });
 
