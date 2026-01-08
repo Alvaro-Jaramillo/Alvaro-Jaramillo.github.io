@@ -1,13 +1,17 @@
 name: Update Automation Links (Manual + Scheduled)
 
 on:
-  workflow_dispatch: {} # enables "Run workflow" button
+  workflow_dispatch: {}
   schedule:
-    - cron: "17 * * * *" # hourly at minute 17 (edit or remove if you want)
+    - cron: "17 * * * *"
+  push:
+    paths:
+      - keywords.json
+      - scripts/fetch-feeds.mjs
 
-# Prevent multiple runs from racing and failing to push
+# IMPORTANT: Use the same concurrency group across ANY workflow that writes data/links.json
 concurrency:
-  group: automation-links-update
+  group: links-json-writer
   cancel-in-progress: true
 
 permissions:
@@ -22,6 +26,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Pull latest main BEFORE generating links.json to avoid rebase conflicts
+      - name: Sync with latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -29,7 +39,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          # Use npm ci if lockfile exists, otherwise npm install
           if [ -f package-lock.json ]; then
             npm ci
           else
@@ -37,9 +46,7 @@ jobs:
           fi
 
       - name: Build links.json
-        run: |
-          # This assumes you have: scripts/fetch-feeds.mjs
-          node scripts/fetch-feeds.mjs
+        run: node scripts/fetch-feeds.mjs
 
       - name: Commit & push if changed
         run: |
@@ -54,8 +61,5 @@ jobs:
 
           git commit -m "Update automation links"
 
-          # Rebase in case main changed while this job was running
-          git pull --rebase origin main
-
-          # Push updated links.json to main
+          # Push (no rebase needed because we synced before generating)
           git push origin HEAD:main
