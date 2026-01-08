@@ -10,6 +10,9 @@ const els = {
   tagFilter: document.getElementById("tagFilter"),
   signalFilter: document.getElementById("signalFilter"),
   clearBtn: document.getElementById("clearBtn"),
+  companyPanel: document.getElementById("companyPanel"),
+  companyList: document.getElementById("companyList"),
+  companyCount: document.getElementById("companyCount"),
 };
 
 let allItems = [];
@@ -77,6 +80,7 @@ function render() {
   els.list.innerHTML = "";
   els.count.textContent = filtered.length.toLocaleString();
   els.empty.classList.toggle("hidden", filtered.length !== 0);
+  els.companyList.innerHTML = "";
 
   for (const item of filtered) {
     const card = document.createElement("div");
@@ -139,6 +143,42 @@ function render() {
     if (item.summary) card.appendChild(sub);
     card.appendChild(chips);
     els.list.appendChild(card);
+  }
+
+  const companyMap = new Map();
+  for (const item of filtered) {
+    const raw = (item.company_guess || "").toString().trim();
+    if (!raw) continue;
+    const key = raw.toLowerCase();
+    const entry = companyMap.get(key) || { name: raw, count: 0 };
+    entry.count += 1;
+    companyMap.set(key, entry);
+  }
+
+  const companyStats = [...companyMap.values()].sort((a, b) => {
+    if (b.count !== a.count) return b.count - a.count;
+    return a.name.localeCompare(b.name);
+  });
+
+  els.companyCount.textContent = companyStats.length.toLocaleString();
+  if (companyStats.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "company-empty";
+    empty.textContent = "No companies yet.";
+    els.companyList.appendChild(empty);
+    return;
+  }
+
+  for (const company of companyStats) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "company-item";
+    btn.innerHTML = `<span>${company.name}</span><span class="company-count">${company.count.toLocaleString()}</span>`;
+    btn.addEventListener("click", () => {
+      els.search.value = company.name;
+      applyFilters();
+    });
+    els.companyList.appendChild(btn);
   }
 }
 

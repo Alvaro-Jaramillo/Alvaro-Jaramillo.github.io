@@ -39,18 +39,30 @@
     </header>
 
     <main class="wrap">
-      <div id="list" class="list"></div>
+      <div class="layout">
+        <section class="results">
+          <div id="list" class="list"></div>
 
-      <div id="empty" class="empty hidden">
-        <h2>No results</h2>
-        <p>Try a different search, or clear filters.</p>
-      </div>
+          <div id="empty" class="empty hidden">
+            <h2>No results</h2>
+            <p>Try a different search, or clear filters.</p>
+          </div>
 
-      <div id="error" class="empty hidden">
-        <h2>Couldn’t load links</h2>
-        <p>
-          If this is a brand new deploy, run the GitHub Action once to generate <code>data/links.json</code>.
-        </p>
+          <div id="error" class="empty hidden">
+            <h2>Couldn’t load links</h2>
+            <p>
+              If this is a brand new deploy, run the GitHub Action once to generate <code>data/links.json</code>.
+            </p>
+          </div>
+        </section>
+
+        <aside id="companyPanel" class="panel">
+          <div class="panel-header">
+            <h2>Companies</h2>
+            <span id="companyCount" class="company-count">0</span>
+          </div>
+          <div id="companyList" class="company-list"></div>
+        </aside>
       </div>
     </main>
 
