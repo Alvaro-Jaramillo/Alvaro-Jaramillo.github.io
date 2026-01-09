@@ -10,6 +10,7 @@ const els = {
   tagFilter: document.getElementById("tagFilter"),
   signalFilter: document.getElementById("signalFilter"),
   clearBtn: document.getElementById("clearBtn"),
+  countryFilter: document.getElementById("countryFilter"),
   companyPanel: document.getElementById("companyPanel"),
   companyList: document.getElementById("companyList"),
   companyCount: document.getElementById("companyCount"),
@@ -33,6 +34,61 @@ const companyStopWords = new Set([
   "updates"
 ]);
 
+const canadaHints = [
+  "canada",
+  "canadian",
+  "ontario",
+  "quebec",
+  "british columbia",
+  "alberta",
+  "manitoba",
+  "saskatchewan",
+  "nova scotia",
+  "new brunswick",
+  "newfoundland",
+  "labrador",
+  "prince edward island",
+  "pei",
+  "yukon",
+  "nunavut",
+  "northwest territories"
+];
+
+const usaHints = [
+  "usa",
+  "u.s.",
+  "u.s.a.",
+  "united states",
+  "american"
+];
+
+const otherHints = [
+  "united kingdom",
+  "uk",
+  "england",
+  "scotland",
+  "wales",
+  "ireland",
+  "germany",
+  "france",
+  "spain",
+  "italy",
+  "netherlands",
+  "sweden",
+  "norway",
+  "denmark",
+  "finland",
+  "australia",
+  "new zealand",
+  "india",
+  "china",
+  "japan",
+  "korea",
+  "mexico",
+  "brazil",
+  "singapore"
+];
+
 function norm(s) {
   return (s || "").toString().toLowerCase().trim();
 }
@@ -51,6 +107,28 @@ function isGeneralCompany(raw) {
   if (words.length > 6) return true;
   if (cleaned.length > 60) return true;
   return false;
+}
+
+function deriveCountry(item) {
+  const text = norm([item.title, item.summary, item.company_guess].filter(Boolean).join(" "));
+  if (!text) return "USA";
+  if (canadaHints.some(h => text.includes(h))) return "Canada";
+  if (otherHints.some(h => text.includes(h))) return "Other";
+  if (usaHints.some(h => text.includes(h))) return "USA";
+  return "USA";
+}
+
+function getSelectedCountries() {
+  if (!els.countryFilter) return [];
+  return [...els.countryFilter.querySelectorAll("input[type=\"checkbox\"]:checked")].map(input => input.value);
+}
+
+function resetCountries() {
+  if (!els.countryFilter) return;
+  const inputs = els.countryFilter.querySelectorAll("input[type=\"checkbox\"]");
+  inputs.forEach(input => {
+    input.checked = input.value === "USA" || input.value === "Canada";
+  });
 }
 
 function formatDate(iso) {
@@ -83,6 +161,7 @@ function applyFilters() {
   const source = els.sourceFilter.value;
   const tag = els.tagFilter.value;
   const sig = els.signalFilter.value;
+  const countries = getSelectedCountries();
 
   filtered = allItems.filter(item => {
     if (source && item.source !== source) return false;
@@ -91,6 +170,7 @@ function applyFilters() {
       const bucket = (item.signal_bucket || "").toLowerCase();
       if (bucket !== sig) return false;
     }
+    if (countries.length && !countries.includes(deriveCountry(item))) return false;
 
     if (!q) return true;
     const hay = norm([
@@ -287,12 +367,14 @@ els.search.addEventListener("input", applyFilters);
 els.sourceFilter.addEventListener("change", applyFilters);
 els.tagFilter.addEventListener("change", applyFilters);
 els.signalFilter.addEventListener("change", applyFilters);
+els.countryFilter?.addEventListener("change", applyFilters);
 els.clearBtn.addEventListener("click", () => {
   els.search.value = "";
   els.sourceFilter.value = "";
   els.tagFilter.value = "";
   els.signalFilter.value = "";
   companyFilter = "";
+  resetCountries();
   applyFilters();
 });
 

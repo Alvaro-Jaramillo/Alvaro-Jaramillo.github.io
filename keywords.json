@@ -12,8 +12,8 @@
     "e-commerce fulfillment",
     "warehouse modernization"
   ],
-  "maxItemsPerQuery": 50,
-  "maxTotalItems": 600,
+  "maxItemsPerQuery": 100,
+  "maxTotalItems": 1000,
   "language": "en",
   "region": "US"
 }

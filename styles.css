@@ -21,7 +21,7 @@ h1 { font-size: 30px; margin: 0; }
   background: rgba(255,255,255,0.03); border-radius: 999px; color: var(--muted);
 }
 .controls {
-  display:grid; grid-template-columns: 1.4fr 0.9fr 0.9fr 0.8fr auto;
+  display:grid; grid-template-columns: 1.4fr 0.9fr 0.9fr 0.8fr 1fr auto;
   gap:10px; margin-top: 14px;
 }
 input, select, button {
@@ -30,6 +30,29 @@ input, select, button {
 }
 button { cursor: pointer; padding: 0 14px; }
 button:hover { border-color: #2d3960; }
+.country-filter {
+  display:flex; align-items:center; flex-wrap:wrap; gap: 8px;
+  padding: 6px 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.03);
+}
+.filter-label { font-size: 12px; color: var(--muted); }
+.country-option { display:inline-flex; align-items:center; gap: 6px; cursor: pointer; }
+.country-option input { display:none; }
+.country-option span {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  color: var(--muted);
+}
+.country-option input:checked + span {
+  color: var(--text);
+  border-color: #2d3960;
+  background: rgba(82,96,138,0.2);
+}
 .meta { margin-top: 10px; color: var(--muted); font-size: 13px; }
 .dot { margin: 0 8px; color: #52608a; }
 
