@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-01-11T14:35:50.892Z",
+  "generated_at": "2026-01-11T15:33:47.420Z",
   "mode": "google_news_rss_search",
   "query_count": 11,
-  "item_count": 876,
+  "item_count": 889,
   "errors": [],
   "items": [
     {
@@ -79,6 +79,22 @@
       "signal_bucket": "low",
       "published_at": "2026-01-10T14:09:23.000Z",
       "summary": "AutoStore – Weekly Recap TipRanks"
+    },
+    {
+      "title": "Arvato and global robot tech firm expand automated storage system in Birmingham to boost client growth - Express & Star",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdGZYYzNVTG5DRnRQTXA2WWM1TjNuZUhlUk90ZllUSG9qNDhlemFFWXFjQ1AwMUJWZUtfeXVMeC02TzN2YWVuamd4bmc2LXFBemZKRnpLNDNwWnFmWkcyRkNVSENld3dQdHlzNWdnZnpmS3FjYUhLbFg2VlRBLUN3SVNzWkY2Wm8wZmRnRFphTFFvcU5wamJzZlNEbWZCVmpKZFc0ai01LXJPMzZRTDFVZEdMNUV2VjdhcnZwYVJxOHBGd3AtZE5UWEd3aXlwRlN5UzZR?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Arvato",
+      "matched_queries": [
+        "automated warehouse"
+      ],
+      "tags": [
+        "asrs"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-10T06:00:00.000Z",
+      "summary": "Arvato and global robot tech firm expand automated storage system in Birmingham to boost client growth Express & Star"
     },
     {
       "title": "H‑E‑B to build second North Texas fulfillment center - CBS News",
@@ -269,24 +285,6 @@
       "summary": "Pune man shocked as Rs 1.8 crore home price jumps to Rs 2 crore in just 15 days Moneycontrol"
     },
     {
-      "title": "Goya’s Latin American products gain capacity with a pallet shuttle system in Toledo - Robotics & Automation News",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbHRHU0FmVHpzcHVGUUpLNWFUTE5TeVJxZUdOYldLRk1IVzNEM1NvQ1RWSjlGMjlieE1QRjhkZDBUSVF6ZEJ2NHlxNTdFaFc2Rl83UnBNQ0hWNnNoVWd0b2w5Wm54OWcwdXAwX0h5aUozQ19pZEt2Nk5PYXN4c2k5VnU4d1VWbmJRUlRXSWdKbVhRQmttaHNLMWZ2dXpxV1lIeW5wTjZjZ3pOY2ptUmdvZGI5ZFBhRkppUnFVMTFfSGZyRW1ZOHZydURTV3lNbHZ3aXZzVw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Goya",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [
-        "asrs",
-        "robotics",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2026-01-09T06:28:39.000Z",
-      "summary": "Goya’s Latin American products gain capacity with a pallet shuttle system in Toledo Robotics & Automation News"
-    },
-    {
       "title": "The Transformative Role of Air Logistics in Global E-Commerce Fulfillment and Supply Chains - GetTransport.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9lMGk2UVFfWm1iRXJkb25PMGFIWTBVYU01Tk1ZclZfTjg5TmpMLWdzN1hfRjlfTUJTZm9Sc3pfYlBueE1HOEZvQjM5LUNIcVZxUE9YTWp2TFgxM01mR1BtdmRQS2t6bmVfNlhEUHJZLWRXRXdyY2NEekF2RFhTZw?oc=5",
       "source": "Google News (RSS Search)",
@@ -392,7 +390,7 @@
       "summary": "Automation moves from intent to investment Modern Materials Handling"
     },
     {
-      "title": "Grocery chain closing 5 fulfillment centers in Pa. expects to lay off nearly 500 people - PennLive.com",
+      "title": "Grocery chain closing 5 fulfillment centers in Pa. expects to lay off nearly 500 people - PennLive",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMEN6TjZnMm1pU0NmcllNeXBldVZaMmNlN1FUX3M5N19jNmpYbkdLak4tdUtmTVliYUVYUXBXc3VkMjBRa0hjQ1hiUGZrMXdVY2pubTdsaTdzcTJqbGtaMzlhdS15bjJsMlhITVEyN25HejJ6OF9jZGhOU0Y0bEx3bnFIcV9qTWJWZTFrY3ZVRWtlSFlLRVdDX3A0S3pMaV95cm90bGtKZ1l2dDhkMHNDd0x0VElnV3BqbE9FdWRweWFDZDlpcUJSOUxEYXlkUQ?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Grocery",
@@ -403,7 +401,7 @@
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2026-01-08T17:46:00.000Z",
-      "summary": "Grocery chain closing 5 fulfillment centers in Pa. expects to lay off nearly 500 people PennLive.com"
+      "summary": "Grocery chain closing 5 fulfillment centers in Pa. expects to lay off nearly 500 people PennLive"
     },
     {
       "title": "Commemoration of January 9 as RS Day began, despite the Rulings of the Constitutional Court of BiH - Sarajevo Times",
@@ -434,22 +432,6 @@
       "signal_bucket": "low",
       "published_at": "2026-01-08T14:16:39.000Z",
       "summary": "IFR names Top 5 global robotics trends for 2026 Modern Materials Handling"
-    },
-    {
-      "title": "Register Now: De-risk your warehouse automation plans with simulation and digital twins - Logistics Manager",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS0ZFNXpvRDBFTXg0Ni1BX01jcE1ySlFFRG1zZ21ySjdUdlRueGE0R2VULWN6allVSjlkS19sQlZwQU0wZEN4andJVGtHZlpkY0Z3Y05sZTRHbmp5aFRqTEtFQ1haWk1POTlTRmV6TmJnNVJYNzZMSVlDbG80RnQ2aVJiT1prMzQ2M2RXZDNiMi1sd2xxMFJ2Rw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Register Now",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2026-01-08T14:09:14.000Z",
-      "summary": "Register Now: De-risk your warehouse automation plans with simulation and digital twins Logistics Manager"
     },
     {
       "title": "Tire Group International Opens New DC in Orlando - aftermarketNews",
@@ -743,6 +725,20 @@
       "summary": "Various permits issued for new Pawtucket shipping center The Valley Breeze"
     },
     {
+      "title": "Customs clearance: top tips for your business - DHL",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMHpIRldnNnU0RmxkdkJ4TzByVkZyNWZwc3NEWkp4M0FCcU9LUlZENHZ2czZmS0NCbE83ZGtURVUxb0lZVXh2TjU1eHJma3E4aXBmMVJQQTBHZlBUTmFhVHZuSi1xSGg0dk9uZkRPY3Y0bC1fMGQ4SFZtTmRrRlZjUGxOMVhYNHFOS0JrZFlUQ2tMQWtTcHVoeWZjSk05TUVBTFI4Z1QxeTBZd1F2dndXOUxUZENWeHlrSjhMdFZ4bElMS2ROV2ZZQzRvWFhCZw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Customs clearance: top tips for your business",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-07T09:36:26.000Z",
+      "summary": "Customs clearance: top tips for your business DHL"
+    },
+    {
       "title": "More Indians Join High-Income Bracket As Rs 30 Lakh-Plus Salaries Rise In 2025: Report - ABP Live English",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb1dwdVF5dXA3MUZyZXd3OGhUMXFXWnMtOXlOWXFnOFFKemNGdlhCcGY2WG5wQmFCWm1KRE42dTVKVVE3UDZCb1ZiTEVERFlPT0U2REVoRGdVNWQ5QzRDWm9fbnN1eUIyTVVleGg4aXc3eHl1YjJhc3NxU2xxeGplOEZkWEtHUmY1bWFqM0FlSHQ2c2pIMXR0eDFBazhGT2dkQzBScEluUHdXQ1hNdVZRcFJLajlURGplc1pIWFJ4TdIBxAFBVV95cUxPcjF2T0E4WkVydjlEemtuNXRXOEVrRWNyazBwbDFzU2xTUnhGYXYyRk9DS3ZIbGYzMTBJN2JmYVMycU8tT2dCOHI1MmdscFRLbDJLWFVCdVIzeWY0YXJaNDVFby1lNmhUT2FmdHBYU3RLNUM0Umlla0lreWg4bDZubWwwUGU2WjhmOHB0SHVqaS0xUDg3bGxKTzJQLUJhZEdmR3RzYzUtU19FMFJTN3JwdDM0Z2dCYmZUYjRvWjNZbjV5NXRr?oc=5",
       "source": "Google News (RSS Search)",
@@ -772,6 +768,34 @@
       "signal_bucket": "low",
       "published_at": "2026-01-07T01:56:49.000Z",
       "summary": "Amazon buys Lane County land for new distribution center in west Eugene KMTR"
+    },
+    {
+      "title": "Stord acquires Shipwire from CEVA Logistics - DC Velocity",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaF9VSFZvSkpVZFE5dFRtUkFZS1NDdHNEd1dnaTNHaVEtWUhMZ0JqdzJ4dG5NY3pZTzRIQlM2NEJ2NkJ2ODRmeEJ5bnBidV81aTNiVXpoN1JBSUx1YXdkelV1MnFQdGF2ZE0wSWI0Q0VJX21rVElaOGhiRFVYb0JWb1F0WjlxdzQ5Vm9Zd3B6RzhjWGpUaFZQUTN5alF6UnJvNVE4?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Stord acquires Shipwire from CEVA Logistics",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-06T23:04:10.000Z",
+      "summary": "Stord acquires Shipwire from CEVA Logistics DC Velocity"
+    },
+    {
+      "title": "Stord buys Shipwire to expand global fulfillment and technology footprint - Digital Commerce 360",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlc3YWtPRl9ERjdxOWdTVll1blNsem5JSGpXTmE5Znk5b3Zqd0dXXzZqa3B2U2hoX2dFUml0SGpGVkdfcVg5UTJ0cTZqS0U2TVdhZWY4OENCX0ZlQUJyS1lSajRubE5XU0I0c1VUTkNnZVJqSnM1S2tUNTk0eUpMR1h6bTBYNS05V2Y0N1hzbmliY2ZqTDl3aDlZZTNMZWtjaFhTYVF30gGrAUFVX3lxTE4wZTZ2SGpaSGlpTmJzVURZTlplNWpudEJKbThsTFREM2pKLVU3SER4OUJTRW1Rc0JSQVF5cW82TWRYX1d2cDNERUpQbTZhcjk2TmJ6ZjNGcmVYNHRodVBycl9jZTV0ZUhSeVh5bVNvb05GSG9LWEZkODVZZUNKMEt5ZTdBMXdWUmJDajg0cnE4d3E2NEdDU1c5VG95c3RUV09YNlFYWGtTeGYzSQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Stord buys Shipwire to expand global fulfillment and technology footprint",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-06T21:45:00.000Z",
+      "summary": "Stord buys Shipwire to expand global fulfillment and technology footprint Digital Commerce 360"
     },
     {
       "title": "Boston Dynamics’ Atlas Points to the Next Phase of Warehouse Automation [Video] - Heavy Duty Trucking",
@@ -895,6 +919,22 @@
       "signal_bucket": "medium",
       "published_at": "2026-01-06T13:25:00.000Z",
       "summary": "SHAFT COLLARS, COUPLINGS & MOUNTS FOR WAREHOUSE AUTOMATION SYSTEMS PR Newswire"
+    },
+    {
+      "title": "Stord Acquires Shipwire for AI-Fueled Ecommerce Push - TechRepublic",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lRkJYUUU3SDY3UVMweEF2MEJjcTVxR2drY0VsOVo3RDZ1cGtLdklBR0xpd2M1ZTdocWFrU1V2VkRSR2ZlS28tb0lkUXdxekZSSXRHRUhTZmVkVGdjUmRVbU9rOFlBazNVNHRaa3I5dVhkbGFf?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Stord Acquires Shipwire for AI-Fueled Ecommerce Push",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-06T09:02:27.000Z",
+      "summary": "Stord Acquires Shipwire for AI-Fueled Ecommerce Push TechRepublic"
     },
     {
       "title": "O’Reilly opens new distribution center in Stafford County, Virginia - Aftermarket Matters",
@@ -1036,22 +1076,6 @@
       "summary": "The Future of Warehouse Automation: What 2025 Taught Us Logistics Viewpoints -"
     },
     {
-      "title": "Matthews International completes $232M sale of warehouse automation unit - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNTWpHM1VqR3RRSlc1VzlILUNZVW1KZGF5a1RXUFdLNTlWRVMyMXhmQTAyMFNPTlhCUTJFUndxSUg2OTlzVFJjaUkzSWVRdW9YU2ZhR0hiTFJsY0p6SFJtY2ZZVElTazd3cEFUNnV6YmU2ZXoxM0FiOHhMTUN0S0haUkdtYVFDRDZEZlZWclVyN3AxYlZPVFNBOHBvclJTNjF0WkpQY3FDeDZPZnJjQ1dNR19SWTJJMmJKUnNaR2JNNnE1WktGTUV6aEplM3dWV3BLWWhVYTAyYnJ3N3EwTjhtUkdvdERjV0dkZlB6YmhLT2FDVVcta0dtci14WUgyR1EzRzV4bFViWDFVaHJERG9xc2xuRWxOeS1SelViUmtOajN3bmg4WnFMalc1cXhzMzQ5LWtEbUxYekJSNG9uMDhhcS1LZXZGWTJuMVltamt0dHNwS3A4dzFrRVo5Mmpwd00?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Matthews International completes $232M sale of warehouse automation unit",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2026-01-05T11:16:02.000Z",
-      "summary": "Matthews International completes $232M sale of warehouse automation unit MSN"
-    },
-    {
       "title": "Warehouse Automation Market Projected to Reach $90.7 Billion by 2034, Fueled by Rapid Adoption of Smart Logistics - openPR.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeGdtNHFONFE1LVNTQVhRaWtEajBGMnVuUW50ZW90cmJCMUdqanl2ODV5SHJtb0NJeUJhZnB2MmgyX082ZHNCLXQtTVN0aFFVaGJGQXlCVlgyc3B5bUIwOXVubFR0b2s1LW5XcGkxTVF0OHM3TjY1R1FMMy1sOGtTOGYwaWpxSWlQS0JaSGk5a1kxWjd5d0F6QXV5Yw?oc=5",
       "source": "Google News (RSS Search)",
@@ -1131,6 +1155,38 @@
       "summary": "Modernization as Fast Path to Greener Warehouses Supply & Demand Chain Executive"
     },
     {
+      "title": "Overcoming Regulatory Challenges in Cross-Border E-Commerce - Global Trade Magazine",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOTJHT1E5TlQzY1FCUjk2UjUzcWdmT0xXUXV4TnJTdkI2STFtbFNaZEk5YVRiVDJ2QllHTXpVelNaQW5teGItTUc4QTZrRVN2WFFGTUdiOTNSUGdlSTJMRWx0QjV2bkZsUHVVY2JBZ3dRT2VoZjZyWnBGaFQtRkp6eW5KQkpYYzJsR19XVUg2SVBfQWdvM2c?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Overcoming Regulatory Challenges in Cross-Border E-Commerce",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-02T09:22:52.000Z",
+      "summary": "Overcoming Regulatory Challenges in Cross-Border E-Commerce Global Trade Magazine"
+    },
+    {
+      "title": "Matthews International completes $232M sale of warehouse automation unit - WPXI",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ0xSMzFka3hUU1UzZ3dicS1LdmZwSlNIYmV5Y0d3aUhFaXNSVVFPSWZBa0RYdDFWVm4xdGtpUkMwSjFzbkdxZzhWd0tqSlJ1YU00dVM0N25fWk92ODBjcDg2YVBndVkwdDlhMm5pWUl2R25oRHAybnF0TmJqV0VRLV9fbE9hNlp4OHFUMURMUldaNGNrcEpYOWdJdm03bkV2WWNkdjRmVTN4NVI4UWllYXhaNGxZZnk1aXA3d0pVNzhVSW9vOTE1NXJVSdIB3wFBVV95cUxOZFIzTzdsVjhzTXhBbl8wdEtULTJBaC1UUjhEaXBLRVFqWVZyVDJwZlpNVXRVRWx2SUhIRUdlX2pFUW4zNWRTdE90NE5xV2xDVzN3Y1I4bWstZk1ETVQzdUhXR0d0eENXZ3VUSzhXbVBhMXltWHZKVktVQUZqaHluTG1RdGlaT3Bic3BLVTlQT0phR2N5TkJ4TENONG9XVG9WOFowQzdQUVlwd0pPNjJrMV80VXJKcGlwV0NOZUcwc1N3RGJtUEhoYURoYm1vZmg5eUtVOW5FZXVHNThweEd3?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Matthews International completes $232M sale of warehouse automation unit",
+      "matched_queries": [
+        "warehouse automation"
+      ],
+      "tags": [
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2026-01-02T08:00:00.000Z",
+      "summary": "Matthews International completes $232M sale of warehouse automation unit WPXI"
+    },
+    {
       "title": "Vodafone Idea shares jump 10% as Rs 5,836 crore group settlement lifts survival hopes - The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZUdMV2ZyQzdLbkhMOVdDSTJvQ3pWaldFY1NOcVlHS29scGlSMXpPVVB4bmw0NU93bzJObWRKVHhPSkh3QUJjZF92S21razFCQm4yNWVKaFEtM0IxRGFZRUZVYXpsVkcteGFFc1dFUWlTc2ZKVmtFZ2Rfai1CWExJTmsydEpxQldTRE1sb1RYUXgzbHJxeU1Ea1k5YkxMdnlVMC1GUFY1ZURUYVd4aV9LMjZvOU93VW9vaU5DTEpjZk0wLUNZNHJqNHliRkZJVXdPOVE0aWh5MGdVR3RPemdyS2dsM180TzFUWnVDamF30gHzAUFVX3lxTE9XbnZkaVFhRXN0U1NCR3kza2tGWHNDRS01dEdfdUFab2dDeXFNUXZJakJXb2xTa05NR1VYLVB2WDFZOXlhWllMaG5VbTlWNzI0UTYxR19Kd2V6b2RsbnJUeE9BS1dfVzBoQkJNMGJiT2JJQmREUUk1dDJxTFNFeGZuOVpRLTUzV3Q2eGljX1phamNzb0pBU2F6cFpzajZIQWpaMDB0U2hmLXMwMXNOTC10bWlCWTlXUzQxZ1h3RjJLUjVsMFFTXzNRd05nb1RNZTVYcTRHVEdhcWh5S3JlakxYUGdDMF82dVFaZjNRQ3FJYmljYw?oc=5",
       "source": "Google News (RSS Search)",
@@ -1159,22 +1215,6 @@
       "signal_bucket": "medium",
       "published_at": "2025-12-31T16:21:40.000Z",
       "summary": "Matthews International Announces Closing of Warehouse Automation Sale GuruFocus"
-    },
-    {
-      "title": "Matthews announces closing of Warehouse Automation sale - TipRanks",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeUZjcjFrdXJZbzFMLUxvRld3ZDNKWDFYQ2V6emNwM2xqV2lkVVd6NXh3blNjTzJhandHS0NnZmxaSlV2MUtBeVo5OEt1TWVTSVp5UlhPa1Z0NkJ0TXVtVDZ3dUlmb0N1S19Zb0UxRzBobGNoUjdoSmNWeGhKZ21TUVhkMkduMXQ4VEpMaTlURjFTckVJM0doNDRiLVJ1NUQtRXc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Matthews announces closing of Warehouse Automation sale",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2025-12-31T16:08:43.000Z",
-      "summary": "Matthews announces closing of Warehouse Automation sale TipRanks"
     },
     {
       "title": "Matthews International Announces Closing of Warehouse Automation Sale - PR Newswire",
@@ -1256,20 +1296,6 @@
       "summary": "Giant closing fulfillment centers as it adjusts ecommerce operations Central Penn Business Journal"
     },
     {
-      "title": "Armed Forces To Get Loiter Munitions, Anti-Drone Tech As Rs 79,000-Crore Proposals Get Govt's Nod - News18",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcEFGX0JQV2s1eEpXNlFrWDEzQVF6b0gyMWcwQmhudUd6cTRiXzRLMVpyY3lrUzJveXUzNGRlb1J6VWo4dnU5a3QzSGRibmw5bVBGVnU0R2V4NGtONTZkTUhrVlh3US0zV1ROLW5NLU5vbVBYREphUHRkOUlJa3RzdnlrYkZEOGIzaVduUmRFcHY5Qk42OVY5bGRTMTI3bnNHekF4S3JzT1NzZ1BOZjU0cTVlY3ltNFFSYXEwTTRIWVlvTWs3VDhHSHFnRVRFZnplQ21R0gHYAUFVX3lxTFAzcWZURTRSSjJZZjdteTc1LXBzbkFyRHptY3FndGVJR25wV3JJODZQR19ROUJSeGVuSl9RODU3UFVHeDBNTFItQm9MNG0yZ1J6VGhZNWRVX1JBVFJJYVJpWXVFR3JwMmttMG1CS1VRdWRia2hzbFVoV2VWOUtyMUJycmVlbXJ6RnFZSEd4X2UtN2xQSzRxaTVjVHpwcWJnQWZEaGJBbDVnclQxbWM2c0hSSjNmWUVvbFBiNFRvem1sbGU4Q3VsTDk1SlZHRnFGNFV5dHpiMFVETA?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Armed Forces To Get",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-29T08:00:00.000Z",
-      "summary": "Armed Forces To Get Loiter Munitions, Anti-Drone Tech As Rs 79,000-Crore Proposals Get Govt's Nod News18"
-    },
-    {
       "title": "Insight: Goods-to-Person Automation Gains Momentum in Next Generation Warehousing - Transport and Logistics ME",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRTlSODNYalJTSUFJc1dMMnFKS08wLU9XMVV0ZGluOWo4LVNVN1RXaDZtSUg2c0pKU3c0Q09zVVdoOEdmbjVqVFhmaTVzV0FRTlBURHlURlZ5ZHJqdkh3aXBkVVpnUFcxYW9QNGk1by15YjNDQUFiVEhPdmFxejdBQTMxYVVMcl96WDZFbVNGb1dLMzJkZzFlM1N6eFEzV2taTklJR3E2RXlWVnpxS1I3THVSeTRXTGh2dGEyVGJ4N3RkMjBDV2tqekNQSjdjbUM2Z2xuck16bnlmY1gzU29PdXJ30gHvAUFVX3lxTE9UYm5pSkZxVHpiRFA5LV96UVZ2NGVzMTlkVS1ScXNDejhPNG91R3BMajJDUGlmaGpNTHQ5Uk5lVVUtUDQ5UmpTUHRVUS0yLWxBTFloTk5jVWtLOVVOQmFJUVhteVZEVVg0NHVJeWNBX3A3ek85Y2JRYWgyWFN0YkNySDBaWlk0X2ExcVh2UE9GSWhldkpRdV85ZnpVd3lyWGVDcHc2dlprMXBrZDVVTnNQY2t3NDBFNTNCTF9QYWtTc2xad2FsT3NBNHlRWS02cV8zU0tUOUxMbUQ1WjRtV2FBZDRveG9zc0g5RkZITzUw?oc=5",
       "source": "Google News (RSS Search)",
@@ -1345,20 +1371,6 @@
       "summary": "PUCC rule tightened in Odisha; long queues as Rs 10,000 fine triggers concern Odisha TV"
     },
     {
-      "title": "Kargo Raises $42 Million to Scale AI Warehouse Tech - Transport Topics",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DaUZ3N1RvSVgzS1BZb3J3azdmS0wtTzJYeEhTdnFjc3BlRzgzdExzQ3FvdENkRXQxaHAzajl0di1ZblBSbzVSb0EzY3ZpZVRuR0tSNW1uNWRZUVlMcGo5Yzk1UW1OS0txUzhr?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Kargo Raises $42 Million to Scale AI Warehouse Tech",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-23T08:00:00.000Z",
-      "summary": "Kargo Raises $42 Million to Scale AI Warehouse Tech Transport Topics"
-    },
-    {
       "title": "Old tax regime nearing its end as Rs 12.75 lakh tax-free income reshapes Budget 2026 expectations? - The Financial Express",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQi1yb05xNVNzbjFoWWJGNWNiOEpuWXdOY2k2SjFvNDFYMGljejJ3NC10dlZWNURrenU4VnZiRURtSVl5VWFJN0dUODVVSjVXOTg5eG8zUjNTVzA0TU8zODdub25HNUYtczFvRnhJakpvUEswTldTdlVFTktjVFFpMVY3WHlaZmlZQW5RSTVMQlYtRS02TkNjejNGUXRaaGpQOEZGbWVISG9rVHllRkFGX3Z2QnYtYndhaXh6a1A4S1ZSWU4yM2VMbjhyb3BlLW5lQzJENzkxZVV1YUtwUWfSAeQBQVVfeXFMTmlhS0ZzV1VuTENuNjJvRXNmRjdydFZEOEhHR0hFWHdfam5aNkllaXlLWnF1ZkVXS2FJdlkxUFZmY2xyQkpRTnVrWjFuMmNjdlJBQndEaWhXS1VOR3pDS1VHWENFd2JXZHBXeTFKVlJ6RXBRMWVnNVlKOEpqZlZPNUF5MFA4bEZjUDRGNmhCeUpuZkJZdEpqVEZiZkhMLWhfN09mb2NPNC1UTWZNdm9Eb2toSkgyNmpHQ0NyUUxpTUFSSnhjWUEzdE9zYjBHQ0duRmh5X3BFNlZkVGE0N0ZqdlNqNzNr?oc=5",
       "source": "Google News (RSS Search)",
@@ -1419,20 +1431,6 @@
       "summary": "Stord to invest $40M to expand Hebron fulfillment center, add 500 jobs LINK nky"
     },
     {
-      "title": "Warehouse systems integrator ISD names Tony Morgott as its president - Modern Materials Handling",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEp6Nm02aFRCbFhaSGNPQnoxd3lVWTVSMzN4d3BQVzZ1Vi1VZ3lBNHFXMHpJRGIzMWFDOV81cXFhTUUxajVRaXVURHpmelRNME80Vkd2R0kxTXQ4aGgzRTlDNWpicW1EVUJFWDN3M1BLUUpTcF9mRy03bHlQdllQN3NfUi0weTRReTgwQ0EyenpuOTJGeHBuZ2VBazI?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Warehouse systems integrator ISD names Tony Morgott as its president",
-      "matched_queries": [
-        "warehouse robotics"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-22T08:00:00.000Z",
-      "summary": "Warehouse systems integrator ISD names Tony Morgott as its president Modern Materials Handling"
-    },
-    {
       "title": "Stord to double e-commerce fulfillment capacity in Kentucky - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGEwZkhFN3YtN2pub0d6UTduRFUxYzRCcHI5cVRQTDBVNURrUHVHV3hyT2VMWmlnQUNERTNqUTJQR0FmRzVUQi1sc1VBVUNtNWJ4MFB4V1FYaW03eTBFd1NzWlN2ak41MVZHMnZUVWxUMzVRZk1zOVJCb01TMkpPX3F0TWZWejZH?oc=5",
       "source": "Google News (RSS Search)",
@@ -1463,20 +1461,6 @@
       "signal_bucket": "medium",
       "published_at": "2025-12-20T20:15:00.000Z",
       "summary": "Warehouse Automation Trends Every Supply Chain Manager Should Watch Bedford Gazette"
-    },
-    {
-      "title": "Supply Technologies Announces Plans for ‘Flagship’ Ohio Distribution Hub - Industrial Distribution",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUjhCV3BiX2pqQ2tnUFRVY3V4djIyODdFeHFBTXUyTDZFZERSdm5idk90X3lGT1d3bGVIa01pT0pBc00zcWQyaHhUcEFjakhVUlByNHBnRnNmNFB5RU5vd1NqcVZkTFB3U2RaSXNyRnh1SFZDNVViWU1qakg3anVQNDJaUkZxSWNaUm9jTDBWRHRvUVktS0dheUo0UmtEekZIeW5ST2VTb0lmOGxIelN5MUdxc3ZVRUJGZ3NCYV9uSDFuYlJtSVhReW5rV3A3RkYyb3VQMW56aw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Supply Technologies Announces Plans for ‘Flagship’ Ohio Distribution Hub",
-      "matched_queries": [
-        "distribution center expansion"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-19T20:11:38.000Z",
-      "summary": "Supply Technologies Announces Plans for ‘Flagship’ Ohio Distribution Hub Industrial Distribution"
     },
     {
       "title": "WAPI Receives 2025 Global Recognition Award for Advancing E-Commerce Fulfillment Across Europe - markets.businessinsider.com",
@@ -1514,22 +1498,6 @@
       "summary": "Libiao Robotics unveils first AirRob automated warehouse in Europe Robotics & Automation News"
     },
     {
-      "title": "Stord plans for $40 million Kentucky expansion - Digital Commerce 360",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeTFBS0ZZTWI0dnkxODNRMjZpNFJXYXZjaUlfZEZwa0pDRjlld3EtV25oOTdVNjAxNElDU2tBS1hrWkZmSFFSRWMzZjEteWh4aFZsNDR2T1BzdTF5ZTBBZ0hBNnZ0ZXhOeFZXckR6Xzg0MW1VRmExSFVfY29kSTgxM3JKalBQRkEzTEJmUzVOM1Jfb0dvRDROV3FPQUxTTEVqRW8w0gGoAUFVX3lxTE14c2tCbDd0UGhXOWVOcVFBWmR3a0wxdFZZVlJfS0JzQ0V4QmNsT3g3R1dJNEplMEJLQ0N5T3dpVFVBNjNyME1aRTJfQ1F1SHdkSTNpMmM0bFotcllDNWpLTjk0SDRkcVhhaHJYYVd5TUhSelRlMWRBVGs5YjRBQ0ptUEZ6NV9SYmZXYTRERUZMRC1HTTlTcmFmeHNLeC1lZkgwcnQwajFXbg?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Stord plans for $40 million Kentucky expansion",
-      "matched_queries": [
-        "distribution center expansion"
-      ],
-      "tags": [
-        "expansion"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-19T08:00:00.000Z",
-      "summary": "Stord plans for $40 million Kentucky expansion Digital Commerce 360"
-    },
-    {
       "title": "Kroger plans $391 million Kentucky distribution center - Digital Commerce 360",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbl9aNllaUnhxM2xVUEFwTnU2bmFPTVBzcDRNWVRqQUZkZVlHendIYl9TcEdkc3hFTW9aeFpVM0pXcnQtOTZhTmxobWdtbUMwS19yYnY4Wk9nNDlVaHI5aE9FTW1SUERyaGJjTG42VThzanJuVFVxOUdxdVZrY0t4WXZUc0tUMTV6UlB3d0JmRlFLM0ZOdkRSMUVjRzhFM3ZSeWfSAacBQVVfeXFMTUtmWFlkQ3FZMklORXljTk8xVkoxaU9CbVpCT2llUEZiSG00YjNwM0pHNVUxa1dSYVdrOVJ6MXpTdzdaWUFORFJCeElHY2QyNElPV2tobjlGdE9vdlpwNXBxNTJaQk5xcEozeUpEYm9OSDFMYkJ3YnU4cWdld25vakdQMTJtZ2Q2Z0ZhNlhxZGMzbm1CZktQemRVeUNwOEJhTDhGd2ZMcTg?oc=5",
       "source": "Google News (RSS Search)",
@@ -1545,7 +1513,7 @@
     },
     {
       "title": "Shocking Fraud Probe: Standard Chartered Bank Under Fire as Rs 80 Crore Vanishes from HNI Accounts! - Whalesbook",
-      "url": "https://news.google.com/rss/articles/CBMi-AdBVV95cUxPNGZBcllwY01JeDdHNnZTVDE5bVljZ3RwOUtoaktldkhyakVpV0xTWnBJVG9QcUFQc1hDQUpoWVNRalpIUmlFRDItRWVkZ3pCMkFjb2N1UWNJYXhWNjdXdC1oZ2JpeWtwOTlndjdyZVhuUDBrWGRuNFNHbC1hY1ZjYUtFUG95VEtXMHBoTDN2dzhqVVAwV3RsTHRKbW9xbUVPNWtyME1GNEZPTEdral9iQ1FwWWJYU19LeWxnREdva0hwamdNUmNiYXNZckpEUVpfaHVyTEVsTmw2a3FsaE9pY2t6QWpqc3JUYXN2R3JScWNYaFlSRE4yQ0RORmxZR1cya0dYMTRORW9hWV9aZGpvcDhkVEFtRlViUGVyM2dBNFFTdWw4RVVDMUNYSHFrb2p1MHZCR25Mc1Y4RENIOThMU25xZHVNZ0tYNEVubV9nUnotTHZjOGdweS1TeTNhYUZKb0NNcFdrYTUwQUs0bnlyUVR0OW1LdXlzSHc1bEVWRXlYdUJXNHBQLVpLdkE3NEJ5NmxHTmNyYkRNTU1hUmw1RURReGtlQXlBZFZGZE80c0dlLW1jRktGeEU2UzNoX3hZazIyZGd2QWI1UWFTVDRQN2sxY1lrZXQ5amlhcFdsdzc3VC16WGY1VFlnTF9LME1FYW96dUJUYVdWOFN5Nzc2VkJnOFRYN2stWlFMbldCODhKWHcyV2JWOUcyeVROa3N2NF83Q0xDbFBQalNpLVMwak1uakE5VHdLTkhpSzI0c09uVkE3S2ZqUktPcG1XZGtKNXlzb0RtVXdHWE00T0lnTkFvem1XU09tNUZDNzU0M2k3OHJuU0IyZUFUUWprb25VV2FPaU9jaE5lbFYwbVo5ZjI0VU9ZUU4xS1hlbGdidENjUURPVzl6SDBHdXAyU2xBd1RNRWFlQ2lRWHlTQUs1eXJkYlE4TF9jeTlidVRxWDhxeVg4ZlZDZlBYaTIxbzNEYzE1WkFZQTUtNlk5c2RIWHRHSG94X2dKejBKel9qOWpFMkFtdDNudXhMUGZOaG5zR2tMVXhQeVdNb09LWGJRa1NCNWZUT2pTcHA3X2RqWS1sejhMTWVYZW1XNEhBc2JFTjJrcU5LT3UydS1kR3RkbkZadkpRNG9RMzF3U01RWWZVR2MtUmNZaXJ4QVlSOTI5cDZoMUR2R0QyQlRMY1Y1cjUtMVdtdGxHOTdWU3F6N0FZLUhsX3BqRTJUSjJNV0RnMk5FbmZzWWtBdWtNV0Y2R2dGeVc4V3k5c3kwUnNaOW9CN09FRGFfWldndkZ0SXlyUjM1THRFZFNhcVFJMXhZMzV5bEdBRTh6UThHNHdkcE9HbVo5QWcyQw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeGNHbzZuWVZYTHpSSmR2WUQyU21NOWtfNm1IemZWd1ZJYVJ5UWpVSzFaZTRLVk41bFBSdVFJalRvcWdvVjd5M1JyVmN0cmd3bEhHWWtHck9feldVM2dELUY1RDhWVkl3TTVKU0s5eDZ0S0t2bUVnNGdOQm0xdWZueTFvQzNjRW5qajVEbkt3ODM5MVVTLXdZSnBPTDBfX284Unktcmk5RGhaVEQ5X1BsMmxKZFMtaGc3RzZ3V3MzYTZDQmtMNmtrS2Q0VUlWQ1RtbFJOcGZ4a043bjdvbkRlOUxLdE8tM2lUVllIYVptUE9FZF9qVzVrTUZsME4?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Shocking Fraud Probe",
       "matched_queries": [
@@ -1556,6 +1524,20 @@
       "signal_bucket": "low",
       "published_at": "2025-12-19T08:00:00.000Z",
       "summary": "Shocking Fraud Probe: Standard Chartered Bank Under Fire as Rs 80 Crore Vanishes from HNI Accounts! Whalesbook"
+    },
+    {
+      "title": "Giant closing centralized fulfillment centers in Pennsylvania and Virginia - Produce News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUWVJdnI5Z1BsR0ljQWdvd2c5VGRyRzFfMG1EMHhjamUzd0dvVGJYSVJINW1ORDJnR29UQ3BuMFVFYkVWNXFNeExIZ2R3UU5YemYtVW9WQVZjTmgwaGRXRXExaGZFQnNYOXVfZmc1VlhJbjJuNmpNZ2hibE5XWTFzcDVXSnhQOGFpME5XNEJPT25QYzE3ajF5M1lRemp6S0M0VnFwQXlDUEhVRk0?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Giant closing centralized fulfillment centers in Pennsylvania and Virginia",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-18T11:08:45.000Z",
+      "summary": "Giant closing centralized fulfillment centers in Pennsylvania and Virginia Produce News"
     },
     {
       "title": "FMCW LiDAR Makes the Leap From Lab to Warehouse - embedded.com",
@@ -1637,40 +1619,6 @@
       "summary": "Food & Beverage Automated Storage and Retrieval System (ASRS) Market worth $2.35 billion by 2030 - Exclusive Report by MarketsandMarkets™ PR Newswire"
     },
     {
-      "title": "Logistics provider Stord’s $40M expansion will add 500 NKy jobs - Lane Report",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEo2NjlfQ1NOZlZ0eks1OW1aeFJzc0xSTTlTbEVOc0ExWGplN21JTktBaFRpSFlhdGk2akc2LUNvMzhBblNWWVFUZVp3d0RDOG95M3FuYXEtOWZ3NXNBbURpU21rNmNtLUs1dzM4Szk1N1FiQVdJeWpBVVpNTFRGRUZTTnBDWkhBOUdMOWxRWFpqUF9RM2xtdXFDNTBMSUlQdldqYnpIQQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Logistics provider Stord’s $40M expansion will add 500 NKy jobs",
-      "matched_queries": [
-        "distribution center expansion"
-      ],
-      "tags": [
-        "expansion"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-18T08:00:00.000Z",
-      "summary": "Logistics provider Stord’s $40M expansion will add 500 NKy jobs Lane Report"
-    },
-    {
-      "title": "E-commerce fulfillment company, Stord, plans $40M Kentucky expansion, with 500 jobs - The Courier-Journal",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQklPbEdrN0NRMUpVQ0hZV0tvSTlZNmFEdmdJc0F6RXJSZkhpRkduRU9fb3BkY0dNblVUbVBONS0tcGpIYUVsa1dHTll5WGFIRlk0dlhnY2VCUVpjeHhIRGdUMk5fU0tmSUdLRnFsSm5ERDhnaWllaDNWbVkyRmp2dEpnUDVqb280Wk1aMWJZajQzRVpZWnRYR3EzMXJaSU1OOTBXbERNN01aVkZDTXo2al9qVEF3Z3pyUmlfWXlPNU5vaTAyaUNTOWdGbXdtRHFxU3ZFaExiRzJORm5BQ1hR?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Stord",
-      "matched_queries": [
-        "distribution center expansion",
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "expansion",
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-18T08:00:00.000Z",
-      "summary": "E-commerce fulfillment company, Stord, plans $40M Kentucky expansion, with 500 jobs The Courier-Journal"
-    },
-    {
       "title": "HF Foods Group Opens New Distribution Center in Powder Springs, GA to Enhance Operations and Capacity - Quiver Quantitative",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeEktQ0NtaGhNbXlOLTR0TkE3NG5PSEpObWRieWhvUWN4ZWpCakY5OEFRUE9DTl9aTVRoWVBjdFl2ajhXYTYwUVI4V2l3MEYybjlTLXZFYU5aLTFYU0pkSjRGNHd3RUVmcFBpS0xqOE8wU1VOTWZHcEkwVFE3d2tNSE94cU5rOVVZVFVrcTZtekRraV9JVE5RN2RLbldQR3Rnc1NKZFFfTzlBVmpXU05zSEQ0czRuM0p3VmtiN2RXbWx0dVEwd2sybURNZ3Z5akpGMVE?oc=5",
       "source": "Google News (RSS Search)",
@@ -1702,6 +1650,23 @@
       "summary": "Shah Rukh Khan's KKR Hit By Early Blow As Rs 9.2 Crore Buy Likely To Miss Part Of IPL 2026 Mashable India"
     },
     {
+      "title": "E-commerce fulfillment company, Stord, plans $40M Kentucky expansion, with 500 jobs - The Courier-Journal",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQklPbEdrN0NRMUpVQ0hZV0tvSTlZNmFEdmdJc0F6RXJSZkhpRkduRU9fb3BkY0dNblVUbVBONS0tcGpIYUVsa1dHTll5WGFIRlk0dlhnY2VCUVpjeHhIRGdUMk5fU0tmSUdLRnFsSm5ERDhnaWllaDNWbVkyRmp2dEpnUDVqb280Wk1aMWJZajQzRVpZWnRYR3EzMXJaSU1OOTBXbERNN01aVkZDTXo2al9qVEF3Z3pyUmlfWXlPNU5vaTAyaUNTOWdGbXdtRHFxU3ZFaExiRzJORm5BQ1hR?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Stord",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "expansion",
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-18T08:00:00.000Z",
+      "summary": "E-commerce fulfillment company, Stord, plans $40M Kentucky expansion, with 500 jobs The Courier-Journal"
+    },
+    {
       "title": "Giant Food and The Giant Company to shutter centralized e-commerce centers - Grocery Dive",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcGtxd3pGOFV3THdmQ29EYlN5eVpiUW94RFdzV2dkNFFRb1RpUEE1X01NQkN3b3JEYVl5ajJRa3h1ckp5WExOdGVzVVU2Nm4wbzRsclp4RXhvT05hNDFqUEY3YjN4Y09pblJnMzRiSFM2NUFPYlRrMkptNl9vX0xjWmxNMUt5SEw1dVhPc0RxVlMtenk1LXVnUUk0ZFVBMmllZkNVQTd5VnNmS051dm5LWm13?oc=5",
       "source": "Google News (RSS Search)",
@@ -1718,50 +1683,32 @@
       "summary": "Giant Food and The Giant Company to shutter centralized e-commerce centers Grocery Dive"
     },
     {
-      "title": "Automotive Automated Storage and Retrieval System (ASRS) Market - MarketsandMarkets",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa3NoWWJaZmI3V0l6YjVvOEdGUGEtTXI2a1FUYURPMjBEQlJZQk90LWxJbWFSTUxWOVpLaThqU2swdllXWTdiMXNwdnZMQnVzNEp5M3B6b3hlYWRZNzZsYy1NdW9sejg1RXZDdEFYYXZLQ21qS0JVVlVTNWJhaWMyQ19oZHdxZUVXQ21qT1BtZ0sybWNGTDRpVWhSSUltVUthRzg5U2lscGJSVUNlV3o0Q3JKdXhjdw?oc=5",
+      "title": "Giant closing centralized fulfillment centers in Pennsylvania and Virginia - Produce News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRXV5YVd4WmpnR243OXNwamhiczhEb211dWpfM2Fwak5ob0J5VEtJUDFjVmRrdlJjSW9qelo4ajExakh0S2RQSkozQV94RWtraXBIcjRwVHNvZzFrRFVXVEEwTFF2dm9vU0tVT3BDUm5kdWx1Q1c5ajBYeHROR1ZjOEVZZWNVOHFJU3hYcHJvd3JaMGxZajJ4dnlvMWFwQ3gxanhuZFlmVmlhYjVsTVNfd252SHlhdw?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Automotive Automated Storage and Retrieval System (ASRS) Market",
+      "company_guess": "Giant closing centralized fulfillment centers in Pennsylvania and Virginia",
       "matched_queries": [
-        "automated warehouse"
+        "e-commerce fulfillment"
       ],
-      "tags": [
-        "asrs"
-      ],
+      "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2025-12-18T07:46:05.000Z",
-      "summary": "Automotive Automated Storage and Retrieval System (ASRS) Market MarketsandMarkets"
+      "published_at": "2025-12-18T08:00:00.000Z",
+      "summary": "Giant closing centralized fulfillment centers in Pennsylvania and Virginia Produce News"
     },
     {
-      "title": "Food & Beverage Automated Storage and Retrieval System (ASRS) Market - MarketsandMarkets",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUTFZekVSLTZLRDNiSUNrbUpQNDFUMDNLRmo5TmJvMVlCcFBOQmJ1ajFBQjBibHBIbF9pRmpnbHd0WjNzTDNMWHN6VlFsUjR5YkwyMjRWQ2tiOWVLLVRtNTB1NlJ1UkJxYXRCVmNYUUY3VUg5NVJEZ3N6TVJLLTRjMHZYamhtMVgtQUFoOXBZTy1NVUNxWWJVWUctbHZra2lGblZGa0dsMzRvLUJmbDBudHhUcGt1MDJ2R2xfZjBVeEttZw?oc=5",
+      "title": "Global supply chain firm plans $20M flagship distribution center in Dayton region - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0JRU253LW4yVU5EUWY5T0UtT3pucEUtODlJT3Ayb05tcTE5S2I5MFloZld3bEtPXzNqRlBhazYyWUdxWGlBa1ZNYUltZHpyaUx6bC1HWkZMSk00aVFJU1VmTTU1U01OWlFKYUR2c0lPcUtKOTZGMjhZakxVUDF3YjdacjJEa3dGWmNiMXU0d2lxQjZRVzZ1QVFrSnBaaXlNdnc?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Food & Beverage Automated Storage and Retrieval System (ASRS) Market",
+      "company_guess": "Global",
       "matched_queries": [
-        "automated warehouse"
-      ],
-      "tags": [
-        "asrs"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-18T07:10:28.000Z",
-      "summary": "Food & Beverage Automated Storage and Retrieval System (ASRS) Market MarketsandMarkets"
-    },
-    {
-      "title": "Kohope Medical Devices Announces 40% Production Capacity - GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxONGsxWlJ3ZnBvTnZWakN0bzFKcEZtZldDak1tcWdOYjh2V09EMVA4RnV1OVJndHhHaUZrMHdsd0NCdklyemVNWkt1OTdMalZJa0VtMktzbGtDZzJsQzU3RGJFYjNrVkVWdVFsTWNDeGxRanBmOVVvTUJMcEJRY0NQSGY1YnBIS1o2SWlySzhVd0ROMzBfUmRVcnVzYzdZOWFUMUZxazJIeWU5cU1xUFZGSHRFZGpxbGtzNGVfVWpKM3NIajQtWHUwNUhFU0kyWlRjbVBkTXFXLXBkMXRlckxmdzl5YjkwY1B6Z3VoSXV1X2NvZ1dOM2p1X2k2VFpaWkQ1T21fdUp4U0ZNdXdTS2UzdlB6MkYtRzh3Y0d3MUp4RjU?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Kohope Medical Devices Announces 40% Production Capacity",
-      "matched_queries": [
-        "distribution center expansion"
+        "new distribution center"
       ],
       "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2025-12-17T08:00:00.000Z",
-      "summary": "Kohope Medical Devices Announces 40% Production Capacity GlobeNewswire"
+      "summary": "Global supply chain firm plans $20M flagship distribution center in Dayton region The Business Journals"
     },
     {
       "title": "FIFA World Cup 2026 to have tickets as low as Rs. 5400 amid criticism against ticket prices - Sportstar",
@@ -1776,6 +1723,20 @@
       "signal_bucket": "low",
       "published_at": "2025-12-17T08:00:00.000Z",
       "summary": "FIFA World Cup 2026 to have tickets as low as Rs. 5400 amid criticism against ticket prices Sportstar"
+    },
+    {
+      "title": "Loan nightmare: Maharashtra farmer forced to sell kidney in Cambodia as Rs 1 lakh debt soars to Rs 74 lak - Times of India",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQM2RGOTVLODN1R2JhNkpKdHB5ZTJudXdJM1ZVS1djek9CbnNDb3pUdkRQeTNDbDVIMnRUQnNvWlBvSmFPTGtiYnF3LTVEUkU2TExDTklNRHJUYThKQ3ExRGlUSnhRampzOTFCQ3Q5cTNmUzBadU52ZTlrX1dLRW5HVG84XzFJNzFzM0xCaEFfcmo4bGwteHpwRV92OUtDTHUxZVpHZC10X09tRm5jd0k5TmFiWHg4aGk1WDBndjEyazVMT3pkRWdGRU9BUHZpM0hhYnIwdUN2U3NsZXZYaU53bnFRWDdPSjR0T0ZVY2xENTA5NDAxUUJPT3NacVFxcjlISFhQMjN30gGLAkFVX3lxTE9PMG5tQXkya0t3OG1xUkdZWUNsUzRGbmxWT3dxVE81TGxVY29Qc1VockltcDlaX0VLREdVdEZtWTc0Z3V0RW5XMjlZdjlVV2xJWWd1cEFud29IM1VCSlpTU0V1akdILTg0clFTaFYtYml3REJaOFByb3JqdUpoWUZicVVfWTNNUVVKUlp6ODRaQ1BUaUw5bnI0OTlHT1A4WTVEeXFDd2pCQkxoejJzZjJvMmFHc0NmOTVVY0JMbURyWkl2UERDZWhSYWdyOVBiYnZPc3AxNjA5MUZqUnNzRDZFamlycG9IQTZ2Q1ZCdFRUN1NNSFpERTdNcnZmQV9vaml2aWl4TWJjel9TOA?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Loan nightmare",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-17T08:00:00.000Z",
+      "summary": "Loan nightmare: Maharashtra farmer forced to sell kidney in Cambodia as Rs 1 lakh debt soars to Rs 74 lak Times of India"
     },
     {
       "title": "Mercado Libre to deploy humanoid robots in Texas warehouse - Logistics Manager",
@@ -1808,6 +1769,20 @@
       "summary": "How cold chain e-commerce outgrew the gift box FreightWaves"
     },
     {
+      "title": "Loan nightmare: Maharashtra farmer forced to sell kidney in Cambodia as Rs 1 lakh debt soars to Rs 74 lakh; 6 held - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNcHd4WkdHOVBHLXRLUnZoSndzODcyY1RTMlI5RlJrNjhBQWkyVzdGRDdBWm9FNERYQ3VYb2FjckhiUUpYT25WWkFZUmphUnI3Mk9UaWR6M2ZMcFdpaDJ0T3lBTHh4enBYTHlzYmpIODVjUDZ3NHJ4YnZCbml4SUNHb0NJZ0twNEp4RjR3WGJadVYtSkcxdjlJeFBhYzJnbUFhWTc1OV9rVUdxSndLOEdGMTA2QnV5bHBmZVRMY3pTTFBXYk5TdUZBRlFzWHZnVUpqQm15di0xUnFnYkh6eE1YUHVtZUpoVTQ2eGs3MEJuQVBjNjg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Loan nightmare",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-17T05:48:01.000Z",
+      "summary": "Loan nightmare: Maharashtra farmer forced to sell kidney in Cambodia as Rs 1 lakh debt soars to Rs 74 lakh; 6 held MSN"
+    },
+    {
       "title": "Volvo Group to open new Parts Distribution Center in Tacoma, Washington - Volvo Group",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNEJNZG4xaVFWb1A3a3B6MmM3UzIzRFlNWGVCR3QteVRxcEt6NTFxTlVHbDlnRm9hNnVqcHJoOGxHa0pJTDFMeVhqVzZvbUFJSWhrQnpBamZ0aGNGbURqd21pN2xxYnAzT1VGZVB4Rm1NSTlnUjZIZkV1STRNQ3dDN3hXSGJjcW44eW41WEtKR0dNMEU1WU9XRExhejIwejBwRUpYdFg5QmtNY2JlU09id1ZSWmdqbW0xU1VwLS1XelJIVzBIbkhr?oc=5",
       "source": "Google News (RSS Search)",
@@ -1820,38 +1795,6 @@
       "signal_bucket": "low",
       "published_at": "2025-12-17T05:41:24.000Z",
       "summary": "Volvo Group to open new Parts Distribution Center in Tacoma, Washington Volvo Group"
-    },
-    {
-      "title": "You can buy iPhone 15 for as low as Rs 30,000: A deal that’s hard to ignore - MSN",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbGJHTGQyVnFMbERhVHlDMVZFTzVnU2VCM1dzMzg3ek02SkZ3VGVvSVpLbjhac1ZrOVc3WHo4eFBYNzdTWWYtSGNBSnpuZW1xSDdFZEZTTUg3WEY3U0JRQ0NDTHotRUpZeXY1eXgzejZKM0ZmN2pwR1RBU1NyY1Z5YS04b2d2WTV1bm1lbTRTZXI3a2xqRktvNHY5ZWNjdjRCTGIyREtoRDlwOURGSGRnSlFWRjdpMFpWTTZQNGh4M1hrMXdBaERGT2tuZw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "You can buy iPhone 15 for as low as Rs 30,000: A deal that’s hard to ignore",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-16T16:55:12.000Z",
-      "summary": "You can buy iPhone 15 for as low as Rs 30,000: A deal that’s hard to ignore MSN"
-    },
-    {
-      "title": "Why Logistics Leaders are Turning to Goods-to-Person Automation - SupplyChainBrain",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLS1HSzdxd2JmdjdXTURBdVpIc2RGR2tUVE5LdVVJQ3lCNm5NeFExVU1RWkdkMEh5VVROVzYzdVkxSGpmMHJ2MjhuLVUyZUx5dlFCbXVQRnR3WGRtaDFuZk16aWNJVkljN3dybzV4NWJVR3dVakVDZXJpTlU1cnhwa1pnamNTTzlRdGRYd2Y0ajdMdl82UW54bGZ6cjVrTjQwNGxxanRFaE5veG9pT3ROZg?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Why Logistics Leaders are Turning to Goods-to-Person Automation",
-      "matched_queries": [
-        "automated warehouse",
-        "goods-to-person"
-      ],
-      "tags": [
-        "robotics",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-12-16T08:00:00.000Z",
-      "summary": "Why Logistics Leaders are Turning to Goods-to-Person Automation SupplyChainBrain"
     },
     {
       "title": "Provident Industrial Secures New Distribution Center in Houston, TX - PR Newswire",
@@ -1899,10 +1842,10 @@
       "summary": "WebstaurantStore distribution center in Hagerstown to start shipping The Herald-Mail"
     },
     {
-      "title": "Loan nightmare: Maharashtra farmer forced to sell kidney in Cambodia as Rs 1 lakh debt soars to Rs 74 lakh; 6 held - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNcHd4WkdHOVBHLXRLUnZoSndzODcyY1RTMlI5RlJrNjhBQWkyVzdGRDdBWm9FNERYQ3VYb2FjckhiUUpYT25WWkFZUmphUnI3Mk9UaWR6M2ZMcFdpaDJ0T3lBTHh4enBYTHlzYmpIODVjUDZ3NHJ4YnZCbml4SUNHb0NJZ0twNEp4RjR3WGJadVYtSkcxdjlJeFBhYzJnbUFhWTc1OV9rVUdxSndLOEdGMTA2QnV5bHBmZVRMY3pTTFBXYk5TdUZBRlFzWHZnVUpqQm15di0xUnFnYkh6eE1YUHVtZUpoVTQ2eGs3MEJuQVBjNjg?oc=5",
+      "title": "You can buy iPhone 15 for as low as Rs 30,000: A deal that’s hard to ignore - MSN",
+      "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxNTzBIalFGMW9kUS1KVENTbFlOc2M4QVRNZjVYN0s3TEJpeGtKYkVGcnN3NUZXaFJXYUc4bFhKdnZCYUNNTWhodHd2RTlSbjcybTR0aGMzMEZuZU9xRl9ZZVVyeWM5V0pRMG84OVR2SUtaZ2Zwb2FmaF80Y0hfMlZ4aHdIYUF0MVI1NWJ3UnpPNF94bE1XZ3dlZm8wbE0teEpwOEw2NVEwb0ppRmE0WmNHYllNcEh4THhRUVN3TWJOQmpPODdxbDdHV1RhOFJLTjBuR0FOdGRzd1lpX1pqQVo0cjRPTmotSGdPc3lqWnJXR2VtdFVGQ3BNOHhYNzZPZDR6QUdCWmVLWXNMNFhLUjM1dzc5RkhNa2FFV1BlTl9wNEtGcEFKNXhUMkh0RV91NTV5UHROQThpTWdhbXd6WUtyMmtybEVWT20tbzZOXy1IUlJlQXBXTTF0X1hHYU9YaTBPLWJUTjRyUDVOMDlsZF9rTWEzQl9uZFp3akplalgtaTMtMU5LNm0wZmVJemUyRG1PNU8zemZSTkFHUkxlQ0JmNlRn?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Loan nightmare",
+      "company_guess": "You can buy iPhone 15 for as low as Rs 30,000: A deal that’s hard to ignore",
       "matched_queries": [
         "AS/RS"
       ],
@@ -1910,7 +1853,38 @@
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2025-12-16T08:00:00.000Z",
-      "summary": "Loan nightmare: Maharashtra farmer forced to sell kidney in Cambodia as Rs 1 lakh debt soars to Rs 74 lakh; 6 held MSN"
+      "summary": "You can buy iPhone 15 for as low as Rs 30,000: A deal that’s hard to ignore MSN"
+    },
+    {
+      "title": "Why Logistics Leaders are Turning to Goods-to-Person Automation - SupplyChainBrain",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLS1HSzdxd2JmdjdXTURBdVpIc2RGR2tUVE5LdVVJQ3lCNm5NeFExVU1RWkdkMEh5VVROVzYzdVkxSGpmMHJ2MjhuLVUyZUx5dlFCbXVQRnR3WGRtaDFuZk16aWNJVkljN3dybzV4NWJVR3dVakVDZXJpTlU1cnhwa1pnamNTTzlRdGRYd2Y0ajdMdl82UW54bGZ6cjVrTjQwNGxxanRFaE5veG9pT3ROZg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Why Logistics Leaders are Turning to Goods-to-Person Automation",
+      "matched_queries": [
+        "goods-to-person"
+      ],
+      "tags": [
+        "robotics",
+        "signal"
+      ],
+      "signal_score": 2,
+      "signal_bucket": "low",
+      "published_at": "2025-12-16T08:00:00.000Z",
+      "summary": "Why Logistics Leaders are Turning to Goods-to-Person Automation SupplyChainBrain"
+    },
+    {
+      "title": "Giant Food and Giant Co. to Close Fulfillment Centers in Pennsylvania, Virginia - Progressive Grocer",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWUZBR3BNSFM3M1RIcUotTDR4amhTWXpIN3NlU0xSV3hOS0M1SldlTFdwRGJMck9xTXVWTGlWTGswTjRtYkUzbml4dnk1dS1yR21HakdUSnk2N2hsYjlwU0RpUGNPU1pibzJPYTFjNC1HNzduRHhXekNvU29YVDNtN2ZibFJLUmsyS3ltb3hoOFdPS0lxeExsaDV3VXJVb1BkaGxV?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Giant Food and Giant Co. to Close Fulfillment Centers in Pennsylvania, Virginia",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-16T08:00:00.000Z",
+      "summary": "Giant Food and Giant Co. to Close Fulfillment Centers in Pennsylvania, Virginia Progressive Grocer"
     },
     {
       "title": "Ahold Delhaize USA to Close Six Mid-Atlantic Fulfillment Centers - Store Brands",
@@ -1925,20 +1899,6 @@
       "signal_bucket": "low",
       "published_at": "2025-12-16T08:00:00.000Z",
       "summary": "Ahold Delhaize USA to Close Six Mid-Atlantic Fulfillment Centers Store Brands"
-    },
-    {
-      "title": "Worksport to Open AI-Integrated Strategic Distribution Center to Boost National Sales Ramp Up - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZE8xZFZuY2FOS2liQTRtUWtZbUIwV0JSOVltMWxmSjAyV1pEZzRLT0NITVFWVnV5UEVUbHBrandkODRybVlnT2VfVFc1NVVYUmk3Yjh6UTRNOXJkQ0xaZm1ERElNR05FSHlHX3hQWThHdU14Mk1vMUV4THA4eWtlMGRsdVN2VlMzbDdIWENqR2o2WXY5Q0wtZGFSSmdjb2xpNl8xTkFmUzQtYkVBUDYxNGxXQXloeVlGdURxVmxGQUdSRXU4OE1Qd2pNUEMyckoxZ2R1YUtzbVd3WEdkcGc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Worksport",
-      "matched_queries": [
-        "distribution center expansion"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-15T17:43:57.000Z",
-      "summary": "Worksport to Open AI-Integrated Strategic Distribution Center to Boost National Sales Ramp Up USA Today"
     },
     {
       "title": "Kroger to build automated $391M Kentucky distribution center - Chain Store Age",
@@ -2038,7 +1998,6 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Zebra wants to sell off its Fetch robotics arm",
       "matched_queries": [
-        "warehouse robotics",
         "AMR warehouse"
       ],
       "tags": [
@@ -2062,6 +2021,34 @@
       "signal_bucket": "low",
       "published_at": "2025-12-15T08:00:00.000Z",
       "summary": "H-E-B set to build 51,599 square-foot electronic fulfillment center in Frisco Community Impact | News"
+    },
+    {
+      "title": "Holiday Fulfillment in 2025: 10 Tactics for Shipping, Delivery Dates, and Returns - Shopify",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHM3M1Z6QkUteGprMjhNNW9vU3RkNlpwSm1VSFpPTjF1X2VWSVFvb0k5SHNVNzNyMjA0eWhjblU4czYxaGpJeGw5WVFyc2N1cjVuVzRBazNvWnpjTG4zeUJKQmNUamNlVnl6WkRMNWtaVWphbUZMYncyTVFWSER0OFkweWtteWhmLWEtTEFHTQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Holiday Fulfillment in 2025",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-15T08:00:00.000Z",
+      "summary": "Holiday Fulfillment in 2025: 10 Tactics for Shipping, Delivery Dates, and Returns Shopify"
+    },
+    {
+      "title": "Robots that spare warehouse workers the heavy lifting - Technology Org",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSmQtS3JSTGptUmhncGxhVkE0Mi1RMVo0NTRHTURzN0haYkxxSmFKYmQ1NDlJcVNQX0VKRUtXdl94NmhjblVIb09FYmFtM1g0enJwU1YyeWhZSEpmYnQ5ZVA4eFV2S2tLUms4WkJfdWg5U2tzV3Z1MDduOTN0MkpOOVdYSm1BdTJlT1dLQi1Fb05FbDVMcXEw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Robots that spare warehouse workers the heavy lifting",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-14T08:00:00.000Z",
+      "summary": "Robots that spare warehouse workers the heavy lifting Technology Org"
     },
     {
       "title": "Warehouse Automation Market Size to Exceed $71.25 Billion by 2033, at 15.93% CAGR | Research by SNS Insider - GlobeNewswire",
@@ -2126,20 +2113,6 @@
       "summary": "Kroger to add new distribution center in Franklin, Kentucky WDRB"
     },
     {
-      "title": "Exclusive: Newark clears 160-foot automated cold storage warehouse - NJBIZ",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JeUZ2OFg0MjZLTE5tc09kQ1BldnF6NVpOUDVXR1Z3aERzaFJXUXh1X0NKYW1zVk5ldzZPRlFXTENLUU91bkR4YlNuVjRKQXVDdTNWUWtCdmJoRDdHd1AyY2M5eGRtQlNWTmc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Exclusive: Newark clears 160-foot automated cold storage warehouse",
-      "matched_queries": [
-        "automated warehouse"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-12T08:00:00.000Z",
-      "summary": "Exclusive: Newark clears 160-foot automated cold storage warehouse NJBIZ"
-    },
-    {
       "title": "Arkansas electric company to build a new distribution center in Boonville - KOMU 8",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNi1HVkt3UFFiTzVHYjhkMmFzVkFpUFQ1NXF1bUt2TFk2Y2Q3WXJvd0Rmb0ZuR3FiYThjTExQNlVhTG9ES085QjR1TEVzZndEeFhZMmtZb0UxbGZaWEFicWowSi04bm52NGpaUkV3NTJrWGlLTDNXNkZwNEJLQkRQRUdvS0pKVThtMkQyejhBc05iRU1NYTc5bEtwRmN3bEZnNEZScjlSdVE4T0dSbXVuVFZMVnZmWW9ob1Zkbm1Pd1NJMExvSWpLdW9pQWVqMUUwa2xrTk9WOFl5MHNjVXpKdkNpYmRQdllaeEUxTjZ2bjJ4Q1o2NUpTVA?oc=5",
       "source": "Google News (RSS Search)",
@@ -2197,6 +2170,22 @@
       "signal_bucket": "low",
       "published_at": "2025-12-11T17:53:34.000Z",
       "summary": "Kroger to build $391 million distribution center in Kentucky, creating 430 jobs LEX18"
+    },
+    {
+      "title": "Power management firm Eaton picks Sauer Industrial Center for $50M expansion - Richmond BizSense",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeGhETGRoN2JnTGxLaWtqQm10U0U0dGNhS05GTFpJeGExNmFZM3FnNnJkSXJTSHpyS1RVbzRmZkVKb1pYQ0V4R1dFaVhoaDlvSFpIazhBRy1RUjU0MUZCMWZmWjRsbmtKSXlzdUI1UFVLLVhuVG5XeXl1NGlRNG5LX19saXZ6blFSQzk1UkxiQUhDVXNQU01LV3p6NmlnVTlzcmRVZkNWYTdXUjdIMGJzeHJBS2xSNUU?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Power management firm Eaton picks Sauer Industrial Center for $50M expansion",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [
+        "expansion"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-11T08:00:00.000Z",
+      "summary": "Power management firm Eaton picks Sauer Industrial Center for $50M expansion Richmond BizSense"
     },
     {
       "title": "Kroger expands Kentucky workforce with new distribution center - Spectrum News",
@@ -2345,20 +2334,6 @@
       "summary": "57% of gains from cryptocurrency investment in one Indian state as Rs 293 crore TDS collected in FY25 The Economic Times"
     },
     {
-      "title": "Digit humanoid joins Mercado Libre warehouse - The Robot Report",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RcDZxYTN3REJrMzBhOURVYjhKaGZzMFd3WE9SVDdDOVRIQmJpNi1pTV9zaFdMbHZid3FCUVNGTXJiZFFFOFN5YWJORG9wQ3d4b21UeUJqenc4N3N6dU9JSThoam1OY2VtN2FaT1RCQm0?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Digit humanoid joins Mercado Libre warehouse",
-      "matched_queries": [
-        "warehouse robotics"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-10T08:00:00.000Z",
-      "summary": "Digit humanoid joins Mercado Libre warehouse The Robot Report"
-    },
-    {
       "title": "What is Global Ecommerce? Trends and How to Expand Your Operation (2026) - Shopify",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BUWY1STFQRE1qTVdCb1BsaVpFOWc1TktIVHdqRkRXS3Fqdm00Y3J3aHg1SWdiQTVmWkNseWJmQUNNdmlMdXJ6dS1xTDNoR1RIdGtsNHRiY2E0aTV3Z25DOWg2U255Q1lnUXBiTDBZN2RwVlFacnc?oc=5",
       "source": "Google News (RSS Search)",
@@ -2495,6 +2470,20 @@
       "summary": "Why Kroger Decided to Close Some Fulfillment Centers Progressive Grocer"
     },
     {
+      "title": "Kroger cancels plans for additional CFC, will pay $350M to Ocado - Grocery Dive",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONlVuZ3RlMU9DYVljQzNqajlCU1c4eE1ORTRNX2lsT3ZILUotTHVGMWRzR25IUjZhSHVUQkxEdFd0QjdkSjI4UHRfWTVYMUNoSThCR2ZneEdoanlHLXJ6MGstODFJSS1LdVVLS29kNmk0TmZlVWJRQ1ZDTzJaMG1wdjQ5c09zUnNPOGllT1U3MERZM3FPR1RoOU9YYkJHYnYzTUVyZlhLZUNVT0xEOWxBVg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kroger cancels plans for additional CFC, will pay $350M to Ocado",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-05T08:00:00.000Z",
+      "summary": "Kroger cancels plans for additional CFC, will pay $350M to Ocado Grocery Dive"
+    },
+    {
       "title": "East Coast Warehouse & Distribution Announces Expansion at the Port of Houston - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUmdFRFl4UUpfakVBT2JLa2JVQmh2cGdaak50dXNpblpwakxibVNndXdtbE9GSlpFdzRaaVBqTXZlZ01UMnR3YkZrTGQ4b0VSbFEyc3hSZ19CUER3a1pKRHFrUVM2VDl0SWNhRzFqVTVUS0xvSWtkUEFOR2pCbjZIeTFwLUtaRGhvbWdIMktUbG5USlBMcmJXM3ZycWV2RVk5dU5fdmEzUjBsX01BV3l1Z3Exd0FyLUFSN2xzUy04NHdCYU5vbFVtNGYwTVVNZw?oc=5",
       "source": "Google News (RSS Search)",
@@ -2560,20 +2549,6 @@
       "summary": "Kroger expects to reach e-commerce profitability in 2026 Grocery Dive"
     },
     {
-      "title": "News | Kroger to accelerate store openings as it moves fulfillment to retail locations - CoStar",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWFN6SmJxYzhqUFUxQUFNaEdOZ0FRYXQtNDg0cXo2UXdxNmR1a3UtOGd6dU5vaGVIMzhnNzBWYWdSYTBlQ2w5LS1DTXNidkZLaGd3NDZrWVJ6RUNYU21LaVZiemtRUE9zZkp1dmtUVW1hc1hMelU0VTZNckxNSlBoNnlSMzlsWUpZV21IQWRQaFlxVXVMRVhXTGt3ZUNLQkxEdEVMZG9BeVZudW56QWx1SGhUQVZjSXgtaGoxOA?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "News",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-04T08:00:00.000Z",
-      "summary": "News | Kroger to accelerate store openings as it moves fulfillment to retail locations CoStar"
-    },
-    {
       "title": "Roboteon Announces Powerful, Certified Warehouse Automation Solution for Microsoft Dynamics 365 - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdkMySnhMRjBmTUQ3RzBtNE1VVW9DaldvaDdTYk8ySS1UYi10cUx4TDlrT255REdhWHFDZDF5NF8zYnNKWmVuZ0xzZC1SY2lYTFd5UTIxT0dDZmFodVV5bWdUYWxlazFCdzFEdjdYTmVjcFpULW5leHZZNmZGSTJSX2J4SkIxNXZmMFRsOFNGcmM5c05MMFVpXw?oc=5",
       "source": "Google News (RSS Search)",
@@ -2588,20 +2563,6 @@
       "signal_bucket": "medium",
       "published_at": "2025-12-03T08:00:00.000Z",
       "summary": "Roboteon Announces Powerful, Certified Warehouse Automation Solution for Microsoft Dynamics 365 Yahoo Finance"
-    },
-    {
-      "title": "How Will Mujin's $233 Million Funding Shape the Future of Automation Technology? - DC Velocity",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeGdBOWtZN05jRW1vdVhOQjRJaUhfVHpUcUxHSzQ3VUhwT19KVmlDZUFUSmFua0dEaUVEcVNhYmY1Sms4bDJHbXpmZlFoMkdDMXJ5NEZ4X2szNUNnNDl1Q2xXVDJwdWh2ejhmZzJ0LU80QmRDWjRnUElBRDRCTFhRRGhyajV0X21GVnFBbW5TSFljY2JsOVRyekRadjJUejZEOF9tNWRCYUNPcWRJa1RyR3JnX1VKWWNPVXc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "How Will Mujin's $233 Million Funding Shape the Future of Automation Technology?",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-03T08:00:00.000Z",
-      "summary": "How Will Mujin's $233 Million Funding Shape the Future of Automation Technology? DC Velocity"
     },
     {
       "title": "Axionlog lands permit to clear site for North Jacksonville warehouse expansion - Jacksonville Daily Record",
@@ -3005,22 +2966,6 @@
       "summary": "'We want to deploy more robots': MIT spinout's warehouse robots learn by doing, not data The Business Journals"
     },
     {
-      "title": "Cyber Monday hits hard for one Vista e-commerce shipping company - NBC 7 San Diego",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMDljbUU3Z2t0SXRmbTQwZEhVQjZxOFR4YXItRC1KNHZEOFpmS2NMU0sxOUVoVUpYUThDUnNzU3J3VkpjQjdZQ3lvcDhqNmstaFdLUXllSXlmMVBJdkNaa1hZbzJhZWpiTFRSRFpUSmRkYS01N3ZKdWthSW5WSHRDX1J0em5tNDRZV05MWWV3MnZfUDRtZjdjd1hiUEFfYmhZWjVHLXdHaEFDQTVqdUw4WHNn0gG6AUFVX3lxTFBTdTFqdjdFVUl0c29WdDJBVGwwNGEwUkpRdmRvdGZGMEJwRGlqTWZKSzlRVXZnTldxR0NUTWFhYTZIRzMxUldLVjVWbTl4OHVmeVhEbGtIVWN2QVFsNHN5b0tEcFhGTFhoWEcyNjVsd05xMXdIbTJPa2RlS1FKaFdIYWJObmNkQU9RbHgwYXViYUJSLWZFbVlXRm5kYjZPakJ2eGx0TTVuNnktTG15NzZ4dWFMbVpCNVZsUQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Cyber Monday hits hard for one Vista e-commerce shipping company",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-01T08:00:00.000Z",
-      "summary": "Cyber Monday hits hard for one Vista e-commerce shipping company NBC 7 San Diego"
-    },
-    {
       "title": "Chick-fil-A Supply will open large distribution center in Winter Haven - Lakeland Ledger",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVjRGR1dCZnJlRW91aFZGbUpWRHpqT0RqMnN6Y3I3Yy1mMUUxRExVVkdLbUlld3hMeWkzNGIzTHpKalFseXBOVWdoSm5MYzVtVWpHaXZqeWVzOVFBMDVqTzJyYkFGT21NUVkxSVVoSTlXeFRXRHc0bnJmQWNHT2x2aVU4QjV2cUlFaTVONHA4cUdqdUo4M010akJNekpPNHozdUt4ZWpVbXd1NjR3RjBZLVhiWUNxSDNqTU9ONkQ0Vm83ZXlIbk1fZVQzSDNhXy1udE1kZ3hzc0swWXhvenc?oc=5",
       "source": "Google News (RSS Search)",
@@ -3078,22 +3023,6 @@
       "signal_bucket": "low",
       "published_at": "2025-11-26T08:00:00.000Z",
       "summary": "Procter & Gamble shows off state-of-the-art automated Morris warehouse on GEDC bus tour Shaw Local"
-    },
-    {
-      "title": "SportsShoes.com invests £1.5m in semi-automated warehouse system to boost growth strategy - FashionNetwork - The World's Fashion Business News",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWGlhMVg4LS1FaG5uRV9QRWExM0RsTy0ybmIzODM1Z3NkSDBPai1ZclFINmdkZThVX0tPcDdMOTBpOHdjY212WWl5Wm1Nb3ppaUFUbXVPLU44UWhUcXgxM3VBY1I1TGxHWFBMU0ZzRm9mZC1hQlFYUWpZQjBvM0pJRUlFOHBhSzJoVzQ2RXBuMDl4R1UwS3luWmNBeFRNcHVxRGxCWjVSU0JpLUhnTVB1SHc3NHRxekZma0dkRXJpeUNuWXBQcl9fNk9ZdEhyTGJsZ0E?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "SportsShoes.com",
-      "matched_queries": [
-        "automated warehouse"
-      ],
-      "tags": [
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2025-11-25T08:00:00.000Z",
-      "summary": "SportsShoes.com invests £1.5m in semi-automated warehouse system to boost growth strategy FashionNetwork - The World's Fashion Business News"
     },
     {
       "title": "LEGO: Construction Projects at Heart of Americas Expansion - Construction Digital",
@@ -3170,6 +3099,22 @@
       "signal_bucket": "low",
       "published_at": "2025-11-25T08:00:00.000Z",
       "summary": "2026 Will Force a Warehouse Robotics Shakeout Automation.com"
+    },
+    {
+      "title": "Kroger acknowledges that its bet on robotics went too far - CFO Dive",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbzFtQWpHa2tCaHB4akJIZnE2LU1fcERKandkTGcwV2VIUS1mY0V1UDd3S29udVY3M1NjMDZxYmY5T3Z1bVRZVG0wbU9qUmdCVklpdUlVdURKNExsZDRmclp2eTVDWThEM2lPWDRSMmhmLVhwTXN6a01RbFVKRGgtZGNzTDhQRHZTNXVscXc4bXA1RDFvWTZBc1Y0cUM3S1V4eElOdGVwZDlmajNqZFNCMHZB?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kroger acknowledges that its bet on robotics went too far",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "robotics"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-25T08:00:00.000Z",
+      "summary": "Kroger acknowledges that its bet on robotics went too far CFO Dive"
     },
     {
       "title": "FloridaCommerce Highlights Continued Investment in Florida’s Intermodal and Manufacturing Infrastructure with New Chick-fil-A Supply Distribution Center in Winter Haven - FloridaJobs.org",
@@ -3331,6 +3276,20 @@
       "summary": "Indian American student puts autonomous robots in the warehouse The American Bazaar"
     },
     {
+      "title": "PhysicsWallah stock slide: Shares sink for third day as Rs 8,600 crore wiped out since debut - what's next - MSN",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQUFc4WUVMeVpvd09KU3BRSkZIczNlUnZKVlJoZzA1VkNGdkJOVkw3SjFNMjZma2gyZGdjdmExeGVVTTRCb2ZBLWtvWHZ6ZGtHQllEOTlTTDIyU2Z2TzlCQ2hFX0p5MjBUTXBaNUpja1U5djhYQmhVcDBsYS12U2NHc2ZXX3FFeElhak1ILW1mdjVzZ2Fja2FoeHBUZk5XNEl3TjVsZjJrZ3R3QW1vSDNFYVRLS3paUkJTWFN6a0M0VmtXYnlGSk1sNGZfbzhtRk1tdkp3Znlkb1NZc3Y4ckxPUHp6Y0RWRXNhZGVsLXhsV0F3dDVMbWlLWUxMVmVKbU83S2l5RlFRMTYtTkU4dkE?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "PhysicsWallah stock slide",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-20T10:23:33.000Z",
+      "summary": "PhysicsWallah stock slide: Shares sink for third day as Rs 8,600 crore wiped out since debut - what's next MSN"
+    },
+    {
       "title": "Belgian company starts work on $25 million expansion of Baton Rouge terminal, will add 13 jobs - The Advocate",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZ3E1UTRYYVB1bm1tWFZrbnV6SGdzbFBNR092S3A0cnl5M0RKRWw0V3E1cHNvMmozdWZONlNyWldrTEdiRkdyTUdhdGpzVVk3MHZOVEI1Nkd4TTR5dmpJU0d2bm94VEVfSFB5WXhPeTFsYWR0M3JTY0pGQWw5cmxueV8zX3h4SW04Y0ZVQ0c5X2RJcWF4aEdKVjBVd0doenBVY2dYdkRnTWh5VkNFYThQMVNQbzFvSV9HQW1aV2M5Y21pZWlxVmRBdGluZU0taUIxX3VZb1RGZEtoR1ctOXBkUGtBaUR0ODUyWWNqczY0ODl3bkVaVnc?oc=5",
       "source": "Google News (RSS Search)",
@@ -3436,20 +3395,18 @@
       "summary": "Why does Kroger find Ocado's customer fulfillment centers so unfulfilling that it's shuttering nearly half of them? Diginomica"
     },
     {
-      "title": "Walmart e-commerce sales rise 27% as shoppers opt for same-day delivery - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTENIbm9seW1iMXUwTTZBbERxRjVKNFBIXzRoNWs0R2k0aFZFdmo1Y1A3bDBPZGVMMUFDWUZrYnNjUmFzdzJjMGFPWnR2cHd2bUhqblE0R2l5WDdxYjhuZnk3WHJlUU84WEZiZDdkcmk2TXVxUTgyMS1aOUxVMEhUcm9UbXVZdFd4NlAzSUJOb1J1S21lVmZQcnBVcGE4Q0hROFNLb1FTMA?oc=5",
+      "title": "Walmart grows automation usage throughout supply chain - Supply Chain Dive",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdVA4anRJaEZmWEhndV84bmRvNU8zT3FMTjJud1BINzRQX2U0elJ4WHh0dEtqQ0Z3UlBjSjlpcGNrWi1XMWdmT1hsRUwxNEJacV9yTGdqblNaUEtBZTR2YmFjYVlBajJlbjdoTDBSdlJXVF9neDh6aG1XTURiakNaZ0o0Tm5wbFEyZmlxOEsxeS1iZjc3ZnJjeTI2ZUI?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Walmart e-commerce sales rise 27% as shoppers opt for same-day delivery",
+      "company_guess": "Walmart grows automation usage throughout supply chain",
       "matched_queries": [
         "e-commerce fulfillment"
       ],
-      "tags": [
-        "ecommerce"
-      ],
+      "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2025-11-20T08:00:00.000Z",
-      "summary": "Walmart e-commerce sales rise 27% as shoppers opt for same-day delivery FreightWaves"
+      "summary": "Walmart grows automation usage throughout supply chain Supply Chain Dive"
     },
     {
       "title": "Survey: 98% of Warehouse Workers Say Automation Helps Productivity - SupplyChainBrain",
@@ -3464,22 +3421,6 @@
       "signal_bucket": "low",
       "published_at": "2025-11-19T08:00:00.000Z",
       "summary": "Survey: 98% of Warehouse Workers Say Automation Helps Productivity SupplyChainBrain"
-    },
-    {
-      "title": "Kroger acknowledges that its bet on robotics went too far - Grocery Dive",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaWlaczQtWnRXZEFWWGNTWnc1QzE1N3prS0wzdE9DM0pTRXBrZm01TDI2M0VraG9BNHZDeWRVczhReGlCaDFMa0NVVFdiMVlWcTFzZnRDdGljbTRWdmtnWVNuQWw3Z0R0MGFqWDV0WmVKNjNYc01fRjhzUEF3RW85VnhoMlAtNmFYYi05N0xCcVdnei04VmNmbWgxRkdWUk1nMWdfa3VqZkpFZXBySVREVEYwSmtEeXM?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Kroger acknowledges that its bet on robotics went too far",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [
-        "robotics"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-19T08:00:00.000Z",
-      "summary": "Kroger acknowledges that its bet on robotics went too far Grocery Dive"
     },
     {
       "title": "Ocado slides 17% as US partner Kroger closes robotic warehouses - Reuters",
@@ -3636,6 +3577,38 @@
       "summary": "Kroger Evolves eCommerce Offerings to Improve the Customer Experience, Drive Profitable Sales Growth PR Newswire"
     },
     {
+      "title": "Kroger seeks e-commerce profit boost by closing distribution hubs - Chain Store Age",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTGtaU2FJUTlSaWNFS1Jkb1hBS1M4UWxaZVNORVc2U2xGRE5FQ0trZDhPWDVpdFhlOGlmcEJBZWJxUEd3cHdwMlJkQi1oSWpTZlQ4WGdyUmpBSGM5ejd0R0JMVUt0NGw3dDlNdW0xXzJvSmJfUDE2QTV3eXZJejlvQjlLMWladFpiMjZGNHVBUWNRZw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kroger seeks e-commerce profit boost by closing distribution hubs",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-18T08:00:00.000Z",
+      "summary": "Kroger seeks e-commerce profit boost by closing distribution hubs Chain Store Age"
+    },
+    {
+      "title": "Kroger to shutter 3 facilities in new ecommerce approach projected to add $400M in profit - Supermarket News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX1RJelZrUXZYcGNYemQweXE1cWdjOXRzMjJIc3JaaHhVNGlpMkpXNG9MOVROTm1oY0hkLWQtaWpWQWl6em44UDIzYlFMWjU5MHlnOTlsVUgtajdVTDZTTDhqaDh3cWtEYzZNdFNoOGFGd2RPWlVSOXB2ZmwycFpkZFJ0LVhBbm5TNENxR3BWNnRULVVHRVoxc3E5Z3BoMmwtRUpTSjc3TlEyYTN1S2JQR1VaaFNFNlBaeGJSdmIwZ3dkdHBIcVNxUWNpTDU3Vk02dnpQZEpR?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kroger",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-18T08:00:00.000Z",
+      "summary": "Kroger to shutter 3 facilities in new ecommerce approach projected to add $400M in profit Supermarket News"
+    },
+    {
       "title": "Is Toyota's Warehouse Automation Shake-Up the Key to Future Success? - DC Velocity",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT2NfNkR3VXpOaTh4WDZSY1gxMFdHYnRUUEgyREF1cEJoWDRkWDZQdURHaG4xRW1oWDhtWGt2LURidEg0ZmJnaHFXRHZrQmFWME5YZDVqSU53MVQxWkJKOUNBQUoxZnpLa0xlRm44NDllU0JpZ2tpcHg4eXROUkxxcFROZGRGZkRKV2lQTU1ucjlhMGpwRGR2NzVkRHM5R2F4MVVjTXJJeHM?oc=5",
       "source": "Google News (RSS Search)",
@@ -3696,6 +3669,20 @@
       "signal_bucket": "low",
       "published_at": "2025-11-14T08:00:00.000Z",
       "summary": "Warehouse Operators Report Higher Job Satisfaction Working with Automation: Exotec Report Supply & Demand Chain Executive"
+    },
+    {
+      "title": "Wärtsilä to expand main spare parts distribution center - Power Progress",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZjItUVhIM2FyaktWV0ZZZldHY1RYLXhNdkJyVzZXQ2ZvWmI1X2ctTHRTZGRDMTJmdHkzaTNpS09raHdnSmNVeGN1T2Vhc1BCTmVaZnFuWDc5czRRa1ZWUE11dUpMTlBCUWR3NkdXUUtXMExaOEMwVEdVZUdZaDdqUU5SalVhYTU1OWtlcDk5MjZLSXE0emhRUEU5RzVvSW8tZlFJV0ZPcGdGQQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Wärtsilä to expand main spare parts distribution center",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-14T08:00:00.000Z",
+      "summary": "Wärtsilä to expand main spare parts distribution center Power Progress"
     },
     {
       "title": "Amazon announces Lima-Area expansion with new delivery facility - Hometown Stations",
@@ -3859,21 +3846,6 @@
       "summary": "Matthews International (NASDAQ: MATW) to sell Warehouse Automation for $230M; reduce debt Stock Titan"
     },
     {
-      "title": "MHI Completes Joint Demonstration with Kirin Group for Automation of Warehouse Operations, and Truck Loading and Unloading-- Automation Processes Established for Cargo Handling, with Effectiveness Verified at Logistics Facilities - Mitsubishi Heavy Industries, Ltd.",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83X0hYT0w1TGV6N21KbnJsMWRzWTljUUVIcm5ibFY0eVFVYXFlOEt5LWdpMzFxemdGN1RCNUZISno5OEIzdHBlNlNSZlpGZUU?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "MHI Completes Joint Demonstration",
-      "matched_queries": [
-        "warehouse automation",
-        "automated warehouse"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-13T08:00:00.000Z",
-      "summary": "MHI Completes Joint Demonstration with Kirin Group for Automation of Warehouse Operations, and Truck Loading and Unloading-- Automation Processes Established for Cargo Handling, with Effectiveness Verified at Logistics Facilities Mitsubishi Heavy Industries, L…"
-    },
-    {
       "title": "Survey: Automation attracts warehouse workers — here's why - Chain Store Age",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPU2V3UzdtYjBLNzdfaE1TSkJYZXpncUtqVkVmc2pqYkRVdTNrSkpUekFKblNwbEtsMm1ray03UzdLbTlDalpnQmFVTHg1NVk3UGhkc2JiaDZKV1MxQ1NZeG04LVc3VkRWWE1DbUt3WXU5ZDgtWlkwZU1XT0M2TVpfQlM1aDB5a1E?oc=5",
       "source": "Google News (RSS Search)",
@@ -3889,6 +3861,20 @@
       "summary": "Survey: Automation attracts warehouse workers — here's why Chain Store Age"
     },
     {
+      "title": "MHI Completes Joint Demonstration with Kirin Group for Automation of Warehouse Operations, and Truck Loading and Unloading-- Automation Processes Established for Cargo Handling, with Effectiveness Verified at Logistics Facilities - Mitsubishi Heavy Industries, Ltd.",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83X0hYT0w1TGV6N21KbnJsMWRzWTljUUVIcm5ibFY0eVFVYXFlOEt5LWdpMzFxemdGN1RCNUZISno5OEIzdHBlNlNSZlpGZUU?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "MHI Completes Joint Demonstration",
+      "matched_queries": [
+        "automated warehouse"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-13T08:00:00.000Z",
+      "summary": "MHI Completes Joint Demonstration with Kirin Group for Automation of Warehouse Operations, and Truck Loading and Unloading-- Automation Processes Established for Cargo Handling, with Effectiveness Verified at Logistics Facilities Mitsubishi Heavy Industries, L…"
+    },
+    {
       "title": "Smart Warehouse Guide: How To Use a Smart Warehouse (2026) - Shopify",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92ME1fQTU3Sm5sQkJCQkNXcTI0WVkzak01MUoyRVU2WWlLVGdoc1duT3UtVWZfUXdCSld2Mm1YMlBLVGtkbGh4ejcyckRMRG5VMWdtdGV3NA?oc=5",
       "source": "Google News (RSS Search)",
@@ -3901,20 +3887,6 @@
       "signal_bucket": "low",
       "published_at": "2025-11-13T08:00:00.000Z",
       "summary": "Smart Warehouse Guide: How To Use a Smart Warehouse (2026) Shopify"
-    },
-    {
-      "title": "Cameron Ashley Expands Florida Presence With New Jacksonville Distribution Center - The Fayetteville Observer",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS0RFb2dha2VPdWw2OWxRdS1zZDRkdXhGeTJoY043OHA1OGRZVzc4NXZEZnpsbXZxbkdaOU11a1Fiblg2eGd3OWNGUk5yVGpHaDVveHpaYWNuNXpadnJlVGxSaThPUHpqYWN0WFZjZVZ2TEdtcWk2Smo0TVl0LUhsbUZQYVpNT1VRZVhta015R2N4bUpqd2JBWFNSNGVHNk9JYW5wNWppNDNaNjFvLUVRdjRoRTR4R0IyQVNiaFE0cGUwSTRXN2o4aDZPUjNTTmRWRWc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Cameron Ashley Expands Florida",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-13T08:00:00.000Z",
-      "summary": "Cameron Ashley Expands Florida Presence With New Jacksonville Distribution Center The Fayetteville Observer"
     },
     {
       "title": "Richland distribution center honored for safety record - Tri-Cities Area Journal of Business",
@@ -3983,8 +3955,7 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Toyota Industries Corporation",
       "matched_queries": [
-        "warehouse automation",
-        "automated warehouse"
+        "warehouse automation"
       ],
       "tags": [
         "signal"
@@ -3993,6 +3964,22 @@
       "signal_bucket": "medium",
       "published_at": "2025-11-12T08:00:00.000Z",
       "summary": "Toyota Industries Corporation to reorganize its warehouse automation business in U.S. and Europe Modern Materials Handling"
+    },
+    {
+      "title": "Lineage celebrates fully automated expansion for Indiana cold storage facility - The National Provisioner",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUkhDNXhFTWpjeDhLN3Y1ZUNub3pwZTlVT2h1VEpEQkNReFRPc1laS3BOT2oxZlp6VkRpNWxtTzN2SGUway1xWVlHYlBYWjBrUzFZTXpySG5vSHctRnRfRnNMUFJqSWRydl9pN3ZMQUJ4Rkc4RkhneExtZGRDWnc4QkRub0FCbmtKMXhMdi04MjRLcWVQQTFMZk9tMy0tUk15WU9adEJIcU5KZVNWMnJHcDhHRHRONVhPbnZLVW1vd1ZjMVdNdklR?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Lineage celebrates fully automated expansion for Indiana cold storage facility",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [
+        "expansion"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-12T08:00:00.000Z",
+      "summary": "Lineage celebrates fully automated expansion for Indiana cold storage facility The National Provisioner"
     },
     {
       "title": "La-Z-Boy opens distribution center in the West Valley - KTAR News 92.3 FM",
@@ -4074,22 +4061,6 @@
       "summary": "Rajinder Gupta, Sat Paul sworn in as RS members Tribune India"
     },
     {
-      "title": "Cencora plans $1 billion expansion including Dothan facility - WTVY",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWx2b3VZSU5GdmZ4Rk94eEZkUUd2bXdkQ2RIWjlWU0RJRkI4Y21xUVFjSEdndno1d1NoQ2NwN2ljbmNIR0hoNGlrSHVKMzZJS1U5NGJGb0RJWEYxRDJBY2hENkpCYi1DODB3VTlad3lleVJWNVhzUjAwRUlGNHVwWWloZXB1Sk82dmk0eF9Mb3JRWXJsMzVj0gGrAUFVX3lxTE5PVlJvZlptR0hXak82enluT3FEeFVNSjVobnNPYjRSbmtlQVAyX2pZZUliV2lUNlVqRG9RYVNjOUlranBSRlpsU1o4SC1KdTJSVDl3NFpSUl9OS1lrdTdXdXY1dV9GV0VxeEZYYjUzQ2hKRVlUazZidU00TXRTR2pZVlBJaHNEX3dBYm9KYlFvcnpjZUd2MFRYM1VRRXRMZDJVUmd1TGhoSDlQZw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Cencora plans $1 billion expansion including Dothan facility",
-      "matched_queries": [
-        "distribution center expansion"
-      ],
-      "tags": [
-        "expansion"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-06T08:00:00.000Z",
-      "summary": "Cencora plans $1 billion expansion including Dothan facility WTVY"
-    },
-    {
       "title": "Novus Foods breaks ground on Delphos expansion - Hometown Stations",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdmF1Y3p1d21nYzNZVG5wNDg0TFF6Y1ZkU3hKOHZGcFZqMjVxazJrOHlvbXpsa3cwdHc2T3M0YXlRVEJFdmh6UFNWR1h2aVUtS1RqeU1VaHJISi1OX0JWMVZBLURlWWsxMVhZUkJxWW81MnNWVmp1NzNnU3lMY2lqODIzQWdpX0doWnVuM3ZPbjctYTM1RmZJaWlmTlpSeVdjcTZ6NnVRUXF3MGIzVE5ISXpZdG9XdXRKYlVkbjhwdjdvalJWamVZeExZRzNqV3M0VjUzaXM1SXNuRVFTN0VmUQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -4160,6 +4131,23 @@
       "signal_bucket": "low",
       "published_at": "2025-11-06T08:00:00.000Z",
       "summary": "Unlocking the last mile: A strategic framework for in-store fulfillment Supply Chain Management Review"
+    },
+    {
+      "title": "Advanced Intralogistics Acquires Anchor Technical Services Expanding Support Capabilities for Warehouse Automation Solutions - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxONGRYSUs3RldUODhMRFloeWl5eG9aejIwTWI4OWNxYVhZU2pDWnRwNkgtMEtkSFByZlZkYVlyaGlIYThIQ2ZmNGNmYjlHbk5Ub241QXFORkxaSlN5Z0xSNlpUOHJRR0gxY0JoYWszM012TklUVXRqZXhRaU9aZkhLR1RHWE5Ua1Ayb0tfaWlsWTVMYVlxeHpHRWpUV2plcVNTWWhObUtwZ3o0eTY0ZmoxUW8ydWFjZ1BjSW4yZi1jcVcyczVHQWpaaHdSOFlxZzZrdFlVT2IwSXZOOVBKWWlfbldYMWxiamlNcmVLbzV1VzNGbW54UXlNbncycGJZclRoN0RmVlZkc1ZKVi1mbHc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Advanced Intralogistics Acquires Anchor",
+      "matched_queries": [
+        "warehouse automation"
+      ],
+      "tags": [
+        "material-handling",
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-11-05T08:00:00.000Z",
+      "summary": "Advanced Intralogistics Acquires Anchor Technical Services Expanding Support Capabilities for Warehouse Automation Solutions Business Wire"
     },
     {
       "title": "New details: Winsupply plans major expansion at two national distribution centers - The Business Journals",
@@ -4267,20 +4255,18 @@
       "summary": "New Kwik Trip Distribution Center opens in DeForest WMTV 15 NEWS"
     },
     {
-      "title": "Productivity Solution: Alliance Entertainment boosts warehouse efficiency with sortation automation - Modern Materials Handling",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYmQ5SUd3YkFiSGM2SzBxOUQtNGZjY2o4bXB2ZXQ0VHRGeWRsc1F3dHhVU1Jtbm43M25xY0tqTWh5TW1DNWliYm9OUW5lS3kyakFzVDV1bzlISGZhc2syQmJ5a0EzSnN3Z2xTLXFRdXVtLWQzc19YZ2RKNEFxU0txeFlEWGlzbl9Najk1TDV5eWpHYkFYbGhQZ2w3ZGZpRkEybm1VaWxrYmJQV01EVkxMSmJpOWNsSUxvYVg4Tlc1V2NUanNIQ2R1MHd3Qy1SRm8?oc=5",
+      "title": "What you should know: Trump’s deportations and the impact on the food system - Investigate Midwest",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR05iNjZvSEVMbFEwQ1Fybl92U1o1UGo3a296Q3Z2TVdJTVdORklkaXRGOFh2UzdfX2JUVl84VkZMdHVOT2xENXpvOWtCcGpJSG13Y0VHcDF0a0EwbFJ2SnQweEtwN0JCRlE0dnJQSS0yUFFVOUdQUnVlZWNwV0kxZ1hSdjQtTVZWakZLbU5RN0c1dW55ajBhWENQaTUzMzFPeUhFX3hfUnk4aXV1OXE2NlRtOWdEa1l3?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Productivity Solution",
+      "company_guess": "What you should know: Trump’s deportations and the impact on the food system",
       "matched_queries": [
-        "warehouse automation"
+        "labor shortage warehouse"
       ],
-      "tags": [
-        "material-handling"
-      ],
+      "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2025-11-01T07:00:00.000Z",
-      "summary": "Productivity Solution: Alliance Entertainment boosts warehouse efficiency with sortation automation Modern Materials Handling"
+      "published_at": "2025-11-03T08:00:00.000Z",
+      "summary": "What you should know: Trump’s deportations and the impact on the food system Investigate Midwest"
     },
     {
       "title": "Coming soon: Ice skating in Manteca & Ford distribution center expansion - Manteca Bulletin",
@@ -4314,6 +4300,22 @@
       "signal_bucket": "low",
       "published_at": "2025-11-01T07:00:00.000Z",
       "summary": "Massive e-commerce fulfillment center moving headquarters in N.J. NJ.com"
+    },
+    {
+      "title": "Massive e-commerce fulfillment center moving headquarters in N.J. - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGR2QjJVdjJsVUUzdjlETmxSOVA3QkZwYUJXMkNCd0lobVNKeE9RbmtqVHhVX2MzR2ZscmFoS3QzX0wtQVFLS05Oazg2VXBVa1I5TF9zdTF2NTM0RE0zNDM3UXRDczNZU1ZuSjhKZTNBTl9FUDBUcEViMDlKWko0SlN6YlV2UmhaUzRVNWhjblU5Zw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Massive e-commerce fulfillment center moving headquarters in N.J.",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-01T07:00:00.000Z",
+      "summary": "Massive e-commerce fulfillment center moving headquarters in N.J. Yahoo"
     },
     {
       "title": "PepsiCo Polska Advances its Logistics Automation with Mecalux and Launches a New Smart Warehouse - Food Industry Executive",
@@ -4402,8 +4404,7 @@
       "company_guess": "Automation outlook: Flexibility rules the day",
       "matched_queries": [
         "warehouse automation",
-        "automated warehouse",
-        "warehouse robotics"
+        "automated warehouse"
       ],
       "tags": [],
       "signal_score": 0,
@@ -4493,6 +4494,20 @@
       "summary": "PepsiCo partners with Mecalux to build automated smart warehouse in Poland Robotics & Automation News"
     },
     {
+      "title": "Geekplus unveils new Robot Arm Picking Station, ushering in an era of fully unmanned warehouses - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNb0lIZ2Vkc0hmeldYeEZPdG9VMW1BRy1YYjlMU1dHWXlrZ2lGS3pLSVpISUNvSWRSRk1yM0FsV3o5UlgtNnNYRURrUGMxMWhtUVluSGhZbXZPbWJqS1pRWHJNZGtCTElWS2gzalRCZVB2RktUV0dhbGhnQlBWMFhEdk81SmFwYUwxUG9VVmtmY2psUHNCelVFQ3dBRFJQekwxVmRNSC1TcVg2UEdNSUkxZWp5ZUlLOVpaME50cGRvOVVQZXdRV2UzZ2JmZktfTXlPaWRqWEdvVEwtOXVTc2JPU1otWXk?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Geekplus",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-10-28T07:00:00.000Z",
+      "summary": "Geekplus unveils new Robot Arm Picking Station, ushering in an era of fully unmanned warehouses PR Newswire"
+    },
+    {
       "title": "Geekplus ushers in era of ‘fully unmanned warehouses’ with launch of new robot arm picking station - Robotics & Automation News",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNR3NJdkhseTAza0JfVkVfdnhPQi1icUlERW00bDVjUHFRWDNVZ3pFNGpzZGIxLThUMTlMTHNCbTZkU3ZmUG4yUDh2ZEZxQi1lcm11RWNnR2h1ZzNRODF0Tjg5NDZuQWFJLVIyeUdyTHB3ZlF6LWNZX3BEWUxrejhxYS1sX3loS2Z5MVNwcjRZeElrRjQ1WGVGelJMay1LbFpXNDFjYnpWTTRYVzYybEZYZThVbmFLTlBpM1hmbHhIdDdkUUFvQThHUHNxVFVGYl9KTmRnaTJIcEVtM2tCUldBc1pGTVJJMWM?oc=5",
       "source": "Google News (RSS Search)",
@@ -4507,20 +4522,6 @@
       "signal_bucket": "low",
       "published_at": "2025-10-28T07:00:00.000Z",
       "summary": "Geekplus ushers in era of ‘fully unmanned warehouses’ with launch of new robot arm picking station Robotics & Automation News"
-    },
-    {
-      "title": "Geekplus unveils new Robot Arm Picking Station, ushering in an era of fully unmanned warehouses - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeTJnNFNZRG5yVzNuR0k2SlFIbGtnNEpRVG1RcW43VlB1MTBDM2FzTGVWVEMwT1Q4QUk3YTJoNE5Ld1lQSWxlNmk1aXFBX055TzZlUDgzaFh6Rk1jQnZkb0ZxQ044UGlmOHBCM3pieExBdDdHQTNFMS15VFFudkVJUFp1M0hCV2JGSS0zUTBpanJySlYxRUhaeURPRUI1Y3RYQWd3WHRUYkNKZ3hNNjFfenJ5WFprTnlMcTFGQjI0N0p4RzBBV0d1eUFTd2Z1eHJGLW5ja184NTRiSWd4TWNrRFpyZTk?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Geekplus",
-      "matched_queries": [
-        "warehouse robotics"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-28T07:00:00.000Z",
-      "summary": "Geekplus unveils new Robot Arm Picking Station, ushering in an era of fully unmanned warehouses PR Newswire"
     },
     {
       "title": "Geekplus Unveils Robot Arm Picking Station for Fully Unmanned Warehouses - Supply & Demand Chain Executive",
@@ -4667,20 +4668,6 @@
       "summary": "Jay Begg Parkway expansion to support new distribution center in Shawnee Township Hometown Stations"
     },
     {
-      "title": "Ahold Delhaize to Build State-of-the-Art Distribution Center in Burlington, N.C. - The Packer",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORlZtZ1IxZFVMV2p5V2M4TngyODU0enFpMGx0UjlsNVFlUFJOdGt0ZjNLUzNnQm9Wb2gxSTlsR2hRVnRIZGVKdHl5MFptVXBJSGRyOGNmTHMyd1dmSVIwdUExTXVrZVQ1MXIzNG9Rd2R4SkJadmF5aFI4d1ZMZHdhdUxxRUJuLWFHc2tsLUExdTBVUHdiUzFFdDE1Y0ZyYU42YzYwdjhB?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Ahold Delhaize to Build State-of-the-Art Distribution Center in Burlington, N.C.",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-24T07:00:00.000Z",
-      "summary": "Ahold Delhaize to Build State-of-the-Art Distribution Center in Burlington, N.C. The Packer"
-    },
-    {
       "title": "Why Real-Time Reporting Matters for Autonomous Warehouse Robotics - Robotics & Automation News",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjFqT1YtNXdoSXpSbElKQ0hKSk1vb2NJOXpyai1yTnlWb2xqTWF2WU9QTnFsdTVfbWxnNXY3d0xZRVBQYmNiaS10Rm1SLTRoQ1I0V3IySk5PMXdDRFkxeDNDZHg4UkVZQjF1d1VwU2lKdmRHQ25UQWVXSlZyenRrZDEtbHJ1cGxoTjdlbVZ5cTdXSEVQc2c2UHNXampJQ1c2UTlyb0hYeWd1UXhsVGUxeWVxbDR1aTFIY1Bkemxn?oc=5",
       "source": "Google News (RSS Search)",
@@ -4713,26 +4700,8 @@
       "summary": "2025 Ecommerce Fulfillment & Delivery Trends Report Digital Commerce 360"
     },
     {
-      "title": "Forklift Trucks Market Forecast at $88Bn as Warehouse Automation & E-Commerce Expansion Drive Growth to 2030, Says Mordor Intelligence - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYUQzMFpKOWg0N2hMV25JckVsNjIzbFd0d1dSRzZpc0M0VnVud3RmOVk5dkdha0NJM0JpVVpCMnp3cktkUmo1al95N3BLYlJMdE93NXpyaUIzUzlkRzdmV280RkRGSjhHV2Y2UDJuQ3RxWHpzYzlWbl9seVdmd2Y4VnJKd1VjRk5sS0w5cGdudnhGTUJWNDdaMEhvNWN1bXBHaXhKRWk2NkRva3oxSjBhd2tpaTRhekpMczQ5c1F2eFdRNWt6ZnhnZmZwcDlIY05aTjNLclRxd0lGX2txNUxlX2p4M1lJYWtkZEw1U19HV0tSYVVDYTdMS0RKeUk4QmZ0eGUzSXl2R3BtWU9CdzhLZGNWWjZJQQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Forklift Trucks Market Forecast",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [
-        "expansion",
-        "ecommerce",
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2025-10-23T07:00:00.000Z",
-      "summary": "Forklift Trucks Market Forecast at $88Bn as Warehouse Automation & E-Commerce Expansion Drive Growth to 2030, Says Mordor Intelligence PR Newswire"
-    },
-    {
       "title": "Macy’s Employs Warehouse Robots to Speed Up Deliveries - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQeVVTYzJRSExyaF9HNklXdzZYUmhKakx2ZjdFdVVnSHNkTEdkWHZfQVVlam9rQms1QzVfcGFyU2Rid25fOEdjZldoSWlQTlI1Tk9MREVjLUVGRUg1YU9rTUY0NEdiTm1WWV9kR1JSWW5JQ2pZQXE1TTJjT0EzVk5aV3hibng3MDcya2FqREpIVnVzLS1UN3BPazdUVWRUeW13dVEyQmVnYmRmYzUtRzk3R19ad2o3NXVWaTI3bjhycEE5cmh0LWcwOWxpUGtQRHZOb2hNUnV4R1A1d1hnMHRaZnhGU29IY0ZzWjZEYmVDNUVFUXU0c2t4NVR0M3ZPdGtxdUdacEZjNktELUlZazFoVENDUVZNT2hlamRlLTBVVzNLZXZlNlR6bWtHd3M2ZGRBZ0NRblNESTVQMkt6X2JUdngya2Y3VGszOU93MFNxcGFWdmhXMDc1clN6QTZSeVJZU0ljVEdCeElxNE9yQ0U0THhrd2h5enhGRjhRRW9VQ0RUcE5SSmdET3hOdkFud1A3UnV4akNmLTRMVzQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxNSkVwUnRqZEpkaUdIZmV2OFc0SlVFRkJyZXZMd0dyNkVIc3ZnN1RvaElEaWVERjJ5dW1tdjZIc1ZlM2JNUURVeHJ5aXZVQkZVcXRuYWlPQmxXd1gtc213dHJ1eWNOOFVqd3lDN2RvY2hvLVhqaTRmRzRGblFjV0EybWVkd1RBZTRiRlk0TU5IdkhWU3ZhZXZmdzVKWUQ2ZDJKaVZvajBaajJBWHhfSWttelE0TktGenljVU11RlZ2eW1TYXNCLS0tdUdHYXhkbW00bTdKbnhjT3NRTFRJc1pVVVh2bG52M3lYX21RSTB5Y1NHQklKTlAwUGkyNlFKaDh3Y3dra1FnNkxGZncyY2x2RmxrMXZtdU5mUHU3TFhoVUk4ZHZ0MnBfNFpaWHlwdTRqZnNFaWlGSkZBY29BamZyNFBYaURuSzc3cTRFSnJFbmZmVlJYc015dkdQRWdJVmVUQjlqYXNJQjdxc0tnS0J0MHFfam9ER2xNSWRNQllDTTBmY0dhS3htVFo1dkNXcVRxLWNJSEFybzFhUGc?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Macy’s Employs Warehouse Robots to Speed Up Deliveries",
       "matched_queries": [
@@ -4789,7 +4758,7 @@
     },
     {
       "title": "Macy’s Employs Warehouse Robots to Speed Up Deliveries - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPMG8zUWF2SUNoUlNJd3lfNUlSNjB5dVo2U0pQMzFiWFNnUW80dFFKVzZqenJvVVREcnBpTHN2ZTdULTJZdjJwZ1RqS2d5bGdRejBhNDV0R1JmZjNfal9YcUJJNjBJNjBRZU1lTFY4MHg2QThNT0N6b24yUlc0Zm9RY3M3Qlk5RmZqVm1QTWswTW9zV0Z6SjZQOW93UlZxTHRTSjhGRWtmTUJ1M2J1R2NWUDdNWjVlekc1bmRiS2VFdVlKSlEzZEJmM1ZyUGhfN2N2cjJNOGd4Qzd4NXRjMEV3VmRLWmVXbVB6YnVkZmNIYk1yaHM3RUljU09CMUFhVVpVTFhkODFKekxwTm9hV0JEZkxWM3cxWmJUY3lvME9GdFV4Q0x5UlhQUG9aY1lRRDhmcnFObzlfOHRmVi1EbDJOWFJlY2J3b3pBZlVfVXhHZEhrT2Y0MUVBVDY3TVNCSjdIcm1LaEU0WVJvY3NkZjA4b1hIZGNzVHNCSjdiU3Fzemh3d1VrUlNNZXU2MVpsZndwSkxIZUlaajdqUFk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxNUlpTcml5NWx6LUJiVkkxS1NqT19Jc0c0Q0tESVJ3M0FWQjNfTkxFdExxdnZQYV9BOVZZSzZIQThCU2MwRXNPMTRNQmlTSmNZS3VnRVFjc0c5amhTTVJoRnFCZTN5cHF2N1daZjBQLTlGVVhJaktQRVhBc0pJTkUzTWtJdTV0NWFYMVhKUWZnNHlWb0U0YnM4N3lrRlZuY2pfa1dZczRCVTVpOThpcHEtSVdIc2lsN2FoQ3Z4dEpLOW5wbldUeW5fdzFUWFVLcy11MEoxMDVIeFRtcXcwR1pDWTRlc0VDaWxieGRjeTAzSFlIZ010M19wY243Wi1mTjFDT29Cb0Rsbm5xSDZla1BFRjdGWXRSS2liazNFR0Z3SlRjQ3l1cnBscFFjVXY0ZXhvald1NG5RdTRvS1B2ODlWdTNQUzlyeU1paDVTcEpBVWIwT2pSTkFBQ3FRQnA2d0NSN2Rkc3JkS0p4Z0Fqa1A4NGd4WFAtZHAtZXdLak84eHFiSXo5amhqR05WNFNtZ3NFVk5TV29EdzUyYTg?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Macy’s Employs Warehouse Robots to Speed Up Deliveries",
       "matched_queries": [
@@ -4814,20 +4783,6 @@
       "signal_bucket": "low",
       "published_at": "2025-10-23T07:00:00.000Z",
       "summary": "Amazon Has Plans To Shift 600K Jobs To Robots, Replacing Need For Warehouse Workers Black Enterprise"
-    },
-    {
-      "title": "Amazon uses AI to make robots better warehouse workers - Tech Xplore",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVm04QXhrOE54c1pLWGhhNWFVYUxLQ1A5amt4OXZmbVFzY0VsQi1IbkFabDZDT3B5RnowUkN2WHVoRGZPNWxIUFNhWUtOVVNBV3ZuUDdHM0JfdnhPMG9FX1BSS2ZCRE1rMEVMSUo3Mi1oV1hwczlHN2ZYNUdaV1pJMw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Amazon uses AI to make robots better warehouse workers",
-      "matched_queries": [
-        "warehouse robotics"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-23T07:00:00.000Z",
-      "summary": "Amazon uses AI to make robots better warehouse workers Tech Xplore"
     },
     {
       "title": "Amazon reportedly plans to replace 600,000 workers with robots - Chain Store Age",
@@ -4875,20 +4830,6 @@
       "signal_bucket": "medium",
       "published_at": "2025-10-22T07:00:00.000Z",
       "summary": "Watch Amazon Unveils New Tech for Warehouse Automation Bloomberg.com"
-    },
-    {
-      "title": "Report: Amazon Mulls Plan to Automate 600K Warehouse Jobs - SupplyChainBrain",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS3dGdVpYcG0wWnR2RHc0YXc2RG8wcV9KYWFOZklYcWhYRHRfWTl1UjI0Q0xDOUZaVURyWG9HY0NUdHRZcHpiQXpLcnZ6d1lYOU1zVl9OeHFaXzc3b1BpekhMTlllRUM1YkJ3SWFRdkpDMkpuNVFnSmRTQkpHLUF5SnBRQXozRFRLdFRVN1A1SUQ5a1BGVEE5VDhZd2R2WjE0Nmxn?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Report: Amazon Mulls Plan to Automate 600K Warehouse Jobs",
-      "matched_queries": [
-        "automated warehouse"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-22T07:00:00.000Z",
-      "summary": "Report: Amazon Mulls Plan to Automate 600K Warehouse Jobs SupplyChainBrain"
     },
     {
       "title": "NX Taiwan opens new Taoyuan NEXT8 Warehouse in northern Taiwan - nipponexpress-holdings.com",
@@ -5025,6 +4966,34 @@
       "summary": "Amazon's newest AI and robotics systems are empowering employees and speeding up delivery About Amazon"
     },
     {
+      "title": "Amazon's Robot Army Could Save $4B Annually, Morgan Stanley Says - The Tech Buzz",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNenlsRTF4N3ZRTjk2N3k3SWEzamoxVDJvOXMxQURpYTZUSTZEMDl6RUVCdWhIcDBLMmlLVHBVZml3WnJtbTFQaTZiNTdHa0xDbmxLblJPR25Ma001NU9DS0JBbVdKNm1FN0N6SmpBZVQ1NFBOYVFLUGJkc1pDU1NvSUs4ZHViQkhXZjcyZ3l6Y0k5M1NBNkM4QmdENA?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Amazon's Robot Army Could Save $4B Annually, Morgan Stanley Says",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-10-22T07:00:00.000Z",
+      "summary": "Amazon's Robot Army Could Save $4B Annually, Morgan Stanley Says The Tech Buzz"
+    },
+    {
+      "title": "Amazon aims to replace over half a million US jobs with robots: report - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRmtSVXJjVHZIR1ZkNzNTaVN5Q3dRVjNhNlcycS0ybDBnNU80RVl1OTQ5czlzNVVFMHFQYTJlVlZwQWRETkhsdmxDSVV5V2VXT3BtMktxYlVkOUU5QmJNellIRlcyV1BDUHZ5RTVnUlF2czBEc3BZckduc3c4VTY3b2lVaVdGNVZhVTZGNWE1MkpJTEdDYS03ek0wUUJFT3B1c0Q1azdxeWthSmdrTnc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Amazon aims to replace over half a million US jobs with robots: report",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-10-22T07:00:00.000Z",
+      "summary": "Amazon aims to replace over half a million US jobs with robots: report New York Post"
+    },
+    {
       "title": "Amazon reportedly about to replace half a million human workers with robots - Robotics & Automation News",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeEdSM1k4Rkt4c2RzS3UxR0U0eVc1SnZSbVdNMWRTMzVHZnR4OXhlMEs2YmE1ak96WGJqQWZJREF6Z3pPdUp5dFZpRkNldGdyWGpjSWVnT1hSX3dXRGZwckdCY19SZ01VQzFsbDBXXzZOenFNVERGTmx4ejcxZnlRX3g0M0NrQUVoWlpMelpudkxCdm10Zi0xeDdfTzZLYURZQl8wRzItTzNjY2tzNUMwMVlzS0FLOFZvRDVkeGlCREJMaFVqanpQSjZsMA?oc=5",
       "source": "Google News (RSS Search)",
@@ -5055,20 +5024,6 @@
       "signal_bucket": "low",
       "published_at": "2025-10-21T07:00:00.000Z",
       "summary": "Amazon Plans to Replace More Than Half a Million Jobs With Robots The New York Times"
-    },
-    {
-      "title": "Food Lion parent company to build Burlington distribution center, bring 500+ jobs to the area - wfmynews2.com",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcnk0ejFBSWlIWktXbnAyVHlsMjBpV2F5TEJiYTNnSHRES0lnQllWdUdVaWVPY2twQzR1akVyX2t1YXU2R0k0ZnlveWtKWVB1X1dCQXNVY2lLUk1LXzJ1SGFmRFdPU2NWUUxZaURvM2JJTS0yLTk3VW9MVG9QclFiLUlkWGVfRFBsZTh4R01mUDAtSnBNWG1vMEl0c1pqZlU3TmZ6elBLeXZCd09xd2FqVW5qQUxYbmJUVmp6TFg3bjIxaFFFMGpaNjR1bU4tSm5taFczRTlWdlN4bVdIMHhPdUVob19XTHhROWFQVy1R?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Food Lion",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-21T07:00:00.000Z",
-      "summary": "Food Lion parent company to build Burlington distribution center, bring 500+ jobs to the area wfmynews2.com"
     },
     {
       "title": "Cube Robotic ASRS to Solve Warehouse Space Challenges - Supply & Demand Chain Executive",
@@ -5127,6 +5082,20 @@
       "signal_bucket": "low",
       "published_at": "2025-10-20T07:00:00.000Z",
       "summary": "Amazon buys warehouse in San Antonio’s East Side, plans $61M renovation San Antonio Express-News"
+    },
+    {
+      "title": "China’s new ghost logistics centers are redefining what automation can do - supercarblondie.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObW12ZGlEYkZnX3lTUE5qelhINEE2MGh0bzI3TEpxNnVDdzFBdGpSRThfYUlXdWlWcmRKYzg4YUlWUlNBdDhUUi1GUzhyMTl5VV82bmxQV01YOVZwQzg4c09PR3BXOTN4NFVVUnd1WkI0bGtXQkZ4RW1lZWF6Rjk2Q0FZT0N2WG1tc1RjT0hXVkoxSVZ0aXZz?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "China’s new ghost logistics centers are redefining what automation can do",
+      "matched_queries": [
+        "automated warehouse"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-10-19T07:00:00.000Z",
+      "summary": "China’s new ghost logistics centers are redefining what automation can do supercarblondie.com"
     },
     {
       "title": "Robertson Heating Supply to expand distribution center in Alliance - Canton Repository",
@@ -5206,6 +5175,22 @@
       "signal_bucket": "low",
       "published_at": "2025-10-16T07:00:00.000Z",
       "summary": "Macy's, Inc. Unveils New Automated Fulfillment Center, Marking a Bold Step in Supply Chain Modernization MacysInc.com"
+    },
+    {
+      "title": "Kuehne+Nagel accelerates India growth with 100,000 sqm fulfilment centre expansion - Kuehne+Nagel",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRTkwS29RQnljcWtMdUNjME83dnNfdkF2eHFVWW9WblV5OUFnZE8yc1FsRThhSExtdHRjOVpRSHNyRWd2MVg5M2NJYnJCZ28tRDB0bEtUMlFLZTFlUmZzaUVjSnJ1NWY4ck9xd0VGTi1SZU9pVmdRa1dGYlVWN0JIa3Bwd3c2OHpEb0NabHdpQ3F3c2d0NUhlQXJ5VWV5ODdBZGl3VERrNFc1Mzl6WW0xNUdXT3N1UQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kuehne",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [
+        "expansion"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-10-16T07:00:00.000Z",
+      "summary": "Kuehne+Nagel accelerates India growth with 100,000 sqm fulfilment centre expansion Kuehne+Nagel"
     },
     {
       "title": "RFI Response: Section 232 National Security Investigation of Imports of Robotics and Industrial Machinery - CSET | Center for Security and Emerging Technology",
@@ -5377,20 +5362,6 @@
       "summary": "J S Azad hails nomination of Shammi Oberoi as RS candidate Rising Kashmir"
     },
     {
-      "title": "Delight your customers this Black Friday and Cyber Monday Finland - DHL",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZWh1d2FnVndhUm1GdTE1Zi16TlJBT2l3R1RCM3hROUU2YjN0Y2pDOXJrbFZWWmhaVHFVTl9NYnN5NTZoaVl1c2ZZZHotRWp1czR5M2NEelIyOE5zbUdRVkg0UXFvc3hFcXpIaHBGMWl5b2tXODZmMGNhUHpMOWZ1NVpDX3Nxa2JTV0VnbXVPUzRrMC1rYVRCejhGZnppTXl0aEwzRjJCUS1wZVZGbUczNDdKa0FmR3QzelBTTmlvLXdyT2dVRUlwbTMzeWRCZ0JwNHplU1MxckFGLTFoZVow?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Delight your customers this Black Friday and Cyber Monday Finland",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-11T18:39:34.000Z",
-      "summary": "Delight your customers this Black Friday and Cyber Monday Finland DHL"
-    },
-    {
       "title": "Warehouse Automation Market to Reach $90,725.7 million, Globally, by 2034 at 15.1% CAGR: Allied Market Research - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMmZtbXVnekJidDd2YWNrQlQ4ZTItb2swc28ybFlkakNEOXZOZkVFamhFa3FIM3QzRzlGc1Q1dXhZcmRYMzlFeTZHaGRabk0wekNBNWh3ZXF4S0Y5ZFFBcUdhVUR5QzRyOHJBcXZ4MHptYTRHOUdwWjBKX0poX2JqbzREUGVjRmFyQXcwU2JvblVVcnNaWVRNbWpueVJlUjNZWE4zWUY1ZWtpRENBbXRGRFgyR1pUMi01TFRiTVRPSS1Ddkd2ZUlCVzg5bFBmSFJuaTBIMzRTT1VaSzZmSHhGenNSV1llc09yejJ5T0NFLUpsaFdj?oc=5",
       "source": "Google News (RSS Search)",
@@ -5423,6 +5394,20 @@
       "signal_bucket": "low",
       "published_at": "2025-10-09T07:00:00.000Z",
       "summary": "Fulfill Breaks Ground on Warehouse Expansion, Launches Capital Campaign New Jersey Business Magazine"
+    },
+    {
+      "title": "New Balance Opens Salt Lake City Distribution Center - SGB Media",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaFg5cTU2eXZnc0d4NndnQ2IwVFhVUU5wdUVTa21RUkNnd1dtMkpNYXNhWERWQlY0bjFmYjcwUE1vTmdDUFZvQ2ZQQWZCZlV5WV9pS0kxYm1Rc2tQYUFuQXk2NGpVUmZqbFhyX3dXTkVXQ0hxdlN0Tm5ZSjByYjNJWg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "New Balance Opens Salt Lake City Distribution Center",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-10-09T07:00:00.000Z",
+      "summary": "New Balance Opens Salt Lake City Distribution Center SGB Media"
     },
     {
       "title": "Geekplus post-IPO: Warehouse robotics enters the mainstream - Robotics & Automation News",
@@ -5495,8 +5480,7 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Dollar Tree to open 1.25M-square-foot Arizona distribution center",
       "matched_queries": [
-        "distribution center expansion",
-        "new distribution center"
+        "distribution center expansion"
       ],
       "tags": [],
       "signal_score": 0,
@@ -5565,26 +5549,11 @@
       "summary": "LG Sinha Thanks PM Modi as Rs 171 Cr PM-KISAN Aid Reaches Farmers Kashmir Life"
     },
     {
-      "title": "WMS 2025: Boosting Operations & the Future Warehouse - Inbound Logistics",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWjhGdFEwSkJpdmluWW5nSEprZVBxaUR6bXp2QUFpeElGYU1oUEtwcUl3a0FVZHpuLTRSWFpGcFhPVFNtLVBKQmxHc09sNXRTckdlalJfQlR4RTlqVGhQbHYwUUlvNTVwOGdrX2xYTV8xNmZRN0NJVWNtZzEybTFhS0N3TWZUR2t2Y2hsamNteE05WG5OazZR?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "WMS 2025: Boosting Operations & the Future Warehouse",
-      "matched_queries": [
-        "automated warehouse"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-06T07:00:00.000Z",
-      "summary": "WMS 2025: Boosting Operations & the Future Warehouse Inbound Logistics"
-    },
-    {
       "title": "Dollar Tree announces new distribution center in Litchfield Park - Mass Market Retailers",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZEV6V0ZfVXpBSnAwX3kzUXF4dUg0ZWNFWVlpaFVYRTBHUWtmbG90bFdXZ3EyWVlWZUlTUWlfdUF0d0tBSmhuV3kzbDNHY1liemVrYktEdXVMdUViWENkT1M2VVQwTFRhdGE3eDJmT2p2WkJ0SGhQMGFUWUVHb0NnVWdZd3RyNzJITWZJMmI0QTRESkVVcVg3Rkh6SXByZw?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Dollar Tree announces new distribution center in Litchfield Park",
       "matched_queries": [
-        "distribution center expansion",
         "new distribution center"
       ],
       "tags": [
@@ -5724,8 +5693,8 @@
       "summary": "Walmart invests $300M in North Carolina fulfillment center Supply Chain Dive"
     },
     {
-      "title": "Walmart to build $300M North Carolina fulfillment center - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNjUwZXFIc0ZvMEoyc1FzWHBPbjNHeE5lMHU0WHQxSklLaU5oM25lYlJrM0NDSlhpUkVoYjdqZzUtZWYzeU1HOEtqdG5WOEJGeXo5VTU4YWktcWlEZkZqSmV3QlNzcE5aZUFsNFFSdENVLVN1ZUJId212T19Rajc1bFNHcmlOZw?oc=5",
+      "title": "Walmart to build $300M North Carolina fulfillment center - FreightWaves",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc1JpNGlPVmRWVExLYndsSTBvYWd4WWJNWFdIenBvcEY4QW80Rnp2MDVSZTlmOVRXQ3ZkNzhiUHJSRzBVUVBGdjg3ZjlydG9NbzJtNFdtNTR6MUtLSi1QR1gtYW1yWERtdFpmdHJlQ3VQTTJJUW1IbkEwZ2pEZS1YVXoxd2lXWmlyVHB3Z29naFBCckk?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Walmart to build $300M North Carolina fulfillment center",
       "matched_queries": [
@@ -5735,7 +5704,7 @@
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2025-10-02T07:00:00.000Z",
-      "summary": "Walmart to build $300M North Carolina fulfillment center Yahoo Finance"
+      "summary": "Walmart to build $300M North Carolina fulfillment center FreightWaves"
     },
     {
       "title": "Walmart to build a $300 million North Carolina fulfillment center - Digital Commerce 360",
@@ -5781,6 +5750,36 @@
       "signal_bucket": "low",
       "published_at": "2025-10-01T07:00:00.000Z",
       "summary": "In-N-Out Burger buys $30M building, plans new Middle Tennessee 'regional hub' The Tennessean"
+    },
+    {
+      "title": "Compact Robots Simplify Vertical Automated Storage and Retrieval - Packaging World",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ0tqVTgyakh6eG80ZDlNQ1A3WmpTSEZEZXRLNWVpTW9PQ0FjaVlnV1hHR3oxNzlwblZoMERQX2ZxSktQMlBRbGtaYUJFYmkzd2xXb0tKVDdMRU9uTjljMmJKVS1MOVpYNzhxSUg4Rl81elk1YnpkN0tMUko5QmdXTkpzZzBjOXRRNFdTNGtnU20wa1RROEZyYUg2NnhKNnhHN01CcGczTFlxaGNNbmFmZm5GdDRSOUZpc2Y4LVRDbndZY1lMNmJ3SlZ2ZVpoZ2s?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Compact Robots Simplify Vertical Automated Storage and Retrieval",
+      "matched_queries": [
+        "automated warehouse"
+      ],
+      "tags": [
+        "asrs"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-09-30T07:00:00.000Z",
+      "summary": "Compact Robots Simplify Vertical Automated Storage and Retrieval Packaging World"
+    },
+    {
+      "title": "Overcoming Warehouse Challenges with Smarter Automation - Modern Materials Handling",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNazNETWp3RDc0VXFkbUhLSkxCM0N1VThLajdoT2FXb1gzSFpDYlRDeHdSMWdNSXBGc29fZFRaSkpBV3hrWC1wTldkampVRHlOX3RDRi12TW1ZUV9qVU1WZDRyX3AzVm8yWDBTR3MxWnN5R3ZWekZYeDBuSkRxRWh0Nlh4cTJ6d1BzdTY4?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Overcoming Warehouse Challenges with Smarter Automation",
+      "matched_queries": [
+        "automated warehouse"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-09-30T07:00:00.000Z",
+      "summary": "Overcoming Warehouse Challenges with Smarter Automation Modern Materials Handling"
     },
     {
       "title": "Cardinal Health to expand pharmaceutical distribution network with new Indianapolis facility - Cardinal Health",
@@ -5958,22 +5957,6 @@
       "signal_bucket": "medium",
       "published_at": "2025-09-26T01:59:47.000Z",
       "summary": "Warehouse Automation & Robotics Solutions Prologis"
-    },
-    {
-      "title": "Ecommerce Trends: How Kroger is using AI - Digital Commerce 360",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vbEFKUm52RVotX2JnMlRGSTJ3dmhwU0Fkd3RNTXhIUFNSYUhLVUppX3RxMmZrZVVrTFR3ZTZ0R1laV2RJQjlibG1jR0NjQUJZUnQzMVZHdkNWVW83SVRCSzlXZE1yWjFNTzNncmRwM2JfeFNRLVkwY9IBfkFVX3lxTE5HZzZqekh4ekZPY2dSSkh2Q1VCLUh1aFF4cU1JcURlbjhuQjhacmhDcVQwM0tORzVvb2FZVjBId0dUbzU5a2JfS1d4THFJVWlmbDNYcjN5WXFsb3AwWWROZTBWZFM0RkpRdnc4c3BEa0JqVGZJVFVVdS1vODQwZw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Ecommerce Trends: How Kroger is using AI",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-09-25T07:00:00.000Z",
-      "summary": "Ecommerce Trends: How Kroger is using AI Digital Commerce 360"
     },
     {
       "title": "Warehouse Automation With Robotics Can Help Alleviate Labor Shortages - Verizon",
@@ -6164,20 +6147,6 @@
       "summary": "Warehouse Robotics: The Future of Supply Chain Automation Inbound Logistics"
     },
     {
-      "title": "The Smart Warehouse Revolution: Empowering Warehouse Colleagues to Make Data-Driven Decisions - Supply & Demand Chain Executive",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUjBVSklYUzhGRnJJRHl3STQwY0YtbGJpa1Jtc1k4Q0dQUUpvMFgxZ0FfUWhhX25nY0d1T1BmTTN5aHVkWk1JazkxRlViRURfMjlRY3BVNHgxYVhyblphLXpRRW0zSWxuSjNXbVJyT1V5V0l3OUJpVGRBSkJpTHhuQ1Vxc1F0dTAyenB5bUhLZjFrZUZmQkpiWjhwQktQTlpDN1BFUFp5WWQtaHBscHBqTG15WjM2VlBOWVdxdEp2aEhObTlYTDhDRXRMeTFqbnNNZV9zN1R2T2NMTm9pWGVhTnJPcGNRdUhpUTY1am5NMWE2NWN5?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "The Smart Warehouse Revolution",
-      "matched_queries": [
-        "automated warehouse"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-09-17T07:00:00.000Z",
-      "summary": "The Smart Warehouse Revolution: Empowering Warehouse Colleagues to Make Data-Driven Decisions Supply & Demand Chain Executive"
-    },
-    {
       "title": "Choate expands RPM Warehouse at Charleston Trade Center - SCBiz",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Nc3lfRHloRGVNbnhKMk5pTTR6RXNvYmdUTzg4NHpHdXdXTFVjN2JTOVVRWk12ckRMbTNfaHVMR2xLM0Q2XzZNYjdaS3NjeTNKb3luTHpZU0RLQmVWb3dyYTlTUVdzdnJMQlcwMGM1R0FTUDdXVTIzRDdpWlVfUQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -6214,6 +6183,7 @@
       "company_guess": "Roboteon Expands Industry",
       "matched_queries": [
         "warehouse automation",
+        "automated warehouse",
         "warehouse robotics"
       ],
       "tags": [],
@@ -6298,6 +6268,20 @@
       "signal_bucket": "low",
       "published_at": "2025-09-15T07:00:00.000Z",
       "summary": "Kroger is reviewing its automated e-commerce fulfillment network Supply Chain Dive"
+    },
+    {
+      "title": "TCS & The Warehouse Group: Digital Transformation - Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSG5RaE91Um9EQXhTazlpRUxsa180NXdWVW5SMGpOUnBjeDdEZTZ1c2EzZTk2VllqM01Qb3hlbkduc25FOEdBU2lNV0dJVlg3TnNmSndhMWJ6d2RuMThKbW9IeXJYSG5JWG1MaE9tT3A5LXJLRVRudjZ4LXhRVVJZZlIzSFJYaW1fa1pSTG1wSDlnSlc1RDFBVDZwVlJOdFnSAaQBQVVfeXFMTjIwXzJoZmxVaUN6cldjTURMNndaY2wwbXlqckNhVFJuUnAxd2dWMDZyZXVGSUNfNXRQVDF2TE40NFhSR0NNTXdGWG94aDBWaG1sa1RveVg1OUxkclhKZnE2MVVrU2V2NHFaRlBpQkFCaDZTeldwdGNsc2tyRFc3dlZ3NGFDOXJTTm5iM3ozbExmam5aYzVIczFEZm01RnRmSEc0R2E?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "TCS & The Warehouse Group: Digital Transformation",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-09-15T07:00:00.000Z",
+      "summary": "TCS & The Warehouse Group: Digital Transformation Rediff MoneyWiz"
     },
     {
       "title": "Kroger Questions Warehousing Partnership With Ocado - Transport Topics",
@@ -6497,6 +6481,37 @@
       "summary": "Irvine Distribution Center has new owner timesobserver.com"
     },
     {
+      "title": "Nelson-Jameson cuts ribbon on new distribution center in Fairview Township - yourerie.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdl85OU9PREdxQVVRTnZfOHNJSnRmSV9Na3BBRjREWUZuNzJ1MV84dWZhdnZqa3lzeXhIb2F6bDlmcWREMkFyZmp6ODhzd2I5SkRMMkV0akpzMFVjMDlvam80UUthUFBvdTZpZ3NHYlNqX0ZKc19DS1pZUzh3UU1tWjd4TnFBZWVKX0JCaUJISUFNQmpuaXNxVWwwTFNmcjBuS1gzcFJkNko0RF9YY0pBQVZMRnZ6NzDSAbwBQVVfeXFMTjRXN1BhRjJaQUNXN25xSG92OFktM3NPNy1vbUxUVTBaaENRRDF1N0dOLXRNUHFoZmFpRExNNE14aF9neldUcGVaTE8wdmJ4SGh5Z3ZpVW0ydXR6bVp6MXRHT2xrTXR6VTZ6b1VrZDdTX05qRmRlTjVfZHlPcWpERExpdVh2dDBJUXZwbHUteExEZ0o5VDJvM2g5VHYxd29VSjI0UVNKOUxOVEtUaDBJSTJFak9zWFRscnc1WVo?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Nelson-Jameson cuts ribbon on new distribution center in Fairview Township",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [
+        "expansion",
+        "signal"
+      ],
+      "signal_score": 2,
+      "signal_bucket": "low",
+      "published_at": "2025-09-10T07:00:00.000Z",
+      "summary": "Nelson-Jameson cuts ribbon on new distribution center in Fairview Township yourerie.com"
+    },
+    {
+      "title": "New Distribution Facility Breaks Ground in DeKalb - Connect CRE",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVDRkOWNFZFQ3QlFWY3JYQ215cHZ2ZGw5bENaT28wWUNzczJ4UV9RNU9wRU1rNk1GYnhmSWo0T2w2MlhBTVhZclBpQWRVYnlBdE9qZUJYVmVlRlNJNWEtcXFWVzY5MDVFaERFUHI2eVBndXpxV2l6b2RrQnJFRm1GOTFlSVBSWXZpaFBmajZn?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "New Distribution Facility Breaks Ground in DeKalb",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-09-10T07:00:00.000Z",
+      "summary": "New Distribution Facility Breaks Ground in DeKalb Connect CRE"
+    },
+    {
       "title": "Walmart opens perishable distribution center in South Carolina - Supply Chain Dive",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ3JIVWM4bUczUWZqdzRYUnRISmlkb0NxVzhlZkdDQnRndndaQnZuaGI5VExoeTFRaGdGNllfaGR3VVF0Q1FWcW4wdjNwS0o0OGpnLVpDclZyMGh6cUhmNVhDTmIzMXFwbUt3OS1DLUktWkNDZnJtMEUyNXlrOFZFU0dzZTNfbEVXNTNhVmNhOHZQNGtrRlJmNXhvU3RBd3c?oc=5",
       "source": "Google News (RSS Search)",
@@ -6523,22 +6538,6 @@
       "signal_bucket": "low",
       "published_at": "2025-09-09T07:00:00.000Z",
       "summary": "Coca-Cola wants to move distribution center to Saratoga County - Albany Business Review The Business Journals"
-    },
-    {
-      "title": "How Robotics and AI Protect Cargo at Ports and Warehouses - Supply & Demand Chain Executive",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQV9kRnhNLXk2U3BDWlRHbFZDOTNkRHp3NHFRbGx3cFhSNHpoNU5uTmJrX2VFdEVZa1ctUXQ5YURLTWxxOUY5MXlhU2NIUDRITFFNTGlXYkdkdUtLclpvOEU3U05xZVV1WU9RVDhhMFJkRVJXMkFwNDhadmxfSjBiOTZXU1BlQmJJd0pIbWx0eVVpdXpOYkNQTWg1WnhPQ1RhZERodmlIWXFlYW05cDZydWtuUGllWlBrN2xhWWdpbUZCWUEwYWdZTy1MTmxBbXNaUFl5UlItMVpnUkU?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "How Robotics and AI Protect Cargo at Ports and Warehouses",
-      "matched_queries": [
-        "warehouse robotics"
-      ],
-      "tags": [
-        "robotics"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-09-09T07:00:00.000Z",
-      "summary": "How Robotics and AI Protect Cargo at Ports and Warehouses Supply & Demand Chain Executive"
     },
     {
       "title": "Graybar Plans Major Logistics Expansion with Specialized DCs - Modern Distribution Management",
@@ -6967,6 +6966,22 @@
       "summary": "Stop & Shop to close 7 e-commerce warerooms Yahoo Finance"
     },
     {
+      "title": "The Rise of Autonomous Freight: 7 Robotics Innovations Reshaping Logistics - Robotics Tomorrow",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQzhsclFELUNYNzdFN2RvN0tSQXBTVTBnZHJuZVQ5bnA1YnQ3MlNoekNval8tX1lFd1RDS19pVW1JQXdVaFFtSlZ1eTNzQno0Yk04SHMtdWdSMUtHcEJmbjBzWVpSeUVscUVub2E4dXRLLUZTTEZISldRLTh3WGgyay10NnB4ZXdTRTMzcllOU0JlYzZDNndsRXJuTlpyc0ZtX3dHODc4LW9ubFB5cWRpWmxhdW9KSmRUTU80cDZKUVhrcUc0c1E?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "The Rise of Autonomous Freight: 7 Robotics Innovations Reshaping Logistics",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [
+        "robotics"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-08-18T07:00:00.000Z",
+      "summary": "The Rise of Autonomous Freight: 7 Robotics Innovations Reshaping Logistics Robotics Tomorrow"
+    },
+    {
       "title": "4 Emerging Technologies Enhancing Warehouse Automation Solutions - Robotics & Automation News",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdndVU2tvTkRLQ0llaVU3T0kzMUU4MXlab2EtTTF5VEU1YlFHYmFybzBDMFlGVWszTExrMjREbkltMzhDcUhhZ1NJV3FSRlVFdWE5MDh3MkNpVGxkNks2M1dKRUJJeFNYd2FodUI2WUFGTE9BZjVkSGhSeWQxalNoWmtIbTIzdGtFSjNpSnVEcXFyQmVIYlJVM3k2NGNFSHZfaHU2YUJ5ckFaZkhNNVBhWWRGMjAxdGxHa0VjMg?oc=5",
       "source": "Google News (RSS Search)",
@@ -6984,6 +6999,22 @@
       "summary": "4 Emerging Technologies Enhancing Warehouse Automation Solutions Robotics & Automation News"
     },
     {
+      "title": "Warehouse Automation Surge Propels System Integrator Revenues Beyond $100 Billion - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVTlONW9fNUVPQ2VsTVR4QmtXSG91cDU3VmQ0Z3hJYnl1OGU5dWJOVWJ5N0RwREV4UjNhWG1nNXMyRy1FYjhQdHdqWnQwck1TcmcwQXJuMHFNeXN0X1NndWFHMDF5aEZ4RkpkRXk3UkJUbEZJRnJid2NVWFdPNkhINlRtQ1dDcVJYTmRpR20xTjUzcGdUNUdweHZNNFMxa2VWU3k2U09nSy1ZYnVNbHgzTno0endnTWFnWUxyZTNJdXZfYkhhUmVhRUo0VmxXdzE3ZGc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Warehouse Automation Surge Propels",
+      "matched_queries": [
+        "warehouse automation"
+      ],
+      "tags": [
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-08-15T07:00:00.000Z",
+      "summary": "Warehouse Automation Surge Propels System Integrator Revenues Beyond $100 Billion PR Newswire"
+    },
+    {
       "title": "Trader Joe’s buys Islandia site for $118.5M, begins LI distribution hub project - Long Island Business News",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9mTl9PUXcyWnYxbnJnT2JZX1p0N0VnMHRJSlRlRjZNRGNUTWtQOFFrNW5DSnhnbzZ0MkM5YTN3R3N2cUNtcHV2anVsM1g4X2hjem1JUEdjMFU5X0I0SGRMZlpzbkJ4b0pOOWxQX1JBMEpwM0F6ODlPYg?oc=5",
       "source": "Google News (RSS Search)",
@@ -6997,23 +7028,6 @@
       "signal_bucket": "low",
       "published_at": "2025-08-15T07:00:00.000Z",
       "summary": "Trader Joe’s buys Islandia site for $118.5M, begins LI distribution hub project Long Island Business News"
-    },
-    {
-      "title": "Honor Foods generates around 100 jobs in Kissimmee with new distribution center - WFTV",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPekNnLUlLYnBCU2ptRy12WUl5aDJmc2VhOUtjWDh1dmR0R0xuWkVURHdKOS1lLUdYbDl4a3cwQ1kyMTV3TEc3SlU2aWhNbUFzM09oSHBJNWdqQm5RLV9HT3o5Y0dtbzd5a0ljd0JoSDlmMUxWWE5JUkNwTnhIQm1Vb1dXWUktS25pamd6bGpDSjZrZ21FdmpnYTRHbnRQYjJSMVR0ckNFb0NhUUxaVXQ5Nmc4aDdUaWRDM1Nzek1tWUs2Q19tWlkwc1JNN0F6d2EtekJ3NGJXQlJ4RnVJZzlibVpBSEJvQdIB-gFBVV95cUxOQ1B1ZVlVaUJ0R2NndjdyZ0pkcTZCeDQ2clF6bFZXVW4tT3JpZ0dEVUN4cjlfMmVLLXVuZnVZaFhaWVJobzdRVzRpVFVvU1NVXzE3WlJFWmpKOUJ0RDNteVhLcHFFdlVSQmV2Wnk2SHc4a3BqTXBrZzBYUmw3N3U2eUxoeXJHTVlHQ2RjeHlUeVhhcjd6Z3l6ajBOOUZ5MzdObXNjVVlXaWlZcVROOTlUeFJoZnRZMFdOOXJxV1M1Wkt3dXloVGE5TGh3S3I5YVVKQUxPd0RBUldVMmpLd1NXSXFtUE0wVnJVV1I0NE5xV2RkYmFKM2FKUUJB?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Honor Foods generates around 100 jobs in Kissimmee with new distribution center",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-08-15T07:00:00.000Z",
-      "summary": "Honor Foods generates around 100 jobs in Kissimmee with new distribution center WFTV"
     },
     {
       "title": "Ecommerce Trends to Watch for Peak Season 2025 - flexport.com",
@@ -7044,20 +7058,6 @@
       "signal_bucket": "low",
       "published_at": "2025-08-14T07:00:00.000Z",
       "summary": "GreyOrange and Google Cloud Team Up for Smarter Warehouses Modern Materials Handling"
-    },
-    {
-      "title": "Industrial robots maker Mujin signs first North American partners - Modern Materials Handling",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOeHc4LWlJSHpfVXBOd1lTeHg4X1hlYm1YZlNETUo0VmQ3OGtNcEpBVlJIbFVWTEhiOU5uRGVXampUbndteUtaaHVKeVRBVTJ1TjhtNHBBVEZmcUhPa1lWejVtWEFfemp2cVhLQlM5SXp0MUk?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Industrial robots maker Mujin signs first North American partners",
-      "matched_queries": [
-        "warehouse robotics"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-08-14T07:00:00.000Z",
-      "summary": "Industrial robots maker Mujin signs first North American partners Modern Materials Handling"
     },
     {
       "title": "Offsoar Becomes the Partner of Choice for Data Warehouse Consulting and Modernization Projects - USA Today",
@@ -7219,20 +7219,6 @@
       "summary": "The Evolution of Warehouse Robotics in Modern Supply Chains Allied Market Research"
     },
     {
-      "title": "Block deal: Bharti Airtel sheds 3% as Rs 16,000 crore worth shares change hands - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPVTBhc28xVjlZTkswLW90WDA4dm93OVhIclZGaHl5RXhveWk2ZEZQbk9xUTU5azEtaGNEZl83NUdlWnFhMVY2bEFRQWJVbUg4YUt2emp3R01tRHhVR3RZa2hreFlVMnNoQWpIU2VsLTFNX0FIbURvSkZBNUk3aFRUSzY1aUYyR0Vma2E2Vk16azQ0eExEUDhvTmdBUEpNQ19QS1pKUnBSRjBuT1pGTV82OXUzN0kzZWxfZlBKVTNzV0lhZWkyNlJKLXBEd3pERW1MWUxxVlpkNzNQeENDaHpCbk5iRE9VODZRNFZtOElOSQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Block deal: Bharti Airtel sheds 3% as Rs 16,000 crore worth shares change hands",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-08-08T04:26:31.000Z",
-      "summary": "Block deal: Bharti Airtel sheds 3% as Rs 16,000 crore worth shares change hands MSN"
-    },
-    {
       "title": "Farm manufacturer announces Visalia expansion with new distribution center - thebusinessjournal.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR1JyUGQtaXlMcW5nQVBuelBxelRIbkhFaU5Sa2c2Sk5MQlNfWVNCdlRZdFZORzdlenNLNkxYQzQycjVUYXdINzEyOXdRWVBHZHg1MVRDUG5HRmJvUUoyN3psNS1vYTJuS1drZFZvNE1KT1U0XzdPdVJqVE1EcG1XeE9RR1hUNzNYbzdXdFVmVkUwb1d5RWI4SDlFM3VuSlIyelhWNmQzNFc3UQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -7298,6 +7284,22 @@
       "summary": "Amazon-Linked Distribution Center Slated for Terrell, Texas, in $70B Expansion Effort ConstructConnect"
     },
     {
+      "title": "O’Reilly Automotive acquires Texas distribution center amid capacity constraints - Supply Chain Dive",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY2N0RTBXaG82aWlIMy13TmNmOFkySkhBbm1qOXJ6RkxSXzYtaFplQzdXSGJYeVR2dXNfUnh0RVZrbFFfRVdxN1Vwamtsa19Sbm5aTG5mTzlqd0Y4U2ZSN0tjN0Z6R0trNERQY05SZWFDNG1uNWF3RUhyOUhjQm5PdE1aS1R1ZEhFRDRFUG04LXNFT0VyRnRZVkxBU3ExMWpMN0E?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "O’Reilly Automotive acquires Texas distribution center amid capacity constraints",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [
+        "signal"
+      ],
+      "signal_score": 1,
+      "signal_bucket": "low",
+      "published_at": "2025-08-05T07:00:00.000Z",
+      "summary": "O’Reilly Automotive acquires Texas distribution center amid capacity constraints Supply Chain Dive"
+    },
+    {
       "title": "College Merch Trends and the Shifting Demand in E-Commerce Fulfillment - Global Trade Magazine",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdUw5aktsekhlcllaMDAyNXBjSzY0dzV2eF9ZbUlIdWtWYmp6YkgzeWRxN2h2RGpMelRtMlVrQWF0aU1pVUItUk94Y2l0WTdzSVUyUjRwZkdGSlNRbU9vS3NEM2RJZEVNdVd3ZTMyOFB1VExqUkJ6eXdnNlk3Qk9EMmRRTi1DUDl5WUNGcnhINVV3cmMyblh2UFZvVnc0V1Q1SDJoeg?oc=5",
       "source": "Google News (RSS Search)",
@@ -7312,6 +7314,20 @@
       "signal_bucket": "low",
       "published_at": "2025-08-05T07:00:00.000Z",
       "summary": "College Merch Trends and the Shifting Demand in E-Commerce Fulfillment Global Trade Magazine"
+    },
+    {
+      "title": "ASRS 2025: Phase 1/2 study update on OCU-410 for geographic atrophy - Ophthalmology Times",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMGVyM2o1dy1qRHhoQ1Y0WFVfbTRJVXk1Mjg5NFo4VFRONWF2VHFId0dMQmtfV3c4ZERJMVFIQTV0ZHVxeFVIUTB0LTNnRlprVUJlSWRIQmo3TTFTTHNhYnlKZzV0M2pES3JQRUxOdml2aTk3VHlmeGNjRk1yZDhMSkE1YlpJakJwTHlwdW1mMUR5bkhPSDRiS1Y5NEtLREFRYlpsUF9XLXYzZw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "ASRS 2025: Phase 1/2 study update on OCU-410 for geographic atrophy",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-08-03T07:00:00.000Z",
+      "summary": "ASRS 2025: Phase 1/2 study update on OCU-410 for geographic atrophy Ophthalmology Times"
     },
     {
       "title": "The Friday Checkout: Why Sprouts’ self-distribution expansion is timely - Grocery Dive",
@@ -7376,6 +7392,20 @@
       "signal_bucket": "low",
       "published_at": "2025-07-31T07:00:00.000Z",
       "summary": "Warehouse expansion complete at Petal Children’s Task Force WDAM-TV"
+    },
+    {
+      "title": "News | Amazon ramps up spending to deploy robots, expand warehouses for faster delivery - CoStar",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZW54RTk0V0d0bFVfUjFLbEIxbkVTQ3dDR19OZUJ6U21NMXV4QnlUT3V5SWc2bGpoUlU1dnV1OEhZWWE5cmt3ZXVPRjZ4YXRiTWg1bEgwRDBPWG5fbElSU01LOWpmSlNBLWNESzNnbWhZdndFSS14VVRtZmc3b1JxTndOcERYRUk1ZFUzMlBtZUROS3dXMFFvMVoyT19rYzBJNk1TOUhVODNWZGJTT0xkZUpXSVZENzRHeUFXNA?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "News",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-07-31T07:00:00.000Z",
+      "summary": "News | Amazon ramps up spending to deploy robots, expand warehouses for faster delivery CoStar"
     },
     {
       "title": "Siemens builds fully automated warehouse with digital twin - cio.com",
@@ -7471,20 +7501,6 @@
       "summary": "Justice Varma ouster process to start in LS as RS motion junked Tribune India"
     },
     {
-      "title": "Growth in the Americas: helping scale-ups expand - DHL",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSUhqOVE0MXdJc1pWc3d6UEFCSm9zSHNPYVJUUDRvSTJ0ZnUtaW5WRzhLc3NuajNKTjZZY3l6NG5rT1JLemJqWV8yZjI0RS1aaUhlNXB2cWVKVDN2S0JWMmt4c3cwM2FKeU1WazY5OGlOREVJZEt6dnVHZDJTQmtkSE9CX3FBaFVsWjVnY2Y0aE1uT3JJWVc2cmlFRGxoXzBzVlhBSmtKbUxOOG5yV2FBU0NDRlN4eXRBMHZzUWZ6aUgtczN2OHRDMTVYWExEdFBpUnc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Growth in the Americas: helping scale-ups expand",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-07-25T18:20:49.000Z",
-      "summary": "Growth in the Americas: helping scale-ups expand DHL"
-    },
-    {
       "title": "From movies to Parliament: Kamal Haasan takes oath as RS MP - The Statesman",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQTdYRnNQQ3pMdVpOekZ5a3k3RFNoMjBSYzUyb1dNVHZ3U2FMUGpESUluem4zYnF1NUhseWxlMnVZUU5WRHJ2aGZ3S0ZyQWdsWUduVXc1SER5VGVUMkJIbjZPTHdTaUVJUVlLakE4aDlHNG9GUFRkZnhJLXAxX0Z4d0ltWW9jMDVnNmtzV250amxzS0dvVU5IT2Q1M241d29KN05Jc2hMdGZhczNQV1HSAbMBQVVfeXFMTWFCVHhnWjRiMTZFelhERVdVQ1YxYlQydE9CU0dLbURVLW5DRkdIejJYRlNfMTI0Vmw5VXVnN29XaW9TYVRwUnJIUk04MEVHRFkwNmd4dTBXYmtzSkFNQXBZanZzblY3cV83VDdQdHVmdnJlZFJfNlJsaldITXRoYVNxY3JNbjF5TGRFdWF6VU1iREZnR2VUVlE5VzZuZ01iWUJEeHpKWUlFaFdhMmdfR2N4bG8?oc=5",
       "source": "Google News (RSS Search)",
@@ -7575,6 +7591,22 @@
       "summary": "IPO rush 2025: Boom to continue as Rs 2.58 lakh crore in offers await market entry; PhonePe, Meesho, Lens Times of India"
     },
     {
+      "title": "Renderings Revealed For UIC Innovation Center Expansion - Chicago YIMBY",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWlpZlhNUHdZRTMzSUJZS2x5WlZxSVNMWlRRUkx6Ykd1d1RyMC1WZkJtTTB5MVRNQ09OZ1FIOGNhX1RpT0Jxc1hkZC1LcEc3N2hVamkwQWtnMld1YjBJaHBlZFRYLS1zMDJjM3N6TFlrcEdqWkVweV9ZeTV5U0loZVNqSVJTMVJjczAzQjVwZ0NlZzJMMGVlbg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Renderings Revealed For UIC Innovation Center Expansion",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [
+        "expansion"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-07-18T07:00:00.000Z",
+      "summary": "Renderings Revealed For UIC Innovation Center Expansion Chicago YIMBY"
+    },
+    {
       "title": "Menards’ $20M Saginaw expansion plan: 6 takeaways - MLive.com",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQms3X1NlcEczdTJYU1FCVXJpTnZrZ2h0emFOcVlOcGR2aXpLbkRDOUF1Xy1PY2ZDZHVXNWpPVkZWbjgzZ3FMQl85QzlCclp6amR4UWdlQ1lFOHNocGRiQmYzWGNNalA1dVE2cXRiQjB0R3U5cGozV3BJekV3R0JMLVRtVGJlNUVsV3ZLa0hxVHdXcFQ4Rmh5MF9JaUdZbWdpcWs4SkJR0gG6AUFVX3lxTE5sTDlCT2JHV3NGR0VDbXhid3ZIbFcyNGY4SnkzdUx5OVltU2JGZVlTZ3p4SFdfZWNLcmwycjNtWWNCamtkVWs1aFVwdnFVd1VzLVRnNXppRHdNSlZQRVJtYzVWMEtYOUZtck5PQjlSUUdyYjBZTi1QcEdJU0k0ZUVPTmRCUWt4akpRMUplN25QLTRpTHlvRkNNUWFUSzVIV2ppVUxxZFNNYk5XcUlmbUVEdUk3UmZaRktPZw?oc=5",
       "source": "Google News (RSS Search)",
@@ -7638,6 +7670,23 @@
       "signal_bucket": "low",
       "published_at": "2025-07-11T07:00:00.000Z",
       "summary": "Geekplus lists on Hong Kong exchange, in pioneering step for an AMR vendor Modern Materials Handling"
+    },
+    {
+      "title": "Robotics-as-a-Service will make warehouse automation accessible - TechHQ",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYWd6UlRJUG5NeGVvb1VPMWh0ZkVMNDRhc0FzaVdvYzRZUDlzN2VXOG90UG1wTTd4dVhDS296ajRjdE02dWVfT2FoY2dOaWwxWlBvNHNBTG9Wb0dMUGgtazRWRW8yTG1Ic2FlNW55WUJwX2tzSE13bUhjV1FacFFaU1ljR2xYM20xVnhNeGxNWHRUZw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Robotics-as-a-Service will make warehouse automation accessible",
+      "matched_queries": [
+        "warehouse automation"
+      ],
+      "tags": [
+        "robotics",
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-07-10T08:00:09.000Z",
+      "summary": "Robotics-as-a-Service will make warehouse automation accessible TechHQ"
     },
     {
       "title": "Anil Ambani gets BIG relief as Rs 102000 crore bank withdraws 'fraud' tag on his loan account, not SBI, PNB - DNA India",
@@ -7773,6 +7822,22 @@
       "signal_bucket": "low",
       "published_at": "2025-07-07T22:15:06.000Z",
       "summary": "July 7 - Walmart expansion in Auburn reaches major milestone Fort Wayne Business Weekly"
+    },
+    {
+      "title": "SAPNEXx and Numina Group join forces to streamline SAP warehouse automation - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPekxEcjNHdTlBRW5iMl9ldWVGTnI3WndIc01qWW5uZGZaeVY5RHpWNjNVbHJhT05LdWh0Z0V3bkc0SkZFaW1JYWJIRzV1NUVlcnhKbWp3RmZmbV9uQTQzRTFubEFfc3dUbVcxQXAzWWVxdDNsY29Ld2hCTkZtWnl5c3JlYk5IWXdaY2NnZk1fVEMyTVpYcTU0?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "SAPNEXx and Numina Group join forces to streamline SAP warehouse automation",
+      "matched_queries": [
+        "warehouse automation"
+      ],
+      "tags": [
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-07-07T07:00:00.000Z",
+      "summary": "SAPNEXx and Numina Group join forces to streamline SAP warehouse automation The Business Journals"
     },
     {
       "title": "Amazon’s Millionth Warehouse Robot Is Here And It’s Getting Smarter - Forbes",
@@ -7982,8 +8047,22 @@
       "summary": "System Report: Staples does robotics one better Modern Materials Handling"
     },
     {
+      "title": "Amazon Nearing Equal Number of Human and Robot Warehouse Workers - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM3lKdWZZTE9VVDRuMEstbTF4TWJCemdNM3FGM1NxTkVmZjJmSG15ZENuX1pqbmFtRW5Sdm9temRrQVoxU1BhclFwSHh2aWFzLTVTb1VqM1FnaE1xbnBJRVoxXy1FelpXc0l4VUI4SjU5Wkh0SlNxSDZCM0dSendFMmhRRThwSVF1RExOM1JrVjVha1dXNWFDTnI3WjNycmhkbVE?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Amazon Nearing Equal Number of Human and Robot Warehouse Workers",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-07-01T07:00:00.000Z",
+      "summary": "Amazon Nearing Equal Number of Human and Robot Warehouse Workers PYMNTS.com"
+    },
+    {
       "title": "Exclusive | Amazon Is on the Cusp of Using More Robots Than Humans in Its Warehouses - WSJ - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxOQjZuaHRBcEpFQXpYbXJYanUxUjBUbngtdmhrVG1ucGFTQjZ5cWNEOGhZcjJmcTU2RXE1Y2NLVF90bTVrQmpCUDJ5bnFMSkhRTzNpUmRoOVlfTDFYeXZuVUZmZjhBT1ZVcV8wd01VTDFIMFE0NVQ3ZkR0TGJDNUdHT1lVYXJxZ2RqTjEzeFNBbUpzVFZOM0MwZW9sZTRjVk1LTXltVnZ1LUhoU3JBM2Mya0JPZndhMW1GVmRXdlpvM3Nfc0NoYW5zeDNFMG5SMGhLZkpUQ3JrSFJ5bWp1VjduT1dXcjhSYlJlTWpybnpyRVFFc2JyTV9vX1dQM2pBSjNiUkdvVFFzODRBVDRKcGtYa3U2U3U4bHFaaExZb2lHblp5VVlxcmpBSjlzRmhLSEdyUnRXdS0yU3ozd3JjeFNPNnN1LXRuTHVXQVR6RXpaYXM1dy0tSjdZd1BKdU90ZmVNNmozQWstazBYOEVqa2pkdVhpWFlzeTY0RzNvYg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxOb2ZKdzNmUlFteDBvclVrR2tZMXd0TXYyLWdjM21ubUpDeVp6YmpBeTVkbDZMZFVBcW9qdWZaSFAzbW9jcGVMQ1VjSGRqZC05eWx3RjBtRGxtYkVfUi13Y3FGU09XdElxWk02SXJmbEhQQllMeTV3b3EycEVPTGFZSWtGVm9yTmphbVROZ0xnVVQtRmRJNWlSeVhTR1k0RG5ad2RpUmkwQnU3cDFhZzR3R2RBNGlNVTVSYVplMnhaWlMtUV9YbTdtSnJYOHY3dlFvUTdPYzRGY2ZHcUtZaW13R0pSWkcyNVh6anhoMFJQMkpUd3hRWXc4Z2pONW1CRDg5QTJzcWFIblFNMDdQQTRvdk5WTkNyTF9EYWpBdHpielE0RXNvbUhPNFB3Y0U2aDA4eFVLM0k3SXJscXYyUlZfd1JSTi1NSWJKUWRwclQxRUFRZTdkVnRHWGNYQXRNU3Nuc0ZBVG9zaFJMekRUZ3ZneFVBQmRJUlc2Rzd3Vw?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Exclusive",
       "matched_queries": [
@@ -8012,6 +8091,23 @@
       "summary": "Amazon launches a new AI foundation model to power its robotic fleet and deploys its 1 millionth robot About Amazon"
     },
     {
+      "title": "Labor shortages crimp Japan's booming property industry - Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUWdFczNnQnNHRzZYczZFeWtDX0FXQ3dUa0dRRTB5UHdxWnlyZnZqVUtOZUE5dnZBcHFwYkIwSkhNYVJaeUQyV0dMMzl5ZjYxT0VOaW1rcVpsNThiTVhMa0U3OXg1ZExyWWF0ZEl0Y1B1d1A5clVYdDNldlV0M3VfM082SkMxZDgtLTRlcER1NU1kaXpXVkVIdlJpSnBXY0U4dmdNaWlTbWY?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Labor shortages crimp Japan's booming property industry",
+      "matched_queries": [
+        "labor shortage warehouse"
+      ],
+      "tags": [
+        "labor",
+        "signal"
+      ],
+      "signal_score": 1,
+      "signal_bucket": "low",
+      "published_at": "2025-06-30T07:00:00.000Z",
+      "summary": "Labor shortages crimp Japan's booming property industry Nikkei Asia"
+    },
+    {
       "title": "Warehouse automation surging ahead despite projected slowdown - FreightWaves",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVRNS0VadTVIU0FNZDVTd3BuNVd4QVR4MGotTS1EOWlBWWY0RGI2VGtoVndmQVZrMlNBa2pKLTJ4U2JpYktKSXVhQ2U5cVV3N3NwRGF4djVMbkJJakdiWG5ZSEVhMExJcGh0SFpJMzZyMlBTSS1NdG5tNlVKME1LT082dnYzemktSUVLQ0Nvc2RZODRGaU9WWllMYw?oc=5",
       "source": "Google News (RSS Search)",
@@ -8028,6 +8124,22 @@
       "signal_bucket": "medium",
       "published_at": "2025-06-27T07:00:00.000Z",
       "summary": "Warehouse automation surging ahead despite projected slowdown FreightWaves"
+    },
+    {
+      "title": "New facility, expansion by local business expected to bring nearly 100 jobs to Shreveport - The Shreveport-Bossier City Advocate",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPblhCa3VIWjJ3R09LUmswZzdEbkNTN2t0TU40NjJwU200V3JrVGx3QW1nY1ZET0s2R0tubWVSNHlQZHg2aWxkVnJONWN1cGJZNzlpTkkzWml2MXlCcmJyMkltOTBHdkFYeU40Ynl0djBNc1E0SWNWRVpMS1ZkaDhyb2E3S05hLWVJT2pjLVhtdmt5M2VkS0d3b1JwWGFKREdJU3ZVdFo1TXhrcWlEYlQtWDRncEoxdDQ3VURaS0xTOEVvYnU0WWI2bGhXVlFSM2VDbGdVTTdaVTE4SEhPNXpoLTVVUURKS0gySUNQVUdZNmRHbFJuTk5UcGhBWHNHUTFOVkZLR3BVMURmOUpHUEFCR3VYelJOa1lt?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "New",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [
+        "expansion"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-06-27T07:00:00.000Z",
+      "summary": "New facility, expansion by local business expected to bring nearly 100 jobs to Shreveport The Shreveport-Bossier City Advocate"
     },
     {
       "title": "Premium Guard Inc. Opens New Distribution Center in Weirton, West Virginia - PR Newswire",
@@ -8402,20 +8514,6 @@
       "summary": "E-fulfillment center closure could cost Kohl's up to $30M The Business Journals"
     },
     {
-      "title": "Kohl’s closing longtime fulfillment center in the Tri-State - FOX19",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ09RekR4M3lRWFlKX2tLMTNNdy05NFA3M2FZUGVqX3hFOHM1aDlqa3BmSldzMExRWnJFdl9SWVVzQlhSTlRvTGdtWWM4RmNBdWVrZVV3cy1LTk81VjZOYlUxcUZzLTlZd0RXd211ZHVHcFNncW9MM2xMVTZYR29HUEtja2xadFVEMnppNWpKZkVxMHJlUVE?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Kohl’s closing longtime fulfillment center in the Tri-State",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-06-09T07:00:00.000Z",
-      "summary": "Kohl’s closing longtime fulfillment center in the Tri-State FOX19"
-    },
-    {
       "title": "DLA modernizes distribution network for contested warfare - dla.mil",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWVE0M2U2MkhKMWVyLVZmeXZ5Wl9SWXRYWTdOM1FuZFMwSHRjR2s1QThrZ3RHV29YVndnZDVhNXZ1MXJ4cjBxczFPaEQxbXRqdXRNRFJkb1JLeDc5Q1RuOXR2SFFMTUpfUS1QamJ1Rm9HTGNIWEtoYms5bG5sRGV5MkQ3cTVNM0dNaXM0eHJ4dGdyWWNmVTJJWFZ3U01kY0JwWFNmVE02eHN0T1Z5eHFnTzRrbWt1cVp1RDA3TUtfRll4TXViZWc?oc=5",
       "source": "Google News (RSS Search)",
@@ -8472,36 +8570,6 @@
       "summary": "Kohl’s closing longtime fulfillment center in the Tri-State FOX19"
     },
     {
-      "title": "Kohl's Corp. to layoff 768 workers in Ohio, closing fulfillment center - Milwaukee Journal Sentinel",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRHRrbjU4TjhpLVZTVnhhME05dGtlcEhwb0o1X0YtbUIzeVBzZlVWTEYySlNkNlVMSGQ5V1B4S3ROMGNUSjJtNmVVYkZSQjFzeEpzdFUwOVpUdHNuM1k4YzVUOUNhbVMxVHZ5Q2VqZXd4RXhRNGhockcwVlh1N3hleGF1dUpscnljQk9nX3hrZ2tiWDc0SkEwb2FHNVZSS3M0RWN2R0VHaEVXOXNvZlZxTGR1cXR0eXRqbExuV1JYclEzZE40aThmY09fZVN5M0Y1OWZ3?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Kohl's Corp. to layoff 768 workers in Ohio, closing fulfillment center",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-06-06T07:00:00.000Z",
-      "summary": "Kohl's Corp. to layoff 768 workers in Ohio, closing fulfillment center Milwaukee Journal Sentinel"
-    },
-    {
-      "title": "Stord Secures Over $200M to Expand E-Commerce Fulfillment Platform - The Software Report",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR2JScGVBOXlzQWNJbFduc2JqcnpULS1waC0tSHFFR0hYTGtlQ1BmSG54VFphTURLdzhmWlpjQXVaMnBkOXRrMkg2ZXdGaFlEemlEQmV0ZDBKVkRlM1NHMWd6OEp3aFJUU2VBUjVEYnZnMmZHYjd4NkdWLThMcHg1T0lVd2hCSjVmRDNhODh2b3VjSXVrMHVUOWtaa0FSMkxDWFE?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Stord Secures Over $200M to Expand E-Commerce Fulfillment Platform",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-06-06T07:00:00.000Z",
-      "summary": "Stord Secures Over $200M to Expand E-Commerce Fulfillment Platform The Software Report"
-    },
-    {
       "title": "Emergency Services Education Center & Warehouse – Expansion Phase I - wake.gov",
       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPY2dKNjFMN2RDQndvbFMtWG92WmgwRDQxOVNCTUJpdHRaWl9iS1pmLXFjd3dWVlYzV0JaeGxBWXFHUXhIWmhLVHlLdEVkMmpCV0pINjBxbkNoWW01RndxVktWMnM5Y19hZkJMMWlPUl9sTzlLOFlqRUpHQjRUcWNaUnhtaGZwWHdUNlNtd05sVUYxNXR2V0stZGZIeVV0SzBLRG1mRzhvLTlBaFc4WEtzWHozaE5oU09jbzhWYVRmeFphZ2dHaGlKVnRmeUF2eG5kOXItMkpwQS1xcl9PWDhEWW9ZWGVqa09TTU1OSDBPLTVpZHdOLTlhTXQ2ekhpVkRsTEJjRjR1ZlFrU3lFMm9IeURRdkJ6d2tUS28ySEVUYUJDd1I0MXM0?oc=5",
       "source": "Google News (RSS Search)",
@@ -8523,7 +8591,8 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Five Essential Warehouse Automation Technologies You Should be Using",
       "matched_queries": [
-        "warehouse automation"
+        "warehouse automation",
+        "automated warehouse"
       ],
       "tags": [
         "signal"
@@ -8564,22 +8633,6 @@
       "summary": "Smart Warehousing: How Robotics, Digital Intelligence, and Sustainability Are Reshaping the Supply Chain Supply & Demand Chain Executive"
     },
     {
-      "title": "Kohl's to close Cincinnati area E-Commerce Center, 768 jobs lost - WFMJ.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZnVsVW9FZTZCd2Z4YU9Eek02NjBuOVU1YVFYQ1ZWWHpCRVJoSUsyTTNJT2otdGxwY1pJSWpOSndqcHRBTmtfcFEzejNaZGJTQ09tRm5RdXNjakdYblN1aW9GX2E4M2IzakdXdktBcEJEdGVpS3dRblc4MmdTQTV5X2QwZUhUQXZsdlFIdzFyZ3FsMG5tS0h5NmwyVW5Qdw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Kohl's to close Cincinnati area E-Commerce Center, 768 jobs lost",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-06-05T07:00:00.000Z",
-      "summary": "Kohl's to close Cincinnati area E-Commerce Center, 768 jobs lost WFMJ.com"
-    },
-    {
       "title": "System Report: Manhattan Beer & Beverage boosts DC efficiency with high-density AS/RS automation - Modern Materials Handling",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU0RBNTQxZ3VTVDlPVm13b000amRpYWZ2djJmR0pSSmxGY3AtMEhPb0VORVBnUV9wSHplcFJNdlB1YzZ0UXpUMDhhWHd1OXNSdUY2bUVET0hJODF6UG95WEd0R25GdEZud1hzdnRkMW1nVzEzeXhrdmdfZTVfV29jRzZkYm9rVUVXaktENk5OV21GM2hNUzlueG5wR1g4cGd1WVhHRzBheG1MMGtHOFJ1dnlqZ2RmYUFFWmFmd0Fn?oc=5",
       "source": "Google News (RSS Search)",
@@ -8602,7 +8655,8 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Learn how gearboxes enable next-gen warehouse automation",
       "matched_queries": [
-        "warehouse automation"
+        "warehouse automation",
+        "automated warehouse"
       ],
       "tags": [
         "signal"
@@ -8613,20 +8667,34 @@
       "summary": "Learn how gearboxes enable next-gen warehouse automation The Robot Report"
     },
     {
-      "title": "Berks e-commerce fulfillment center closing by year-end - thereporteronline",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV2tCb2NIM2N0eEFxQzRQYW5yNldURUhEOGoyZ3hyQmZ0bkV4VjVGbmVnUE1jM0dGcG9lSEpKUUtLZnpObW1zd0pjZ25hcnRudnphWW1PLVVFazZsRnFNUnBqT0tvMVNZaWtiNTR2cjFLWFoxVHFsWUZxYjJodWx6eEQ1UWxNMXF3Yy0wR3FWaVZGWTY4Zl9Rckp1bndnVG5Ba1p3?oc=5",
+      "title": "Grays Peak and Valore Ventures acquire SencorpWhite, landing warehouse automation portfolio - Modern Materials Handling",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV1gwUHdINUJsSGRWbWtGSTVXejc0ZkYyUEdubjNWWmNXUXlSYVBmWGlLUnoxeGprWDZ1cHB5NXJ0RmVnbzhfZ1J3ZVJpOGVIeE1aWUEza2pPcnRkQ2ZPU2hkZzN3NEZZWnREbTZVdElCNUh2bUl0QWZNNzNzSkFIRWVXYnRmdFFGVFBnQkpFZTdrekxzQUdpUzJsaW9ya01rTDB4OWZEQ2dKY2xxSEdLSW1vZ1J2ekZvSW16Slhicw?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Berks e-commerce fulfillment center closing by year-end",
+      "company_guess": "Grays Peak",
       "matched_queries": [
-        "e-commerce fulfillment"
+        "warehouse automation"
       ],
       "tags": [
-        "ecommerce"
+        "signal"
       ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-06-02T07:00:00.000Z",
+      "summary": "Grays Peak and Valore Ventures acquire SencorpWhite, landing warehouse automation portfolio Modern Materials Handling"
+    },
+    {
+      "title": "Talent Reinvention: Making the urgent case for people-centric supply chains - logisticsmgmt.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNkN0eEhuRTZsSUF4RGZZT25ya2FLckhYc19pZDBOXzRnek1MMW96UTlyRGVsVHR5TUEwRzcyMUx4Z2syV05VMVVieDkxSnc3aDhZYVBHNko5UGFMY2hCdzJuazBXeDNJZlNCWENsTW5JOVZfbVNrUmNTR04wYXBiTlhoM0FBX0ZUNlJQUldNX0Q2cmxTSHlpa0lybkNIZHQ5T0NhM18tanVtSFdmVU5YNm9n?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Talent Reinvention: Making the urgent case for people-centric supply chains",
+      "matched_queries": [
+        "labor shortage warehouse"
+      ],
+      "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2025-06-02T07:00:00.000Z",
-      "summary": "Berks e-commerce fulfillment center closing by year-end thereporteronline"
+      "published_at": "2025-06-01T07:00:00.000Z",
+      "summary": "Talent Reinvention: Making the urgent case for people-centric supply chains logisticsmgmt.com"
     },
     {
       "title": "Virginia Wins $366M Distribution Center in Lego's US Expansion - Transport Topics",
@@ -8660,20 +8728,6 @@
       "signal_bucket": "low",
       "published_at": "2025-05-29T07:00:00.000Z",
       "summary": "RaceTrac gearing up for Louisiana growth with new distribution center C-Store Dive"
-    },
-    {
-      "title": "Bunzl Consolidates Tennessee PPE Affiliates into Massive Distribution Center - Modern Distribution Management",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWmotcHgzNVg2X2wxdEhWNF9SQzY5YXFLemsxUW42ekFpYk41ZUFiMjFzM2FFWWpUR2taWFZFbmRzZGtGMDRwbm54OXN3anlFSnhkdUFHWFg5bVZuNVVjM2NqTlFPaHhUbWFpZlNyYm5MVVlqc1pRb0lWTnFpSU5WQk16T3RCckhJN3Y4ekhKR1pPS0VCSTVtTkxSbjVfWjV1QzhPeFdLdERJcEVnNFpRN0U2bkxncm5VclVfZWNRa0R0RFhTS1RXXzM1OFRSY08xSzhELWxSTDZ4ZXVIWHZYWVF5eTBHUUFXdURsa21tcGw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Bunzl Consolidates Tennessee PPE Affiliates into Massive Distribution Center",
-      "matched_queries": [
-        "distribution center expansion"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-05-28T07:00:00.000Z",
-      "summary": "Bunzl Consolidates Tennessee PPE Affiliates into Massive Distribution Center Modern Distribution Management"
     },
     {
       "title": "Arca Continental Coca-Cola Southwest Beverages Begins Expansion of Oklahoma City Distribution Center - Business Wire",
@@ -8769,20 +8823,20 @@
       "summary": "Warehouse automation is not slowing down—it’s leveling up The Supply Chain Xchange"
     },
     {
-      "title": "Stord acquires UPS specialty warehouse business for e-commerce logistics - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3ZJc19IejU5aXRKN05qUDlCRlRmRTMyYW9xRWROUnliOXhpeDlXb2ZxaHNZVWRabGdmRnlianBUSWRkbVVMY21BQmw3ejE4VDJOZjNDaU00aFVlN3JQdWZ4U1h1aDMzSGZuRDc3TVVNUTBTRzdha3JYeVZtZldRQlh1by1mdFZtR2xOODV2N3pfS2QtemhUTVYtdHk0Z1h4RGFRZkphOFFXZw?oc=5",
+      "title": "Robust.AI Partners With Foxconn to Accelerate and Scale Manufacturing of Carter Warehouse Automation Robots - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQS0t6Qm1GMUJyVFVXX2hTYnVlTEVId0ZRdEV2MjlsdzIyeDVtcFJCWmJCOHRqaXR3MHFRMjVvZHRWeU5YMlpHekFFeURlR0VOcXNZQnhBN0JpX0d4V0hURWl3ZGotd3JzbEgyeXVXNFFVcEQ5bVpEeXhtR2llRE9SMTdyVThSNU9VNjc2djhvZlVQbWp5TXJuT1ZUMUd6VGpoanVJRUtWQzMteExsYkRiSjlObWY0WEdsdE5jeGtTV3k0aW05UmYtbWtCU2R5LTdrS0tkSlg0Qll6dExNcC1PX25ITTlPTTNPWjhQUUFfTkZZemFwb0Vv?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Stord acquires UPS specialty warehouse business for e-commerce logistics",
+      "company_guess": "Robust.AI Partners With Foxconn",
       "matched_queries": [
-        "e-commerce fulfillment"
+        "warehouse automation"
       ],
       "tags": [
-        "ecommerce"
+        "signal"
       ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-05-19T07:00:00.000Z",
-      "summary": "Stord acquires UPS specialty warehouse business for e-commerce logistics FreightWaves"
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-05-16T07:00:00.000Z",
+      "summary": "Robust.AI Partners With Foxconn to Accelerate and Scale Manufacturing of Carter Warehouse Automation Robots Business Wire"
     },
     {
       "title": "Cherokee Nation completes $2.8 million expansion of Nowata Food Distribution center - News On 6",
@@ -8815,38 +8869,6 @@
       "signal_bucket": "low",
       "published_at": "2025-05-16T07:00:00.000Z",
       "summary": "DHL Buys IDS Fulfillment to Beef Up US E-Commerce Division Transport Topics"
-    },
-    {
-      "title": "IMA E-COMMERCE Partners with Cognex for Sustainable and Efficient Order Fulfillment - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaVVLakkyM2pMTTNSUklLY3ZteUUzS2JROGxKdW5OWmtaNFlDai1qTFB6VG1IZ1R6bnA0Q29PcDh0TWdSTHhFRks3bGZZdFpBU0NrVGFEcEJRcDgtODJOTTFPSVB4eUFHRUluRUFKVVh3SmNoYm5DcUFTLUMyZjRyU2xjbXBNdzg1Z2l2bnQyRnNZSVM2SFh1cTE5NFFzT0ZVdU8taXh3ZjFnbXc3RUd5QlE4VlMtSFVZTGltU2VNaVN6R0lWWE9tUE1DalpBR1VnS3hhVmp3?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "IMA",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-05-15T07:00:00.000Z",
-      "summary": "IMA E-COMMERCE Partners with Cognex for Sustainable and Efficient Order Fulfillment PR Newswire"
-    },
-    {
-      "title": "How Amazon’s FBA changed the shipping logistics playbook in e-commerce - Retail Brew",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNzVCVk9WRUtuUnV2NTBjdVc3cDM5dzRaU0k2aTVqR3pFZlFTRXVWcXZ3bnl2SHlEVlRCSWJnSzdVN3FfN3JBRVI2aFg3S2hWdmhkUzAyaC03eTR1Zk9IcUFIR0RUNnNmX3Z0WGtrRlZnM1JJZml4UXNGd3lyTFRNUnlQdDBLQlZFS2xFcjdHYl9yQzhiMEU0QU1iQU01Umw0LW1ZWGhwbnUtR2VJOElwd284ZzlKa1E?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "How Amazon’s FBA changed the shipping logistics playbook in e-commerce",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-05-15T07:00:00.000Z",
-      "summary": "How Amazon’s FBA changed the shipping logistics playbook in e-commerce Retail Brew"
     },
     {
       "title": "Amazon sees warehouse robots 'flattening' its hiring curve, according to internal document - Business Insider",
@@ -8895,6 +8917,20 @@
       "summary": "India’s Addverb Brings AI and Edge Computing to Warehouse Robotics EE Times"
     },
     {
+      "title": "Japan eyes skilled worker visas for waste, warehouse management - Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNjNhRWNmXzhaUjJoYnVjcUtOXzBDeVFKeWVaR2RtTTFWSENuclpMZ2U3aWF0OWdseThYanZ4YmZ1b1JrOUN3OUxMVmNLYXJ6aFFJY0lFQnQxQUdsdUktak91RGR5MTFXUGJUZTJFX1dSOTlza0dwYlhVZWhxc0dkSUZWSmVFSEtlY1VCZkZ0N0NqUVNTeWxBakRLbGYyNUJWM3hfQm1VMkV0d09Bb0VoRVhtUk4?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Japan eyes skilled worker visas for waste, warehouse management",
+      "matched_queries": [
+        "labor shortage warehouse"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-05-13T07:00:00.000Z",
+      "summary": "Japan eyes skilled worker visas for waste, warehouse management Nikkei Asia"
+    },
+    {
       "title": "What is Global Fulfillment? Importance and Solutions (2025) - Shopify",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8ya1dPOWc3akt5NDRjYzdmNzBpQVhHZFc5b1ZEeVNwMWxMYkNQbl9yVnF5Sm01TVVrRDhPRkttRE9rOHRkUUZ2RFVsazZJUU9IbFZpcHVDRnQzRE5iWVlsYTg3LVVQdjE4TTdYSDhScEwwUQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -8937,6 +8973,22 @@
       "summary": "Amid Talks Of IPL 2025 Restarting, RCB Suffer Huge Blow As Rs 12.50 Crore Star Gets Injured | Cricket News NDTV Sports"
     },
     {
+      "title": "Warehouse Automation Rollout That Works: Align Teams, Focus on Workflows, Skip the Feature Trap - MarketScale",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNTUtSGp2OEFrREtpTkg3SkI3UGp1aERGQ0tERzBIcGllc1NOZy16N1dIemdINm1sNF9xUG4wWEV0MmVRa29mY2VfellNME8yLVprUUQ0V0JEVEktWTd3bGxoUkdZUlhFZnF1UXRzcTZvWExXNndNUF9uTUFIQVhnaFgtQUg3WmN1MTV6NGFZTTNOQlFDdl9ZeXh0VE95X1hJa19zM216T3NQaWM3MWtLc1Z0Z1JNbWJDZm0zbEs0bUd6WU5ZU250Tmw4YWVPZ1dnUFlNeG1aa3RLRUpXX0J0T1J3?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Warehouse Automation Rollout That Works",
+      "matched_queries": [
+        "warehouse automation"
+      ],
+      "tags": [
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-05-10T07:00:00.000Z",
+      "summary": "Warehouse Automation Rollout That Works: Align Teams, Focus on Workflows, Skip the Feature Trap MarketScale"
+    },
+    {
       "title": "How Amazon's Vulcan Robot Transforms Warehouse Automation - Manufacturing Digital",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZEFocW9YbzNVcVlOdTluejNDNF9xUHhfMHduUTBLSDlfUE5yb2F4dVJYUE5sUm5kZHFwWnY1cUNidDBqUlVaTDE3eGdBWEFUNlByaGktbEs0SGp1WlFjZ3BCd0JMRnJBOHNiSnZZR2NFVzNpTEFlaGJlQVlIYlZtN3FiaDIzbDZJX2lJZ1Bzb1VLZ3c?oc=5",
       "source": "Google News (RSS Search)",
@@ -8965,6 +9017,22 @@
       "signal_bucket": "low",
       "published_at": "2025-05-09T07:00:00.000Z",
       "summary": "Tractor Supply talks tariffs, AI, and more HBS Dealer"
+    },
+    {
+      "title": "AutoStore's Pio Debuts New Big-Box Warehouse Automation Capabilities - Supply & Demand Chain Executive",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSlB6NzlKOGhhMjVjNEZhTko3WGJ5WHRPM0N0bnZQaWlOSmlwNlloVnBGUm5wUDkzc3ZMZzV4cmtoNGZ2ZDlKdW1wMGh4cXNLSVdxOUlxZHhlcjNKZ2FOd2pfV3F3RV9zOFdqUFdhZHAxY0l3MGFhd0lJeGFfeUpzVnJGMDFVQnVlZ1hoeG9GWTlQYWRoS0ZFZUdJeXNJem5fTFJIWWVXdHhEOEh3TG03VmhoSVhic2ZxZklfSUZZRV80QUpw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "AutoStore's Pio Debuts New Big-Box Warehouse Automation Capabilities",
+      "matched_queries": [
+        "warehouse automation"
+      ],
+      "tags": [
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-05-08T07:00:00.000Z",
+      "summary": "AutoStore's Pio Debuts New Big-Box Warehouse Automation Capabilities Supply & Demand Chain Executive"
     },
     {
       "title": "Honeywell and Teradyne Robotics Team Up to Help Companies Automate Material Transport and Successfully Scale Automation Solutions - Honeywell",
@@ -9030,22 +9098,6 @@
       "summary": "Coping With the Labor Shortage Crisis in the Supply Chain Industry SupplyChainBrain"
     },
     {
-      "title": "DHL Supply Chain increases e-commerce logistics offerings, with acquisition of IDS Fulfillment - logisticsmgmt.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa0Z5Y2laWDRUR05PcFg4c1JBamFReFJhRXhCMlhWOFRzZTdmanVaZ1hTbHpqVkdwSUFxajZ1ODA3Qk5ZcjI5QlhENWVWX04xczJ6T01LeTlqNnl4VnNFRU5LUFF3c2VqMFM3Q1NxTlcxa2FnZ2t2VkFYRC1XMWNxNThJWnR3S2NoclpXUlFpVndHQkZuZ2RZVGZORDN5UW9xb1BjeDl6Y3ZHRXFkWnI1QjNUT0JKcVczU01UMm9TZ29uVGV5Mmh1OTNSdw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "DHL Supply Chain",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-05-07T07:00:00.000Z",
-      "summary": "DHL Supply Chain increases e-commerce logistics offerings, with acquisition of IDS Fulfillment logisticsmgmt.com"
-    },
-    {
       "title": "Publix plans $15 million expansion, seeks tax abatements - The Business Journals",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS29VeVFHZmgtb2tkWl9ha0NiYTNGWEhpVmYzUGtPNXRTWVdyR01zZVB4a3RSY0pqY1lwVGR3UWFwcDFqV3AzTGMyN2ZhOFlYaTZPYld3ZXU5bVRKUGpxMFpJYmQxNll0Q0hNVk9GWFY3aURuYTNvSXpjUGh1S3VtNlNlbzBTYWZtX3d6aFI3SzRwLXRiS05PUA?oc=5",
       "source": "Google News (RSS Search)",
@@ -9095,7 +9147,7 @@
     },
     {
       "title": "DHL Unit Acquires IDS Fulfillment, Eyeing Smaller E-Commerce Customers - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxNaEpQZXhrUEY0Y1ZmZ1pMYzBVUHRKNWxzYTZmNmpVS0RLaE5Wai1RVEE0RVNpOFhLOWhqMkFSVjR3WVR3bkRHc0tNaGZFN3pZUTllYVZfWkt1T1o0a051Yk1Qd001VjhydXlrRS1Jc1liSHFSd01PS2tuQnhzT2tJUTBfWkFuWHJFcHRGLXMtVng2ZDVmOXhIY2JqaXJJa2JxWnQtWWNFZ0piRDV1ZENHZ3pjeE1Mbjc0S2lYYXMtWEJ2WHJIZ253Mmlfa0RjVjNNOVNsczZiSEU1SnVaUzNWVUVKX2ozb0VqTzlWQ2R6Vm11ZGg4OTJRSk96em9NaDRNVFkyNmJjanZfU3Y1MlBSQlJzdGxyaEVlVlRYbURrdTFXbGZHRy1Wb041T0thQTZBeldCcnNuTVE5eE95RUZHdGcyWnFkUFFoNTBQUExMVXd0cEllV0p0WFNSVkVfM2IzSEk2emtscmpjVUx6dW5fVWowZWpqZFVSTm55Q1lSTjQ1MTZKZUtoeUlhWnlsWW1VS3A5eTFDV0lBMzYtWWJSRHpYZ3dEeFBNbEpuVTc1eUg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxNSmYzTWM2ZGZJeW01X0RReExreEpTQ1Atb1lsM3NFenp1WVVVd3NQZGVvcmxxQ2xYTXdPY2lmd0NpMVBFNHhObk9Qeksyeld1bWNXWkNjMVdWUlNjTXRUekdyNE5nUFQtczU4M25lMU9XVExkTW8wQmhNUzdvQXBleDJINkMtWWhMOVVrS3ZfTlpyV1BvZkdxTEphM1gtMzdIR3AwZHhwblVTZUZSTHVWeW9qWFRFRUx1VWlkTmpaSm15OWpKVjJqOEpVaEM1bkJudEJkeElYVTFZTDhOT05mQXlzdTdBUU9HZ1htaW5RLW1KLWtZaFl6Y3pPbnhsemNtT2NwaXFHZ240SFJLazlKX0lwN0U0MFExaVplMkRqYlNESGpNU2NlTzZ1QlNaejh3cWRyYUtZSG0xLWxFQURHMzdlc05TWHVSYndVTGFYbEZlelU3QVI5alZ2Z2N2SXl5clRNRHM3NG93RXBOTXZqaVNnNGh1dmRmQnl3bmFXdGFBWkszM3lZeHV5RS1DZU43UDVUQVZQWFVNN2M0cHU4YUNfMFd2Sk84U3c2TWphNlc?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "DHL Unit Acquires IDS Fulfillment, Eyeing Smaller E-Commerce Customers",
       "matched_queries": [
@@ -9124,20 +9176,6 @@
       "signal_bucket": "low",
       "published_at": "2025-05-06T07:00:00.000Z",
       "summary": "May 06, 2025: DHL Supply Chain strengthens its offering to small and midsize companies with acquisition of e-commerce and retail logistics specialist IDS Fulfillment DHL Group"
-    },
-    {
-      "title": "Will DHL's acquisition of IDS Fulfillment help the company achieve revenue growth in North America? - DC Velocity",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOEJPV0hsbXg0a1JjX0lhdkJSRi1rdmNSUzdhcVlJYm5iS1VqaHFZYWJMQV83MXJHQU02YmhVUzF2Y2NBNFZwSjhHMW43dXJubDhIODZwNDVCRWt0Q2gzUVFRZjJTTzllb3k5aHVQc1JOQ1ZBU0pBeG1pNzlDTllGbFpHV3ZqZ1dmOGx4Vl9WYm1ucGVBdkJkNVRVS2NyUWVLUXJPUV9DUVN3S3Ftd185cmVqbw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Will DHL",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-05-06T07:00:00.000Z",
-      "summary": "Will DHL's acquisition of IDS Fulfillment help the company achieve revenue growth in North America? DC Velocity"
     },
     {
       "title": "Facing labor shortages, warehouses turn to temp help and AI-powered staffing tools - Modern Materials Handling",
@@ -9267,27 +9305,12 @@
       "summary": "State-level security agency (SIPA) fails to arrest Dodik as RS police block operation European Western Balkans"
     },
     {
-      "title": "Trump tariffs add to warehouse automation woes - Supply Chain Dive",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcDdLbFhieVdueXJmMVlpZk5TdGJZLWRSYk9pYUE4Q3FBd1N6TXdEb2haWGJSUlR6ZU5iV2lxYmpsclVST0RvVkZOVEEtWDMta25peW1yc1llV0hlRTYtUURESDFVbUZjVEVJWnZna0Y0d3k5d1JqcVYzQk1ZSnM1OGZQX3JkVEZZeUc2OTYxQXAzUQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Trump tariffs add to warehouse automation woes",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2025-04-23T07:00:00.000Z",
-      "summary": "Trump tariffs add to warehouse automation woes Supply Chain Dive"
-    },
-    {
       "title": "Editorials: How AI Is Transforming Warehouse Efficiency in 2025 | Cyngn - A3 Association for Advancing Automation",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84eENuNFYwVEtYX3NmZXRrMERTcG5OSEIwcEd5YXN4SHl1Tk9rYzFxdXJlek5RaHpCSGVNQnJZRm5CaVY4NGZqVTNwTFlYZlBuU01CeW40Vl9FdndiVU4zQ2ZQelFDbFp5M2ZPNDh0M1JZZHRBb1JJWDBR?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Editorials: How AI Is Transforming Warehouse Efficiency in 2025 | Cyngn",
       "matched_queries": [
+        "warehouse automation",
         "automated warehouse"
       ],
       "tags": [],
@@ -9424,6 +9447,23 @@
       "summary": "Product Spotlight: Latest Innovations in AMRs and AGVs Inbound Logistics"
     },
     {
+      "title": "Amazon Seeks Partners for $15 Billion Warehouse Expansion Plan - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcmJYQnFDOFppYVdSRzlOSFhCWVpfZ0Y5VXZadFVSNC1lOWRFdUlLNzl0b1h5eldDQ21fUFVvX2RQSi1ELUIxdDZVNkZBZ09yTVdueHhPTTdOWml2RFJrZm9xb1ZxSlo2d05fVTJJVTZoVGEtaWNSelg0MmlKUGpIQTMwSkRYbWtuZVhzaXY4N2x6OTRGTUZPWGF4ZEx3YWllLVJIV1NNZ1ZXYmtjbmlEeXlB?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Amazon Seeks Partners for $15 Billion Warehouse Expansion Plan",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [
+        "expansion",
+        "signal"
+      ],
+      "signal_score": 2,
+      "signal_bucket": "low",
+      "published_at": "2025-04-09T07:00:00.000Z",
+      "summary": "Amazon Seeks Partners for $15 Billion Warehouse Expansion Plan Bloomberg.com"
+    },
+    {
       "title": "Symbotic (NasdaqGM:SYM) Warehouse Modernization Initiative Can't Prevent 15% Weekly Stock Dip - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPczI1NDhMNFFWODI5RnpxWHNaNlFuWkhoUU9wVDVMNk5Qa3YtZjI0WjZrSm1WXzJwLUxncVQ5eEpzSjNvNlVScW9BYkliZ2R5VkFOaU9nZnZOcmkxTWhaSmw0WDg1dk9UNXZoNlFpanVjWnNObzJYQmJkUDU4UWJWMXN0amJLX1JfMzZkd1pxMHpQdmRZRHc?oc=5",
       "source": "Google News (RSS Search)",
@@ -9438,6 +9478,22 @@
       "signal_bucket": "low",
       "published_at": "2025-04-04T07:00:00.000Z",
       "summary": "Symbotic (NasdaqGM:SYM) Warehouse Modernization Initiative Can't Prevent 15% Weekly Stock Dip Yahoo Finance"
+    },
+    {
+      "title": "Scaling Omnichannel Fulfillment to Meet Demand - Inbound Logistics",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN2xKVUxmMURoN3FyYkRSZHNGWE1vZk41d1JpNnFWUWF2QWc0LWdRYmdJbHphSGNHR1A5VkNIYXFTOXVqbVROQlVkbnptR2MteldJdHZuWUN4MUdwQW8yLUp5Z3RTd2xpc0lDU0VWTzMxYTVXamI5YzBVRlNndmJ0WEZOenlVTkU4cUNpd2drcTRTYkE?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Scaling Omnichannel Fulfillment to Meet Demand",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-04-03T07:00:00.000Z",
+      "summary": "Scaling Omnichannel Fulfillment to Meet Demand Inbound Logistics"
     },
     {
       "title": "Warehouse Modernization: Efficiency and resilience through innovation - dla.mil",
@@ -9538,6 +9594,23 @@
       "summary": "Russia Turns to South Asian Workers as Labor Shortages Reach Critical Levels UNITED24 Media"
     },
     {
+      "title": "Russian Firms, Grappling With Historic Labor Shortage, Lure South Asian Migrants - VPost media",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU25SZ1VFOUtVLWVDVWRzVXI5QUc1bDhYbzhval9fU01nd3REYWt4WnEzZHE4bGRUa2NKWXVHRmJodTgxYmhaLU1mcDk2TGh2RlU0aVFFVjgwOHJaM0RWdExXSXQ1Y19HUnAtVXVaRnVlVnBoV0xCazRlZzRNbERxbXhhNGZnR0wwUzJIQWRSYXcxSnM1U29DMEpuQXhZZjhSR3lVZg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Russian Firms, Grappling With Historic Labor Shortage, Lure South Asian Migrants",
+      "matched_queries": [
+        "labor shortage warehouse"
+      ],
+      "tags": [
+        "labor",
+        "signal"
+      ],
+      "signal_score": 1,
+      "signal_bucket": "low",
+      "published_at": "2025-03-25T07:00:00.000Z",
+      "summary": "Russian Firms, Grappling With Historic Labor Shortage, Lure South Asian Migrants VPost media"
+    },
+    {
       "title": "Luis Webb Discusses Potential, Expansion Capabilities, and Reach of Pacific Distribution Center - AndNowUKnow",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRTVfcWFWcnN5cll4Slp1Q3NGMDdDazFCUVBuWXlRc1U0NlV6NW1iMF9YVzdqLXpycEQ0NUx5OUxadXNCZnZ5YjlYeGZwOW44ckYxSGJCUFFuWFVpbld1ZE9wbmI4LXNYZ3h6UUl6YnVDTWhuYkU4NEdvamFnRTY3MWdzZXBkbVdRbDRlSXNrNVpNV3oxNExkUnd4V0JqcnhBQllaRVFQVEl1eGd6V1JJVFlIT3lSMXdZZDFoMEpyTFd2TGlPd1pnd3AwYnlldXJudmsxYUw4RQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -9598,6 +9671,22 @@
       "signal_bucket": "low",
       "published_at": "2025-03-20T07:00:00.000Z",
       "summary": "Karnataka battles polymorphic malware surge as Rs 2,900 crore vanishes in 2024 varindia.com"
+    },
+    {
+      "title": "PepsiCo Poland’s First Automated Warehouse is Complete - Packaging Digest",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWUliQ3hWNkNBdzd5UVVYazN6SFJmQXNjcFZaRTRtYmR3TmdwVmRSUWRiek9qMkdrdGdwOEtxSFV3VXJoazlselh0RU5ia0JjdldBSnRfbDVGLXdVTVhISTlMcGFzaWZwZnVYNDVUOGlxckJpMUFrRnFFUzRrX1hBbEphRDBVVlpZOWNFY2lFUFRuTmw0cXYyNDBKX2E4QXBxMG04?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "PepsiCo Poland’s First Automated Warehouse is Complete",
+      "matched_queries": [
+        "automated warehouse"
+      ],
+      "tags": [
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-03-18T07:00:00.000Z",
+      "summary": "PepsiCo Poland’s First Automated Warehouse is Complete Packaging Digest"
     },
     {
       "title": "Nucor completes 96-foot-tall AS/RS cold storage structure - Modern Materials Handling",
@@ -9667,22 +9756,6 @@
       "signal_bucket": "low",
       "published_at": "2025-03-17T07:00:00.000Z",
       "summary": "KNAPP debuts AeroBot robotic AS/RS solution Modern Materials Handling"
-    },
-    {
-      "title": "Modula releases new high-speed, automated storage - Modern Materials Handling",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQW5uQ0FmZ1M1MV9STUpIMmEzTWg4U0FQTFlFOVRhWUdOaUhkbEd3cUxsZlhzZDllT2xZcHdIeXpFUDNoTGpOU3M5b2w1STJxSzJKd0d4aDdybHo1X25sV2FoSks3WGFhVmVjblhNa01CYVNUbFdUTUNMc0lMT3luald3?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Modula releases new high-speed, automated storage",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "asrs"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-03-17T07:00:00.000Z",
-      "summary": "Modula releases new high-speed, automated storage Modern Materials Handling"
     },
     {
       "title": "Roboteon software lets diverse warehouse robots work together - DC Velocity",
@@ -9807,6 +9880,39 @@
       "summary": "Frito-Lay plans to expand in Clarksville, investing $27 million with new distribution center Clarksville Now"
     },
     {
+      "title": "Locus Robotics Introduces LocusINTELLIGENCE, the Future of AI-Driven Warehouse Automation - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRkRLSGxOUXlUU0M1eGlic0FwVEJ0d2hNZXpjVi1YUDZDSWdxeE9ncHhndVdlazRQbEo4RDRXM1J5YUJub1g0YU9wWWctMktockRiM3Z1YXEtNnBueUdFYTRaQ0U5OWxNWkdDUmhWZWhsZEtsaU5yVDJOTUtmdy1URTc3bmtNZ3FQdUtnVkNLUGxtSlRlR3B1Wm1Md1Y2WnF5N0FjSkt1TGZBODNZTU9OX29aeGRad3V4eENhLWhUQkNEcGlUbjY0OTBJSEkwRkNOcGZ3VUVnYmpXM3Y2?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Locus Robotics Introduces LocusINTELLIGENCE",
+      "matched_queries": [
+        "warehouse automation"
+      ],
+      "tags": [
+        "robotics",
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-03-10T07:00:00.000Z",
+      "summary": "Locus Robotics Introduces LocusINTELLIGENCE, the Future of AI-Driven Warehouse Automation PR Newswire"
+    },
+    {
+      "title": "Amazon steps up use of robotics in warehouses - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mSHk4QXdndl9zQlUxbDNjM2lFeU9xQXdHTXQ2eElncEt2ZE5RM2JTN1dBaGhNYUhQcm9Bb0ZLUWl2Ny1iMGRZa0xZOTNhTHFreHEtVmd3QjVZaTRCQUFqTTRXU2loMGJnd1pCTUFTR2s?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Amazon steps up use of robotics in warehouses",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [
+        "robotics"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-03-10T07:00:00.000Z",
+      "summary": "Amazon steps up use of robotics in warehouses Financial Times"
+    },
+    {
       "title": "NFA modernization worth P10 billion underway - GMA Network",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVGtaNnRtbVFuc21ZYUlUTHM4TDAwU1pZa2JMQjV5Qkt0ci11bS1rNlJOTFZyUnV0YWdVaGV4NUxqOU5JdW5PN0tBSVJDYTNsMDZtOHdob3hNWG83YzZ4WFNLY2VFUXBVMm5XZHJjV3lQZE84cEt2TjhXRlcwaHFJSnpZX01FVWJqckJlZzBxTmg0WkpsZjJmU3YyallTcWVEZUJtUGZKR3VaTDI3ZkdJMUJNVdIBuAFBVV95cUxQblN3X0VqZ3VOZE1vTnI3eEZobWJBNzVpVmJxbEIxWjRPa2NWcjUzbWd5R0VwcWd0VldvcG9WWG5PRXZoNG5nRDZvTVZrQ0h2YXZWYjI4d1NCckpTV0VyWE1uT1NYWjlHYWlmNzlwOE4yWmx6TVE0U25BTzdzWXJnMElwak5CTkxHdnY1Zy1wM284ZWx5Ry0tRG52alZ5d3NUSFZEMU5nV1FsR3RmVWNxbDlTQmFRVkxK?oc=5",
       "source": "Google News (RSS Search)",
@@ -9885,6 +9991,22 @@
       "summary": "Associated Food Stores in 1st Phase of DC Automation Project Progressive Grocer"
     },
     {
+      "title": "FANUC Showcases Automated Warehouse Solutions at Promat 2025 - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeU95dXZ2OFZoa1NPQ09mS1E0ZEdyNmdScXJZNl8ya1I4eEpHcC1nSVdISUFJVS1hNUladkM5VUlEQ0c3Nm4yRGhHQkhPMVo3bEZqSWppM215ckY0aFVjTXhOVExkN1UyUU1JNE9VbFA5b0Vrdm1qTE5QdGtZWkhiVWZNZnI0ZmM2Vl9LcVEzLXN4SDl4aVFvVWVvUENKaHZOOE4zRktNN2ppbVAxZFg4ZVFlaXo5aE0?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "FANUC Showcases Automated Warehouse Solutions at Promat 2025",
+      "matched_queries": [
+        "automated warehouse"
+      ],
+      "tags": [
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-03-05T08:00:00.000Z",
+      "summary": "FANUC Showcases Automated Warehouse Solutions at Promat 2025 PR Newswire"
+    },
+    {
       "title": "H-E-B opens another e-commerce fulfillment center in Houston - Supply Chain Dive",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN085S2stLVA1a01NLXgzNWFEMFlYTllwamUyb2NTOGZuZjFhWnVkZ1kxd3FPUGxzWG53OW1lcGJjYWM4OUR3T1RmT2t4Q1hqSWp4UWZ2bVNISUlKZk84ZkYyajJHTFF2c2ZLV0JwTXdSSEM5WkktOTJGYl9YWUZBR0tmSnptZF80R1hCRV9PaTBGZzg?oc=5",
       "source": "Google News (RSS Search)",
@@ -9933,6 +10055,20 @@
       "signal_bucket": "low",
       "published_at": "2025-03-01T08:00:00.000Z",
       "summary": "Robotic automated storage and retrieval systems (AS/RS) on the move Modern Materials Handling"
+    },
+    {
+      "title": "Border States to Build its First Regional Distribution Center - Industrial Distribution",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdlRoWjl5SHgteUszaGE0Q2dEVElwUUt0RHh4d01pRk9lQmFiTkNBUS0yUWhvMW5TN2trdUtfN09BbzNZOEVQN2Jjdmd3aHJwYnFheFlBZDlYQ29TLUNuV3B6TmJDc3hkMEdiZEFZVXVJM09GZW9tVU1zYk4yQUhNcjk5eXNvSEo5azREYU5Pd3NfYWdLQ3FyVXNreUFqeDBYbFBISmJ5N0RMNGVjM2pzajZxeUpBb1R4UndsQnJyc0xIYk15b1RoTkcyTQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Border States to Build its First Regional Distribution Center",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-02-27T15:35:39.000Z",
+      "summary": "Border States to Build its First Regional Distribution Center Industrial Distribution"
     },
     {
       "title": "Ukraine Is Targeting Russia With Drones That Cost As Little As Rs 26,000 - NDTV",
@@ -10172,6 +10308,23 @@
       "signal_bucket": "low",
       "published_at": "2025-01-29T08:00:00.000Z",
       "summary": "Global demand for automated storage and retrieval systems on the rise Beverage Industry"
+    },
+    {
+      "title": "BJ’s Supports Expansion With New Distribution Center in Ohio - Progressive Grocer",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQmRFeEhkYlRtb1pzQWpIZ0pVbjMzNWpQM0w5NERBOU1GNzlocTFRbUFCWmNyZkNuZHQ2MUFIc2FSN2JLei00UXNFaXllNjVNX0M1VDVpZFpjb0M0cGU2OUYydDlCNWQ1WF9nRVhEWlZWOWV0YTM0aU9LeE9NUUFka0lzNzFaeFA1?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "BJ’s Supports Expansion With New Distribution Center in Ohio",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [
+        "expansion",
+        "signal"
+      ],
+      "signal_score": 2,
+      "signal_bucket": "low",
+      "published_at": "2025-01-28T08:00:00.000Z",
+      "summary": "BJ’s Supports Expansion With New Distribution Center in Ohio Progressive Grocer"
     },
     {
       "title": "Warehousing Trends for 2025 - American Journal of Transportation",
@@ -11275,6 +11428,20 @@
       "summary": "Amazon response to labor shortage caused by high turnover rate: More automation, threatening jobs World Socialist Web Site"
     },
     {
+      "title": "Relax, Humanoid Robots Aren't Coming for Your Job Just yet - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa1ROZHdPdF9UejZiU29RXzJneGxIbktLUFRkWEVYY3lxWGx2OFM5WkNPS0hidUEwRVRpaW5pNXhVNHgzb0FwUmhmZm1uTXFXQjVoQ29HX0k3dE0xX2Fxd25YRHFDVXRELVl3dklTYTREX2lYODJfMHprZVdtbEhCUmpwYzlZdmVwdXlPZmlCWXZpZ2hDeU9sWUlB?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Relax, Humanoid Robots Aren't Coming for Your Job Just yet",
+      "matched_queries": [
+        "labor shortage warehouse"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2023-12-27T08:00:00.000Z",
+      "summary": "Relax, Humanoid Robots Aren't Coming for Your Job Just yet Business Insider"
+    },
+    {
       "title": "What You Should Know about Goods-to-Person Fulfillment - mhlnews.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNjBxLXc3YktOMklVdXMxWW00YkhvZmRJLXh1S08zTmpSZ0lJVXY4dHl5c1lCX1FfSURraUg4R2ZRb2RlWm52Yy01WnE2NGM4dGtoN2hGTGlGUk1Ub2xuNTVTdEc5SWphS1JxLUcya1BUNW16SlFIaVZsWEZLUElNd0JoaWx4WFM0bnMwY3d2WE1ueUFETkhiajVGQm5HR0gyR1hCNFJBRjFJcmtLXzNsVGpUZ19qQ2It?oc=5",
       "source": "Google News (RSS Search)",
@@ -11813,6 +11980,22 @@
       "summary": "Out with the old, in with the new – WMS transition is underway dla.mil"
     },
     {
+      "title": "Medline builds on success with mobile robotics - Modern Materials Handling",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QTDc2el9vMEZmY05ZQllIUTVfamQwVHBQNm03ZWprY0FjSFZ0V3Z4ZmpIcXRVOUVBRzd3ZEhfYmd6R0xNSXpyZjNFd0U1cVROT09neUhfR1BLckRJMU5ERF9zUjZHZkl6ME5JSHpYc1AwNk15UVhrSW9iR1R0OWc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Medline builds on success with mobile robotics",
+      "matched_queries": [
+        "goods-to-person"
+      ],
+      "tags": [
+        "robotics"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2023-02-02T08:00:00.000Z",
+      "summary": "Medline builds on success with mobile robotics Modern Materials Handling"
+    },
+    {
       "title": "Boston Dynamics and DHL’s new robot is a hyper-efficient warehouse worker - Fast Company",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcmxCazNzS3hoWlZueGF1dTEzUS1vN3BKVnF2UHJfdG9pT3RidGhCbVB1YVlJR0RjNGVlUFFIXzJXMGttbWJJNmtXVlBiQktRR184OVczeS1IY0RobHFhSk1qRm9zYVNLdjNodUlqR1pOTjVfZVdyU1dGT1BmcjNaWGVtdkpaZHk5SDVLYkhGMXVPUVFVX29zeXpnWlpqa0RhaWZfOTVwaw?oc=5",
       "source": "Google News (RSS Search)",
@@ -12206,6 +12389,23 @@
       "summary": "Cardinal Health to create 100 jobs with Grove City distribution center The Columbus Dispatch"
     },
     {
+      "title": "Walmart and Amazon aren't seeing a labor shortage — they've had too many workers, and now it's taking a financial toll - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1FHdmtScURwYVhzeXpMVXlDLTBOVnNyZFlSblg0YWdFdjZFejU4M2ZMMHA2d0NqbFJUSGtHSU9CUndyT1NITmR1aWdhWjJkR0Y2SGRPYTZ5YUFlOVBnWnRQSEFSZks2aFd0U1NlbHFnTGR0RjRGbmZ4SHpKMU9STTZmOVlISHp1cUE?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Walmart",
+      "matched_queries": [
+        "labor shortage warehouse"
+      ],
+      "tags": [
+        "labor",
+        "signal"
+      ],
+      "signal_score": 1,
+      "signal_bucket": "low",
+      "published_at": "2022-05-17T07:00:00.000Z",
+      "summary": "Walmart and Amazon aren't seeing a labor shortage — they've had too many workers, and now it's taking a financial toll Business Insider"
+    },
+    {
       "title": "Tote-To-Person AMR â€“ a market and technology study from Interact Analysis & Geek+ - Robotics Tomorrow",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNTdlWktMazU2V25mLXZHVVVwbmU3N3pFRzYwVUh1a2NTaHZORnJETWxkTHFiWlFkOW9mdlJfYTgtRDlYNGJxdXg5YTdUOXRKbVI4UmtUM3pKeUZfZkJuRHExN0JjeFhlNXFVa0F6Tml3c1Q0TjhqOWJFZHh6cE5ONDdGTUVOVUpfOTl0Ulh4OENWWm5veTlHWld5Y25fcFhLTk1VVXNfLUQxUEZ0RW1tV3k4V0hudFVTcVRib211UlNfSWJPZi1YUG54VFJBalM5N3pWaVFqMGJwQzdyU0hTQ2pjdFVUekFhcGhV?oc=5",
       "source": "Google News (RSS Search)",
@@ -12305,20 +12505,6 @@
       "signal_bucket": "low",
       "published_at": "2022-03-16T07:00:00.000Z",
       "summary": "Geek+ Technology Upgrades World's Largest Smart LED Manufacturing Facility Robotics Tomorrow"
-    },
-    {
-      "title": "Survey: 73% of warehouse operators can’t find enough labor - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVVJ6UWtxenZBTi1iUGVfNHRRN2JLV2g2RzJ3WldxZGkzSFpvak8tTzU4SFZwRXlfOFRBYTdzeDV4YnpNNjBzYUNSMm4yUDFPM1p6YXBzd0U0N192czRpM3M4UnVCcWgxTDRwRjBRT1MtVEZZVkJUTTRNMUJ5TkdsRDdUV3VvdFVXOXBEWDNtOVZJTEE?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Survey: 73% of warehouse operators can’t find enough labor",
-      "matched_queries": [
-        "labor shortage warehouse"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2022-02-18T08:00:00.000Z",
-      "summary": "Survey: 73% of warehouse operators can’t find enough labor FreightWaves"
     },
     {
       "title": "GTP systems: Lots to choose from—take your pick - DC Velocity",
@@ -12649,6 +12835,23 @@
       "signal_bucket": "low",
       "published_at": "2021-09-20T07:00:00.000Z",
       "summary": "12 notable warehouse-focused AMR acquisitions The Robot Report"
+    },
+    {
+      "title": "Amazon Boosts Pay, Targets 125,000 Hires Amid Labor Shortage - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdThxakp4RjJNREllX1dzaXNBSUUwLUF1U0ZxNnYtdUtFY0FYUmUtUHR3ZmxrUU1kdGhwN0dfeGIzcEliZjFWeUd6UlA4SXdBR1RHek1WLTU1clgxZ0VRSW9vVURiMi1FcUZqeF9ZR0o3VFNCdFhCYTY1eXZkdUhyVFJoOVFCWFozckRpNmVjdUEyX1VzQUF1cU1aYjhUb05Fc3Y4dnZMcjZlcFRy?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Amazon Boosts Pay, Targets 125,000 Hires Amid Labor Shortage",
+      "matched_queries": [
+        "labor shortage warehouse"
+      ],
+      "tags": [
+        "labor",
+        "signal"
+      ],
+      "signal_score": 1,
+      "signal_bucket": "low",
+      "published_at": "2021-09-14T07:00:00.000Z",
+      "summary": "Amazon Boosts Pay, Targets 125,000 Hires Amid Labor Shortage Bloomberg.com"
     },
     {
       "title": "Warehouse employment hits new record after monthslong dip - Supply Chain Dive",
@@ -13053,6 +13256,20 @@
       "signal_bucket": "low",
       "published_at": "2020-09-18T07:00:00.000Z",
       "summary": "Patent Pending: Automating goods-to-person picking from warehouse floor to ceiling Supply Chain Dive"
+    },
+    {
+      "title": "Cloud data warehousing for DBAs - Google Cloud",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdWdIQ1NOeWlKN1A3Rm81eEhtMVRMdk9vOUh4TkgzRElYaDNhWklpM1FSSm9IVkZBWndKVG1QdnlPOElVSVR0R3dJMDd3WUJ4X2VWZkRWWlBTT0FGWFVYcFdyVzgyTi0yUjZsM0VCZ2RKT2I5T1czSkJyQ0l4cUdKNVJDYU0zWEg0NDRNaG80QQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Cloud data warehousing for DBAs",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2020-08-13T07:00:00.000Z",
+      "summary": "Cloud data warehousing for DBAs Google Cloud"
     },
     {
       "title": "MLB moves to BigQuery data warehouse - Google Cloud",
@@ -13517,20 +13734,6 @@
       "signal_bucket": "low",
       "published_at": "2016-01-11T08:00:00.000Z",
       "summary": "Robots In The Warehouse: It's Not Just Amazon Forbes"
-    },
-    {
-      "title": "TDWI Checklist Report | Eight Tips for Modernizing a Data Warehouse - TDWI",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR0JxOGZsOURhWHl5ZG1QekNfbjVQVEU0VkttY0NpaVRvYU9PQW1aQUg4TFFncXRxMWN2WGZPcXE2TzFXcm43S25UOGFDVmRwN1ZfRXdDVWxPMC16bmlqOXpFaFhDU2JHRTdWX1BIeUJkaFdOeHdkamdWYVprcjFsZ1hkSGVGQkJQZzJqbXBma1BRaWVQR3pv?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "TDWI Checklist Report | Eight Tips for Modernizing a Data Warehouse",
-      "matched_queries": [
-        "warehouse modernization"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2015-05-15T07:00:00.000Z",
-      "summary": "TDWI Checklist Report | Eight Tips for Modernizing a Data Warehouse TDWI"
     },
     {
       "title": "WIX Filters Installs Automated Shuttle Storage and Picking System at Master Distribution Center - Engine Builder Magazine",
