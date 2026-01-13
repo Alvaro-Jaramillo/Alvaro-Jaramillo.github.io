@@ -1,10 +1,24 @@
 {
-  "generated_at": "2026-01-13T21:36:09.242Z",
+  "generated_at": "2026-01-13T22:41:53.158Z",
   "mode": "google_news_rss_search",
   "query_count": 11,
-  "item_count": 903,
+  "item_count": 904,
   "errors": [],
   "items": [
+    {
+      "title": "How Automated Lift Trucks Reduce Costs - Supply & Demand Chain Executive",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcGFiOVNaSW40cUVFeTd0RGFqSm54UWM5WmxZaDRDeXM3QWdBX2RLQ2tVRmdNeTRQdmJxd3R5RW43b0ZJdms0NmxKNUpBd3NFNU9BeXA0UDM0NDZ3SjBvbV9SaGl4QlljN3FKTThLamlpWDkxMHNORnp5RTZTRG1rM0xGQ3BURzhwaEtPSDUwb3ozZXVpeW4wdzlDY0ROdzFvLVdLSmFXOXpYRXpFczQwM2ZfMnVNZ3V5LVNIVkowaDdXQkRpNG5ZbmVWaw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "How Automated Lift Trucks Reduce Costs",
+      "matched_queries": [
+        "automated warehouse"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-13T21:52:03.000Z",
+      "summary": "How Automated Lift Trucks Reduce Costs Supply & Demand Chain Executive"
+    },
     {
       "title": "Rosie Perez joins Brooklyn leaders to open God’s Love We Deliver’s Liberty BKLYN distribution center - Brooklyn Paper",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yQWQ2OHA2enE0TGV2UjZGdnJDQmdjYUliRTZYeHIxaGRaeGpNVmFLbjZhR24wb3BqU1FYdHI3MDI2TzgyMklhYVNnVU02TG52QV9DZ2psUmZzLUQtTkNOX2RBZEF5Qk5XaEcyWUJZNkc?oc=5",
@@ -25,7 +39,8 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Aldi to open three distribution centers by 2029",
       "matched_queries": [
-        "distribution center expansion"
+        "distribution center expansion",
+        "new distribution center"
       ],
       "tags": [],
       "signal_score": 0,
@@ -853,22 +868,6 @@
       "summary": "Robotics & Automation News launches in-depth AMRs vs AGVs trend analysis Robotics & Automation News"
     },
     {
-      "title": "AutoStore : and Arvato Expand UK Automation CapacityAutoStore and Arvato Expand Automated Storage System in the UK to Accelerate Client Growth - marketscreener.com",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUkRiNWhUdks2Mjd6ZU53X29DQzVIQ1ZiVnZ1SUIwWnFuQUVGbnZucEEwS1g4R0VsUzI1RVY1T0o5RW5JUUtmUUtoRnV5NVdsdGNGQUdRMDB2RnlqNHVoMEhfbENSelNCdHBpTktnelNONTBJRGN5ZUg4WjhxWnJtVmpJWWFMUHlMM0I4RUhUVUVRT1JuTnNYekJwTXgtdnZWMHdqZXJFTVV6RnBjRjRZR1dkZmllbjZVeEhfbDhSd1ZuQkRlYjJOaVQ3Q19CMF83eW5ieHpNUHRCcVh1NXBpWXZyN0Jvdw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "AutoStore",
-      "matched_queries": [
-        "automated warehouse"
-      ],
-      "tags": [
-        "asrs"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-08T08:07:12.000Z",
-      "summary": "AutoStore : and Arvato Expand UK Automation CapacityAutoStore and Arvato Expand Automated Storage System in the UK to Accelerate Client Growth marketscreener.com"
-    },
-    {
       "title": "Investieren oder untergehen: Die brutale Ökonomie der Logistik-Automatisierung - Xpert.Digital - Konrad Wolfenstein",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9uYXpQR25VeTVWOXZwRHduT2F2VGJMaXE2dHlaMmdJMFk1ckg2Vm1vemFZbTJST2tCeVBEWEhjclBTZ1FiRjAzdXlhM0Fac1M0ckpxOEZ4TkxEYmV4Z1c3LUs5OEVVUlJUa3ZN0gFzQVVfeXFMTkkyU3ZGZno2eW5waHo0ZjRGU29GOWV0dXR6VThGVjBkS1lZdmdCM1ZncTNWWWJsOUpyM0tDeFE3b3N5N2lMeXZfRTRQYUhmUGZhWVJSb2htNjZ4eVEybjU3RlRzdUNLYlRxTm1zNmxPb1lnaw?oc=5",
       "source": "Google News (RSS Search)",
@@ -1125,36 +1124,6 @@
       "summary": "Exotec: Interview With Co-Founder & CEO Romain Moulin About The Warehouse Robotics Company Pulse 2.0"
     },
     {
-      "title": "Stord acquires e-commerce startup Shipwire from Ceva Logistics - Axios",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR0tYMlViUkxJR1ViTWxVNXJjaEhWbUtFYy1qZk1ERGVibENZenZrVjE0QVU1VU1LbHN0VGFiNVdSUUpYRndDZWhxMEhFWHRTYUhXSGp6TWZod2tiRGVwUzQzOFY5dWRGUW5OYms1UE1wdnhLQ00zLTV6ZzVLcUVvd0FfNmxCbXVLV2ZEbl9pb0U5UWNhLVk5VXJzeWJYUQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Stord acquires e-commerce startup Shipwire from Ceva Logistics",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-05T18:22:26.000Z",
-      "summary": "Stord acquires e-commerce startup Shipwire from Ceva Logistics Axios"
-    },
-    {
-      "title": "Costco opening Florida distribution center. Here's where, when - Treasure Coast News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFZiT1A5YS0zQTJkenVpMmlFZWZkU3NhUXU2andFeUVFMDlKenF1cDdDWXZZZFM1Z1hZYXpxMGhnbFFaS01hV1l3aDlmMUZuY2dDZVNRTGprVTFZcXRaX1JGNEx3RTZ0ZUF3TmVrZG9TbDYzbzFmMVhVSFNlSWNNRUdidGxEb0E3eFd3WExDUkxJb2U4UjYtSFZSMXpTS0tWckdDOG5YUDlQdktodDl1ZHZMWEo4RjRNQ0RtYnhLZWJIdXdIMWJvWWdn?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Costco opening Florida distribution center. Here's where, when",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-05T18:08:00.000Z",
-      "summary": "Costco opening Florida distribution center. Here's where, when Treasure Coast News"
-    },
-    {
       "title": "E-commerce startup Stord buys AI fulfillment platform Shipwire - CNBC",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTHU1b1p0VjJCaEVDMmc3Zl9IVmw5VXFVNXhodmJTa3VpS29zN1dvOEZTOExsdWtWSnppaTIxU0ppcUNpZE5LVmpsUXR1NWZEZFdzZ05KOU1sYmpCY1FqZURnNlJtb0tCQ055SGNadFlrdmNTQlEzUEFadEVaeDBqMXBiejlvd2Vrb2tUSlNR0gGTAUFVX3lxTE03REFVTjh0c2VPd3cyelF3UXkwUVdiYjcwT0tSLWxySm1BZXZ3R3N4bk5CNFVDZHRpM2NtTzZRZ1htMlNobHROekFFMi04dVJ0d3B6aGFraVJSY1BzMy1nT0NpMjdfbnlPcERRYk82TnlhVmFzUEF1UjNiOWRzUmFUbXZYZTdid1Z5SkwzVE5qUjZpQQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -1235,6 +1204,36 @@
       "signal_bucket": "medium",
       "published_at": "2026-01-05T09:21:38.000Z",
       "summary": "Warehouse Automation Market Projected to Reach $90.7 Billion by 2034, Fueled by Rapid Adoption of Smart Logistics openPR.com"
+    },
+    {
+      "title": "Costco opening Florida distribution center. Here's where, when - Treasure Coast News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFZiT1A5YS0zQTJkenVpMmlFZWZkU3NhUXU2andFeUVFMDlKenF1cDdDWXZZZFM1Z1hZYXpxMGhnbFFaS01hV1l3aDlmMUZuY2dDZVNRTGprVTFZcXRaX1JGNEx3RTZ0ZUF3TmVrZG9TbDYzbzFmMVhVSFNlSWNNRUdidGxEb0E3eFd3WExDUkxJb2U4UjYtSFZSMXpTS0tWckdDOG5YUDlQdktodDl1ZHZMWEo4RjRNQ0RtYnhLZWJIdXdIMWJvWWdn?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Costco opening Florida distribution center. Here's where, when",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-05T08:00:00.000Z",
+      "summary": "Costco opening Florida distribution center. Here's where, when Treasure Coast News"
+    },
+    {
+      "title": "Stord acquires e-commerce startup Shipwire from Ceva Logistics - Axios",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR0tYMlViUkxJR1ViTWxVNXJjaEhWbUtFYy1qZk1ERGVibENZenZrVjE0QVU1VU1LbHN0VGFiNVdSUUpYRndDZWhxMEhFWHRTYUhXSGp6TWZod2tiRGVwUzQzOFY5dWRGUW5OYms1UE1wdnhLQ00zLTV6ZzVLcUVvd0FfNmxCbXVLV2ZEbl9pb0U5UWNhLVk5VXJzeWJYUQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Stord acquires e-commerce startup Shipwire from Ceva Logistics",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-05T08:00:00.000Z",
+      "summary": "Stord acquires e-commerce startup Shipwire from Ceva Logistics Axios"
     },
     {
       "title": "Top Warehouse Robotics Companies in China: Autonomous Pallet Trucks & Stacker Forklifts | SCP - openPR.com",
@@ -1578,6 +1577,20 @@
       "signal_bucket": "medium",
       "published_at": "2025-12-19T08:00:00.000Z",
       "summary": "Libiao Robotics unveils first AirRob automated warehouse in Europe Robotics & Automation News"
+    },
+    {
+      "title": "Kroger plans $391 million Kentucky distribution center - Digital Commerce 360",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbl9aNllaUnhxM2xVUEFwTnU2bmFPTVBzcDRNWVRqQUZkZVlHendIYl9TcEdkc3hFTW9aeFpVM0pXcnQtOTZhTmxobWdtbUMwS19yYnY4Wk9nNDlVaHI5aE9FTW1SUERyaGJjTG42VThzanJuVFVxOUdxdVZrY0t4WXZUc0tUMTV6UlB3d0JmRlFLM0ZOdkRSMUVjRzhFM3ZSeWfSAacBQVVfeXFMTUtmWFlkQ3FZMklORXljTk8xVkoxaU9CbVpCT2llUEZiSG00YjNwM0pHNVUxa1dSYVdrOVJ6MXpTdzdaWUFORFJCeElHY2QyNElPV2tobjlGdE9vdlpwNXBxNTJaQk5xcEozeUpEYm9OSDFMYkJ3YnU4cWdld25vakdQMTJtZ2Q2Z0ZhNlhxZGMzbm1CZktQemRVeUNwOEJhTDhGd2ZMcTg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kroger plans $391 million Kentucky distribution center",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-19T08:00:00.000Z",
+      "summary": "Kroger plans $391 million Kentucky distribution center Digital Commerce 360"
     },
     {
       "title": "Shocking Fraud Probe: Standard Chartered Bank Under Fire as Rs 80 Crore Vanishes from HNI Accounts! - Whalesbook",
@@ -1947,6 +1960,20 @@
       "summary": "Kroger Plans for New Distribution Center in Kentucky Progressive Grocer"
     },
     {
+      "title": "Kroger to build nearly $400M Kentucky distribution center - Supply Chain Dive",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTWV3Mll4YS1VOUtGbHg0T25maTFKTXc0TDFwd3J0SW1NSEs0V0dvc2tQMElDOFJkOVpXNnFRZ3kxa0N2WTNLd2FDUG5CcHlFR3hJNmM2MDBrYmJIOGFnaVp0VDNlNjZ5UnZhTzJfMEQ3SHl6QkhBdEJ5NFJyRWNMZmItOTlLRV9BejhGaXlR?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kroger to build nearly $400M Kentucky distribution center",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-15T08:00:00.000Z",
+      "summary": "Kroger to build nearly $400M Kentucky distribution center Supply Chain Dive"
+    },
+    {
       "title": "Kroger to add $391m distribution center in Simpson County, creating 430 new jobs - Northern Kentucky Tribune",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV2hDQV9fZmlFaEZtbHZ1bS1pLWlycnZ4MXlwOV9OTmhfUjNIWkNQQW0zdUxiU0dtQ2wzSThqSWxIemxpRUJqZ2luX1ZhMUxkZXBXVmpwR3BUOHQ2czFfZkdENzZqNy1UdzByUUc0QkxMcTVGS1BmSlZXTlZhdENlTzFyRXRUQWhPWTQyRnVycW9hdzZfTkd5MXdqTFRzVU1PTlpOblk5NjNVcV9zNWc?oc=5",
       "source": "Google News (RSS Search)",
@@ -2171,6 +2198,23 @@
       "signal_bucket": "low",
       "published_at": "2025-12-12T08:00:00.000Z",
       "summary": "HCC shares slide 6% to 52-week low as Rs 1,000 crore rights issue opens today The Economic Times"
+    },
+    {
+      "title": "Kroger expands Kentucky workforce with new distribution center - Spectrum News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeGRIeGlWOWl5TFRQZFVrczJmMGZXTV83djhvS1ptcndsbW5odllLdUVnMW9hLVlCMWY0dERheDZPVGNVX05LTnNxOEdodlFMWTd2UmhFN09ZRjg3VHlUbFhvNHhzd1pSVVUzZ21yb2ZzUkROSGdHV1lRMTNJZGN6MzFjMEYzSkl4QVpPeG1Cb1NULXBFekE?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kroger expands Kentucky workforce with new distribution center",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [
+        "expansion",
+        "signal"
+      ],
+      "signal_score": 2,
+      "signal_bucket": "low",
+      "published_at": "2025-12-11T08:00:00.000Z",
+      "summary": "Kroger expands Kentucky workforce with new distribution center Spectrum News"
     },
     {
       "title": "Beshear announces plans for $391 Kroger distribution center project in KY - The Courier-Journal",
@@ -3819,6 +3863,20 @@
       "summary": "Cencora Commits $1B to U.S. Distribution Network Expansion Modern Distribution Management"
     },
     {
+      "title": "La-Z-Boy opens distribution center in the West Valley - KTAR News 92.3 FM",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBucnRXWWlKdzRhWWtSeFhMOTcwUWt4UkJTancwT21HbUl0QThURkNoV0RwSEo1bkpsQlRuRkpaMS13dnBDUW5sY0ppWmlZckdDVWlHUVY0NlpfNDc4N0hVWW01akEzQU5LTkxqZkgxUHI?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "La-Z-Boy opens distribution center in the West Valley",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-12T08:00:00.000Z",
+      "summary": "La-Z-Boy opens distribution center in the West Valley KTAR News 92.3 FM"
+    },
+    {
       "title": "Palletizing Robot Market Analysis in the USA | Global Market Analysis Report - 2035 - Fact.MR",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbFNKZWdnbUdoenFHc0E0Z1hFZWpRVkRFeUJpaVVvQUFvdlAtMWZqRU1jZmpudEtBUzFPWnRNSHZBMmtMeklESkFYdlUxMktweFoyQy03ei1GZnlORllubThtSjZrY1E5bEhHejdDTlptS2dUY2J1a0NReDdvUVd2clh2aw?oc=5",
       "source": "Google News (RSS Search)",
@@ -4001,6 +4059,20 @@
       "signal_bucket": "low",
       "published_at": "2025-11-05T08:00:00.000Z",
       "summary": "New details: Winsupply plans major expansion at two national distribution centers The Business Journals"
+    },
+    {
+      "title": "Kwik Trip Opens Second Distribution Center - Convenience Store News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vYU9KeTdMSjZqbTRfOWFIWGxnSFZzaVh3YzZlWDlQZ0dTY3FRYW8ydkJ0eUJBTzlmdmMxTllRa3lsOEJKcE1PQ0JLQmJaWVdsT2hlTDEybUthdFB6YXFZSVhaLUEycWU3NWpRQy1R?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kwik Trip Opens Second Distribution Center",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-05T08:00:00.000Z",
+      "summary": "Kwik Trip Opens Second Distribution Center Convenience Store News"
     },
     {
       "title": "Puma to Open New Distribution Center in France - SGB Media",
@@ -4489,7 +4561,7 @@
     },
     {
       "title": "Macy’s Employs Warehouse Robots to Speed Up Deliveries - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQTGF3TXdWXzVFdVV3NjdCLVQzQXZhSmN5MnIxZ0haazNxTWJiSGJlOTB4TnBxSGRYanJTbzBmYWtESjlpM2ZVOVZjdzVxd2wzUzFJaWNRQjdtSlcwYmxyQ3dQdGtzVlYzdG5laGxIblJFYmFwTE0yU0lzY0dTdkthcXBzUnlWbHVOQmphZ1RvalVkeGRTamdFNUNaQUlVQldJZWpNb0VhNFI2bmRyWHFZRzJNVkpuMHdzZjVqSzdvUzVlMjJPa2xwaW1SYVkzSE5lVTFWZDdGaEN0ME5INVF3d3Q5cmFWUDN0ZTJwd0VsMnlaVHVzRm5EazBLSVVObHNsTjEyckdqZHUzdk1mbkZpTHNUTUtvY3BQT0ZlM0hyaEY2QkkxeDhVUzd2Ul9RVE5HWGhKQ09DNDFKalB0cHNvTUc2eTVWN1FjMnJ5S2p5UTRKeWpIX2VhMncxekR4NlZsWU5GUzFhVnNmVnRWS1k1bG9aR1RyZXIyNUFMaEZIcUJPcXdzZXFpcXR3ZkxJTHVrTkd0X0N1SUdFSUE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQT3ZzTFZZc0hKSjU4S2dLWDM2S3RMa0dRdnktTk03RTFPLXpvM2RCcXNpT0NYQ0c1cjJqRXRpdG1zVW8wbWFvMlRGNm9KQXhOLWZXN1hJcTRXNVpjSW1CRmZRNm9OdlpYVmlwLS1IZ0tOWTB5TTJOdXlwMmlGa3RFTjRIdUdQZWRfQmNrcGQwdENoNzZlTFBmazFKOFdEQ3lOeDJkV0RrUG5HYjJnNkVpZzUwSzlicFo0Mkw2Q1JaODFwdDFLUXhCSDNNYmp4Zm9SQUdjZnRwemVCRXlIQTk2cUNNVUNHZGR0UDZQd3BOdFRlTjQ0eG1GZzQ3V3VTWnBpckdmeDFsbmdHN3RsRHVhZVYtX0hlamx3akRYVFRHZ29QS3dBSVI4eExGQ1Jib0prNkZoOXJjTHdkWnJQVHl2VzZVb2tyamRXUGk1aUREcTd2QXFTSkc2SUIxSklvY1d1aFA0bUpZWFdCcmNkX1NNSUlFS3I5Ui1ZdFMtWFI1YW5pb2dWSElfYTd3ZzM2RVIzS0ZTd0lqbGloVEE?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Macy’s Employs Warehouse Robots to Speed Up Deliveries",
       "matched_queries": [
@@ -4545,25 +4617,8 @@
       "summary": "Food Lion's parent company to bring 500 jobs to Piedmont-Triad Spectrum News"
     },
     {
-      "title": "Amazon opens new distribution center in Springfield - WICS",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ1RlbEtBcmFfRjRRNkxlUHB5OGNFNmJzd2RCbU1rcEZYY3pYRmJ4ZkZ1Zmd4SWRGVGVwY0hUSVRHRGM4eGtfS2RDbm9vUzZxUWp5NzhXeUtBOUtWUThvUm9ld0g4TXZrWXhPR0VUcEtqblZLOUpSVFlFUnJnZDRHSjJwUHJhbk45S0VOWU1GeXlHeElNSVNRVEpkOTdRWnVIYmFJbjBPNXNOMXpS?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Amazon opens new distribution center in Springfield",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-10-23T07:00:00.000Z",
-      "summary": "Amazon opens new distribution center in Springfield WICS"
-    },
-    {
       "title": "Macy’s Employs Warehouse Robots to Speed Up Deliveries - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxPQm1XRFFVcFNoczFWaGc2RG81TFV6NmlNQlpaOTRuZTR3QXY3aEJBbS1XUjhyN1BWdlZCNzFvdmJINlBlVkFmOXY5WW5ObEw4RjdkLTY5UFNoMWo1cTRVU1A5WWt2a05zcEpvSmF6NE5RdlNuUkhnYlNnN18ySXJUVXMyZmF5UGZuZTdYVzJGRzNaQU8xQ0s1aXkycU91NWdUWkJLU3llZl9pSzZjMmlHNkFsaVFqZ3RCQzI4dUVCZW9CTnlaZnZGT2pVd2psYmJHQ2s4TUZhWGtrenpiY19xem1LYlQ3eFNkaFlUcUFiYWh4VDh2YUpKalExZ3g5UnFDaDFuOUtyZ1U4cVVJOGxLbDhfWXlwNDN4SlRMQ2dBY3Y4WW1rUEdFSGdvc192M2UwZUZmVGNXdVQ3M1VjSTBIbWNsa1hmV0h0R2F2QloyMDMzVTVERXQ2N0w2UENQeDJ1dTVCMTA4eS1UUzZfZFJuWjlLOEk4TlRCeWxqWDdsdnN0MmlIZm1MZHpOTUVuek9ORzVxdm0xektjVkU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQUkdZX013dm9OS1BkR2xKaU5yNVNmNkRub3VKMkpVZDNkM3dkVEVrRnNZcTVFTjVTSVRrN2tXOTVPLU9hdlhDQWdNeE1PNHRfS3RiX0R1NG9WanpSSGd6ODhWUVhDd0V6ZHFwdGdWaDZ1OG0wUFdhRkRXektvQkxLYy1yODJZQ2xIVTF3a3lYSlZCcUh5Vkk3Wl9hQ0s1c2l5VEtBcXlTcVdOb2k4cGtqeFFZdlFTTEZMcTZ5RG44cnBYNU5HS0M0dEV1emxYc0lVelllZ3FHRjc3d2VzVG1mSVB4ZTAyUlVnbW8yaUZnUzBDVHVlam84c0g0SjRWMGNabFZqM3BtX3BfZFRZYV9aUlc1aHkyMzNlX1VVWGN2c3JTMlFmbGZDdWtmaVRKSFpJQTljcWxrRDFsbGJoWWFpUW4zOUgtR1FSSC1ud04yc1FoWGs4MVZudzFHbnRWUmNGaWt6WUhDSE1FcDVHTE5raEF1V3UyODBtaWJDdE9NV3JIU3ZNNTg5dU8xV05meUNFbGR0WHhvTldEaGc?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Macy’s Employs Warehouse Robots to Speed Up Deliveries",
       "matched_queries": [
@@ -5171,6 +5226,20 @@
       "summary": "Silver Faces Supply Crunch as Rs 30k Premium Pushes Prices to Rs 1,85,000 Per KG Deccan Chronicle"
     },
     {
+      "title": "Cameron Ashley Expands with new Florida Distribution Center - Roofing Contractor",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSk5jYTY2WUZ4V2VXUVp1SHlLbDVtbjZsWnI3SloxZDl0dXpReUVOX2lUOFlrSjZQaGNUemc0Q3JJcS1kcHBhbnVyY0dQcWRkZExfbm1xck9YNlBWTXdXc3ZocXZYUktqUUViTVM2cHp6aUZ0X1hsTzFSUmlZUmNCOGpuamFVWUp6WUI3dE45MFVRczFoWW5nSG9NRFFQZTlfbU41S1gxcjJUNUtvSnc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Cameron Ashley Expands with new Florida Distribution Center",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-10-13T07:00:00.000Z",
+      "summary": "Cameron Ashley Expands with new Florida Distribution Center Roofing Contractor"
+    },
+    {
       "title": "Delight your customers this Black Friday and Cyber Monday Finland - DHL",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZWh1d2FnVndhUm1GdTE1Zi16TlJBT2l3R1RCM3hROUU2YjN0Y2pDOXJrbFZWWmhaVHFVTl9NYnN5NTZoaVl1c2ZZZHotRWp1czR5M2NEelIyOE5zbUdRVkg0UXFvc3hFcXpIaHBGMWl5b2tXODZmMGNhUHpMOWZ1NVpDX3Nxa2JTV0VnbXVPUzRrMC1rYVRCejhGZnppTXl0aEwzRjJCUS1wZVZGbUczNDdKa0FmR3QzelBTTmlvLXdyT2dVRUlwbTMzeWRCZ0JwNHplU1MxckFGLTFoZVow?oc=5",
       "source": "Google News (RSS Search)",
@@ -5217,20 +5286,6 @@
       "signal_bucket": "low",
       "published_at": "2025-10-09T07:00:00.000Z",
       "summary": "Fulfill Breaks Ground on Warehouse Expansion, Launches Capital Campaign New Jersey Business Magazine"
-    },
-    {
-      "title": "New Balance Opens Salt Lake City Distribution Center - SGB Media",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaFg5cTU2eXZnc0d4NndnQ2IwVFhVUU5wdUVTa21RUkNnd1dtMkpNYXNhWERWQlY0bjFmYjcwUE1vTmdDUFZvQ2ZQQWZCZlV5WV9pS0kxYm1Rc2tQYUFuQXk2NGpVUmZqbFhyX3dXTkVXQ0hxdlN0Tm5ZSjByYjNJWg?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "New Balance Opens Salt Lake City Distribution Center",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-09T07:00:00.000Z",
-      "summary": "New Balance Opens Salt Lake City Distribution Center SGB Media"
     },
     {
       "title": "Geekplus post-IPO: Warehouse robotics enters the mainstream - Robotics & Automation News",
@@ -5312,21 +5367,18 @@
       "summary": "Dollar Tree to open 1.25M-square-foot Arizona distribution center Supply Chain Dive"
     },
     {
-      "title": "Pharmerica to open new distribution center in Beaufort County - WNCT",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNV3BZRXlxUjJGd1VFWVN3cVJSdnFSNnozdUlZT0xEemFOWjFxc3J1bEZXX3VLR3RXY21jY2g0ZERYdUl6ejNWZmFYTllfM0M2YnlPaUlSZ2p5OS1pQTFhWF9Xa0cwSUEzOE5INWFuQnRGUjlEbEt0QUExTm9yZWlYanBMZThjeFNjZVdTaldza9IBlAFBVV95cUxPTm9vM0l5cEVpZmpIb1RheWprZzdvUUQwa0F4amxqSXZOcWpMaGw0RHhtMzhmRE5udXZjRTlCXy0wcjFUbUktTkhQMTg0SEtWRV9rZXpZbE1Bam00TjRYZjdnaVZXNlFXT2pZZEg0WERZUUlEVHJSUmZpRG5ubFhzbTJFVjU0WFBHSGhqTlZ4NGxJQnZV?oc=5",
+      "title": "Abercrombie & Fitch to open new Ohio distribution center - FashionNetwork USA",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUjdwRktzVUNQcFhjdnFqaW9NYmNrQVlMX1dwV0IxUnpWQWdEX2VTTXVsckRETXNkVk9pdGVaOVotRmkteE5uVWIwb053RUFhVTR3SFRxdmhSd19GRzFVWEdLRDM2ajVkUnlNUFpOb3BRU295cnhzVklJNnRlNzJSQTFDZVEyTVVnUk5sTkpTZVQwS3Z2ZmZpekJCaVQ3NFdWTTZPTQ?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Pharmerica to open new distribution center in Beaufort County",
+      "company_guess": "Abercrombie & Fitch to open new Ohio distribution center",
       "matched_queries": [
         "new distribution center"
       ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
+      "tags": [],
+      "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2025-10-07T07:00:00.000Z",
-      "summary": "Pharmerica to open new distribution center in Beaufort County WNCT"
+      "summary": "Abercrombie & Fitch to open new Ohio distribution center FashionNetwork USA"
     },
     {
       "title": "Premium homes dominate as Rs 1-crore-plus sales cross 50% - The Financial Express",
@@ -5470,7 +5522,8 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Gary",
       "matched_queries": [
-        "distribution center expansion"
+        "distribution center expansion",
+        "new distribution center"
       ],
       "tags": [
         "expansion",
@@ -5805,6 +5858,20 @@
       "summary": "Warehouse Automation With Robotics Can Help Alleviate Labor Shortages Verizon"
     },
     {
+      "title": "Dollar Tree to Rebuild Marietta Distribution Center Stronger Than Ever - Dollar Tree",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanhxd3RaVWp1azZacVNYZlBiVmdmTG9hUVdrSDRSVURCREdFWW1nUmE1N0FQMVVabTZtazJIVVdmbW1DRjBLSkxHUDJfZlJBZkxtSXVrRVRneldZS2tGOUl5UVZ3S2JFMkNUQ2p0b3JvYS1EUFpfWU03QXVsX0RGMVprSnpQYjJJVTRkVHRwUjM1bldzMkJIY043OE1aVVNBenVVQjNTejlfRFB2QW1IWUxsX21lTVpic3E0YVRB?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Dollar Tree to Rebuild Marietta Distribution Center Stronger Than Ever",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-09-24T07:00:00.000Z",
+      "summary": "Dollar Tree to Rebuild Marietta Distribution Center Stronger Than Ever Dollar Tree"
+    },
+    {
       "title": "Libiao Robotics opens U.S. office in New Jersey - Modern Materials Handling",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95bGdkLW5rUjdXOFpTUWJhLUsyUkxSRXNHcHpzajFlMGJMUV9NT1haSnQ0WUpEOG9CZDBSRkE2OElLNWZCbUo1LWQxeEpUYTZfcHVQanFVOWx5ZEpucjd3T0lqVW1rZkRJVjV2NUZUVWhpSkxwOHdVQ2FnNDdHQlk?oc=5",
       "source": "Google News (RSS Search)",
@@ -5847,23 +5914,6 @@
       "signal_bucket": "low",
       "published_at": "2025-09-23T07:00:00.000Z",
       "summary": "First Supply Adds Wisconsin Distribution Hub Industrial Distribution"
-    },
-    {
-      "title": "Costco pursues new warehouse in Plainfield over alternative CT sites - CT Insider",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUlpWGtfZkZhX3FSV1lYeVVEUWNobExMcjBlYjE1bWRqSExjVlF0bWhQbmVLeXhpOEZ4a1ctbkpWc3RGUzgtcWJnY3h5aDFlYkNtM2hWSktDdWFTZU9sSG9ucWZYSkhLOXRPZ0hvLUZWSjlfNklFYzg0STZCQUpKeGlMZjdfRkFmRmpHS01XMVVxVkNGQy1VN3RuWlpiUlJp?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Costco pursues new warehouse in Plainfield over alternative CT sites",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-09-23T07:00:00.000Z",
-      "summary": "Costco pursues new warehouse in Plainfield over alternative CT sites CT Insider"
     },
     {
       "title": "Case Study: DSV & Locus Robotics Partnership — Optimizing Warehouse Fulfillment with Intelligent, AI-Driven, Enterprise-grade Robotics - Supply Chain Brain",
@@ -6069,6 +6119,20 @@
       "signal_bucket": "medium",
       "published_at": "2025-09-15T07:00:00.000Z",
       "summary": "Kroger slows investment in automated warehouses bluebookservices.com"
+    },
+    {
+      "title": "Detwiler’s opening large distribution center in Palmetto - Business Observer",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb3hsNVhKVjQ4NHgxV3N0MFZpSTZGM1BrQm0tWHZ0bVNqbjQ2ci1fVDJ5LU1wNmhMR1FnZ0R6UnRXby1aWWJMb1A4TU1IaUFiQnJvejRLTGZweWRUclZ6Q1lfTEpuckhGMDJ6d2xBS2wzcDdrN3VkR0l5dEJIekRsOTJKSWZtYmxZVEszU2FuYUZvNDJoLWc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Detwiler’s opening large distribution center in Palmetto",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-09-15T07:00:00.000Z",
+      "summary": "Detwiler’s opening large distribution center in Palmetto Business Observer"
     },
     {
       "title": "Detwiler's Farm Market to Open New Distribution Center in Palmetto - SRQ Magazine",
@@ -6330,6 +6394,20 @@
       "summary": "Wausau Supply Company opens new distribution center in West Branch WPBN"
     },
     {
+      "title": "Irvine Distribution Center has new owner - timesobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbEVHQThRMWRNZ1JSNWlmY3dBa1pOZEVhUzdxTEwzcS1QMlBBQXotWURZRjkzVGl4eFIydGZieFJkb1N6VHFidnctdkJWRVg0ZGxTcGVJakN2TDlPa2kxLUFUeGd0UHRQQ0N5NEtyY09xYUFqaFJ5eklKQkl6UE1SaWU5R2pDUXdkNUlISmtwa29ZWU5qOU9KYzNqbw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Irvine Distribution Center has new owner",
+      "matched_queries": [
+        "new distribution center"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-09-10T07:00:00.000Z",
+      "summary": "Irvine Distribution Center has new owner timesobserver.com"
+    },
+    {
       "title": "New Distribution Facility Breaks Ground in DeKalb - Connect CRE",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVDRkOWNFZFQ3QlFWY3JYQ215cHZ2ZGw5bENaT28wWUNzczJ4UV9RNU9wRU1rNk1GYnhmSWo0T2w2MlhBTVhZclBpQWRVYnlBdE9qZUJYVmVlRlNJNWEtcXFWVzY5MDVFaERFUHI2eVBndXpxV2l6b2RrQnJFRm1GOTFlSVBSWXZpaFBmajZn?oc=5",
       "source": "Google News (RSS Search)",
@@ -6342,23 +6420,6 @@
       "signal_bucket": "low",
       "published_at": "2025-09-10T07:00:00.000Z",
       "summary": "New Distribution Facility Breaks Ground in DeKalb Connect CRE"
-    },
-    {
-      "title": "Nelson-Jameson cuts ribbon on new distribution center in Fairview Township - yourerie.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdl85OU9PREdxQVVRTnZfOHNJSnRmSV9Na3BBRjREWUZuNzJ1MV84dWZhdnZqa3lzeXhIb2F6bDlmcWREMkFyZmp6ODhzd2I5SkRMMkV0akpzMFVjMDlvam80UUthUFBvdTZpZ3NHYlNqX0ZKc19DS1pZUzh3UU1tWjd4TnFBZWVKX0JCaUJISUFNQmpuaXNxVWwwTFNmcjBuS1gzcFJkNko0RF9YY0pBQVZMRnZ6NzDSAbwBQVVfeXFMTjRXN1BhRjJaQUNXN25xSG92OFktM3NPNy1vbUxUVTBaaENRRDF1N0dOLXRNUHFoZmFpRExNNE14aF9neldUcGVaTE8wdmJ4SGh5Z3ZpVW0ydXR6bVp6MXRHT2xrTXR6VTZ6b1VrZDdTX05qRmRlTjVfZHlPcWpERExpdVh2dDBJUXZwbHUteExEZ0o5VDJvM2g5VHYxd29VSjI0UVNKOUxOVEtUaDBJSTJFak9zWFRscnc1WVo?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Nelson-Jameson cuts ribbon on new distribution center in Fairview Township",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-09-10T07:00:00.000Z",
-      "summary": "Nelson-Jameson cuts ribbon on new distribution center in Fairview Township yourerie.com"
     },
     {
       "title": "Walmart opens perishable distribution center in South Carolina - Supply Chain Dive",
@@ -6437,7 +6498,7 @@
       "summary": "Walmart Cuts the Ribbon on Latest High-Tech Distribution Center Progressive Grocer"
     },
     {
-      "title": "Webinar: Sprinkler Protection Guidance for the Modern Warehouse - National Fire Protection Association",
+      "title": "Webinar: Sprinkler Protection Guidance for the Modern Warehouse - NFPA",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZDRpZGFSeXltY3VWcTc1U3lPZDhhWDF3bm5UbXY3aWkwRWFwbE4ySzgzTmVLNFp2S1VVUm1qZ1RqR2NNY3BJdU8yLVlsd2NmTjk2VGhjMkUxbzFoclNneUdaeUZiekdidGE1akNmd3B2RkNDMEtXb2FBTXBHbFFZQUhIdHRkNlcxbmh1MS0xYS1YOUd4S09COExMdw?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Webinar: Sprinkler Protection Guidance for the Modern Warehouse",
@@ -6448,7 +6509,7 @@
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2025-09-05T05:27:58.000Z",
-      "summary": "Webinar: Sprinkler Protection Guidance for the Modern Warehouse National Fire Protection Association"
+      "summary": "Webinar: Sprinkler Protection Guidance for the Modern Warehouse NFPA"
     },
     {
       "title": "Graybar Introduces STAR Centers, Plans Expansion of U.S. Logistics Footprint - PR Newswire",
@@ -6814,34 +6875,6 @@
       "summary": "Stop & Shop to close 7 e-commerce warerooms Yahoo Finance"
     },
     {
-      "title": "Kwik Trip distribution center on track for November opening in DeForest - hngnews.com",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdHFJQjlqbXV3ZUdnNm1rUUpPLXdwYW5rdFRHSDNudDFfSG54UnVjcVFlbXZiejRrM1RKWTV3TkI4RzU3VVR5eU81b1ZuZXE5ZVNWbHNzN0R4b3BZQTRlZ0VnN3oyclVUQTFNZ3dqOFVDcFN1MU44X2g4cjBRM2p1Tnl5QlRiTWZMUjdUSk9qaW5xVVl4VmhyQTBMOUlvb0xrSDZ0NXFJV2ctSE9pR2tHZTBYV1hQdlkzN1YydldFQ19CS3pfdG1nT3NtZGk5NW5qdzRXVUxGUDVKazZ6OTdjQUV2YUtIY1dFWmY5OW10VDVMUHdjaExoWA?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Kwik Trip distribution center on track for November opening in DeForest",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-08-18T07:00:00.000Z",
-      "summary": "Kwik Trip distribution center on track for November opening in DeForest hngnews.com"
-    },
-    {
-      "title": "Trader Joe's to Build New Distribution Hub on Long Island - Store Brands",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PYXNDZXRTY3VFQ25qNm1zbWFqcS1HTWp4SGJDSkFIUDItSWVCSWZDVjRIVjJZZTZiN0FyNzlwYVVUbnc1eDk1NGFZbjBaQzliZ25DYXd0UV80Tk9KZ2tBdUJJbElfemlBQzMxSWt6QzJRUWduTlB4c3cwQTh4Slk?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Trader Joe's to Build New Distribution Hub on Long Island",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-08-18T07:00:00.000Z",
-      "summary": "Trader Joe's to Build New Distribution Hub on Long Island Store Brands"
-    },
-    {
       "title": "The Rise of Autonomous Freight: 7 Robotics Innovations Reshaping Logistics - Robotics Tomorrow",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQzhsclFELUNYNzdFN2RvN0tSQXBTVTBnZHJuZVQ5bnA1YnQ3MlNoekNval8tX1lFd1RDS19pVW1JQXdVaFFtSlZ1eTNzQno0Yk04SHMtdWdSMUtHcEJmbjBzWVpSeUVscUVub2E4dXRLLUZTTEZISldRLTh3WGgyay10NnB4ZXdTRTMzcllOU0JlYzZDNndsRXJuTlpyc0ZtX3dHODc4LW9ubFB5cWRpWmxhdW9KSmRUTU80cDZKUVhrcUc0c1E?oc=5",
       "source": "Google News (RSS Search)",
@@ -7145,8 +7178,7 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Farm manufacturer announces Visalia expansion with new distribution center",
       "matched_queries": [
-        "distribution center expansion",
-        "new distribution center"
+        "distribution center expansion"
       ],
       "tags": [
         "expansion",
@@ -7674,23 +7706,6 @@
       "summary": "FEATURE: Achieving speed and efficiency in e-commerce fulfillment Parcel and Postal Technology International"
     },
     {
-      "title": "Food Bank of the Rockies’ new distribution center will be able to provide up to 10,000 kids’ meals per day - Colorado Community Media",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRGRFOEJqenA1Sml0bFVBamZBRm5xRlZ3M3d3VnFVUGhGcFc0S0lsR2NNUl9CX3BnRlNveHJXM1U2VWJoTWd0VE9XNHhoLXBkbmlqTVFvQUZobjVkalQwalRMUTFMS19ZeExVM0xqeVV0VFRsby02WXNCV3g4LVlvNHd4N2d0QjlFRU1EQ0JVS2xocmhtc25HbFdtcUNSdDNxX0V6UDFTNFhkWkVmZTg2QTV2aw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Food Bank",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-07-09T07:00:00.000Z",
-      "summary": "Food Bank of the Rockies’ new distribution center will be able to provide up to 10,000 kids’ meals per day Colorado Community Media"
-    },
-    {
       "title": "Emotional Rollercoaster: How Did Attabotics, the AS/RS Startup, Meet Its Demise? - DC Velocity",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOExMcFpPSExZVnBvSFRHN0Njc0ZBVVRUUGpnSzdCYVZONnd3V2Z4UVEwbXYzUjZKOWU2Ymt5RllyN25IZTVlYzBqYzVVYlBKZFhkaTdkVll3MVZMZzJWLXg1TTk5SXB5clQ0Q3VSbThRemxwanBHTmROYWZfQnNfTk1YeUpQaTFHRTV4QVBMYWdyM0FUVDQzWmsxaFFPbzhLb1lsM0MySFd5SU9J?oc=5",
       "source": "Google News (RSS Search)",
@@ -8050,7 +8065,7 @@
     },
     {
       "title": "Exclusive | Amazon Is on the Cusp of Using More Robots Than Humans in Its Warehouses - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxPSzdUSEFaQzlPbWxVUEl2Y0pQT1pEcGp2aG5SRXlwTU5vNUpDZm05WUg4OTFyRjVOVkZIT3RKUGx2M2UzWnVrVDRXMFZReEhyZ3ZTR3RuQmhZOWx5blZvaUItRWdla0sybzVjSVVJWUJKUUlEdy1zR0FOcDUzRWw1VkRySmJHdTl5UWhaYlVvZWhrYWFILWVnNDhHUm1yNXVPbDgzNVhXRk5wS0FObkptcFlXWHVjd0VWZm91WDJfVS1pa1lVTkIxSEtXeXRXOWZfanlrdXpLS181UFNfdTNyNzFGaWFwbE9lOWduNlpuM3cxQXV3NElST1ViS0RyM21ydUNMVXhkdlZJVU9ycW1HdTRRSEw1UUJpYW5MRjNCUWpnb0JOSWNoNDJtYVRYS0FEWnJHOXk2VXFFRGdWRldIVWtLRFdiTEVjbFNyVEdrc0FNOS05VEN5Rngzek5NT0RzR3hoV09xbkVMQWktcmZza2tFSndlaXhPclBqaA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxPSDBMbG56bzhzVkRyUWlfVjFtQWVNaUx6VGpwU1ZqbHlWZTlLR185QkI0U0JGZWtCWU00OEdSMV9kVlhHcUZKUVlQYTR4YXVpVklQNlZ6Qi1UWU16Ry1TYnU5MmlVYW5EcUh3RmRtaEFES0N2cWY1R1lESWx6MGJyb1V0T2dfWDQ5Nk81NjdETDRla0tfS3hxOTdFclByOGgtUkhPd3dMUzBscmM1NTFTOGhLZkJ4UVV6VUtuWGZjWlJ3MmpyVTBzRmdZWWExRW5reXVVU3BZTmJrLV9HNVkwNmJXa3JRSmthMWE0R0FkQ0E5YzNFUC1mdWdjNmZhSUVCNEdvcUw1MjFySHRTUDg3QTJoYWVoeFd0NGdoZTBvTjN1alJWbnFLWXBKcklzLWJhOGxROFQ3dWhzblJ2Mlo0b25Cc1pLWnN3VzRlQjNBRk5DQUNmZ21TWTU5VTFxcVJRdHhoenJnU0k1WXZfemFtUGZXRU5raVZOdWJCNg?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Exclusive",
       "matched_queries": [
@@ -8081,7 +8096,7 @@
     },
     {
       "title": "Exclusive | Amazon Is on the Cusp of Using More Robots Than Humans in Its Warehouses - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxNYUppbmZod1ctU24tZ2w4d2VOSENQbF8tYndkNVk0d00xT19jdTkzQ3pVVEhzb00zWFFSV1V6VzA3Vm1mS2Q3b1F5OUNuOTIxTGhfSGJiM0NWQkMzTDh5bWpaaEtsVEZhcGVsWEZqdnFyTGs4dWxIcWFFUkZnS2t0YkdweDJPVkU0VC1lNy12ZWh0R2FZVHoyeUo2VHYtVmJ0ZjJIQkRNSlNkVHNkR09XUXNxd2JmbFVYelF5eVp2UXh1bTI2SGJUZnVUN3N3NHd4cnp5NUYtbW0xZnZxVUxYZktydDJ2eTVtMFpESExjX0NGWGt2ZGRLWXJzcTg3TzBxNVpCZ1Fjdkx6RFlST0FrV2tFS2JTTFd4RlNXSHBvWW1FYi1zejRWRGZOUWdZaG9pQTVFWGFqQXZ1VWNtd0JQdU1pZFh0TVdRRjhBcnlqMzQyaEVQNENwNjd3SHZ4dGZ6MFA2Y0N2V1l1aE93bmFDNWQ4bkNpU2NDcS1HYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxQcTZ2R0I0MGZWRk53UXVoT0xhTkZFaWxCOE5McFJpanJ1LUhLZ2cwaG44Snh3RlZHaVY2bGpHWm9SYW15QVhmN3FUVkhmazh4MGVsc3JfdU00Wkd4ZWlMMzkxYWM0TjNwRWl0a0lDNVZTZF9WRENsMWRIV19wV09TUWJwZkZ6dGhCdGwyb0xJdDRkZDBxNFUxUkZNZ19sM3FHUEd4TTBubUJINEtQYTV4LW0xMk5pclkzWkltcWdLeGxWVTlMUGZrX284enhINVMxbW9IT0FwWFNpUzZFTzJ6YWpOREpnMmduU1djc3BLQzdfMjdfVG9rcHY0cGNkckFSNzBSWFRlZUE3N1BJLXFwYWozRHQ0VGJicDFWV3JRTVhtQlpIVmtTNUo5V2Zjd0VTSWhQSnNaeFdvX0lHY1VOa2owRVdiY2ExZjVaRG5NMndlb1B3SzBXNjdvZHJXazh0Q2ZXME1nbjFfSXZ5TG5UQzRGdGMwbFdQZXRaRw?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Exclusive",
       "matched_queries": [
@@ -8174,37 +8189,6 @@
       "signal_bucket": "low",
       "published_at": "2025-06-27T07:00:00.000Z",
       "summary": "Premium Guard Inc. Opens New Distribution Center in Weirton, West Virginia PR Newswire"
-    },
-    {
-      "title": "Premium Guard opens new distribution center in Weirton - WTOV",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOOUxsdjlncGZUTlhDT0pRQ3MxRGhsQ2Q1bWtxOXIza2dlRU13UTdtdS0wWW9jVkNUYXVQSW5rNk12Nk5hZ2hNX1FHY0tBRUN3TzdvX3g2U0N2QTd0XzlvenNLNU1BMm02UC1WV1MzZ0k5VDBUdDZXYjBjTVVBV3FMTWROT28ya3FVMGlSUGVaUkR2YUtmYlBLX1RmQ1BiNnFaTU8zaVBKaDJOUERYc2hrNGI1RE5VT1FnSjk1aE5QTGZJNzExRHNLdnItN3ZGYnlCVXpmUG9VT1c2RDdRNXRTeTlzYnZoazIxMnU1MUU3QjRNSmg4WkswSEpiMF9ob0dwQ2lHdDM1cmNjbzVRRU9seTZzdmRJYTlxUVdLdzM3cw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Premium Guard opens new distribution center in Weirton",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-06-26T07:00:00.000Z",
-      "summary": "Premium Guard opens new distribution center in Weirton WTOV"
-    },
-    {
-      "title": "Massive distribution center to create 1,500 jobs in Stanislaus County - Modesto Bee",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4NGhRT3FLMWd5SWtjcnFHall6eTdxeko4Y0VnbXpsNWcyU0FMWXdzOU1VbF9SWElzaVVZYjJSZVF3SFNkV3dhQXdGTDVpazhEdGoyYWlOaXozU3RNRnB2Z1djRTVUM2VrWWtWMjZrRlJaNEFTTThzZdIBeEFVX3lxTE1lVm43Y3dBclVHNVMwMGE1M3ZJZnJvOTAzMlhPZmNWMERyT205VjZkVkJDY2N3a2QtZk9ZZ1ZnbWpBQnpQS1BScUlZX1dreXlOMzFMUjJtUnhyM2tXcGdzQzFpMFllWDZGa1lzODJaQVhJczBiV052WQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Massive distribution center to create 1,500 jobs in Stanislaus County",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-06-26T07:00:00.000Z",
-      "summary": "Massive distribution center to create 1,500 jobs in Stanislaus County Modesto Bee"
     },
     {
       "title": "Enter: A Warehouse Robot with Finesse - Inbound Logistics",
@@ -9255,7 +9239,7 @@
     },
     {
       "title": "DHL Unit Acquires IDS Fulfillment, Eyeing Smaller E-Commerce Customers - The Wall Street Journal",
-      "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxNVmFiYWRZZEFYQ1owOHpQVTkwaTBrcGMtUnVpYmJZYW5MMS1BZmIxUGR0bTZfazlreHV6TjYybFdBYmpLM1ZCLUhMa25CdjI1YXhXRnQ2TGI0YjJGQmtUSWhhOU1GR0lKZjhRSHdTOFJnOEFPbTlvdmh4OEZGY3BEX0Z3RGc2MDZham1SM2hmUzFEQjY1RGltdzZGVTRBaFpxOFRrUDBweHJiQjRxRnFmVjJhS3lnQ0NFalJXNTNYcG9CVzJDdGtLR21vMWd3WmM2YzNVRmlObkRIY2tRLVhnRjQ2dDVOd3RpMUtOcV96R0xsWTFhVzJFZGhRTlpGUFdsVVBNbTNJZXVBNEFnSzN4S2lOS2RkeDljNUxQdVZDSEtzM2lwUHFKTl9fWHNZQVc0THFUTjhLUFA1RGpmcXdkMFcxQVliSzBGSlNWMTFJX3IyalNtc29GNVkxZE9BaGxVVzZCRlVON2UtejJjU3ktZGh2Q2tpbl9vcGdVNzBaS3BpTlk1V3FXdUprMTRSMWxObVFpZFFLWHA5NkV4NmZnOHFKTGxGMllXVFdOZDhnYmk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxPT1YyNTRVN0toN0tSYkhPc0t5RVVnclh6S0RvZDZOWjg0VGtQWWZkcUlfcGJmQV9yMUlhRXVEQW5Fb3Q3dm5mZkRadWdQcFl1VHNmSERIYXlZbzVlZ1RxbWl3T2pFMkxtSFR0Wld1RUFLTXB6M2w4M3FVMDJpX2FhZnpCc2dnWlR3T3lMejFyeC1kdnVVMkR5Skl4S04tRm9zajh5S2JHVkkySnJBN29yTTJjN2xEWEUwWVNpU3JlMXgzelN1Sy00MzhORzZfTVIyVlJCQzlUNGh2LUVmVjVBMlozUHpWa2pIenlkcnc5b2VlWkhzaUJDQmNWNkJYVUxvU0UyY1k0V2VnNXpIZmhTSUtYd25xTDl2T19ENmFZYmRydmp5WF94bG4tb0lCMUZGT3h2cTEtOGl2X3NpQnlRYkxmSVNWUElpOFp6VG9SNWIyaVVHdlhUbHdJYUo1aGJwbzVLMWtFSW5IcHVzWW1CcEJJV3E2MHJiSWpGNloxWXBtRHU4WnZKTExVQlVJM0g0bUpZaEVzb2pwRF9aQmhIdkVPLUd0VE1CZUFmWmdXb3A?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "DHL Unit Acquires IDS Fulfillment, Eyeing Smaller E-Commerce Customers",
       "matched_queries": [
@@ -10299,23 +10283,6 @@
       "summary": "Warehouse Workers See Safety in AI, Want Employers to Adopt Tech Faster Carrier Management"
     },
     {
-      "title": "New distribution center to bring in up to 30 jobs, $1.5 million dollars to Bedford County - WSET",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVHAzWWtVUHFCZFJ2Qlg5ODBTdEFReHJzLUsxVUVlTVVydVRITktzLVJja0UydmF3S2p2ZW1WT2FodVozWEFvVkJlbzdZa3JGbENsZG9YdWRvRUZFZW5DeUpnci1HTEljdm9KQTd0X0l3Vy1rQXJyZU5RVnNIVVZ6TDJZX0N1S3NjNU1lOU1RdmRhUG5Db01FMjdEOFdsemhqTVJmLUg3YktZMmJkRmFURDBFbDFVUnV4SlpFSUFTcFdESUhXaXJPT2VqTkFPc3ZCNVlCYlpaNkdIcFFpaTBEZHlEV3JjMi1hel9KXzlLT0Q2aXNfbHc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "New",
-      "matched_queries": [
-        "new distribution center"
-      ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-02-26T08:00:00.000Z",
-      "summary": "New distribution center to bring in up to 30 jobs, $1.5 million dollars to Bedford County WSET"
-    },
-    {
       "title": "Hai Robotics Unveils HaiPick Climb: Revolutionizing Warehouse Automation With Simplified Efficiency - DutchNews.nl",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdFhPdWlIMm15Z0VLQjVXbGRTNmFYd0Rrcnd0NUViNXdtdy12ajZpMFFrRGRqdHJqWE9TUVlsMzVUVFdlSkhtT3JiOEVJZnpEQTJ1a2Z5U1BSSVphM2pJVktnYXh0NzNtRUp6OFkzVnFLMy1PUnBERnBOVUhwSzVEQURVa2loMmoxU25UNHhNOUEwUF9IR3I1U3VpeGYzU1pHWjkzVUtDb0dnd2tYZE43bDhKWEZvRHNpbzRyMEp5ZGwyV010NzJlMWpTNnY3Q3hTZG5z?oc=5",
       "source": "Google News (RSS Search)",
@@ -10381,6 +10348,20 @@
       "summary": "H-E-B opens new e-commerce fulfillment center in Houston Chron"
     },
     {
+      "title": "H-E-B Opens Another E-Comm Fulfillment Center in Houston - Progressive Grocer",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMDZzT3NpV3pvM1BHR3NVaEMyWG12cHdzWi1jVWZuaktLNkNlWjRlQi1NTElqcDNUaFRhVkVEZ2pfSDFhWGNiNWk2NWE2c1JqTDdXTnhxT0pwaG9FU2xyVlQ3UWRlSUh2aC1wWmlKazN6VkVjTW00M0NZVXJNYVduTmtFeUVuZXVCZEJ3?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "H-E-B Opens Another E-Comm Fulfillment Center in Houston",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-02-20T08:00:00.000Z",
+      "summary": "H-E-B Opens Another E-Comm Fulfillment Center in Houston Progressive Grocer"
+    },
+    {
       "title": "H-E-B opens e-commerce fulfillment center in Houston - The Packer",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeWVnUmNzeEFZYTRzWkpoR1NqMG9RY3JsRm9HeVhic0dCUGxfUllnZ01QdWt4RjQtUlhvUktydXZMVlMzQ1NZOWJtR1kxX0VYbnJMd25vSzY1dVN4Q2lILTIzbldWWDYzb0UtVEdaeU9qSkdVYVEzQ25uMVA4VDRpUF9obldrUDZDZUNwVjdpR3BMaDQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -10395,20 +10376,6 @@
       "signal_bucket": "low",
       "published_at": "2025-02-20T08:00:00.000Z",
       "summary": "H-E-B opens e-commerce fulfillment center in Houston The Packer"
-    },
-    {
-      "title": "H-E-B Opens Another E-Comm Fulfillment Center in Houston - Progressive Grocer",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMDZzT3NpV3pvM1BHR3NVaEMyWG12cHdzWi1jVWZuaktLNkNlWjRlQi1NTElqcDNUaFRhVkVEZ2pfSDFhWGNiNWk2NWE2c1JqTDdXTnhxT0pwaG9FU2xyVlQ3UWRlSUh2aC1wWmlKazN6VkVjTW00M0NZVXJNYVduTmtFeUVuZXVCZEJ3?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "H-E-B Opens Another E-Comm Fulfillment Center in Houston",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-02-20T08:00:00.000Z",
-      "summary": "H-E-B Opens Another E-Comm Fulfillment Center in Houston Progressive Grocer"
     },
     {
       "title": "Indian AMR firm Anscer expands to U.S. with new VC funding - DC Velocity",
@@ -11557,6 +11524,23 @@
       "summary": "Warehouse employment keeps falling — and more layoffs loom Supply Chain Dive"
     },
     {
+      "title": "Amazon response to labor shortage caused by high turnover rate: More automation, threatening jobs - World Socialist Web Site",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qRHlnaXNYa2U4NkFFdFhOREx2UFZBNFA2RlNTWWpmYmp4bUZNd0d5WTN3M2ZmM3Y3MHNJZkdqTk4xNDI1NEU1bzVhYWE3XzVRcURDM1JWeXFXLWw1OXVvNjRTOVZ4WlF5?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Amazon response to labor shortage caused by high turnover rate",
+      "matched_queries": [
+        "labor shortage warehouse"
+      ],
+      "tags": [
+        "labor",
+        "signal"
+      ],
+      "signal_score": 1,
+      "signal_bucket": "low",
+      "published_at": "2024-01-24T08:00:00.000Z",
+      "summary": "Amazon response to labor shortage caused by high turnover rate: More automation, threatening jobs World Socialist Web Site"
+    },
+    {
       "title": "Relax, Humanoid Robots Aren't Coming for Your Job Just yet - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa1ROZHdPdF9UejZiU29RXzJneGxIbktLUFRkWEVYY3lxWGx2OFM5WkNPS0hidUEwRVRpaW5pNXhVNHgzb0FwUmhmZm1uTXFXQjVoQ29HX0k3dE0xX2Fxd25YRHFDVXRELVl3dklTYTREX2lYODJfMHprZVdtbEhCUmpwYzlZdmVwdXlPZmlCWXZpZ2hDeU9sWUlB?oc=5",
       "source": "Google News (RSS Search)",
@@ -11760,6 +11744,20 @@
       "signal_bucket": "medium",
       "published_at": "2023-10-16T07:00:00.000Z",
       "summary": "My Jewellery embraces the future of warehouse automation with innovative RoboShuttle solution by Geek+ Robotics Tomorrow"
+    },
+    {
+      "title": "Upcoming Events - FinancialContent",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQMERBdHJ5WUloemhpZm5QUWY1NkxKVGxQX2xvX3V0UzF4V012dTY1bURqWjZKYmRFQUF4V2NmYklteTJIc1RHSXFrSldBX3JaYmtQX25fQkw0VHpvNXl4OGpXWnVMTEhtY29BY2hQTG1LQ0VCZEdMQ0dfcmpIQW4xOEZ6UzF4dEUtMi1XbXlndFJlWnNKTU5zUjFiTlBGanV2djBXYkNKRjRVMWNybWN4cGdvYUVfc0tYbm9KZjZlVFc4WXFGWXlXUXNlN05CcGZUSFQ0cG43R1pBbzFObjlIcUFZY1ZQUTFiQUQwNWRjeEFJbjBpQUxuRGF6S0VqM2liV1BFal9HWWV6MV9RWWlvUjhlS3p6dw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Upcoming Events",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2023-09-07T07:00:00.000Z",
+      "summary": "Upcoming Events FinancialContent"
     },
     {
       "title": "Exclusive Q&A: Newegg deploys picking robots in West Coast warehouse - Chain Store Age",
