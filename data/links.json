@@ -1,10 +1,24 @@
 {
-  "generated_at": "2026-04-22T17:16:26.273Z",
+  "generated_at": "2026-04-22T18:15:51.013Z",
   "mode": "google_news_rss_search",
   "query_count": 11,
-  "item_count": 889,
+  "item_count": 897,
   "errors": [],
   "items": [
+    {
+      "title": "Textron To Expand European Parts and Distribution Center in Düsseldorf - Aviation International News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTjFWNHhMQks2TVM3ckhFQkRTMWRLeURxMUI3cFlYOTRCdDdOaGVOZi0zTENYeGpubThiVlI5c09aYkNNV0NHZG4tUllBcjhGbTBXQmc0SGpkTWNIc2V3bkw3Z183T0RuTjJ2RVp2MDhjdTdPWno0LWc3MXJDUFFZRHkxeUhudXYtMm8yMjZybGVYU3FWMkIzVzJCSUNNUWtKOFV6clBtVS00NWVNZldKWGFUWDZRM3FB?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Textron To Expand European Parts and Distribution Center in Düsseldorf",
+      "matched_queries": [
+        "distribution center expansion"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-22T17:37:32.000Z",
+      "summary": "Textron To Expand European Parts and Distribution Center in Düsseldorf Aviation International News"
+    },
     {
       "title": "SAP EWM Meets Humanoid Robotics in New Accenture and Vodafone Warehouse Pilot - ERP Today",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTnZSWkozakNFTHlGazRvTlRkcHRqRXFWdWNOTmdOeG5jTF8yakFvWHdXUkdiNkozR21teWpja2RoTnlEaTVVb1BMQ1dhOXVEU21uR3FRaGRiSzlJZUszRnVwUmFyb002NnZMaFJoY2pHZzd1al9NbTNPdF91N29mcDNFMnE3Y2JIUjQ5WUs5eDVLbzRDQl9hbVo1ZkE?oc=5",
@@ -87,6 +101,7 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Automation Warehouse Solution in Hungary",
       "matched_queries": [
+        "warehouse automation",
         "automated warehouse"
       ],
       "tags": [],
@@ -94,6 +109,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-22T12:19:48.000Z",
       "summary": "Automation Warehouse Solution in Hungary Logistics Business"
+    },
+    {
+      "title": "IPL 2026: LSG get much-needed boost as Rs 8.6 crore recruit Josh Inglis set to return - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUUJRMnFYWUJ2azlPcDJWV1FiRlB2SWhPN0JwSXFvM2RHWTZmdW1xdy1jekhCNHNvWjg4aFA1UTRBN05WZ2VmRzQxcjBodEhBb3NfQ1d0Q2c1V3hXb0FIaHVzZFhGVXFleFh3a2pJTmhkbHJKc3AzV21vVVJ6VkhfNHhKQVQ4OGhuZU5lcGRsOURJYU84U19jRUlwLTFOTnAzWFdLN1JXZFJvUUpFRUU4RF9QcGVJdkNkQm10NHcwcnBpd0RIeEEyeTBlOXFPcnBBTksw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "IPL 2026",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-22T11:38:12.000Z",
+      "summary": "IPL 2026: LSG get much-needed boost as Rs 8.6 crore recruit Josh Inglis set to return MSN"
     },
     {
       "title": "Vodafone tests AI humanoid warehouse robot with Accenture, SAP - Telecompaper",
@@ -141,20 +170,6 @@
       "signal_bucket": "low",
       "published_at": "2026-04-22T10:00:00.000Z",
       "summary": "Komar Distribution Services Opens New Distribution Center in Perris, California PRWeb"
-    },
-    {
-      "title": "Rs 5,000 LPG black market claim flagged in plea: Delhi HC - Awaz The Voice",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZDUydHFlcld4VnhWLVk4NUhfaVBwRkFoS0d1c0t0UW5STi1vYkRyQ1IxVVlVZ0RhZ1BwaU5VQkc1dHVOWXhtaW1Yd2d3eVNkWTNSNTJkT2NuR1hUM2Z3TDBUdEdsZjJEN0JsRFJlT0pHN0VsNThuVTY0Y2ZaVy1GTFR0WHVyN3NudWY3cTk3OTNnZ05ZQ2JONWdyOUxlU1Q3UHc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Rs 5,000 LPG black market claim flagged in plea: Delhi HC",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-04-22T09:44:48.000Z",
-      "summary": "Rs 5,000 LPG black market claim flagged in plea: Delhi HC Awaz The Voice"
     },
     {
       "title": "Accenture, Vodafone Procure & Connect and SAP Pilot Humanoid Robotics in Warehouse Operations - Machine Maker",
@@ -205,22 +220,6 @@
       "summary": "Accenture pilots humanoid robots in Vodafone warehouse operations StreetInsider"
     },
     {
-      "title": "Accenture, Vodafone Procure & Connect and SAP Pilot Humanoid Robotics in Warehouse Operations - Accenture",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNDB4RlBOZ2ZLdi1GMGZIelV1emhjVGw4Q25sVy1IR2VKbjdmc1YyZ3JtUG9TaWVfS2pIdmVWT2JzUDlubTlaNG1xRF9jLVVLYzY1NVdLbEJfa3dGbXB3YVhucU1xbDdiT0JBWEtsN05vYXdzN211RHVHX3FjaU93aHdKWHZzYmoxUVA4OWRLaEhqaTNMUDhzRVBkanYxV1JwN0NUd3lQOU9lUFZFdUxzUEI2MnU4TmFka2pYLXVQTWZJdWN3ZnowLUc0TQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Accenture",
-      "matched_queries": [
-        "warehouse robotics"
-      ],
-      "tags": [
-        "robotics"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-04-22T09:14:48.000Z",
-      "summary": "Accenture, Vodafone Procure & Connect and SAP Pilot Humanoid Robotics in Warehouse Operations Accenture"
-    },
-    {
       "title": "Medline to pilot Symbotic’s AI-enabled robots at US warehouse - Logistics Manager",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOV3dJd1RHczFQeVFwNHdiWWRlMUdac0p1LU5GaTdSSmxJdGNwSkVxOW5yQk9BeDZ3SDBFZlhtWXEycjZlQk41aU5QUngtQU9mMkE0SFpVTWkzd05td2tzXzNHM0VVYXpQMVBvWEFJS01YSjliYUtYbl9OeDBsUWJ6SkNwUWdlLVpfbmswQU5RbmJCZXpvYnAxUnF3?oc=5",
       "source": "Google News (RSS Search)",
@@ -263,6 +262,22 @@
       "signal_bucket": "low",
       "published_at": "2026-04-22T05:30:08.000Z",
       "summary": "Accenture, Vodafone Procure & Connect and SAP Pilot Humanoid Robotics in Warehouse Operations Bluefield Daily Telegraph"
+    },
+    {
+      "title": "Accenture, Vodafone Procure & Connect and SAP Pilot Humanoid Robotics in Warehouse Operations - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbE5ZbnlYaGJ5MVRUMURRZzBnb1JjckxPVWJfUmM5OFZyWHpVRUZhc2pta0hHbEh6RHJQZkh4VGh1M29Fd2lSanFnV0cxR1pIaXhWX0ZHWnJRX0xHQlZ6UU9hSzJ3OTZxY25qSU9HaXBYb0ZabC1wcE5YZGtkczR6Q2FGMkMyOUFOR0pScFBoZmVVSmFKMVZHQWt5aWlEY3RiM1FqUjBQdUI1TnEwTFNvQUxtWGRwWUZHeFR4SXppaHdMZXFJUlF2Yk9BNkpteGRNTTBQLXJIZGZGcTVJcUZObA?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Accenture",
+      "matched_queries": [
+        "warehouse robotics"
+      ],
+      "tags": [
+        "robotics"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-22T05:29:00.000Z",
+      "summary": "Accenture, Vodafone Procure & Connect and SAP Pilot Humanoid Robotics in Warehouse Operations Business Wire"
     },
     {
       "title": "Skild AI acquires Zebra robotics unit to bolster warehouse automation play - digitimes",
@@ -511,6 +526,20 @@
       "summary": "Palletizer Market Gains Momentum with Automation Trends, Smart Warehousing, and Global Supply Chain Evolution industrytoday.co.uk"
     },
     {
+      "title": "Bengaluru resident faces tough house hunt as Rs 30,000 rent fails to offer basic amenities - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNNXpsNk5tSnBoU0Z1ZEdZQkI3UUlpcWxfVTBGQ3IzekdKYktOTjB2UVpMaG5HUDhLU2xOUnRSUFpsSlplMkxFWU16WVhJZTBKWHlCb2l1VmVzTDN1ZWZ6MTJBSS1HZTFQRkNndnpLaF9DaUNQUGg3WjVLOV9uS3dJS0hObFI5X1Z6Q3RGYUFIYkJ3UGJlMTNXT284NTM2WUU4Vms5M3FCN3BzYXNsSE5MTEp2WkoxZ1lRSHRqUmdaeFZxMllNQmtVV1VEcDhNX0FkS01YcGxnWDlMZDJFX3hJZHo1OGhSMllVTnNzdEowM0M4RkRSaTcxYm41VGRaTnVMcVFleGFQRVA0d251cFZxdFN1NjNFeWh2T21XNE15bmlWOW1lOFhmQkdwanA2QThxZHBVU3NzRWE5R0Z1RXBrdEMwOUFUZE1HcVkySVBsMXVMaVdiRHM5a3FsVjg1VnpKaks4WTlVbmtmU1lnSjhydnpacw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Bengaluru",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-21T09:43:48.000Z",
+      "summary": "Bengaluru resident faces tough house hunt as Rs 30,000 rent fails to offer basic amenities MSN"
+    },
+    {
       "title": "Raymond Corp.’s Derrick Miller Talks AI, Telematics and Automation in Material Handling Sector: Pros to Know Award - Supply & Demand Chain Executive",
       "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOa2JwMy10VFBVbTd2TlpleVBrekVkbU56eGJGNGUyOW42YzZYRlpEWEVubEI1X19Bc3FCN3BBSEhuVzJUc3RSVXNTQ3NHX1ljQmk1YmJIOGtZX1lXT256bnRQcVA3RWRyaTFySWM3OE8yYnBOdk5JYXR6NFRpQkY2YXVDeFA0M3lsLURQZjVrQkVoUXRaLU5wa0NvN3I2d1RwVENMNmNISFcyTWQ2YU05UUYyTDNwMlVVeWNMMDhJOTdTVWRnLVNReXVfZ1dPQnBNcG1fUmhIRHBZdm5VZEZTeFJCZDBxcHhSSFA1dFR1TXNPV19rWXVhQ2ZMQ1NWYVBLbU4wdko1S0tRNWlpMUlxLXZvRVF6Nkd4SW9UcThEeV81RTBl?oc=5",
       "source": "Google News (RSS Search)",
@@ -563,18 +592,18 @@
       "summary": "Skild AI Acquires Zebra Technologies’ Robotics Automation Business to Transform Warehouse Automation Machine Maker"
     },
     {
-      "title": "Parineeti Chopra reacts to Raghav Chadha’s removal as RS deputy leader, shares evil eye video - MSN",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQU3BncnVzNnVTNDBSWGU2STlVb2NMRkg0d0M4bXNVZFotTDdfVGtmLWV4WUtlUUdSWWZNbTRXc0hqV2F2TGluVDZfbGZSZ0p1S1ZCcnNrTW5HRzl4UE9Pa3VEcG9Ca3Q4ajFpTXlha2ZkQWZMRndtZVZtTE8ybkZlVFl2UWdSeFpfVjV0czBCdklzeWJHa0o5QmgyTGVEUjRpQWxoOUo4ZTE1UVBDNnpQQkNUWEdydmtuYTVWci1iTDlIdm52QXkxMkVYRmZXdk9id1dCZjRVNjJnOWpsbWpGNmFhZFVFN1RPYjFfMUdYS05MZTlEaGdrRDJDR2pxd3IwUzAyZW10dHlHNV9nV0poZVd3dDJqdGNlWUhsUS1B?oc=5",
+      "title": "You can own real estate with as little as Rs 1 lakh: Gen-Z's new investment play - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNZ2VLR19EbU1qS1VyZ0JJcXkzR2pOTmVLR2x5UDFtRzR4bEk3WGxBZzYyeHlCNWxmQlgzRVpyVU9rbkhQRUlTWTlmcUdicTE2OGhtOU5CbzZ1V2g0MERZMTVaQ0ZHNTEyN0E2VW90M1RjQWRORjRSaUtvREJYNlJXU2FRbXl6N2FQMjBrVjR6YWhJN2EwZ29CUmEwX05Ddi1mN1lXZHhFT0tXNXBicGFvYm0yTElYZjBnaUhfQXBOR3VEeW5qNDlMUFBaWWRvZ1VCeVNvLXdGTk5GWWRhLUxwTmxzNW54VDhDVFctWkVSUkhDa1g3T3FEZEtZTWFoWXlxV2RYWmp4MU9GT3dsNGEzUERRYW9Hdi1qbjRiUXVvam9KSVI4a3Vla01yUHBSSUtPWUVJcXBQMmdvS0ZkQVlyLTVOcEl0RWVnbll5REJWUHdUYjlmM0EyOHY3QUpGSUI4YmI4?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Parineeti Chopra",
+      "company_guess": "You can own real estate with as little as Rs 1 lakh: Gen-Z's new investment play",
       "matched_queries": [
         "AS/RS"
       ],
       "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2026-04-21T04:16:23.000Z",
-      "summary": "Parineeti Chopra reacts to Raghav Chadha’s removal as RS deputy leader, shares evil eye video MSN"
+      "published_at": "2026-04-21T05:01:31.000Z",
+      "summary": "You can own real estate with as little as Rs 1 lakh: Gen-Z's new investment play MSN"
     },
     {
       "title": "Rajnath Singh in Germany, focus on Rs 90,000-crore submarine deal - India Today",
@@ -890,6 +919,20 @@
       "summary": "Coca-Cola bottler adds 241,000-square-foot Mesa site as Phoenix demand surges The Business Journals"
     },
     {
+      "title": "Harivansh Narayan Singh set for 3rd term as RS deputy chair amid opposition boycott - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNSDZWVTlfa0JCdnkwYVNvN2N2SG5BTGhXTlpkUGhoZDc3cGhjMFdYcTBzNFFQYUZnMkgzclRfRlBQTk43ZnhTYTF3SFowUXk2TVhnN2JCSmg1ZjRaeTBWeTdBZUxIeUpGNUVVV3E5RnpZb2dSMDMtMWtJaTNMRnFYbDgySTFqWlZlY0J0U2dUR2Y5NDRDRTg2bkRGUWw2MDZVejFXT05hRzE0YlVkU0ZHTWZGUjFWY0VUbnhXVFFRbU9jNUpQcDRZRkt3RW5GWU1SR2tjQ2xURWhmcXJGOW80ZGZTcGxLT2p2dGZBakNaSHRtSWd0S0VUTm05aHpuajhvRFFvSm9HUXlXMnNEVS00MEx1cXg3bllDal9rd2dJbzRIeENSblRMWU1sTkU0blJ6aE80LVZwc1pnb2M3a2Yxc09rU0ctd1Y5RXdqMHBWblZ0UDEzSlZNZEFEVjZsbmFqUHc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Harivansh Narayan Singh",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-20T11:34:33.000Z",
+      "summary": "Harivansh Narayan Singh set for 3rd term as RS deputy chair amid opposition boycott MSN"
+    },
+    {
       "title": "Skild AI Acquires Zebra Technologies’ Robotics Automation Business - Pulse 2.0",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1N1cWN1dExQUjJlRGZMRWdBMjZCTXlSWXNaeXEzTkVTZUJDbktELWtnd284bk5Od0FIcHhwVjQ2eXItRTJRaDhJYmFkRWhqdURrWnRFdWp1alVKQ3loM0FTcFZsMWFzN2xSWHNhSmRKT3Y4QTk4WHhocUdraFhUY0dILUZTQ2RXOGhraG5n0gGTAUFVX3lxTFAyemNVaWZfQkxHTGhiQl94SFV4Xy10Nnk0SWtpRHA3U09pTjdNdFF2dGJ3LWx0YzdFU0VvNFg1SzhYVHV3bWI2TF91NnlTbEdrU1dOUnlkSkdkMEg4VUJyT2ZQR0l4dVpFcWE2cTViQWw1RS04R0dsWFVSbXpJN2JXbGxYMi11c3UwQXFrc2x4RnpaTQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -908,8 +951,8 @@
       "summary": "Skild AI Acquires Zebra Technologies’ Robotics Automation Business Pulse 2.0"
     },
     {
-      "title": "Rajnath Singh to visit Germany as Rs 1 lakh crore P-75I submarine deal nears closure - The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaXJHbUFBR05VTTBHaVRfNmF3aW5ncFFmeXM5Y2hrVnQ4cWo0VDhLa1pQSC1MMXBFWlJ5RUczWHFnalpVZFNYLUlsd25SeFFxVE10QXp3TzFCSzJmUHYwUktHQ2JIbkVZS3Atd1hoZTBORnhBZzRKVDlIcExzbUdOcmJucHFWRGhVQzFwMHpnY2lvRmJKVW9qcHhoV3dxaFJaR3A2cnpqSFQ4UnVoaFkxeGxuMXFFVzZPbURXdjVrN3VyYVdIZVhpVTFKbTZPQlNhMXfSAd8BQVVfeXFMTlVtdmFBcUl1VTJ2Nlk4bHJsSjZHeFhldUduNFMya1BJeWxpbDhseTZCeFZOQVlCUXpjVlUtMS1wLWpJalJMSU9hemFJQlZYeVZfV1BXYThkYTdESGozRWpkWDVRZ1NISFgzTlVZemJjRk1WR29aNkt0bVBmdXJjcVpJR2pQZXpCZXloNjREenl5dXRwYlJwUUt2SGk3RFRwOEVMSjJRWno0LXhTVVhNcVlqQXFzZ3E0OHY2Qk5zNEZ5Q09JdTFKWWw1d29oZ0NaSFo4eENXQlNUelhCZTdpZw?oc=5",
+      "title": "Rajnath Singh to visit Germany as Rs 1 lakh crore P-75I submarine deal nears closure - MSN",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOejhsZUdfeHRWNnFuOXJfSEQyQU5sbHljUlFPSFJ3U1BpWUZiSFBYSDdkMHF3YklUWnd3UGkzSHlkVzA2QWpVZWZ0YjZXNEdtTHlOdEZzb0oxUGJTN09RZXM2enp1azV6dlllcnVLZWxxLUMxMFM5eVh3NjB5aXJIN3RyS0Y3VWp3czBMVkZBYkRZQmw1TmNYVW5iYUFoM3ZvQzJ6NG9RRFh4Wk5VcXB5Q2tuSmhLdndHNW5MSTU3cmxqaktKcjRpamplUTZHUQ?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Rajnath Singh",
       "matched_queries": [
@@ -919,7 +962,7 @@
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2026-04-20T09:52:34.000Z",
-      "summary": "Rajnath Singh to visit Germany as Rs 1 lakh crore P-75I submarine deal nears closure The New Indian Express"
+      "summary": "Rajnath Singh to visit Germany as Rs 1 lakh crore P-75I submarine deal nears closure MSN"
     },
     {
       "title": "City issues permit for Axionlog expansion to create almost 100,000-square-foot logistics center - Jacksonville Daily Record",
@@ -1033,6 +1076,20 @@
       "summary": "How Is Skild AI Transforming Warehouse Automation? AIM Media House"
     },
     {
+      "title": "IPL 2026: KKR get timely boost as Rs 18 crore recruit finally joins squad - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQYlhSdVZZSW9yLTYwLU0zelo4NWNlVUhHM2gyb09FMVczODlZajdtdUU1eE1LUGplYktWaG5oMllhNmRRcW14dENmNHdpVzRGdzM2M0JDcFd2MjZncTJ3YUdmVEJXQ2cwVmVEbWRWbndweGdEN0dtS21NM0t6S29VSmRCYkxMV0lNRFpxRGZ1b3dsdkZaMWU3bGhQNG1MVnlPN2hCOTc5ZVF4TlBqeHRMTE9RbGNXWEhVci1jeEJrdXNWc3AzNUEtU0ZOUXBoZF8zaDlncVd5NEtieFpVNmhFOFN0YkQtRmZLNGNWOC1wVDJkV1VpcDVZazhIY2F2d1BOcnVBbjRWUGRMLWFibEZwaW5UTFEzZFJqS2JWYW1LbzJPbmM4THd4SDJoTW9rQTJleE96S2xBbG9TZmRfaWI3S1JpNFNVWDJiX1V4MDRMczEwQU56aWc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "IPL 2026: KKR get timely boost as Rs 18 crore recruit finally joins squad",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-19T10:45:42.000Z",
+      "summary": "IPL 2026: KKR get timely boost as Rs 18 crore recruit finally joins squad MSN"
+    },
+    {
       "title": "IPL 2026: KKR get timely boost as Rs 18 crore recruit finally joins squad - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOYXNCeXl6cXZYYTFMNkl4X2ozR0ZuQmpucUUweDZzNGhZckZuUG5DSzhRelB5VnQ2cS1TcnpWTTEwVW5PMWVuMTdZeTBrSE16eDlmUlVaeXMyeEg4QWJZSmxhMWM5TXp0OEM1bHN5cjFCTlluQVFPOEVuS3hzbWFIaFQwVjAtaTVPSUx0QTJPMEZ0ZmNtRndlZEUxVi16V05YOU1JZHhTM1lncER0a3pWZ2lKTHFYOEZsY09hc0dOcFAteUwxVWx5SkJhbDRpeTFRZUNlQmRSRHZGNks2Y2hLenF6MmZxT19BQXQtbGYyVXhZUlMy0gH6AUFVX3lxTE5zMTFaUnJZRVFOT2ZaN1V0d3YtT3hXOU9DbmxPS1hna1pfOFVvWnRNcEtpVWtWdzhWakc2d0VlNDBOWGFyT2toNTE2cmstLWNIZVBGdUhEaE9kdmhqN0JaWGlKeHhDbGh5ckFZc1ZRTUlqb3VLbGlWRFlCcW1STnVIVHZNcWVlN0dtSG9XYk5oQ1FyeUJQbFItb2htQ1RUb0pjY280bTl6LWtfVFJiNW9GQXVjSHVvaFFtTS00QS1vSU5MY0xlVWZ2aGJDUGthaVNuamg3RGJLU1hNVWFXMzVoZ2RZSEFhRDI0VHFNWm5YQ3NaM3hYUXhfYVE?oc=5",
       "source": "Google News (RSS Search)",
@@ -1061,6 +1118,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-19T04:20:08.000Z",
       "summary": "Home Depot Buys SIMPL Automation to Support Same-Day Delivery MENA Fintech Association"
+    },
+    {
+      "title": "Jagdeep Dhankhar lauds Harivansh on third consecutive term as RS deputy chairman - The Morning Voice",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSGpMVFZ1RjFRY2VzUE04TjRBenhLZ09SQk9PWU43a3FXb3JiXzloM0Q4bEpndzRQYVA4TFFSWnk1SEFiLV9kN0JIWjdlaklQRks4NGJTOTdiYkR5bzZfZlNndm8tSVV1OFVtWkpDQjBGWDhOdFNuQmxWaWJDN0pJZFotdElkNnlNVlh2elI0ZnlOSVlKWjVTRTdMTUxPbnJ3VlJ1X1dn?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Jagdeep Dhankhar lauds Harivansh on third consecutive term as RS deputy chairman",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-19T00:36:13.000Z",
+      "summary": "Jagdeep Dhankhar lauds Harivansh on third consecutive term as RS deputy chairman The Morning Voice"
     },
     {
       "title": "The Home Depot Acquires SIMPL Automation to Accelerate Supply Chain Automation - Supply & Demand Chain Executive",
@@ -1092,20 +1163,6 @@
       "summary": "Petrol Could Cost as Low as Rs. 30 Per Litre in Pakistan: Economists ProPakistani"
     },
     {
-      "title": "PM Modi draws crowds in Dehradun, inspects wildlife corridor as Rs 12,000 crore expressway launch nears - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeW9ISktmUGtDUEM5cWl1R2UzQ3ZvZU02aFUwOGFhbWR4ZkZlbTdqeUhla003OVc1YUJEWmE2RXNOUEdvcWlGVWlyV0hSTG13V0lMc3JTNVViRF95NGZ5OEZ5MktZYnFLMGEtR1EtZVlzeDJmb25GQ1EzOEVIay1zd3RnaFp2eV9pUXVrNlZ1MUFCT2ZvekVOcllKUTJFSy1td3RDOGdQX1c4di11aE4xTkxVY1lxWmFLYkhYSGZ1T3IyN2thQlRLVlRBUUQyY1cyUFJoY0o4aWQ4MWFJanpkUnlkejlqUQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "PM Modi",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-04-18T03:30:26.000Z",
-      "summary": "PM Modi draws crowds in Dehradun, inspects wildlife corridor as Rs 12,000 crore expressway launch nears MSN"
-    },
-    {
       "title": "Hood River Amazon distribution center proposal draws opposition from Fruit Loop businesses - KPTV",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQnN1R05BeVhwU1lRQTRzM2hRU0RSbzFmYnRZbGhWOS1nRm9wWFpTUnJ5VXlmaV9IbFd1SV9nZ3lzdDdSNGJBazhjT1dfX0JlWnZlcDhydGZmSlk0Rmdmc2pFNHpMSVFvaFpHYkV6VkRYeV8wb1pFelR1YnpHdzA1VVg4emJwczVIVmNNNFpoSUhobEVrV0RQOHRsXzJmenhYMG1kODBlYmFNTDFUbEdqb2kzUUgyNVdZNFHSAc4BQVVfeXFMTlFDNFMwamNhYmlybExlZ216aXFJTWJ0Ql9HS1g4Ty1pMUhvdnN6WXJieGFNb1pncENnNnotWjdGODhpWVBHeE8zMHh4Vk5GeVRxQXotRmdCSFBvMWR1RzhWR3dPVUh3MVdUQWtJLVYzZHgtYkVza1Vyd1NDR3lsaW1lU1NuN1lLaGY1cVpZakJPd1BtejZqRVpLazVibU5XSmVvRWdBc251NWFzMHNWQkJvNks2Z0E0Sk5RS281TG96dHNDb1dJN0RtV1NxTmc?oc=5",
       "source": "Google News (RSS Search)",
@@ -1134,6 +1191,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-17T20:42:32.000Z",
       "summary": "Home Depot Buys SIMPL Automation to Support Same-Day Delivery PYMNTS.com"
+    },
+    {
+      "title": "Canada Provides $8.4M to Automate Edmonton Homebuilding, Manufacturing - Let's Data Science",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPelp6VXhnZ1ZPdEQ5S1Y2WFRsTkJERm81a1Exd0dYbnJjWWh3UmMyS3hKOTBmN1JFT2ZUcG9ZLVcxRjhkWFlEZk5hcm5BcWxjdGg2ZEhmOU9sY0daclZwOVZwUl9rNVZJUWVEN2hWTldfXzlVY3JpM1NpUnNjQ09mRU5WYkNHWURQSVV1MU91a0FEVVBFYlczS21zWmlMVnI0YUNjMg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Canada Provides $8.4M to Automate Edmonton Homebuilding, Manufacturing",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-17T20:37:07.000Z",
+      "summary": "Canada Provides $8.4M to Automate Edmonton Homebuilding, Manufacturing Let's Data Science"
     },
     {
       "title": "Home Depot Weighs SIMPL Automation Deal Against Valuation And Debt Concerns - Yahoo Finance",
@@ -1178,6 +1249,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-17T19:26:37.000Z",
       "summary": "Pushing the limits DC Velocity"
+    },
+    {
+      "title": "Unopposed win as Harivansh returns as RS deputy chairman - MillenniumPost",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc1Q3LUNXTl9RM24wZjE5QXpRU2FoczZaaFR4T1BqT004OThsWjBaLU1PR0FxN3dGSUd2bEU0cHduM1pQVVUteHhYNmlldUZxTUVTRmFsNTgwSVR3X0NZel9DYndWNW45ZmgybjE5c1diRFRUcm13TzZ1VVRQV3o2NTJENmRiRHBZQks5TnVQalJndjlqMGlwbkdQTHJiTi03eHfSAacBQVVfeXFMT1ltWFE4cG5FX3J1aTliX0NEN0g3ZVJVZXNrenRMLVlZR2t2VnRhb3p0M1J0a3RVYjNVR3doN0VPUGVPMkZhZVNqMlpuMEgxemRkd3cxeEh6REF1LW9lMEQydmxOdzhpcTVaVnpGQTZfVEJEVzNYXzJxN1V6cWJhQ2ZoVzBhaUdpN0ZUWGR6a2VBUHNHaDl3YzdLNDRKRFpKZmVoWnZYLUU?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Unopposed win as Harivansh returns as RS deputy chairman",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-17T19:16:18.000Z",
+      "summary": "Unopposed win as Harivansh returns as RS deputy chairman MillenniumPost"
     },
     {
       "title": "The Home Depot Buys SIMPL Automation to Speed Fulfillment and Tighten DC Performance - Logistics Viewpoints",
@@ -1272,6 +1357,48 @@
       "summary": "SHEIN Highlights Automated Warehouse and Talent Outreach in Poland TipRanks"
     },
     {
+      "title": "Kharge greets Harivansh on re-election as RS Dy Chairman, flags LS Dy Speaker vacancy - Punjab News Express",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOUdfRlhQMzlZcHZBUDlEdko2MERiU0drZE5QWERPWjBmSlI3TkctWnRib2kxVGxqV19KNV9oSWhBekZoOXgtNGZ4Z3lTcEpWbDNnaENmZFhoREFzcUg1M2psN1dfbUh2SlFKNnk2emExS0R4YlpNMk5kZnBOV1VaQzk5SDdnXzk1WjBvb3VZQXJJNlRLeXRVbm4xamZfbThfbEVMY0JIS3NQcksxN0tvcVlwUzliZXFPY3g5VlMwcmM4RXY0Rm5uUDczRUwzUGha?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kharge",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-17T09:46:29.000Z",
+      "summary": "Kharge greets Harivansh on re-election as RS Dy Chairman, flags LS Dy Speaker vacancy Punjab News Express"
+    },
+    {
+      "title": "Kharge Greets Harivansh On Re-Election As RS Dy Chairman, Flags LS Dy Speaker Vacancy - Ommcom News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRjhQRWlMaXp3MUowUHU0NUJ6Y2trbS1yM2pnaWg2em12TGIxbzRiTmx0OEpjWF9Ub2htWnR1YjNKby1qcjJPVmY1NXJ3SXE3NkJRZzhyQUtvM2x3T1g3T1c0VGdRc1c3ZnREYUF1QnBDanJiV014Rk1NT2ZqZkFZN01GbFVjelZjWlVKRENyMzZMQzFPamx4Q0RXTmNvV1M3dVE5QjJ4U0VNLWsxSWFOM2FyOU1kSDVkbDJn?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kharge Greets Harivansh On",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-17T09:37:03.000Z",
+      "summary": "Kharge Greets Harivansh On Re-Election As RS Dy Chairman, Flags LS Dy Speaker Vacancy Ommcom News"
+    },
+    {
+      "title": "Kharge greets Harivansh on re-election as RS Dy Chairman, flags LS Dy Speaker vacancy - english.punjabkesari.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPajRPUXNkNFp5RWZseHdGOFk2US1kX2hOeEUtT002M1RfMHZadnZpT282a1VaV0dtcmo5dHhaMUJiUTBIVlo5Y2l6V052dFlvUVByeFNZNzFuRkZiRGtlOXFQU29ub1BHMEdiWHppbzUzYkFDMWJPYUFYU0s0cXM3U3NLWDRfOUlfYVR4WHZuOTFhQ3MxUzYyb3VxWDdFSXhMQ2lSZG9PRGlRTS1IRkNzTmxJSFd6VzF5SUZhWkhaTm9pNmo0SC1CTTBhVXPSAdIBQVVfeXFMUE1oVnhyTm1GWUNkNENPQ05rSWtlLWRQM2I5ck0wU29PVkxNMmVnQkFZVEx2NmhOb2c0R2M5bm02NnE2bWNIVzJNNEN1VUVGYjdHbUFXa3V3bTVnWHFaQW9UcXc4UlVqRjFNQlhmeTRWU29uN1pIdjlkSFRDMVdTX0dqbHp2YjQ0WjYza1hUcEhhVnVmZXBlOFBXQVNFM1k1Yi05bmVPd0UxanllMmVMQ2ZoMkQzZEVjQUdvYW4ySnhIWG5RaFVCRmtva1VPVnZ1WW1B?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Kharge",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-17T09:24:42.000Z",
+      "summary": "Kharge greets Harivansh on re-election as RS Dy Chairman, flags LS Dy Speaker vacancy english.punjabkesari.com"
+    },
+    {
       "title": "Watch: Modernizing and Automating the Warehouse With the Coming of Agentic AI - Supply Chain Brain",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOGF0UGdacEpuTTRkUl9PUEpOaDJKaWs3UmpUVXFaRVY5d1kySWJsN2ZPQXY3UzhlSmRCVmJZVDdlOGMyeWRFZ1F3VC1XNnoweENwMHRpOF9laWtWdGJzTDZIb2N1ZjQzbDRRMFVfRDFJcTdzeXMwOVp3T2VFMWtrT2dubm1EQ3had1Vta3hLUGJVcmU3Z2YyN0xaNFB1RnNwOVlpS0NhaXlKQUdfVGZYRjBlbGFZLUlOd1BRZTIwT1k0UQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -1299,20 +1426,6 @@
       "signal_bucket": "low",
       "published_at": "2026-04-17T05:37:26.000Z",
       "summary": "Warehouse, Logistics and Automation Adoption Connect CRE"
-    },
-    {
-      "title": "Harivansh likely to be renominated as RS deputy chairman, opposition raises objection - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQNGsweXJ1R2JjdTlWbnhRVHFpNnJwOHJxXzlMU2t1Zms4WjZEZEVfQjZZWmVXUkMtZE0xT3ljS0dxMWxGTzl0TVVYRkJKcUJIYXhiNXhVUVcxRTBRY1BITDhFSGUtczFGZnZDbHJINDhYT2xhYlBrbW5qY0J4WXl0SEFtam1YdmN6Y3Y1Xy1LR0VMd2l2Nl8ybG81ZDJKVWxaVzAwQThyb2pHVzNiR1c1VzlHYUNHaGg5dmRreGJ6QlEzdWV6NlJrX2U2YU5yVW9ucjAwTHZBRGpiZFVUQnEwdV9iMnk1SEVmNWRMSTlwYXZDenlxS0daOTFtRmhHQms?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Harivansh",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-04-17T02:07:14.000Z",
-      "summary": "Harivansh likely to be renominated as RS deputy chairman, opposition raises objection MSN"
     },
     {
       "title": "Home Depot Acquires Warehouse Automation Company - Industrial Distribution",
@@ -1345,6 +1458,20 @@
       "summary": "Harivansh Narayan Singh set for 3rd term as RS deputy chair amid opposition boycott The Times of India"
     },
     {
+      "title": "Harivansh set for unopposed re-election as RS deputy chairman - Dailyhunt",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSjlWdS0yN0NoaDNQVU16cUd1YlFOZTV1REF3bkVRWnlNTWhQdk1PWk1mYTE4cnJmaHUzOU9ieXpzZ0VPWGh4UjJ2bmp2U1ZuNm04VGtzN0ZsR3BrLS13X1pwUUVzWmcyRXFLMDAyMk03aV8tMmJJMlpXaGRyZ2NuRzdhMzJJZEd4cWFOM0R1TW9mUVZEcjFQUF9BOU04N0pHMTVldm5vY0lEa0VvTXgta2k3SDdyNlRHRnJIbHB5eVRSVXg3Tm5BNnlibGFGaENKR2d5V0Z1RXpoTTRNa2Yxa09FcEF3Y2c?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Harivansh set for unopposed re-election as RS deputy chairman",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-16T21:08:03.000Z",
+      "summary": "Harivansh set for unopposed re-election as RS deputy chairman Dailyhunt"
+    },
+    {
       "title": "Home Depot acquires supply chain automation startup - HBS Dealer",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pTjZqZnlUeUNSNjdubGZidXFTQndLZnR4dnRzZTBLM0Q1REwwR1BEV3NJR1hEdWZSSjBvU0MtNWZfbTZnWGx3ZjJMeUNIbkVkc0VYdGdSWFpUU2YxQU9OSHNGQkJJTl91a3J3eUZWTDliMTJXTWhXUE1TMHBMQQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -1357,6 +1484,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-16T21:01:42.000Z",
       "summary": "Home Depot acquires supply chain automation startup HBS Dealer"
+    },
+    {
+      "title": "Nabin, Thakur among 16 take oath as RS members - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcjgwQlFXNnlYdmNVWnFMZFpjSklUeXM1NG9fZ2d6VTFGZm1kOGE4c1BtM2ExenZWc1lPeE9RbW9ad3Q5Y0NXaXA2NjY4R0p0VE9MTlJFRDlkTngwa1p2U0JGdjV5VldNQ0c0YnR6LVVPSzIyTVJZSk1zVWYwYnNXcFVkanROUEMyTGdmUzVZd9IBkwFBVV95cUxNMlF0em5iR0FOOVZUSDJJY2syekxENndJdmZUZUVSdWRfdVRfVFZQUEg1WG1xczFEcEdrQXdyc2xwaGFpV1VDay1JeTFHNXJuQ1JEc0RWbTJYS0M5X0J3S3NfcHEzX0xKa0s4bTd3SEdwTDVxYk5kcTd6TzRfTkdkZFlYT2RtUGlpSDhVSXMzS056LTg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Nabin, Thakur among 16 take oath as RS members",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-16T20:50:11.000Z",
+      "summary": "Nabin, Thakur among 16 take oath as RS members The Tribune"
     },
     {
       "title": "Medline partners with Symbotic for warehouse automation tech - Investing.com",
@@ -1373,6 +1514,20 @@
       "signal_bucket": "medium",
       "published_at": "2026-04-16T20:17:48.000Z",
       "summary": "Medline partners with Symbotic for warehouse automation tech Investing.com"
+    },
+    {
+      "title": "Harivansh set for unopposed re-election as RS deputy chairman - MillenniumPost",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUUdmLWpTcWU3MGk3NW05bVgwLVZCM3BLa2ZKdTJ5UUVvakJWWk1oUzRBUDktb0R5UnhxQ2VIdndfc2doRmkwWUVfNWktS3prV3V1anZGRmdtYjRLVVhTQ0stVEdjeWVIdGpKVFJLMUZjd3R5WUlLeEoySTdSaU5BaWxuZWJGeUZRZ2NCVm9UZVdjeG1JcVQzS2pvSV9ZeWkwTTh3cUszRzjSAa4BQVVfeXFMTmZzaXJ1MnZLSWQ1LU80UnA2c01FWURjRXNrdFJobDRQYU5aNXRnYnpOejJuVWYxSzhoeUhUbVRGNjV4U2k5ZHRNdFZFQ1dRbHIzZ25jSG9FVW9Wb0FYRDRvb2tOUDYtMGlHaDZ6TXllejNUcnliSzhDTVNHTjh2VlpRTDNlUnMxMlVPVjFTMURyTXUtdXBOUVV2MzRDS1M3QlRfTS1ZUk1FM3lqd0R3?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Harivansh set for unopposed re-election as RS deputy chairman",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-16T20:04:06.000Z",
+      "summary": "Harivansh set for unopposed re-election as RS deputy chairman MillenniumPost"
     },
     {
       "title": "Home Depot Acquires Automation Firm - Hardware Retailing",
@@ -1438,6 +1593,34 @@
       "summary": "Skild acquires Fetch Robotics assets from Zebra The Robot Report"
     },
     {
+      "title": "CAF Champions League Chaabani Remains Hopeful as RS Berkane Target Comeback After First-Leg Setback - Africa Top Sports",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTC1XcGxRblJwc1Y2Wno1eFlid0hhRTc1VURYbUViMWNjeGNMMnY5ejEzMFlTUi1iNzlmNVB3UTFtaGdhQzg2bmlSa0c2TzJadW1UdWtsaDVZVkNmRGJGd3pXbnV0YVZmSGNhekhUUlJ0dGpEWmNHME16VjQ2SHdZZXZrVUxzbUgyWTRfaC03QkVxeHNFRkFtNjJaTm9JUkI3ZnRQT2dDLUZ4c2VoYmNNZ3ZNX0xzTWp6bUZtV19R?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "CAF Champions League Chaabani",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-16T17:54:41.000Z",
+      "summary": "CAF Champions League Chaabani Remains Hopeful as RS Berkane Target Comeback After First-Leg Setback Africa Top Sports"
+    },
+    {
+      "title": "CAFCL: Moroccan Rivalry Intensifies as RS Berkane Host ASFAR in High-Stakes Semifinal Second Leg - Africa Top Sports",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY1UwbkZBRjdmMm9iZHVTSUZOaEttRGFieHFPc2ZURjAxdGoxcWc1UjNRR0JfQ2Vkb3NmQ1FvSmVZTFpHZ29rNGFCRUswdndtODB6YjZ3RW4tNnZoNjBkSl9GT1FlZ0NXdzZVeXBkZEtVVnZzbk1xM1lkZERYcUJKZDRIMG05cDdoQlRzTWFlVDJiQms5eFZkUDhJNHY4REFFTU9nY3JjMmNRLXBfblZoWHZCY1JmX2hlclVPMk51M2owRlF1UDNUc1VKTVNSYzkzNkN1VA?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "CAFCL",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-16T17:47:42.000Z",
+      "summary": "CAFCL: Moroccan Rivalry Intensifies as RS Berkane Host ASFAR in High-Stakes Semifinal Second Leg Africa Top Sports"
+    },
+    {
       "title": "Pittsburgh unicorn Skild AI completes first acquisition with Zebra robotics deal - The Business Journals",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX0xjSHJzLVZib1RGZVZYblJQeXRGQUQ2ajZVNXJQS2RZZXlXSk0yckdmeHdGd3lUU2hxT2pfbGFxeldxaVlOS19FMDZhMjQ4TC05bXVRMXA2WDc5UW9wTEtDcDZidlBEUk43NnJQbXhJRHZHb0JxN25qN2h3a2xXblVuYUd5ZWxjWUFYWTc1dEVIX1BhaFk3S21Zc0VyWUlTU3V0cw?oc=5",
       "source": "Google News (RSS Search)",
@@ -1452,20 +1635,6 @@
       "signal_bucket": "low",
       "published_at": "2026-04-16T16:22:00.000Z",
       "summary": "Pittsburgh unicorn Skild AI completes first acquisition with Zebra robotics deal The Business Journals"
-    },
-    {
-      "title": "Harivansh Singh Set To Get Re-Elected As RS Deputy Chairman For 3rd Time, Oppn To Boycott Poll - News18",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUUc2T281d1N3aEZuOEViZER5djlFN3h5MmhIbmlEZG56eHI0M1llb1lrQU5RSU5kUk9aQ0NrT2hxMnhtbmlsRkV5T3ZHUWdTRGtZNjlfMGJabGIxdmhFTzUyc2xwLVoyV3g5SDRiSFJ5aW5aYkJfYjdxdUxfZ0tEcUxOU0tZM2QxR2pRQ0FXcGdXVmdHNlpIYWhNRkJ4T1VJNjRjSHhJU2VOZ3g3ZlNlb2RkM1ZNSk5jc2VQTF9VSG5uQ1dDZ3RlXzRZc3ZaZVJIT3BwWHNjUWnSAd4BQVVfeXFMTUd4MTUtUEZRMnlLS2ZIUW5UVGphbG12XzNBSG1JV2JnZGpXaVY1VkcwZ3hJVXQ5eENtOTVHanhLMnlDSW5XbDNnTlBmODUwTkJWbFdYdDFCOTNVSkpoWDhhU1Q0MFAwRkNLWU0xbFlPWnNmbHdLNDVPckI0WF9tVGJPLUNuQUtmSWRIMmZHcTFCWlRKeVBsYUZpQ296Sm90anNaRlVvaGVwVDhPY2s3ZGF2eGFfSFZIV1dOV1ZPYlJZOVl2d3JkN1JMOUtSVkphYVA5cDEzN2tydkVVTTRB?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Harivansh Singh Set To",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-04-16T15:06:05.000Z",
-      "summary": "Harivansh Singh Set To Get Re-Elected As RS Deputy Chairman For 3rd Time, Oppn To Boycott Poll News18"
     },
     {
       "title": "Warehouse Robotics Market to Surge to USD 6.6 Billion by 2035 as AI-Powered Automation Redefines Global Logistics - openPR.com",
@@ -1512,6 +1681,20 @@
       "summary": "Konecranes modernizes Palm’s paper roll warehouse with four new automated cranes American Journal of Transportation"
     },
     {
+      "title": "Singhvi, Vem Narender Take Oath as RS MPs from Telangana - Deccan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLUNuR3dYTGlDMEs1dnlfT1BNblppazJKek44X1VzMW5ZRm01dkxqUzRhdzR5SnFfVVVkYXBrT0JOdVA4S0pkeWF6QmlNMHlBZ25YOUJvczFLRFJmclZoYXRNcUxXd19RSlF6ZHVQSnRZQWpma3ZLdlhBV2g1TGpHODBzVlV0Y0U0M2Q1aHZYaGM1VmRWZG5fbmZuU0hIb3dERXQxdzZSVnN6REJvNDVWUnpMVkM3bjNfdVJORm5n0gHDAUFVX3lxTFBSZV9oSVNxTm9NbkFlM0cxNWU1aER3WGJYbzUtQzNKZEVHNnNHTlVQeDVPU2dBRy14eUIyeUs5YlJ3M0d3VnpZaHZoeDJxTjBEc2JvWWV2aUJBcTdSUXdvdC0wQWRoR3huOU9IWG9ZcmdWRHNZZndvWFFibGItRkotc1hyc1B5WXY0Uk9RWjAyRGR5ZEZERXliUFdhUmVaajhsLTQzVWVzajltZnVjSnlPeDg5aTk2U2F6V3RtRXBmSHJmSQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Singhvi, Vem Narender Take Oath as RS MPs from Telangana",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-16T10:26:11.000Z",
+      "summary": "Singhvi, Vem Narender Take Oath as RS MPs from Telangana Deccan Chronicle"
+    },
+    {
       "title": "Pallet readiness for AMR and ASRS performance - mhdsupplychain.com.au",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQkdoemwxMU5zY2pDQ0hreVpfeVFxUldaOWd0S01nMV9zclB5RVU5QWs4VHNqeHNoMXhVbi1xTENOR1F2V1lSZ2plMG0wOG01Y01yZ0RWUGY2d3R1Nkg5V3VPRXZ6VFpiOC1ESndZV2NjNm1ocy0ybDZ1dDF2Q2g2UW0ybmhDZnp4NHV5bTF3N2c?oc=5",
       "source": "Google News (RSS Search)",
@@ -1527,6 +1710,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-16T06:33:26.000Z",
       "summary": "Pallet readiness for AMR and ASRS performance mhdsupplychain.com.au"
+    },
+    {
+      "title": "PM Modi draws crowds in Dehradun, inspects wildlife corridor as Rs 12,000 crore expressway launch nears - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxOOG9tZ3N5ZVBIczVkSENMcUtWVklkakZ6ZmhuaHlVaFNOQ3lRdTBTMV85UzVpVnBzUlhXdmMwNVYyR01iY0MxMDJJbFNXVnRaLTBOTWpZMDR4ZksyX0dMSExYNnJlSWlrSUpuX1dBMGRJcVNiZFhqQk5FWUttaTBuNUFiNnVPdW5QcWJHRW10U2JsTDRZWkNGWHNwUTk2ZktSS1ZQQ3VSTWF6NlZQQUY4NHAyQ3ZtS1B0SlYtNFhxZllBZlp3QnFoZC1POUlCMFRLV2FFLW94OTdZVFFIM21PVHVCb3VMVUhfNnk0TVExRlVJRmFtME5HMXhQS0NYb3kyR2hHQzZVdHRuTFJQSXV6QlRZTkRNMVk3WWE3TVd2OVpLSGFESlBabGVlUEtGTjM0R3V2SWtmVTdfLXc3Tm51QnlRRVcyQUkzX05FU3JleG1IZTZoT3lhZDcwYjRxZE5OaU02SlVWR2lTc2ZsblBETWV4TWJVNTlNek9Beg?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "PM Modi",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-16T05:55:50.000Z",
+      "summary": "PM Modi draws crowds in Dehradun, inspects wildlife corridor as Rs 12,000 crore expressway launch nears MSN"
     },
     {
       "title": "Minimum Wage Hike May Push Workers Out Of EPFO Net As Rs 15,000 Ceiling Stays Unchanged - News18",
@@ -1558,6 +1755,34 @@
       "signal_bucket": "medium",
       "published_at": "2026-04-15T21:05:23.000Z",
       "summary": "Home Depot Acquires Warehouse Automation Startup SIMPL Modern Distribution Management"
+    },
+    {
+      "title": "Shimla set for water security boost as Rs 600-crore Satluj project nears completion - MSN",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRXBnM20ySHVNNk5fZHJhQjBYX1N2NzNocDk2NmJuVzFzOUZmYlpDUW1CYXFTMF9QU0IwdGhpdnMzWkYwZnF0WThRVXlpeXFfdG14bUJITlJlTjlVN0J5VUNhSWNuNFdTRC1UZU56bHY0VWZvbzBNUTNkdEgyaHNsSTNsMGtWLTZ1TVRxSDJuWVlRWldtcUc1MUpUMDR0S3lySFZVMmVnZVJqdVNsWHRvTzAwa0piZ0xsRXFycUI5VEFfd1R4NnJfZ1FDZlk?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Shimla",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-15T19:29:17.000Z",
+      "summary": "Shimla set for water security boost as Rs 600-crore Satluj project nears completion MSN"
+    },
+    {
+      "title": "Shimla set for water security boost as Rs 600-crore Satluj Project nears completion - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOT21LRGJHaGtqMTRSRU9IV3Rad1Fvb3RsdEUtSHpscmtsVVg4NlNHUHlOa2kwLXNpLUJ3NVJBWjNSUVU2R01YSEdwb3c0OS1XcElaVVRoa3h1bFJaWEJycVlXSGdMSEx4cVlrUWdmS0JJVFF4OW9ZT042WUlmVGdoYlRyZzlyTXdxV1EzZld4Nkd1cXJrMFE2cjhOVEc1SWNhZUFRUG12TXl1dHNTV0h5QjRZbTBSY0JjdXVTYmVXRk9rLXlZbzJocjBZVTVya1ZrMUx4ZnhKTDdZekhXRlFGNmVqcWRWV3FZZWF1RWZMNEQxR03SAfgBQVVfeXFMTjh3MEQ5WjdXaTRtZzI0MmxZdEc5Mi00cDNSUmZVQ2E0ZVdUb3BleXNDbVYtUXFoSjlEMHJGdWFGdktIVHAzX3JfZHg3UjNoaThPZTIxREdZT1NCUS14azFXemJ3X29EaVpCNUE2cjREZkFkWGxwSXJoa2cyWUZXZ2JmMmNFTnpyR1dsSmNJZzQxWk4xdmhZaFZQMzRUT1hsVHJ0X0g5dFQzUVVMaU51emNSaVBKVkx5V0lQTXY5MTJOZGtQV2JwNW54dzE0YkpkQVpNZUd0Y0plUkNnbTFPVVNMSXB6OUxkVEZtUTRVN1MtSll4OE1pams?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Shimla",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-15T18:57:00.000Z",
+      "summary": "Shimla set for water security boost as Rs 600-crore Satluj Project nears completion The Times of India"
     },
     {
       "title": "Roboteon takes the friction out of warehouse automation integration - Modern Materials Handling",
@@ -1745,6 +1970,20 @@
       "summary": "Thule centralises its European distribution with a new automated warehouse in Poland Robotics & Automation News"
     },
     {
+      "title": "IPL 2026: Brands pivot to young guns as Rs 1-5 crore deals flow to Tilak Varma, Abhishek Sharma - Storyboard18",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbmFtNy1hZjZfb2txZDFOX0ZLb1pxUXFoaXNLNzZTS0MxXzZKQ3hTZ19lSFhLSy01d2FmNUxBUHBJN25zaDFiWlpwWGE0QlVQNnprYWp4WDFYYjN5TE1zcU96UXczTE03TFB2YmVhUlJDYk5XQVlzSmJuekE2ckRSM1l6QjFYXzFHckZ0RVJNZGRPNjBRYjNDVHFpMFJyMkZPY0tNb3k2NENnZmVXbU02Z2tCU2p1YS1MVXfSAb8BQVVfeXFMT0dCeVdCQ2dCUjBFcGpYRFFnem04TVpuNXBMQkFVSlJoa2l3SVZqckJLRndnRlBWdWcyU05qVmdlekFJWUVya3ZVQnlfOTA3OGlXdkd0RE9PNFpLMllKcUZzemJ5WFdBQXFybHdJYjZKeWJjVnZrV3l4S2lybFFNUjNiVEtiZGFpTzBzRVJxRkdvX1JlOENjVklpWE9pcTlJNXpzMDQxQTIyVlJKTUhpaXhoancxRHlCamxkVWt5NDQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "IPL 2026",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-15T02:46:38.000Z",
+      "summary": "IPL 2026: Brands pivot to young guns as Rs 1-5 crore deals flow to Tilak Varma, Abhishek Sharma Storyboard18"
+    },
+    {
       "title": "QuickMove Technologies Introduces Revenue-Centric WMS with Intelligent Automation and AI-Driven Innovation - Issuewire",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNb042el9IeVdvc0R2N0VGenUxRllRTDE1WXVKcEpKTWZJWmpZeXNBb0FoaE1ncTZxeWRXT2NMR2J4R0MzdjV2eGgxT2ZLeWZKSHItQmNrYjA1UlFXTEZIamZxWEFNUnExWDY1NUpCVUY1U08wMXhrVjRIWGtQQWJZNks1czVNclFEYlJaTDNSN1ZyOE0zRVlyQ25qZWdMdEQwNmxoWXVqZ0lzVFl4TUJxWTVNdWFhb3c5ZDlBWGptNS1qbUtWekNtNHJBUmR2OFlQSnRYdWNaeXRleUFyYVp6Y1A5TQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -1771,6 +2010,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-14T17:20:57.000Z",
       "summary": "Geekplus Brings Embodied Intelligence to US Warehouse Logistics at MODEX 2026 GlobeNewswire"
+    },
+    {
+      "title": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects - Dailyhunt",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQekliWmNmRUNYWDFxYjFQdklrX0hTYkdFTzhMMTNBa3hJOXpJazFlSFhtcmlVRDFyVXktU2lMNzhtOEdXMU9TTktFM2dDRHhHMVBJN3lIR1NST0htNm9mdXFBRWh2Ulo5X2tseWtDQzB0dHhlYWlVU0ZtYVZ2QXJVbFBJbEtFY1Ita2JYVkNEbkplMl9tdHZ6eUF5bFMyVk80MkdIRjNGM21kcWNROEMzc0UzRnhuMDU1Tnp1ZVdpOHI2X1dGQ3h0WWRoV19SOEJteW9nZzR1SFV0ZXo3RDZPUUtZNjhFZEN1V3lwMU9LS0Q2Qmc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-14T13:21:32.000Z",
+      "summary": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects Dailyhunt"
     },
     {
       "title": "Architecting a modern, automation-first warehouse software platform: A… - Supply Chain Management Review",
@@ -1854,6 +2107,20 @@
       "summary": "Industry Insights: Locus Array Offers a New Model For Warehouse Robotics A3 Association for Advancing Automation"
     },
     {
+      "title": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects - MillenniumPost",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbVNfY1Bta3NtZHc5WVgxbDV2dEdqOGxuMlVoZmgtSHg1YTZPaG14cVE3SlRkME1JV0hKemVPTmRicVE3U1RVUHJtRk1oeXlFQjVhNGc3Q1JzbERlOC1BWHY3cGt1bDl3QXJLMkhsQlVnRklXMVJMUVNQRHJIQnExMVBsRGMza1ZFV2NNWVloalZkQzl1aGRXcExsQVhxc215MlZjcFVqN3VMb1FOWFowbm9uVdIBuAFBVV95cUxOZjdCLWFRU3VkeGwtSlMwVFJqYTBlcFl2aUpyMFJxd21qMGdKcEdKelYtOFNtbUJDRjdqYkJ2VHQwRTFqTzl0ZkpVLThqclBMWE1OUTJYVEtXRXR6NHNxMEdkakIxM2JUTThQbThBVVRBMThFRzRTWjIxa2RxTWJWME8xc0pWZ2xpNXJPTm9CZTJiX0lSTndvZ1U1WHRVeVA2eTN2WEFzb1NnM3FPS3kzX2xXQTVfUDhh?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-13T09:45:00.000Z",
+      "summary": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects MillenniumPost"
+    },
+    {
       "title": "Visualize your warehouse automation before you buy - DC Velocity",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOG5IVmpYcVNvM0VYYUF2eDdWMUdZODgxTm1YU1lkbHZQQmdRdUFvcGl6NDQzV2k5RTdlaXF3RktZMXpJTjRzNnRGanEwbGtHeGtXdk4xRGo5aWhVdkFPU3NkWWJEaVdUTjZyOWtyWVdTaldXZGtvUXRHZXdpUzlDMzl5V21ETDNFYndYOUVyMHlpZw?oc=5",
       "source": "Google News (RSS Search)",
@@ -1868,20 +2135,6 @@
       "signal_bucket": "medium",
       "published_at": "2026-04-13T07:00:00.000Z",
       "summary": "Visualize your warehouse automation before you buy DC Velocity"
-    },
-    {
-      "title": "Parineeti Chopra reacts to Raghav Chadha’s removal as RS deputy leader, shares evil eye video - MSN",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNFNXNWFvRDZzRUthbmJkNF9ZZXpPeHNXLXVoR21rcDVTVnl6RmVwS1NoNGhaRGt1Q1IyNnVBNnF4bFRJUXdUZmJ0bGJRR3JNTjRQNEVZazltV2FmZzVaeG1rRGhxYjZOaFJRQW1zeWx3S2I5VlVXbVdrS2daVW1WUjlqamgyNW9RelRZempVbFJUdmtWRDZqbXF2UmRVZ3RTb09DSWJnb3FsVTlMVHk0aWZXdlhsTVUzd0U5VEE5R1dmaW1Qc2poTXM4bm1ja2NIMENPcjQ0a2ppT09kTm51MkM3SGswc1YzWkJCeVFjMG0yUHZrV1ZIbnNwYTdXcWZ6VDlJWm1FaEJOck9z?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Parineeti Chopra",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-04-12T23:12:51.000Z",
-      "summary": "Parineeti Chopra reacts to Raghav Chadha’s removal as RS deputy leader, shares evil eye video MSN"
     },
     {
       "title": "KKR Receive Huge Boost Ahead Of CSK Clash As Rs 18 Crore Star Ready To Be Unleashed - NDTV Sports",
@@ -1949,6 +2202,20 @@
       "summary": "East Penn opens new distribution center in Maidencreek Township WFMZ.com"
     },
     {
+      "title": "Nitish takes oath as RS member, Bihar Govt formation after Baisakhi - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd1NSeUxMS1RNLUt6T0lKcngyQnowTzVlVlJGNVlIOEtEekZmOS1mbEJKNU00YUpvMmlTeE5yNE1rWDlOSE45ci0yOW56MmN4b1Fha1dpZ2VGblF2TkxhMU5LZHdYRmtWTEZMeFZ6dmVmeGpFYXc5MThJN0hjeXlCYXJPR1JWblBXS3dYeUEydGdGQkpSV1g4MlRINVdscVJUZjFORU1SNlNDWnfSAa8BQVVfeXFMTUZHZjdCdlQ0YVlCWjBqNmpUMTJCZ0hlTFQ3WnpNT0dvazd4SjZUYjEwLTZWMEEwUVRvTURGTndQQmZjZ1FiNHllcHRndk1paWV6RlVGYU9ELWMtZURPV0JYNmhxaGU5NElnREdPdTlKa09GLTlRcHFfdW4xNFktU1p2S1BiNDBBemtTMGdkdjQ4cmRkR01pN2JJWTQzTXp6NmJCUnpRYVlOVlRHdDhlMA?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Nitish takes oath as RS member, Bihar Govt formation after Baisakhi",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-11T07:00:00.000Z",
+      "summary": "Nitish takes oath as RS member, Bihar Govt formation after Baisakhi The Tribune"
+    },
+    {
       "title": "Nitish Kumar takes oath as RS member - The Hans India",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWDZhRkpMLTZOaG1kbldsd0FQa3JsWWdXQnpNUEU3OUkyV1VmekdGTHM0UDlnV1M0WU5kb2NSRzB1YTlLVWpOWXZzUlFmR1FYUTVwRWVvb2pLdlU0S2NQajFnamVScjh5bnNDUXl6VWYtTzVFQkpBLW1saEstenVFMWhGYVNWZE5mY2ZmMGRIWTnSAZYBQVVfeXFMTmp2dzdydUtnakh6cmdXZ0M0NFlzWS1STnR1TzVjNHg5dTQ5RC1wcGdLR3VRbzVQTDYxZ3dUSjJPaUY2bHZnaUtZWnpwbVo2Uk9vdjJrME5jM2pMZXNpZzQwMU9zYXIxcVlYSDB5QXhsWjhfZThVUUpCUDdpY1RsaTRfem5iSE1YT0tESW40a2owQmNPSHpB?oc=5",
       "source": "Google News (RSS Search)",
@@ -1961,6 +2228,34 @@
       "signal_bucket": "low",
       "published_at": "2026-04-11T07:00:00.000Z",
       "summary": "Nitish Kumar takes oath as RS member The Hans India"
+    },
+    {
+      "title": "Indian Institute of Public Health to come up in Nagpur as Rs 170 crore project gets state approval - The Live Nagpur",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY21rXzBEUXF0OS1zQmNrWjRWcjFtT1J5eXJYajFacDJvSFk3cHZILXpxUmhpak9VLXBCQU85M1BSa0tnWko2dmZlaWZPQ3BycFhiR2NYYUFRVGFzTl8xOFkybjNDZ3V6MUR6VzFGX1hsM1BmUXlscFBYeGxXUjE1eVZ4OEttRlJtZTI3b0xtSVgzcmptQVFBcFl2bDBhNVIzMlpLMVMzRG1rR1gxclBEV1NkZXNHbVpQZXJ1N2tiRHVTZFlRMVFibHJ6OXZEak5seHc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Indian Institute",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-11T07:00:00.000Z",
+      "summary": "Indian Institute of Public Health to come up in Nagpur as Rs 170 crore project gets state approval The Live Nagpur"
+    },
+    {
+      "title": "Nitish takes oath as RS member, Bihar govt formation after Baisakhi - MSN",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ3hjUGlfR01ubFJMM0stWXBJZUQ2VGROZE1oblBHZGdjdVNlajVWVEVEcXFSV3c5X3E0eWVnek5wVHRDQXYwLTJZbWFGWVlxQjVCX0Q1SjhwUUNJQ2gxUGE1Nk1Jdng3c1ZpZkVRZURhbDRsc0RNTXFaU1hsaGo1SVE3YnFnbGJoM3p2LXR4bDhMcFlybTVVQmZueDlEb203M05JcXhHd1dJNWRfNlIzUlRfaXdGZw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Nitish takes oath as RS member, Bihar govt formation after Baisakhi",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-10T22:35:04.000Z",
+      "summary": "Nitish takes oath as RS member, Bihar govt formation after Baisakhi MSN"
     },
     {
       "title": "Common operational pitfalls for e-commerce companies – and how to avoid them - DHL",
@@ -1996,10 +2291,10 @@
       "summary": "Lyreco automates French logistics hub with Exotec Skypod robots in €25 million upgrade Robotics & Automation News"
     },
     {
-      "title": "Bengaluru’s Hoskote PACS emerges as Rs 1000Cr Co-op Success Story - Indian Cooperative",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSjBIUjNfdEhRemVvMUpIcFFoTGJxcmxVSUhLOUt4RWYzUFJTa3B5czVuTEd5TllXcHlVc2RFNEhSaUpmWm5HSndUSzY4U3dZbk9MMzNuOUt6M2NyWlJxUGxPMjZtcW1OTHRQRjRNWEpEUTNCRkFQcUpxbDFDN2pTbXBLcms0TEhQa1ZIUUZNVmFyNDUxTXM3M3lrdEQxREpRLTdlTTNUcjBFSi1RYllGVNIBtgFBVV95cUxQMmU0SDlZUTJvWXJhNGlFRlozMm9UNjdBU2JEYmtIeHpnaHIzRS1jS240cGtGTnNpSlFncVYtQ0wySnc2QVc4N0I3Wkt3SEpia1F4Vm1FWjQxRlJ4YXBFblllN1pENUpDcjNIdzM2M1FjcU91cTE2dzhBYngwUXkyRGsxazNGTzl5OHdEcVVZZW91Um5fZ2M4UE5NaWpZZXVCNjVPV1prNWZxN0NLYmJwTGpxdHVvQQ?oc=5",
+      "title": "Bihar NDA leaders congratulate Nitish Kumar on being sworn in as RS MP - ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU3BuQXY1Tnk4UHlRUHlsSzJxZVhlVkxnRnNaaEZTUjZvbGFjUjFNTWtCWHdjdS1kV0Y5cTVmazlRdkFqQkprZDl5MHJtSnlUQmF6T1BsaWZOLTFrU0Z0bXgwVVZITUdWWWE5RHRsRlV4bWxFRGc5NXBrVWs1RXpLZEszU29kbzFQcXg2Y0dmT2tsQTJiTGE3X0Uxc2ZEZ1hRNmxWbGJyR2bSAa4BQVVfeXFMTjdXQXB4bE81M0F4eF85RXFJZHhVbWJhY1V4Q0w0S3RNZ0dNS2NVd1EybGI2VVZUUkdnazktcHNRM0JDT3hkSzZKVE55WnJ5VVBtZmRPZW94a25nOXRod3g3bmR4OElacVI0a0lRX3VXalltZFhXZWZEU3hkVGR2dWstYWFXb0RCa25SV196TDh6MS1XVDFaMnVhNjJ5UEdVZHo3RjNVTXBOV3UzNldB?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Bengaluru’s Hoskote PACS emerges as Rs 1000Cr Co-op Success Story",
+      "company_guess": "Bihar NDA leaders congratulate Nitish Kumar on being sworn in as RS MP",
       "matched_queries": [
         "AS/RS"
       ],
@@ -2007,7 +2302,7 @@
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2026-04-10T07:00:00.000Z",
-      "summary": "Bengaluru’s Hoskote PACS emerges as Rs 1000Cr Co-op Success Story Indian Cooperative"
+      "summary": "Bihar NDA leaders congratulate Nitish Kumar on being sworn in as RS MP ThePrint"
     },
     {
       "title": "Made in Acadiana: Walmart tax deal for Opelousas Distribution Center expansion approved - KADN News 15",
@@ -2061,6 +2356,24 @@
       "summary": "Plus One Robotics hits 2 billion picks as warehouse automation scales under labor pressure Robotics & Automation News"
     },
     {
+      "title": "MODEX 2026 Lineup: Rapyuta Robotics Unveils High-Performance ASRS and Upgraded AMRs with Live Demos - Newswire.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZXA2NFQxRDVoNDRIQTZmMjZXZ0pxRTdTNC04cXNvaE1EMUFvRXNCbC04VHNNeExPQTZMa0VpS2dLbl82R1BDWmVoV091SWppUGZ0Nl9TUjJDeHRpU0tIbUczY3E4MjV5aW5xY0VYT3h3QmpXenhZMTFlbk1mckpnTDhpa2VQWEtub1dXdHNWN0dvQTNYc3JrQTVjUUlyMndLZ2xRRWVPekhBTTQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "MODEX 2026 Lineup",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [
+        "robotics",
+        "modernization",
+        "signal"
+      ],
+      "signal_score": 2,
+      "signal_bucket": "low",
+      "published_at": "2026-04-09T15:00:00.000Z",
+      "summary": "MODEX 2026 Lineup: Rapyuta Robotics Unveils High-Performance ASRS and Upgraded AMRs with Live Demos Newswire.com"
+    },
+    {
       "title": "Quess Corp Shares Rise 3% as Rs 63.81 Crore Tax Refund Exceeds Entire Q3 Profit - Trade Brains",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbUlkMmpIbW9GOVNpWHR3aXRwcHhpMXhZTE8zd05IQ1JBLWZtZUtzVXBjQk4wS0Z1OGtSUUpSd3k4V2RMMnB4VEJzOVpYU2ZIQWVNejVKVjNiSVBJWGtnZUR4NnJPR2c4UVJZb1kwMmtpSlBxV2ZvNWxCQXktSk0wbGlQMHAySHFHZnd1R3RqNWFLQUd2cmR3LXFycEVoMTBiUEFuNg?oc=5",
       "source": "Google News (RSS Search)",
@@ -2073,6 +2386,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-09T07:00:00.000Z",
       "summary": "Quess Corp Shares Rise 3% as Rs 63.81 Crore Tax Refund Exceeds Entire Q3 Profit Trade Brains"
+    },
+    {
+      "title": "AAP replaces Raghav Chadha as RS deputy leader - Dailyhunt",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa3ZpcEFxOEozWTdaUUxhZVNZWmhheElhUWpoeDBralNSaXBjNXR0a0tScmtmMVlYZGxtMWlzM3NPdzlEYjQtS0wzVlhXa0hjdS1ZU19DWlVkV3VveUpQNU85dHVYRXlLSTI3QlNWR3J5cTFKVFlSWlVDQjVqZk8wWk8tckhwS2V6MkpmQ093Wm5xdTZJZ0V2QUZhbGpjbkRXZG9PaTd6cDVIY0ROTW92eWgzMi11QVZrUEdSOUswekVWOEdwcWdpdm4teFEzQUhERkNR?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "AAP replaces Raghav Chadha as RS deputy leader",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-08T11:04:18.000Z",
+      "summary": "AAP replaces Raghav Chadha as RS deputy leader Dailyhunt"
     },
     {
       "title": "BoxLogix Introduces Logix WCS to Power Intelligent, Flexible Warehouse Automation - The Desert Sun",
@@ -2156,6 +2483,34 @@
       "summary": "Everflow Supplies expands with new Southern California distribution center Supply House Times"
     },
     {
+      "title": "Parineeti Chopra 'Reacts' To Raghav Chadha's Removal As RS Deputy Leader, Shares 'Evil Eye' Video - Dailyhunt",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRjJ6cXlqc0xLR0RsZy1CRjQ2NDJlRHZyM2M3UFM4R1g4WWhCZklpRzBydWxEc3hiZmxPTzZ5NHN2cEdncm5VMUNvVE9IRlNjYy01Vm9yakZJYjBfemRpMkFRaTRaalJZTlhoVThFVmI3bHVHd3N4UGlQaElZd0NHV01vWnJHd1FGZ3JCOHk4U0Ria3hTVkp4dHBDOFhLelpGa3V0RGZTU1F1S1h0WE96R1BXbEUxbTREYkUtUFFaT1pwQWgycHFFb3NzMzc1QUNfbGZYRFdVdzlnaGt0ZFJaN0Npcmp0X0hqX3ZsZXJBVGZXY2ltbUpxTmpvNU1WbzdmQWRIdXpYLWJQbTBRREVwcA?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Parineeti Chopra",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-07T08:37:41.000Z",
+      "summary": "Parineeti Chopra 'Reacts' To Raghav Chadha's Removal As RS Deputy Leader, Shares 'Evil Eye' Video Dailyhunt"
+    },
+    {
+      "title": "She lost Rs 33.50 lakh to cyber fraud. It was moved through 969 accounts, in transactions as small as Rs 29 - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQV1Uzc0JjaGx4N1dBOU1haDFmSE5PTmVIQzVtMTlqNW5lRHJZc3loMWc0YmhUOUVpNGdoNDJlNC1YWHJtSzdJTWx0SG12NndmSU02Uzd0enE3bFYxeFpJa3c2cmk4X2lsN2RCZ1JFdGNNaFNmOTBISjJJR2dLY2NyWm1YZXludGNDcXRZZm5vMjJVaXJCdDdGcEFYTFlPM0QzU2FVSXdOWFk2MTZaU0x6ODhyTkxpNWQ0Uk1JNVI3T1A1WlN1Y0dFQjdHUGFuRjdfdmQzbTJ5VDFUeGtsN3ZFNlpWMGdWUFk2RlRUYXZJVXoydnBOYmfSAfwBQVVfeXFMUFJTUVR2NHpXUTdscXhKR1lWeWdhYzRqMktjcVQyYjR6bWx1R3EwcE50ckVORWc5TkMwb192S2dheTlPc3NNVmFUNXc1M1dKa1JzT0xmQmFmM20yTC1HeUVwMnotaUFIeFhXWTdDY3k2NHlSd2QxNi1ZYThoN3hNeWVRdEstUFpCV3MzWVJBOFRObUZUSm5rWDNxTFBCV25RM3Q2Y3FPWVBlMnlGSF9Ra01GVTVyX0NiRGsyMV9hQWZCYzJUOUd3TEJFaVBLRUtBVXBHNzlnS2xHZVhtNEt0ZVZiNVE1N25MdGZsV1Z0bkFrbzZwczRaNGpGZ2sw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "She",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-07T07:00:00.000Z",
+      "summary": "She lost Rs 33.50 lakh to cyber fraud. It was moved through 969 accounts, in transactions as small as Rs 29 The Indian Express"
+    },
+    {
       "title": "Bengaluru Resident Faces Tough House Hunt As Rs 30,000 Rent Fails To Offer Basic Amenities - NDTV",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOGpIRVNROFQ2eWctODZCSC1ES1pMR19BMWhrVnFYWkRWaFQ0cnhLRUx4VmlaUnR6WnhrTHJvdmVQLThLVlJzWG9zUEp5NVViTVdkUWUzclRtMW04LTdsUjc4S0V4TlYzMEhic1RjX0tzVnIwNDVUN2ltaTVrcDNOOFVWMHV5X0RBaDhpUUN4YUp1cGFEWEVfMjhUaFNRTEltWFl2czVsamc4RjJnQlk3TlNOeFJmZVBGT0NwWm8xNnJGSGMwUnhN?oc=5",
       "source": "Google News (RSS Search)",
@@ -2168,6 +2523,20 @@
       "signal_bucket": "low",
       "published_at": "2026-04-07T07:00:00.000Z",
       "summary": "Bengaluru Resident Faces Tough House Hunt As Rs 30,000 Rent Fails To Offer Basic Amenities NDTV"
+    },
+    {
+      "title": "Zydus Lifesciences Gets Relief as Rs. 41.77 Million GST Demand Dropped - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQzlLcXRiQVQtZmctS0Z4Z0FrTlZmeXhzUGpCODJiWW1oeFRDNjBoR3cyenZGemFaV0xhM1BzaWNETjBJOVdzOFdkejJHeU51X0hZV2dMM0JwTi1aZTFzWXdKbUx5dU5iRWtXT2lneUxoSFdZNW1KVm5mdWpnZlVYNW9uOWNXUXZvNGZtdzBQWF9mRHZ6c3VjcjRYaXBQQ0duUTk0ZnY0dnRHVGdMOTNyY19sUUhtbElrdUlfc0IyaG1UaTVJUkpCY2Nid3R2MURkc0QydDFxRDZXZlUxU3NubQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Zydus Lifesciences Gets Relief as Rs. 41.77 Million GST Demand Dropped",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-07T07:00:00.000Z",
+      "summary": "Zydus Lifesciences Gets Relief as Rs. 41.77 Million GST Demand Dropped scanx.trade"
     },
     {
       "title": "Green eCommerce Packaging Reshaping Global Fulfillment Now - Global Trade Magazine",
@@ -2203,6 +2572,20 @@
       "summary": "Everflow Supplies Opens New Distribution Center in Southern California PHCPPros"
     },
     {
+      "title": "AAP replaces Raghav Chadha as RS Deputy Leader; BJP alleges internal rift and 'anarchy' - Dailyhunt",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxObmFMSDNISTBVdVhwSFBfT0VCVVV6VUhfZFY5VGpsZkhUYnMyN1hnUlR1WjhINDdzOGtybUFVZmF2bTBYcnozSmFzSDl3NmxuY1N3MS1lR3RiNXd1ZEROSFRQSmJHLU1jaXlmUEp6dE1mNWJNeXdZb1pSeFJSQnhKcktjRkM4S1RoS2NXdEZuOENleTlxZnVTQ2p3UnRxM29CU3RqbDBrYUREYVZtQ3c5alE2YmlWY2E0Y2NMZlV3S1hUcmMxZXlscGZlVlhjQW9XY0hHYjZoS0xKR1Y3TU1CWjZBRmJDODlQZjh0TEhjcEh2ZDFfdFJOVWRBU1p3ZXJ6ZHc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "AAP",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-06T18:00:23.000Z",
+      "summary": "AAP replaces Raghav Chadha as RS Deputy Leader; BJP alleges internal rift and 'anarchy' Dailyhunt"
+    },
+    {
       "title": "Warehouse Automation Market Share, Size, Trend, 2034 - Fortune Business Insights",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWM21aS3ptSjBnRlRsa0lFYmdTSjRta3Z6UFNFLXFWSmdfbE9obkZFdm5uTTdTY1ZiVkFGTFdEX0pKQmZmSGNLZk91WUp1YVlCa1VQTEFubkFfcHlpSGlrWTNKcjlWYkxyR21LNHFQU1FtTWk1VFJvc2ZaYW1Iazg?oc=5",
       "source": "Google News (RSS Search)",
@@ -2218,6 +2601,20 @@
       "signal_bucket": "medium",
       "published_at": "2026-04-06T07:00:00.000Z",
       "summary": "Warehouse Automation Market Share, Size, Trend, 2034 Fortune Business Insights"
+    },
+    {
+      "title": "Six apprehended as Rs 2 cr spurious medicines seized - MillenniumPost",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa1M2V0N0eWRlZUJ2S2d0WnVTZmhRV0djbHJCeXA3OEtBR0o2VFFLQklLekpxQzBRY2diZ3I1RHdfRlJ5OHVWWUlleTJtN0JpbnlCV1ZpTFJzTi1MRVd0WFBGSlNYZi12VzFvdWZkbWZXVjMxZlJGckJzWXBDM0pscHp6ZktmdDFjT1Q0VW1nV0Z6NzhPQ2NEalE1NNIBoAFBVV95cUxPYWZQeGROUTRjRVVQV2ZIanVVYTM2d2lZMWxYTjRQWGhYWUhudWJXOGh6aU81VDVQU2NzVXJZQmI0RlN4MElhdGplSVRERjZvYWFXRkpPdzdPdmJWeV9tMEQwLW85bFh4UUlUb1c1eXhoeHhfZnN1RGI0US1zcEp3R3M5ejBlR0Zkbm5CdHJ4OTY3NDJtbUFHb01MWk9ILXVw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Six apprehended as Rs 2 cr spurious medicines seized",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-05T19:14:30.000Z",
+      "summary": "Six apprehended as Rs 2 cr spurious medicines seized MillenniumPost"
     },
     {
       "title": "Bittu slams AAP, alleges Raghav Chadha removed as RS deputy leader for not depositing party funds - The Tribune",
@@ -2250,18 +2647,18 @@
       "summary": "Learn to build warehouse robots people enjoy working with at the Robotics Summit The Robot Report"
     },
     {
-      "title": "AAP removes Raghav Chadha as RS Dy leader: Bars him from speaking on behalf of party in House; had raised i... - Bhaskar English",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSkVCMkFqOXl2ZjFLREZLUlRTbDYtNlRfSEt3SWhHVnAybFYzN1hYbk1xUndLeFBqUkV6SXRRZEUzVnRBX0VFSzdHemVPMWlRREVCVnZpQzJrbEtEdnRaV0RFVUk1N2xKY1ZHeG5CajJIaUZQREN1Y1diS0FQYmNBRkNSQ1FvOWE2b09BRVo0YnZmS2R0TkxjNldIVWN5MHlaVFdBbXR0Nk5raUdMTUdwVmQtZWY2WnB1cm8tbDNENUjSAcYBQVVfeXFMTVgtZFdWUWt1ZzlNZTZDSGRDemxMWGJBZXlOZnpEeXhYSUpmcUxRTE5pQzNsbmxBNnc4SDZkUW55bGxiMmlyei1RUTZrUVFUbGh2M01GODRWNlhoRXlERFRaZG11ZTUyQkM1bnBRSHlBalRfTzVDeUpZa2dtYkt5TmhaZzdkbWVPRENxWVp6RkxadWtWMHdxWm9NaV9Yb0JtNGJYSFJYQmpvd1NmUzItRklSUmdkZGJhb2VEU1cteTFmS2NrMXdR?oc=5",
+      "title": "Parineeti Chopra reacts to Raghav Chadha’s removal as RS deputy leader, shares evil eye video - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM1FFYU81RXFRbzZ5aWNkMWlsUU5LdVNxNl80MXRKQUNfU1ZTaFdLMk9oTzk2NHl6WGU1S3RRMDh6aHZrUUxtUnJ3TllieWJDUEdFRl9JM1U1bm5famV6TXJ0Q09tS3BQNEM3TnJGbE9DaEEyQVpVNEdMUXpnWmtma0IxWFZFd082bXA1cHNQUFdtMVNwUm51bEFKMHMzc3VxWUFDQVpiNTdha05Uc21GUWZKVUZhclY1WHlUTFhEenM3UENyZklSOUotUDFobDhrLXZKclNhVldRRGM?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "AAP removes Raghav Chadha as RS Dy leader",
+      "company_guess": "Parineeti Chopra",
       "matched_queries": [
         "AS/RS"
       ],
       "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2026-04-03T20:08:14.000Z",
-      "summary": "AAP removes Raghav Chadha as RS Dy leader: Bars him from speaking on behalf of party in House; had raised i... Bhaskar English"
+      "published_at": "2026-04-03T10:52:52.000Z",
+      "summary": "Parineeti Chopra reacts to Raghav Chadha’s removal as RS deputy leader, shares evil eye video MSN"
     },
     {
       "title": "Amid rift buzz, AAP replaces Chadha as RS deputy leader | India News - Hindustan Times",
@@ -2290,6 +2687,34 @@
       "signal_bucket": "low",
       "published_at": "2026-04-03T07:00:00.000Z",
       "summary": "Raghav Chadha hits back after being removed as RS Deputy leader The Hindu"
+    },
+    {
+      "title": "AAP replaces Raghav Chadha with Ashok Mittal as RS deputy leader - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSFlEWlpaVHQ4d2pXWEhJbG5jcnJwQ1JsU0NwNjB1SERHUzczdTFzVEtyLXpvMmpZbUJ2U1AyQ2ZBQ0l6VWQ4bW5tNFNYLUZIbkRnLUZobmpKVl9IYTdWLXZMV040bk5YTFYzaDd1bC1KWEtNYzZXdEw1YVpNSzd6YUktMDZtUi1xLUFsdDgyMXJ1dkZYR1RjeEVJRHVIZ1N1S25aZUx5eGhIcnVjN2VwTk5jOUctOE3SAb4BQVVfeXFMTnJJMjY2VGtpMXRYa0F1NFNpTVl1RXJ5Y0Jhd2FxTHdRQjVKdGVpVUJVRWVuYU0xRFlXWXZhRnR6a1c2Q2c0d3JiTHJSY3Nia2RuQjRWTS1PSzBFa3BManNsSVAxZWdMOV9BZUxLYVRiUWtBR25pcF8wWnBmb2UyT2paendrVWFSOUR2ZlY4Y0k1QUFwT2FhWjFnQ3JFTTRjZTlvTHdGRm5CaDRERUFYVlpiTnFNNEtxQV9OZXRTdw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "AAP replaces Raghav Chadha with Ashok Mittal as RS deputy leader",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-03T07:00:00.000Z",
+      "summary": "AAP replaces Raghav Chadha with Ashok Mittal as RS deputy leader The Hindu"
+    },
+    {
+      "title": "Parineeti Chopra ‘Reacts’ To Raghav Chadha’s Removal As RS Deputy Leader, Shares ‘Evil Eye’ Video - ABP News",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNX3pRQXZMSjcta3dUYjg5d0d5VHZpZmU3a2cyLVBVZ2JNbW9kTkR2bkpiZlhRTjBzUFB3N3NwU2dpUXBXd1Q1QUUzZjBEME5hQzFrbm05czlEaUdHU2gtcVNScVdBZ0pkOVdqejJEQXRJM0Y0UUhFWTUwb1Y0RzVvY3pJUmg0bklpZ21NWTNrR21VWThaNDFzRmZOMWtrejlJRzB2cjNrcFNiWi1DQkNMX0pJUlJKdVpBaHNlY2VkbGo2ZmZBeXhlbGdmeFIzVkhqTnNoVmFkRlJHX0lUUkNGSTRiWnlxd9IB6wFBVV95cUxNOGNOMk1TMUF1NEZpV1dEZnhFM2UydEFJVnJENU1Ec1BGenZwaE9GV09YamtsNFk4LVM3MHZONEFjRk1KMW5sM1IyOGVDR2RRR0JuNGdUczBvMW5wUkZyVVk2ckdFaUNOZkUzWnpOeHlBblRmSU5ha00tWGRtLVppVkt1RERDNFE0bmd2VFIxMV9HZjNnazlaTlVSYmlwcm5fVXdZMHJkY0Nyb1pNS3hPN19YSU9ham96TV9CU3doLTIxcmdUTkU2MlhKVVE5bndSWWNCUksyc0tWWFlnNDNGSUxfVGJadWRwcDB3?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Parineeti Chopra",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-03T07:00:00.000Z",
+      "summary": "Parineeti Chopra ‘Reacts’ To Raghav Chadha’s Removal As RS Deputy Leader, Shares ‘Evil Eye’ Video ABP News"
     },
     {
       "title": "BHEL: JM Financial sees 35% upside as Rs 2.5 trillion order book may offset war risks - financialexpress.com",
@@ -2338,6 +2763,62 @@
       "summary": "Picking a Winner in Warehouse Automation The Worldfolio"
     },
     {
+      "title": "AAP replaces Raghav Chadha as RS deputy leader - newskarnataka.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZVMxeUxjMzhPYzh0WDBxaTY0Ym1MYS0wX1M1SDdicWVDOEE4XzU0THNXY2MydXhJaHo0cVJ0TVpHUDBvdzJmbzVUN2VUU1N2XzRWSWJya2U2T0VkRE9aUl9RNVAxZVdaUHBTVTZjUHJXZDBHWFFwOFBIeXRSMFRnM1hHZXpmT2h6SURydGFacWk?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "AAP replaces Raghav Chadha as RS deputy leader",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-02T07:00:00.000Z",
+      "summary": "AAP replaces Raghav Chadha as RS deputy leader newskarnataka.com"
+    },
+    {
+      "title": "AAP Seeks Removal of Raghav Chadha as RS Dy Leader, Ashok Mittal Likely Successor - Deccan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZXFtQ1ZWWUh2MDZJNGdhTFZBOVZteTZuendqWXpUcHFBWURKRy02QTZrUTlXVDQ0NjZMUjV0Ri1FalIydW4yU0VVaTgxanJUYi14TlM2eGhETUlxV25RbFRfSVNuQXF4UU00QWYyT183RGNxOEY4dGY3anRDTTBacGFHSHJSV0o3LU10NF9LeDB5NnZFbUoxSTNndi14TExMdFNidXRaRy1mYjhDYXJKMWFQdEZhc21ISVl4ZFRLdkR4cXo1ZFHSAcsBQVVfeXFMT0ZrM1dnbnJRQWRnSHpvc3lTT0JfNXREcjc1MFhjU1dKMno0Q2E0YlZWVUhuaE5wWnJzUFF3OGVSc1dFYXdqUkpCZWZoNzFmM1JENXIzdWxMNks1VmtYVG5KeUdSdVBtOV9QbW1KclJYLVA2RXk1YmNSRGFMWnJHejUxVGdWbnM0ZU9BWHhKeHpsMXlWZXo1NWhCTDhQZ2ttRGlPaWNUSHVGX2Nob3UxMktQcjV5dnExbjhmbHFFWV9LTlNwUXA3Q2xrSUk?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "AAP Seeks Removal",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-02T07:00:00.000Z",
+      "summary": "AAP Seeks Removal of Raghav Chadha as RS Dy Leader, Ashok Mittal Likely Successor Deccan Chronicle"
+    },
+    {
+      "title": "AAP removes Raghav Chadha as RS Deputy Leader, bars speaking time; Ashok Mittal proposed as replacement - Maktoob",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVjJtYklDeTVwV2Q1RHBVMzdSV1ItQlFXcTNfN2xTWlpfV3dSVU9zV0JBZER4Ym9zTkJfakZaNXR1U0pSLWVkanlvbl9haUdmVTBrb0NpTVhhNEkydXRMZHZ0ZDN6NWh1WFpNNFRBN3g3UEtqZ2dOOVozSTRjNTdnUjhyc3p3c3RncFFjeXR4WkxWakVMRXFBcG9mN21vTjZ2VDBGcFpSRk5LVnRxZ2VQaHdfZUM2eTR6M1NEeWQ1ZldwTU9GbW16Vk85b2kza1cxNFBNSm1YNWx0YnBjTUNJeU1lMm1NTVdt?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "AAP",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-02T07:00:00.000Z",
+      "summary": "AAP removes Raghav Chadha as RS Deputy Leader, bars speaking time; Ashok Mittal proposed as replacement Maktoob"
+    },
+    {
+      "title": "Turmoil in AAP, Raghav Chaddha Removed as RS Deputy Leader - Dailyhunt",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMmI4SmYyX0ladjB4b0NhNmZPeDhqZkdrRFJ3dDk4SGxRczNCZy1JNlBiUWF1VDV5eXFob255UHEwTHIzQ1NJa2o5UUdRNlNCQ256RGhvTzV1TFRGNV9fRXNmRG5hYll4d2k3NmphZGhoX1ZnMFYyNVNWSW5uXzZES2FzSHBNR3RRRFZJd1ktbWJYaUhJcmszckx2M1lFVmdrRWZfbWxqYndoa2RuWjRtS0V2aTZzNDlOWjFldUVlcHZoVmJYNW9yUm1mNkpaOXcyM3AtcUs4cHVjLVdSalBWTHZOY1pFbDRrUzdKNzJSUUpmdw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Turmoil in AAP, Raghav Chaddha Removed as RS Deputy Leader",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-02T07:00:00.000Z",
+      "summary": "Turmoil in AAP, Raghav Chaddha Removed as RS Deputy Leader Dailyhunt"
+    },
+    {
       "title": "Nitish Kumar To Take Oath As RS Member On April 10, New Bihar Govt Likely To Be Formed In Mid-April - News18",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZnJBdFNHeUxoWHBCQXRqN2RlN2dhX21KT1R3N3ZlSWwzcGVYcnc3TGZDM1pTMWlFVjFBcHB3eEN6YUJJYUNZRXN4Q1NMQi1RakZDVDR0aFF0Y0RSY0x0NWZBWU5PNGhMbVhOTVVTUjAzV2gtTldJTFR0eHB5d0Ryc1A1RTNZUEdWYU1fVUNpX05PQklZMnFMcVJtTUc2WnA3bzFjeVNuVWJYNGVwTkdQb24yRFJrSzNsaXFwRWRfbnZaOUlmVm9TdTRaYlItcmxYTXljUGt3Vzd5RzMtSS1vV3NOQdIB6AFBVV95cUxNVEM5Qkc0M2ROV2tjdTZleW9CUWZzZnJiVjk2UmdORy1GUGF2X1o4RXhZV0IwblhBOUtKdXg5OHIxUkRZVzE2aUdlczhiUVQySi1pZS1vTl9HWXpEUmRMMjJiU2FaNndEVmkwWnhDOUNzVE5sQjZZVl9xX2JxdFFuZEZPNlVOQXVjM2EwMEV1dU1relRlWGZUUkF0ZXBDWEYyTWFzaWthWHFoYXdXTG9QSjA4b3M5QjNPSUU1d2ZWdXhtcWV3VEtzM0x5eWVGY1A1Yl9qb1hrZldaYWxKWV9HY3MycFEteHZN?oc=5",
       "source": "Google News (RSS Search)",
@@ -2350,20 +2831,6 @@
       "signal_bucket": "low",
       "published_at": "2026-04-02T07:00:00.000Z",
       "summary": "Nitish Kumar To Take Oath As RS Member On April 10, New Bihar Govt Likely To Be Formed In Mid-April News18"
-    },
-    {
-      "title": "AAP removes Raghav Chadha as RS Deputy Leader, bars speaking time; Ashok Mittal proposed as replacement - Maktoob",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeGljZDg5czBaV2psRVlYaHBuOFJGN21SOUlfR2pZc2pnb2RXa0l0WWlPYWxiTmRSc3QwODNXdHZGbkVVRkhZdzRHbi1JaTQ4MGx3ZXcta2V5ckFibG42WVlPdldHMlZGYkRJQnB4OVJlZWV5RjQxamFoQTFVRGdnUGtIU1RXVW0zWlB2dFhfWWFneUZ4ODZRR0NGV0ZtNUx6UXBVTThaOC1fazdSYl9NbkQyVWd4ZWs4UUF4TEhlNWo3dTFCdzlyMlpDYXlGVmpMN1NpanJhY1FBOUZGMVdn?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "AAP",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-04-02T07:00:00.000Z",
-      "summary": "AAP removes Raghav Chadha as RS Deputy Leader, bars speaking time; Ashok Mittal proposed as replacement Maktoob"
     },
     {
       "title": "How Descartes is Transforming E-commerce Fulfillment With Sellercloud - Yahoo Finance",
@@ -2983,6 +3450,20 @@
       "summary": "Swisslog expands pallet ASRS portfolio with the AgileStore 4-way shuttle for flexible, high density pallet storage PR Newswire"
     },
     {
+      "title": "Chaos in Ludhiana MC House as Rs 1,258.8-cr Budget passed without discussion - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWFNROVh1WFJpampCakhtSG9oSkxLN3cxS0t0TEl4MnNzZFVucDlWaEtDTWZhZjZ4d2QxNXh6UWlacnI3bk5oYkV2Und3LXpEUDR2UGVySWtJbDNoaHhoTUc2c2NyOVU4YktFLXh3NlV1QmY2QUxsTUJuazBMQ1ZLd0k0M19QUUFZX29QYVE1M0NPSDJXTUJfQTU4UlVRNFUyOF9iUmRrZHRPck5MazR2b3huQUtLaUHSAbsBQVVfeXFMTUo1VzdndHBmd05QQ3FqYjl2b3BhUnZPSFlDNjVZa2Nka1lVeVJFdDFxdHNoRWlocVVFS3M1cl9Zc3ZacnFkdmlKeFBYZG9ndG9Cd2tVVTUzeVZKZ2U5V1FQQTFseHNVZ252ZGZzUFNwMnFuWUFwcm9ycHl5YlhTdDFtODEzRmR0S25GeTFvVHZQRUFBV00yaFBISlRhWjdBZnI2UnZpYnpwaHpfbUVvRjBZaFZKeWk3RXMzUQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Chaos in Ludhiana MC House as Rs 1,258.8-cr Budget passed without discussion",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-03-25T07:00:00.000Z",
+      "summary": "Chaos in Ludhiana MC House as Rs 1,258.8-cr Budget passed without discussion The Tribune"
+    },
+    {
       "title": "No arms, no legs, no problem: the robots taking over retail logistics - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa184cThIdTBaczhnTEtNOVc1dXhod2VhdTgxX3BDblhxVUxYUlRCZXQ0NDVDcUh1T1pBQUdSVnVzVC1wSTNqLWpERjFLYjBmX29xQU12UW9HcXBERUlsYVJnYWs5bXRaQ0VTOTlkOEFTaXR4T2tXNkRicUJ3WG1kajRpNmZFelJXMENXbWpQcmFYaWNkS1BwSUJnWU5Odw?oc=5",
       "source": "Google News (RSS Search)",
@@ -3013,18 +3494,18 @@
       "summary": "Fareway Breaks Ground on Freezer Expansion at Boone Distribution Center Progressive Grocer"
     },
     {
-      "title": "Delhi power tariff may go up as Rs 38k cr recovery plan on anvil - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeWt6YjZLZXljY0VTYW00M1RGVHN3N1ZXU1hIZFQybDdjbXlaWUM4T3VOMUd2VU9KLWFkd2xLWVZKbk5pbU9saGZMMk5aUktMN0VscjdadldXU29FWmJCLVVuX0o2cVdCOE1sU2xYX3BjbU1tQ2FmMWRaeDJ6T3NuaEFrRU11bUQyS3dUYkpwVUM5OWxNbkNwSXpiX3cxSVZ3eUN6Rl9sbmlxcE1ibzEtWndUbTFqOE9xOHhxTXRjWUxhemZEV0lJUFBxSEPSAdIBQVVfeXFMT085WEEzRjBiWHItLVpIcG1OZEpWZFV5dTNKX1pHTURiLWZUMV9xTnpKUjlFd2dKYmtvcTNKejh6M1RYUDhzbV9pMGVjN0tPMUluNFJMRTR4WUhTVEYzSEVuOTBwLW0xNUFZVTBpVFVoS2phaF9paHVnYzB4aVdZUml5eXBZelJzdHlkX3pqZjBtWFBzOVdoVnVGNEFuMFV5T1RuMmZKVEFjb1JhUFBuNVpval82M01WUWpPdHZGbzM1Mm5Qdk16UXFScWNNZTU0UjJn?oc=5",
+      "title": "Barsar to get 15.5 million litre more water daily as Rs 137-crore project in Hamirpur nearing completion - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQekNYRDg2Q0hNcDgtLUFqVTRUeDdZaFJVeG15MGk0SnlDQllvNFViRU90NVRsZkdQZnY0VmJQNXV1MmZ1UXJpdWNkSWpMcDAwd1N4bDA3ZXpBOUs3NDZmM1FHUnpXdm11SmxjUmpSWUxrSGVJanNRTW0wanowMDg1V1E0cWlrU2tVN19JSy12dnBiSWstQ1ZESmwtRG9aUHk0VTZRbG5pQzdHOG5tcmhtdWVCaWJIUnRiOVFpeEVKQ1kyQ1E1SXctdEpPTDZESzFGVXd0aC1QakdCalVMYkNLbEJR?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Delhi power tariff may go up as Rs 38k cr recovery plan on anvil",
+      "company_guess": "Barsar",
       "matched_queries": [
         "AS/RS"
       ],
       "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2026-03-23T07:00:00.000Z",
-      "summary": "Delhi power tariff may go up as Rs 38k cr recovery plan on anvil The Times of India"
+      "published_at": "2026-03-24T07:00:00.000Z",
+      "summary": "Barsar to get 15.5 million litre more water daily as Rs 137-crore project in Hamirpur nearing completion The Tribune"
     },
     {
       "title": "Free isn’t free in quick commerce as Rs 30 fee makes customers spend Rs 200 instead - The Times of India",
@@ -3041,6 +3522,20 @@
       "summary": "Free isn’t free in quick commerce as Rs 30 fee makes customers spend Rs 200 instead The Times of India"
     },
     {
+      "title": "Sikh pilgrims to benefit as Rs 1,118 crore rail link to Takht Sri Damdama Sahib approved - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMlI4bUJOV3ctcDFfdFoxVHBtZkl3dFJyLVN0VGZvMnRHNDVEZkVsR3hoRFlmY2hxWE5aMWRYcENEa3kxR0ljQ3ZzLWZFYWhPSEw0LVR0RmJ4T2ZKTk9TNUFNNHVPXzRySnkxdXFVRDNpMTdSU3V4aEJIWkZlMmpVcHBBX0tlTWg5Z2s5elNpTFBNVDREbHd3YWdZeGFjX2p4d2REN2Rn0gGqAUFVX3lxTFBsT09UQ1hhTGFZVENnZHZ5SjlaUndEZWU4cjlnVFgxZl9MWmt6QU9kWWptMWI4THkyOWdVSmhHa0tqd3pOQ0JOYXBBcmRhanljN1B1RE9IeFJOQkkzYXQ1dXdyTldEOEhJbW5IeWNHSG0xdFpsSzRCaXRkZXhJOTljU0xfQ2Vlc2F4cnhHZFVXbzVXOXM3M3RsV2ktcWVrOVMxRGJ3VFVFVk9B?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Sikh",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-03-21T07:00:00.000Z",
+      "summary": "Sikh pilgrims to benefit as Rs 1,118 crore rail link to Takht Sri Damdama Sahib approved The Tribune"
+    },
+    {
       "title": "Warehouse Robots and Automation: Transforming Global Logistics with AI Efficiency - Tech Times",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3dQTi12WmtzNVdGeFFlN3FvNkpoNGdXb0ZSTm9SQ0sxYVhYaDQ4cC1VR0t0d0F6TDBCZEFHNWtkMzhLanpiMkQxMjJRcmYtRVZqRkdjeEVzSlBxUW5sSFVtVmMwTW5xMHZfQnVEVVIydW44anlaTXZEczNfdi04cmQ5RVlITU1iVlhkelNaRzRMVEVGckRtTVg4Qkw2eTluR1RGc09xckpoQ3p3V3ZHbGVTZjc2NDN4aDU5Y0RCanNlaThi?oc=5",
       "source": "Google News (RSS Search)",
@@ -3053,20 +3548,6 @@
       "signal_bucket": "low",
       "published_at": "2026-03-21T07:00:00.000Z",
       "summary": "Warehouse Robots and Automation: Transforming Global Logistics with AI Efficiency Tech Times"
-    },
-    {
-      "title": "IPL 2026: Massive Boost For Kolkata Knight Riders As Rs 18 Crore Sri Lankan Bowler Declared Fit to Join The Team - Dailyhunt",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPcVV3ZFhoU0tTYWM1WTNjdWZTMkNib0JoUFB4RV9td1pkR3lka2lUTTFPOU1QUkdBYm8xZW9JOC1fYnBuQ0o0b1hVU1VaS1N2MVd0YjZfeXFMckp6OVJkMGZRLS1mb1d6cFo1Z2w5VlRTVnB5NGFIYm91X0FTb2lvVUdLMHFzSnk4WnpoOXR3emUzZ21pSGRvYWNXVlZiSUpYS2djTjV6dnZ1VUNSRVhSem5MaFBMTW1XeThvdmFNYnRka0pKZHVFRlhCUkpZY2xzWU5Mb2dqSVlMWXBaMTIzLXFVZ1RNcVF2bHlHd0docmVEZmFDVEJ1Yk9TZkR3SXFRVF9vVmF3YVVrdkVzSThSdVBkWVhLTlVfZEdJeW9SbUNXWmozSERR?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "IPL 2026",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-03-20T07:00:00.000Z",
-      "summary": "IPL 2026: Massive Boost For Kolkata Knight Riders As Rs 18 Crore Sri Lankan Bowler Declared Fit to Join The Team Dailyhunt"
     },
     {
       "title": "Australian logistics sector embraces warehouse automation - Vietnam Investment Review - VIR",
@@ -3331,6 +3812,20 @@
       "summary": "Robotic Solutions for the Three D's Occupational Health & Safety"
     },
     {
+      "title": "Centre Drops Eight New Cities Scheme as Rs. 8,000 Crore Grant Goes Unused - Realty Plus Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWld1T0NITjI5M1ZreEZQdmF1WEdVenJMR1BMZ3NXeXR3YWhUYW40OHAzTmo2bFdnTlpHdXI1cXV0SzczNnlNS1lGZmlPMl9fTGotTjE5VlB6S0pIYjVaNnhwVlA3SXRuLXNjX2FrQ2hsNGlzYVZvcmRwQlF6TGlTeUoweGw2LTdPYVljODdqRGd1YjFfNmFMVkdwTWZVREJEVTFDS0xvUmNwdS0tU3c1TjJ6Q2VkcjhnNGdTeENUSGE?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Centre Drops Eight New Cities Scheme as Rs. 8,000 Crore Grant Goes Unused",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-03-14T07:00:00.000Z",
+      "summary": "Centre Drops Eight New Cities Scheme as Rs. 8,000 Crore Grant Goes Unused Realty Plus Magazine"
+    },
+    {
       "title": "Tactical showdown as RS Berkane host Al Hilal| The New Times - The New Times",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRHdTSi15d3BVSzVFZlZWT0p0d1dGVkNyWkphRXpQU1Q0bXp4cVRyYjcyVTdmVDRFQ3pRRGh0NDByaml0N0NYRDM3WUpja2ZMTkdycUczeGNnYXhYQS1OZlN5aGQ0TTMyYkVnUnQxWURFU29yT0xONTJ5QWw3LUNNeld4SFFTajlQVmhnTDZyM3M4TmhJNmlGaWU4c05Vb0FKVUxhcdIBqAFBVV95cUxPdmpwbmUtaG0xb2VYbTYxNVBJTGI1YWxaS0taR1Z4VGR5eFp4eDhTd2dYRjZDdDQzNnp1S2liczdiQ1M1bHBjcF9hQ3QzbmFYSk1xbE9NOTFvZEhiX1BWU0FFX2RtNUFBQmFEM2ZhZTJYN2MwVnN0ZVI4VjVFalVaOGZxaXhJUGdja2wyeXNXN3BYeFFWN1M5aFNUUDNLOXphUXRLV0hxX2g?oc=5",
       "source": "Google News (RSS Search)",
@@ -3442,6 +3937,20 @@
       "summary": "Geekplus to show video of its new humanoid warehouse robot at LogiMAT 2026 Robotics & Automation News"
     },
     {
+      "title": "L&T, KEC, KPIL, NCC, PNC Infra may benefit as Rs 8.7 lakh crore Jal Jeevan Mission extended till 2028, says JM - MSN",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOTzZvZ2h4SDNDV202b21DVzEydTY5T2w5eHl1VTZNOVV2aFAzQUd0bEI5V1JTT0ZxbktSUEc1eXFTY0pWNlNHa0l1MHhGY1ptRzh6dDZCaWZBSzdaQnFnYW1ZY0Y5TWRTXzVBdTZLNHJveDdRaFJBSG8tU1hBSGxLR1hHOGxNQUZKNzZVUGRxUldlWVE2eFF6OTY0SlZBTHA3M0FuaFplT3E5NWF0Mjk5NHkxREVnak95MTlJaE9pclEwdWJPQWVyU1drSUw3MkpnOG1WUkxRZUgxb201S2ZPbG9QVW04dTZtU2NqeVBTVTBGNFFwQzhiRzZuVmZ3ci1DMmZQb3U2b1FKNXlwUGd6TnlGQ0s?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "L&T",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-03-12T08:42:23.000Z",
+      "summary": "L&T, KEC, KPIL, NCC, PNC Infra may benefit as Rs 8.7 lakh crore Jal Jeevan Mission extended till 2028, says JM MSN"
+    },
+    {
       "title": "Battery Lifters Market Forecast Points Higher Toward 2035, Driven by Warehouse Automation - News and Statistics - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTzItQko4bGxHVVBDMldKU0tLUUJOMXhCRkhLSWxpZ3ZmNkdOMFlxVEFjM01KZllFeG5KUFlzTUstaDMtYVRfNWV1VlJvOE9KR0p5UzBGRlZpZVZIamFkeUs1NUsya2JmUFpod0xsX1pMaFlya0VOOVF6a3UyQ1RhMXVrdFdUT2tqMDRDOUNoM1N6alg3U01Id1Z2YzQ0NlBERnNKaFJaNEFrdF8tZjF0VktjLVRmRmVIYmc?oc=5",
       "source": "Google News (RSS Search)",
@@ -3486,20 +3995,6 @@
       "signal_bucket": "low",
       "published_at": "2026-03-12T07:00:00.000Z",
       "summary": "Korea bets on physical AI as RS Automation localizes humanoid control - CHOSUNBIZ Chosunbiz"
-    },
-    {
-      "title": "L&T, KEC, KPIL, NCC, PNC Infra may benefit as Rs 8.7 lakh crore Jal Jeevan Mission extended till 2028, says JM - Business Today",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQR3RDMldyN2pSOWt5MVZ5S2RPNzkwSnhQREFlUllGVnZKYVJ3TTYyN0lJdldSNDhOTWNMVmU1Wkl0Ty1iaERCXzlLZmNLNjdFek1KYmlNdGJ4TnVzNzF3NlA1OFU0VWJYTEhlWEVtcTd4eEp6cXNKM2lxTWtjNHh1NEE1d1JaeUpVd3dXcGhWcFpHNnJuc1U3R2ZtbTBISnh5NkZ3c2dqYmQ1dEw0dklRZFpvQVZlUFdSd1NGem1qa3M1VjdfZGdEMnNiYjJYWVI1Zzdub3dzblU3VlNXLTVDTGlzQVNjYUlqSDQ2SnpvYmdNTkVOTUpUUVV2TmV2eTRI0gGGAkFVX3lxTFBZdkFnUXI5bjJabmF6cm9rUHBjb0lEWUxZYVhEbktMaHI1MEdTOW5IenlveEFsTmdJeWx3VVZIeDZwZnE4cmNaQ29OWDVDdEcyRDdpbktYeVlBenp1a2s2WFQ2MXk5MEZvTUxacUtTcXhOQkNMaHFzQmtQUzhsVU1zLVBaMU1kSy1PV3Jva3E0ZFk5a0V6bDVTVXNWcE80eGRTaGJxakhTd0RfcldnZWVGbDV6MFUzSTdXeUk5ZnhNZVVlcXZGMmNpRUtscEhyVHNVdFNBYUQ2Y1REQXZkUXYyZmMxUk1ZTTJsWnhZU3k1QWhvRXg4NkFzNmJCc01fd0RNdFNudkE?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "L&T",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-03-12T07:00:00.000Z",
-      "summary": "L&T, KEC, KPIL, NCC, PNC Infra may benefit as Rs 8.7 lakh crore Jal Jeevan Mission extended till 2028, says JM Business Today"
     },
     {
       "title": "DHL Supply Chain to transform Derby logistics facility into advanced e-commerce fulfillment center - Parcel and Postal Technology International",
@@ -3598,20 +4093,6 @@
       "signal_bucket": "low",
       "published_at": "2026-03-10T07:00:00.000Z",
       "summary": "Motion Control in Automated Storage & Retrieval Systems Design News"
-    },
-    {
-      "title": "Celebrating Peter Barton as he hands over RS Aero Class leadership after 11 years - Sail-World.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS0xlM0hsZDl5Ynhydk5yaVlsSWdnT19WMWFxZGNaYUYwSmRmcm9PVm9iWW1yUm1zUHZxbnU0OFV2VlFrUC1oQS1OeXdZQ3V1TVozR2NweTdleWZLWmRKYThwSnEzS2dTcVB3eVVlSkIwNjMwbjJ1emJrc0xVUTcwVjV4VFNsZ21qeDdQSlZFSTQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Celebrating Peter Barton",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-03-10T07:00:00.000Z",
-      "summary": "Celebrating Peter Barton as he hands over RS Aero Class leadership after 11 years Sail-World.com"
     },
     {
       "title": "Robotics Turbocharge Inventory - Inbound Logistics",
@@ -3719,8 +4200,22 @@
       "summary": "SGB premature redemption: Investors see over 200% return as Rs 1 lakh grows to Rs 3.48 lakh MSN"
     },
     {
-      "title": "Block deal today: PB Fintech shares fall as Rs 695 cr worth shares change hands - Business Today",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaHlUcHpSVnRlbU01N21tdTZkZFl4Qk1jb3VoWTBzV0hfR3NicmRjcHNsWXNSYWxiRktINTZQUTRZZ1d6Zk5NdFRCOEdvS0MyUmZRSzhEQWptRXN5aWR1S29NWXZTcjh1TWhlNW9oUnN2Y2ZmMXFqaUNfZUxfMkhNNVl1cjZYLTQzRDc0ZW9UdWY4UC1Vc29OX20tUWJXNnJka2ZQWXB1SEhwT1B4dlhQZ3kwVmRYTFVkTlpzOEFnNWlwcFB2OVZpQkdZWklKcjE2N1lQUzk4eFFZem00NWM00gHkAUFVX3lxTE14ZGZiRlZWbi1zQVQ0ZUdoWjhtNExic29EZ1FLNGxraWxNVzdZckZxcVYtRkNBVG9ySndTM3pUVm1pcmZxTmE5b2xWbWFfRmVncE1JU0VCMWNvcHhvSThLUG5mRjhWYXZYUUlSNUJuanNtendIaWlfLXFuNHAzcWRZc0VGb2dzWUN6Sy1HRy0tbGZUQzY0UmQ3VS1fZ085Q2xEZW9NZldzWC1VczY4VFhDbmRLMTZjRDItS09YZTNsbjJZTTVBbDQ2S0Z5dG4tdldtaXItcnU3emJHa3ZfcElRS0p5cA?oc=5",
+      "title": "Congress springs surprise with Anurag Sharma as RS pick in Himachal Pradesh - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaExRNDhodmV6M0RtYm5qVm8yeGNqWHYwSVEwUEFFaFFOX094bnI3YVN0dENLWkRGbTJDT1dZdFpfeTU3NnM5VmlTd29HVzNaclBnSGFxcXBCR0xjMDkxSUY0bE1tQnZIa3M4TmtCYV9XaHUyLTZYTmpQN2FYTXhlVC1Ca21ETmhCdnNROXR0d1hXdXBtbGstSE5paVhBVlUxbGtSRC1FRDJzTlRRUGtmSnNTeUgwUXIweHln0gG_AUFVX3lxTE14X09fY3ZPSGtKVDM1T2FNS1Q2S2prem5fOWQwWDhMNC1SZzlrNDRsbHAxVDJaSC1yWWZ4Wm9PZTdtUzZfNVhJMzQzRjRjVkk5SncwTDJSQW9EekdLOXlpSS11YzJnZWdTSlIzVVktNzVvdTAzYUhzZzhSekpCZ3ZxYWdpVzdYY01SWXFFY1BLSW5CZEVMaXFGRXdrUm1xaWZRUktFc2JrNUVKTHdGVnR6c2VxR19tcUJMX0NhdjFr?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Congress springs surprise with Anurag Sharma as RS pick in Himachal Pradesh",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-03-06T08:00:00.000Z",
+      "summary": "Congress springs surprise with Anurag Sharma as RS pick in Himachal Pradesh The Tribune"
+    },
+    {
+      "title": "Block deal today: PB Fintech shares fall as Rs 695 cr worth shares change hands - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNWgxZEtTRkJTbTRxejdTWGl6dmpOOXZ5Z19FZXdtQ0ZBMmpoVzNBRGZLVkJjYVZqTlYta2lDbnRRUHZtNl9NSExTVEVLSFlHVHZURFBTQWk0SjY1cVo0ZWNZNkc0bThuUkd4b044MmhkQW9YaEFoLUtoWF91MW16R1FPTHpnX0dHT0ZmMXpwVEE3N3llRElUV0VUUGJsRFlGVTdfNEFZMnJva2lRY0xLbzljaXJiUU5fNWhyN3U1N0NtLTduaHhtY2lmVV93UmJUQUZhY05FaEtrSXZ4Q1JVQVpsclNqZEFKa055U0szOVI?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Block deal today: PB Fintech shares fall as Rs 695 cr worth shares change hands",
       "matched_queries": [
@@ -3729,8 +4224,8 @@
       "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2026-03-06T08:00:00.000Z",
-      "summary": "Block deal today: PB Fintech shares fall as Rs 695 cr worth shares change hands Business Today"
+      "published_at": "2026-03-06T05:19:43.000Z",
+      "summary": "Block deal today: PB Fintech shares fall as Rs 695 cr worth shares change hands MSN"
     },
     {
       "title": "Amazon Quietly Abandoned Its Robot Innovation - bgr.com",
@@ -4069,6 +4564,23 @@
       "summary": "The March of Material-Handling Automation: When Will Warehouses Go ‘Dark’? Supply Chain Brain"
     },
     {
+      "title": "Industrial Warehousing Racks Market Growth Fueled by AS/RS Integration Through 2035 - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMy1NRmZOYlc3VkFQQ1hITUtCdGE1dHcwelZGU1htb3dfcm42R2t2ZUZzWV95Z002V3k3TWRFLURENlYwR2hsNV9sZ1VVaXNZb2VyUFl2TDVIeDd4RXhfb2huckxjMlJRYjEtTDFEN016eE1EZEFDNU44cXphaVVNM0hZNDM1QUFTTllRMmJKUWVRM2lDUFhFOExhaHRkNWpIUjBpLW84emx1N1lCX092dTRTRTNKelU?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Industrial Warehousing Racks Market",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [
+        "asrs",
+        "signal"
+      ],
+      "signal_score": 2,
+      "signal_bucket": "low",
+      "published_at": "2026-02-22T08:00:00.000Z",
+      "summary": "Industrial Warehousing Racks Market Growth Fueled by AS/RS Integration Through 2035 - News and Statistics IndexBox"
+    },
+    {
       "title": "Amazon Abandons Blue Jay Warehouse Robot In Less Than Six Months, Pivots To New Technologies: Report - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSzRlazlFaERINEc1eXBkV3dLRlpKd25FZkhsT3ZxdXI5aWlLRW41X1g4dXQtbXdHeFdoNWFXVjZtTHRXR045eDI3RFk4dl9RdGRVV3M0a1J5V3hJY2Z1SjJJZ21NcGEzamZNZlgxSVMxQzl0eWhSUlh5ZHYyb0R4SUM0dVY3bWc?oc=5",
       "source": "Google News (RSS Search)",
@@ -4095,20 +4607,6 @@
       "signal_bucket": "low",
       "published_at": "2026-02-22T08:00:00.000Z",
       "summary": "Amazon Blue Jay fails quickly but Vulcan ramps up automation TechRadar"
-    },
-    {
-      "title": "Gold prices in Sri Lanka increase by Rs. 4,000 - Ada Derana",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQazg5YmU1X2lWSzZOa1c0eGM5NEdwU0RNd0VjM1NheVZKN3Yxc2xVa1p2bzByS2Jjb29UU2ltaG5pVl9DV1kzd3NVRFR1RFNXM1FORUotanpMdUQzSENnajFPczR6NkZYZE8wcFd0TFlPMkFEX1hOM1BIWmZ0S0lMUkVubV90SWt6?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Gold prices in Sri Lanka increase by Rs. 4,000",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-02-21T08:00:00.000Z",
-      "summary": "Gold prices in Sri Lanka increase by Rs. 4,000 Ada Derana"
     },
     {
       "title": "Ahold Delhaize breaks ground on new distribution center - Supermarket Perimeter",
@@ -4173,20 +4671,6 @@
       "signal_bucket": "low",
       "published_at": "2026-02-19T13:42:18.000Z",
       "summary": "Robots Helping Robots: STL Uses HP SitePrint to Enable Geek+ AMR Navigation RoboticsTomorrow"
-    },
-    {
-      "title": "Once available for as low as Rs 100, the most essential silver toe rings now pinch middle-class budgets in Odisha - Odisha TV",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYTlXaTU3bjBFVHZLTUZwUkEyUjI3RWdDUnd3Ukc3NlRFUVhfSGxoUEs4SlN5U3J4Tk1hckVwQmlYWDZJM3JuOTdhN0VxRzlrek1zTG02MHV0QVBCb3ZYR0hlQ0JZZ044NTViVGdUdnJVbjBoTVc0MDJTaWpBdUtWZzhtVGl0eEZXVU1wdVZXQTZGMHVCNWRzaEd1TTJ4SWpMc2Z3SXNFNktrZFlGVWkyUE9UM3hxMGZwckF1R1ZxdndiSEdFQzZrRVE1dlRydWtpQk5zUm5nbkpyZ1BzaS1pU1hB0gHnAUFVX3lxTE80akNGTjNURXpYVUNEdl9ESnM4SUJLN2o4NGdnYUJwNFpDZWEwN1g4RmpRNnNUTGcyb2pnWHpSb3NfcjJOaFlrYlJXUXZCZ2wxNjltcDdHTGVlbVBJdmpoNmllMjNwOFZQdHhtY1RQLVZ1NXRDcmFfMnBKX250RnZVOVMzZXZ2RWdSc25tcmFuY0RqNjY2dmhxZ2loeS0yQWtRSHFWbDIyUGpEeGl1X05FNDNvZjlNcWtlOGhJVUFrXy1KclNqYkJGakNvaVJGRDFTQjlJTXZMX2FkRDJ0dHhvWl9zZVUxcw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Once",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-02-19T08:00:00.000Z",
-      "summary": "Once available for as low as Rs 100, the most essential silver toe rings now pinch middle-class budgets in Odisha Odisha TV"
     },
     {
       "title": "Amazon’s Shiny New Warehouse Robot Just Failed in Spectacular Style - Futurism",
@@ -4555,20 +5039,6 @@
       "summary": "ASRS Goes Live at Dutch DC Logistics Business"
     },
     {
-      "title": "Blasters call off Kozhikode move, ISL home ties stay in Kochi - The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa3FHeFh3d0Z2Yk5jUGVKX3puX1JXOFJvWjdGXzdkOFk0Q3V1QktiaDJEVFdxdGJXUWJRX0ZleTRVak9kemQyb3NoSGxDdGc0STM1eG5zUHNXd0hOcFd6OHBVNFNqUmRFNmRDYnpDWE54OXQtbUxQZGl0MnR2ZmFzNDV0Y0o3NkZjc1lZMVRCMzJIcE4xMjVqY1NJdW94WExqNmZEYXBZalR4ZFZjVmNfS01LcVd2WEhZTHluenlB0gHLAUFVX3lxTE42eWpITHplSTk3ZUp1NzVvNW1CM3Z4Qm1VS256RDlnS2NBQmhHcVA2TEx2LXZ5SnRhOUUxY1l6QnRNOWJQa2JLT3BxVVJUeTgwTU5JajBTSUJvTGFOWUZSTTBqVzc3Zzludy01TlhudWh6cmx6d212Y0V5QjV6YjB0am5nYzdEUWxqTnhHeUpNY2JFTF9qNlFmUjlvcmdrTU9nYWFCOVBMUlJCeUJwNy12ejZ5NVJ5RGJRZ1hXbEZIbmxpVmJHN0d5b004?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Blasters call off Kozhikode move, ISL home ties stay in Kochi",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-02-11T08:00:00.000Z",
-      "summary": "Blasters call off Kozhikode move, ISL home ties stay in Kochi The New Indian Express"
-    },
-    {
       "title": "Chinese firm unveils ‘world’s first’ humanoid robot built for warehouse operations - Interesting Engineering",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb1NyRUNXaFFXS1BSOWtfbm9HTEQwaVFNUVphMzlDWDVEaFhyMC1LRlZZVkNSalpod2IzQVlEVVd5aEpYTmhtR1V1MU04VjFrSnFJcUdSdFFwUWxBZ1o5eWlLcXRpZkZmQXA1YmViSkU3WVp4UUVXOHVBRHdQMzI5Qk9kWHlLV2xfQWV0TjFvX0c?oc=5",
       "source": "Google News (RSS Search)",
@@ -4662,20 +5132,6 @@
       "signal_bucket": "low",
       "published_at": "2026-02-10T08:00:00.000Z",
       "summary": "Belfort builds for future with new distribution center Furniture Today"
-    },
-    {
-      "title": "Congress questions SASCI loans as Rs 1 lakh crore remains unspent in J&K - Daily Excelsior",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcEhOYjJPcjJ4M2FTQmVEWVhLNGlIVTNJOS1JUkdaN0hvQ2xHX01JS0FJbmVSem1DTTVaT3pZc2JIa1Jza1ZIQTBWRU5hV3VJYm45VlY5UlRVcnhhQ3JRcGpDdlBpclNVSlRHbTBrTHo4YVN0QlNtQUd2VC1nOTIzOUR0ajhiRW9lUFM3TU5DZ3FxZHoyUzN4LTZoSkVfLUxEWlZSYWtn?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Congress questions SASCI loans as Rs 1 lakh crore remains unspent in J&K",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-02-10T08:00:00.000Z",
-      "summary": "Congress questions SASCI loans as Rs 1 lakh crore remains unspent in J&K Daily Excelsior"
     },
     {
       "title": "Dexory launches ‘next-generation’ warehouse robot and new software - Robotics & Automation News",
@@ -5219,34 +5675,6 @@
       "summary": "Cameron Ashley Building Products Expands with New Distribution Center in Fort Worth, Texas Newswire.com"
     },
     {
-      "title": "Pre-IPL Setback For Chennai Super Kings As Rs 14.2 Crore Star Suffers Injury - NDTV Sports",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUdUbTVwUlh1RWxaemp5dzY2TWlrQXJLX3VHdy1zZlNaSVk5NDlIaE1mSU1ZTU1oMWJDdl8xVUlWQzN3TDVHMmFuS3BvcktNXzQ5b3duZkpYSlRXUDJfME53M3JlSHpTR0U2bmlFcHdtR3hUN2xVaVZvakNNRnFDZHRYbm5HelpIbFdXWlowX01SZGoycjZHbFU2a3h4S2NLYUZrYkZjZmsxWDZEclAyaXFEVmRJNVoxUFE?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Pre-IPL Setback For Chennai Super Kings As Rs 14.2 Crore Star Suffers Injury",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-25T08:00:00.000Z",
-      "summary": "Pre-IPL Setback For Chennai Super Kings As Rs 14.2 Crore Star Suffers Injury NDTV Sports"
-    },
-    {
-      "title": "CSK suffer massive blow as Rs 14.2 crore recruit seriously injured in Ranji Trophy - India Today",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTHNHUS1fNTlDalJKNzEySWExTTZSUzBkUXZRQUI2OThqbjdobTNCVmlES1FRcTdpMmt4YnBzWTA4U3lSY2F5VVZhUHBvZzdGT0lNOGJBcXBlc0Z2akR5dEJyUDlaQ09iY1hHbkVYdldhbDFPWExmSE5pOUsyNS1JYlBENWhpdGEzU3ZjRzJfZHpKc29md3Q3UDVzdldISy1DdnhYdEVhRTc2blcwaDdod1RUWjdCOEZTNGFuMjVYLW8zVmp6U1VtdWNRN1dMa2RFQTNvRlgxdVdtYjFH0gHiAUFVX3lxTFBvN1RmWktiZHJraFpYQlpMd1k0ZjZWRHpJVDUtRlBiZ1JZVE5sQmxwc2kxeHlTNjVlY3ZOczhSTzVTcGUxT2dSSG9hLXdKNGg4S3dlTHdpajBVT0FfYUo5d1Q2N0E0N1RxbUszbnBwc2Q3b25tTmxpMldreUdSYmpaaTh5WG8yWkFxbXZTc3NXc05HYTNGY0pQT0xDamludzVCeWc4bmpqV3k2Yzlla1ByaTRrbzROalpFd2dBYlVWRU1fdmFYYTZvbERzelRBcTNTUmJpVGwzcHJmUXgzRVU0NEE?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "CSK",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-25T08:00:00.000Z",
-      "summary": "CSK suffer massive blow as Rs 14.2 crore recruit seriously injured in Ranji Trophy India Today"
-    },
-    {
       "title": "AMC Robotics to launch warehouse sorting robot in Q2 2026 - Investing.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb1JFa1RocjZHbmFuZnp1MG1KYnMtMUY1ZXpNQ1hEU29TSlIyWHVYQ1E5ZzlvZGVDN3BEWU9oSGRUN0VQU3VsaHVyd3NGWlNkdUdtUkFHbWMzUDQ0U2pBYjN3aGpBNF9iRUdsNW9DU0kxZTNzd004OVRJOXdJcVAxRW4yXzRUakRfNGpvd3dtZjNBSW1KZ2NxWEFRVklrVVpZcXRpNGwtOWNnRzhqRldqeXpjUnI?oc=5",
       "source": "Google News (RSS Search)",
@@ -5439,20 +5867,6 @@
       "summary": "Walmart to invest $330M to modernize Opelousas distribution center New Orleans CityBusiness"
     },
     {
-      "title": "OnePlus 13s available for as low as Rs 49,499 during the Amazon Great Republic Day sale - 91mobiles.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeEJzZU0waFhNc2N0aUwtVWZNSTNfeTJraUMzSE9yaUJ0ckVVZmo4RkhZR0dtR2FNUEdjcUttZTBKNm53cFFRSVZWcXplaWE4V1dNSnRiQ0hPSHpOZTVpbEwzSl9mTEhZN1p4NkU5TmxqbXJxU1p5U3RrOFpHTnRPZ3Jia2l6bFNRVmRhZTRNN1VZakR6alIxY20zeFQ4d9IBowFBVV95cUxNZ3RrWDZIS3NYSnFkcjduRGZrOWRYWWlZUGstaGp2cW1HRUF0VnhBT3lLa0J0TEhQb0prTjFZT3BOaUg1UWhRVE1TVVlOcTAtU1VKeWZ2VE8xal9SRTJWLUU2UjVidUpiQ0FqT0wxWVduUGhCNk0wTVpVeUV2anBjVldyWmhLZ0xRWTJIZUNwaTRSSDlKb0lGXy16LXJxeXhwY1Uw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "OnePlus",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-16T08:00:00.000Z",
-      "summary": "OnePlus 13s available for as low as Rs 49,499 during the Amazon Great Republic Day sale 91mobiles.com"
-    },
-    {
       "title": "Kroger Adjusts Its Automated Fulfillment Network with Charlotte Center Cancellation and Nashville Spoke Closure - GetTransport.com",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tRTFnUkktbkE4SkJBbVhZbkd3YmNVOGdjek9BOVM1Q05POFZvZ01RMXNueXpkV2h0ZElHVlhIRE5HT1ZQekliZU9EY05VV09XU2hRR2N4dlh0SzFqX3VRVk1jQTI1SnRxQmFPSGVWdzdKUVV4LTRNUGFR?oc=5",
       "source": "Google News (RSS Search)",
@@ -5596,22 +6010,6 @@
       "summary": "Aldi to open 3 distribution centers by 2029 Supply Chain Dive"
     },
     {
-      "title": "West Delhi Set For Major Road And Drainage Upgrade As Rs 64 Crore Project Launched On Nangloi–Najafgarh Corridor - Swarajyamag",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVE53cUdBbmpHcnpXVXVyMVlHWGY5WnI4LTQ2N2gyand6Z0J1aDgwLTg0VXE3dWpkUlVFaHZ3X3UtVUZCNnJIV1ZuQVJHWGZVVlVhSzNxVTk3OHNOZGpjNVhGZnlNSXd1cU04N2ZwczFMLVpOTG9EWF9aT05zN1VGNTNfS2FVbHNaUnFvVF82azZNQ0l1ZnhTR0plWjBMWTZCLUdxVnM3V0J0SDl6WThjRFZMX3AzU0ZlMXdWMXR4M3lKSi03YjBJTVFPX1FxRmIzZndmTERocXlrMnZXcTE40gHvAUFVX3lxTE9VbEF0N094MU55aXJ0OERxNnVTSHVuZW1KdDNPWXBrSklBdEdva0xDa1ZvZ1VBV2ZJNXZVYVZOaWJvVmZ1QWJWOW10OXNvb3M4UmF6YW93cG9XcVdWbzBTQVpFd2hHR2liVUp4VExZbEZkY3VPZV9ybjdpd0ZZejNEd1NiT283NzQtWlZNX2Q5Rkt2R1ZYZlhHbnJPOEhDWGdzd2RLalV4R25aYWNtQkxzdlUyNXR1Qkh2SEgtTWpfR0hmckczMW9wVXppZGp5dS1wT1QwbHA2cko2cXltT2pqRDJURVFhUXR0ZXpzVmxz?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "West Delhi Set For",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "modernization"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-13T08:00:00.000Z",
-      "summary": "West Delhi Set For Major Road And Drainage Upgrade As Rs 64 Crore Project Launched On Nangloi–Najafgarh Corridor Swarajyamag"
-    },
-    {
       "title": "Aldi to open 180 new stores in 2026 as part of major expansion - Grocery Dive",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUk50T05vMmdXd1B5OTNMUUdObkczVkx3S00taFc2aDUzV2F0dXkzYmtYLUR6cllSMW5xNWVDV1pPZGV5XzYzZGRIVWJZNHRBM0plcUpnNy02dEVHb0h6eUJOUVQ1bEVZdl9FREJHNzR4ZFUzQjhPRXlCbXh6SHZBcmJhQmdsb3NzMWZxUDBqUUZzWEJkTEhsMTJFOEJWQ2twaG9LNElCVnVET2s?oc=5",
       "source": "Google News (RSS Search)",
@@ -5626,20 +6024,6 @@
       "signal_bucket": "low",
       "published_at": "2026-01-12T08:00:00.000Z",
       "summary": "Aldi to open 180 new stores in 2026 as part of major expansion Grocery Dive"
-    },
-    {
-      "title": "iQOO 15 to be available for as low as Rs 65,999 during Amazon Great Republic Day Sale 2026 - 91mobiles.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZFFsaTFmUlZwVE1pV0dBUEFDN1A3VExOcHZKREJYRVhtazAyWGdLa0IwdFdTb005Snc3eFM1blV5d2xrXzdMRVBQRVAtZWdKOGF3UlRuMXRiRDktMXJSN1c0ZTU5QzBEeThJTWl1Wk5jdk1ZZ3h3MFQzbjV1b2R6LXZYLU81eEdFUC15UnJ2cHh5TVHSAZgBQVVfeXFMTVJweGpCNFZfWkltdEZxQzFhTWNSbFBQcHRvVW12c1dlYjB6bmFnd1F1OUtHMmprQ3JMc1pjY011ODJtUHJGdW5SZVc0d2xxejVkeXg1Vjh3M1VZSDV4VEdnd0dzV29hRDh0cHM3MVF6UFJYMlc3WElycUd0eW9lQTcycGpUTGFoOXZxUmdGdU96STRub2QycF8?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Rs",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-12T08:00:00.000Z",
-      "summary": "iQOO 15 to be available for as low as Rs 65,999 during Amazon Great Republic Day Sale 2026 91mobiles.com"
     },
     {
       "title": "Supermarket chain puts AMRs in the aisles - DC Velocity",
@@ -5673,48 +6057,6 @@
       "summary": "Edgistify raises $1.4 mn led by NB Ventures, Rajesh Ranavat The Economic Times B2B"
     },
     {
-      "title": "ASRS And AASB S2 | Anthesis Global - Anthesis Group",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjaHluaXExcVpBQ2tSLXl1WWRtY1A2a29leXZ4eFlVdXZ4V0s1MGRnTUE3RDA2TThZRnlFenpXMTlBTEZaVnZEWGhneHlaN0ZNNkRXemVnQy1IMk9BTVNCWmZjRXlUQ1hOd180?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "ASRS And AASB S2 | Anthesis Global",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-10T21:41:58.000Z",
-      "summary": "ASRS And AASB S2 | Anthesis Global Anthesis Group"
-    },
-    {
-      "title": "Jon Partridge Steps Down as RS Sailing MD After 25 Years - afloat.ie",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTWlxS252X1BST2VjcWJSUU9tSndYLVNMc1dJYXYtdHZWYkM2Zm1IR2NLWm5yY053Q184TnFuWFdxMzlDNnNpNHRUUVZnb2p4OU8zV2Eya1JoczhpVlVzSzI0QjREQWVtWm1VMjkwS3V2SV9SbktJSm9ZVnRoM1B3LTk5ek1ZUHEyWlFjakpLVkJvckp5ZnhQZGM5WjV0ZmVjLTlXSXI5VW4tNUJ4eElkZDRDWmo?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Jon Partridge Steps Down as RS Sailing MD After 25 Years",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-09T08:00:00.000Z",
-      "summary": "Jon Partridge Steps Down as RS Sailing MD After 25 Years afloat.ie"
-    },
-    {
-      "title": "Bad start to 2026 as Rs 9 lakh crore lost in 5 days. What should stock market investors do? - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZEloWm4xQWpvaUxqTlJRTVJZM1ZHSmxyNmZ4SlhYS0xjSURQWkVlNlVFbUhOeTdYQTBLNm9CQy1RQXJoSFN2X24xM1BiczZRYmFydGs3eFdzZm1kaTRQUWRNQ2xqazdia0VQazNFTE8zOWlMYkZfNXdqZ3Bxc2xPWks2MzhKdGJYTGpGT2hibVcybDY1X3k0UWs2SDNfV0VuSzVLMGItNm9ReEpNVlJ0bFc1WGxGRGtGOUtjZWgzUjZxS0hNRTNVVG5Mb2ctSUloSURKTXlZaGUyRnhmU3N3SUNwLXRVU19OZ3c2eG1KRjJ3R1VZVXfSAfsBQVVfeXFMT1dFeHFqR0JBQk02dTE5aXJ6WkN0UFlxZXdka08yenprZGhXX3FYbmoyRzlleWY1cWIzcXZxN3hpQ3dqT1JSVXhHVU9iYXdvSDVyQ19KcW1JNjQyV3BaUHEtZjJjbzRJMHBZNGExTjZvbXNNZ1JEb1FFMElkQ2p4MUtNNkg3V1B6OUlyZS1WX1NNdnUzcmxOa2k3Vm9BaWJfNFFhcGpPTUxDbklXemM1WC1SeHpyd3NJWUZaS3FKaU9RMkZ6eWFCRFdxUFQwbXJncDRoS1RhM25tQmp6cVM4ZmxYOUNkNldYTEVOYmNiMmNTMmRkSVIyOXRkbEU?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Bad",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-09T08:00:00.000Z",
-      "summary": "Bad start to 2026 as Rs 9 lakh crore lost in 5 days. What should stock market investors do? The Economic Times"
-    },
-    {
       "title": "Micro-Fulfillment Market is Expected to Witness 41.20% CAGR Growth as AI Automation and Hyperlocal E-Commerce Gain Momentum: AnalystView Market Insights - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRTNXVmplc2JyaVUzSDdZTmlnUUVwYVpmTFVoUm1NT1pKOUl2NjZ3ZVhHM25aZnhtLVd0YmMwd19kRjlBb2FEUGdiNkpmUzkyX0hfUndWeVBuWHgxdmpVNmhVT19hU2ZmdFh0a3AyaDh0WU8tTzlOdUdGdXJyRVdmOU5kRXlBQmp0OTU3d0Jmd18?oc=5",
       "source": "Google News (RSS Search)",
@@ -5729,6 +6071,20 @@
       "signal_bucket": "low",
       "published_at": "2026-01-09T08:00:00.000Z",
       "summary": "Micro-Fulfillment Market is Expected to Witness 41.20% CAGR Growth as AI Automation and Hyperlocal E-Commerce Gain Momentum: AnalystView Market Insights Yahoo Finance"
+    },
+    {
+      "title": "Commemoration of January 9 as RS Day began, despite the Rulings of the Constitutional Court of BiH - Sarajevo Times",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWVE4RmsyYVc1U0ltS3ZuWTB2R1FSWmo2RkxtWFZQSW5SVDMwcElBTXlKX0xJVER2UURjTzNsMko4TmFHaVF4alN0RjE0c05RQWxlV0tTeV96NWhJb3BiZVR2bU4zUVI2WTJBUVY4RXlOTkNWekdwSUFqRGotLWV3cXZocnE5cjFIaWdLVmZ2SmVqR0dkbE9QODZtMUw1RHpPNmYxLWU2SmpHVnQ2LTZfZzdXcHU2WkZkOEs3aDE3U1IyUdIBwgFBVV95cUxOWVE4RmsyYVc1U0ltS3ZuWTB2R1FSWmo2RkxtWFZQSW5SVDMwcElBTXlKX0xJVER2UURjTzNsMko4TmFHaVF4alN0RjE0c05RQWxlV0tTeV96NWhJb3BiZVR2bU4zUVI2WTJBUVY4RXlOTkNWekdwSUFqRGotLWV3cXZocnE5cjFIaWdLVmZ2SmVqR0dkbE9QODZtMUw1RHpPNmYxLWU2SmpHVnQ2LTZfZzdXcHU2WkZkOEs3aDE3U1IyUQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Commemoration",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-01-08T08:00:00.000Z",
+      "summary": "Commemoration of January 9 as RS Day began, despite the Rulings of the Constitutional Court of BiH Sarajevo Times"
     },
     {
       "title": "Boston Dynamics’ Atlas Points to the Next Phase of Warehouse Automation [Video] - Heavy Duty Trucking",
@@ -5892,20 +6248,6 @@
       "summary": "2026 Automation Study: Warehouse automation ticks upward Modern Materials Handling"
     },
     {
-      "title": "Vodafone Idea shares jump 10% as Rs 5,836 crore group settlement lifts survival hopes - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZUdMV2ZyQzdLbkhMOVdDSTJvQ3pWaldFY1NOcVlHS29scGlSMXpPVVB4bmw0NU93bzJObWRKVHhPSkh3QUJjZF92S21razFCQm4yNWVKaFEtM0IxRGFZRUZVYXpsVkcteGFFc1dFUWlTc2ZKVmtFZ2Rfai1CWExJTmsydEpxQldTRE1sb1RYUXgzbHJxeU1Ea1k5YkxMdnlVMC1GUFY1ZURUYVd4aV9LMjZvOU93VW9vaU5DTEpjZk0wLUNZNHJqNHliRkZJVXdPOVE0aWh5MGdVR3RPemdyS2dsM180TzFUWnVDamF30gHzAUFVX3lxTE9XbnZkaVFhRXN0U1NCR3kza2tGWHNDRS01dEdfdUFab2dDeXFNUXZJakJXb2xTa05NR1VYLVB2WDFZOXlhWllMaG5VbTlWNzI0UTYxR19Kd2V6b2RsbnJUeE9BS1dfVzBoQkJNMGJiT2JJQmREUUk1dDJxTFNFeGZuOVpRLTUzV3Q2eGljX1phamNzb0pBU2F6cFpzajZIQWpaMDB0U2hmLXMwMXNOTC10bWlCWTlXUzQxZ1h3RjJLUjVsMFFTXzNRd05nb1RNZTVYcTRHVEdhcWh5S3JlakxYUGdDMF82dVFaZjNRQ3FJYmljYw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Vodafone Idea",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-01T08:00:00.000Z",
-      "summary": "Vodafone Idea shares jump 10% as Rs 5,836 crore group settlement lifts survival hopes The Economic Times"
-    },
-    {
       "title": "Modernization drivers: High-tech, build-to-suit warehouses are driving growth in U.S. logistics - Institutional Real Estate, Inc.",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONHJ0SUpXU0VzWFNwUnpvNHNNRUNETmJneDBsMWlaTUV5dmgxalFVM2hHN0Zfa2lyekFDRmhILVY5WVRTZHUzTFZBQVJZTmM0dzRpSXl3dDhodkhWSGR4NWN1MXB3MHdWd2E1MEE4MElRQW41Sjh6SzB6eDRJRllIWkxtdXBhSFB2X1dMYmJnWU1udTFPeWZzeHFwcVBmTjRaNDd5YjNMR293WXFER1pUekJwU25GY2N4Zm1SN2Y1eC1fOU5PN3luLU9zMA?oc=5",
       "source": "Google News (RSS Search)",
@@ -6005,34 +6347,6 @@
       "summary": "Insight: Goods-to-Person Automation Gains Momentum in Next Generation Warehousing Transport and Logistics ME"
     },
     {
-      "title": "Indian IPO market hits record highs as Rs 3.8 lakh crore raised in 2 years - DD News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZG9kZWZBQ2RNaUFaVzdfeDlMMk94ei15MlVfM3JKaF9Ic09ZQXFuLVRUcEpocDF1TkZtWUd1MFBsY1QtaUhWZjlPSkJ6ZlRPVlNadnVBa1hOMElSbTBhVVo5bWRqWnhyUjdQUW9ZR182dmZ3a2RIS083RFpHS242UUxQUDNoMHgwWDVNelRlOWZlcGtLUGZ0amVHS1VaWnVVTGc?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Indian IPO market hits record highs as Rs 3.8 lakh crore raised in 2 years",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-25T08:00:00.000Z",
-      "summary": "Indian IPO market hits record highs as Rs 3.8 lakh crore raised in 2 years DD News"
-    },
-    {
-      "title": "Poll round the corner, TN govt mulls Rs 3,000 cash with Pongal gift hampers - DT Next",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMC00U3dCUGdsbkdWa2JSb3l6a3ZFWXE1bGxFZnBvRWZ3Qm1VYWRkbjZaR2NXTHExajdTamw0YUQwZGVENXhQdjh0T1dzZURxeTJoMVA1VVl5MnB4VDF1emxFc3BiR2lycmJCcUloYy1OSkpLWDRzaWlDMWxNOUJ2eXlKZk9sS3NnRU9ZTDJYSHpKY01rVUhpOUJESlVsNnBzVEdta3g2MVUtd0dEbEZR0gG8AUFVX3lxTE1zN1Jxc3ZyWFdwYkx3aXVMVFdqVFlnT2tZMzNEVjcxR0drMVdQZ3RQZU40ZmptcFRCQ3htekJ4aTliZFJGQUdwZ3VKbjJ3cnNGUTJIU1F5ak4yb3VZQzQ2OGtoSnFfUjJtbTc3akxWeGo5X2Y4VnN1RVFvTkV5aVhaZjlMTzVXR3p0STBDR0twNzNQMi1WYk9YZWVrMUI2YXE0eHY4QVptQUxweFRKS1pQS1hxbG1NU1JTeEk4?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Poll round the corner, TN govt mulls Rs 3,000 cash with Pongal gift hampers",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-23T08:00:00.000Z",
-      "summary": "Poll round the corner, TN govt mulls Rs 3,000 cash with Pongal gift hampers DT Next"
-    },
-    {
       "title": "Europe Automated Storage and Retrieval System Market Report 2025 - 2030 [305Pages & 180 Tables] - MarketsandMarkets",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQV94TUNnOU9ILVJiMF8zTnR3VExXTUhhTXNpaEtBZUR0UGJvdmgwV0lQR1h6bkpNWThxZzdRSmFHcmVEd25naHdpTE11eVhtbmpzcWg1MkdBN0lZajI3cmJwaFJndTdhQkJUUXNJYk1hTk80bDZtRnNXY3dVWjhqenNpcFNTSnV3NE1fdG9ZZmQ1SWFMbEw0VnhJVXlNUURDS2Q4eTdfNTlsWk5SQy1uNw?oc=5",
       "source": "Google News (RSS Search)",
@@ -6125,6 +6439,23 @@
       "signal_bucket": "low",
       "published_at": "2025-12-21T04:15:32.000Z",
       "summary": "North America Automated Storage and Retrieval System Market Report 2025 - 2030 [302 Pages & 180 Tables] MarketsandMarkets"
+    },
+    {
+      "title": "Europe Automated Material Handling Equipment Market Report 2025-2030 [290 Pages & 140 Tables] - MarketsandMarkets",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeERlWWhkU1k4cUxaRTRRMV9MWnlKSG5PdHl6dFZSQW1RTjJBV2d0dWQtb296bWZRWGpua1JWSlpTQVJWdHFfUnlGenZzZFRIb3RoOU1oS1BBcnF0NDlZdHRpdmlEZ0w0cnFaZjZ0c01JZXBzQ0h5Q0U2S0RaSjlKckx1bnBBZXNXM2s1SVdyLVlYMnVPaEF3UlVWVmxKaE9Xem0xQ0FKdkp1eHZScl9KNmlXV0Zrdw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Europe Automated Material Handling",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [
+        "material-handling",
+        "signal"
+      ],
+      "signal_score": 3,
+      "signal_bucket": "medium",
+      "published_at": "2025-12-19T09:30:58.000Z",
+      "summary": "Europe Automated Material Handling Equipment Market Report 2025-2030 [290 Pages & 140 Tables] MarketsandMarkets"
     },
     {
       "title": "Libiao Robotics unveils first AirRob automated warehouse in Europe - Robotics & Automation News",
@@ -6222,6 +6553,20 @@
       "summary": "Lotte Global opens its first US automated warehouse in Denton The Business Journals"
     },
     {
+      "title": "Shah Rukh Khan's KKR Hit By Early Blow As Rs 9.2 Crore Buy Likely To Miss Part Of IPL 2026 - Mashable India",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQkRwNmJTWkh4bW4teVZVUFM5UnZwZElBRFJ4MnhTUUpoOHQyd1hHdXNLamk2TjNKdzl3d3EtakZ4M2FsRzVYMjRlcmFoOUtVYU5sa3NaOEl6aXhTd01RY1FMamYtaEZtdmpKTmtpWVZBeHBEZ0tSYkwxNDZVVlpfRktucWhwMERJYTA2MU1rSHhIdnRaQThZbGJmUjVkb1lEaGJaVUo1alc2dHRtV3N3TzJuSzBLamswODFaanJvQVZxcjFPeGc?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Shah Rukh Khan",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-18T08:00:00.000Z",
+      "summary": "Shah Rukh Khan's KKR Hit By Early Blow As Rs 9.2 Crore Buy Likely To Miss Part Of IPL 2026 Mashable India"
+    },
+    {
       "title": "Madison’s AMR Project: “This is a major investment in our future & our customers” - Cycling Industry News",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOHhvd0UtNjlsYm1haTFJOWJiU0hRcVB2LTRBNnBvdWFmWFZmQjhFb3YzbWZPNUVNUWNaSUZBQUJDNFdvalpLNzZORU9rVm5CbWE4OURHaUFoZm8tTmI3UHczOFVsT2JSaWN6WFRzZHo2Zkc3bkJ6cXQ4MEUtNG14aXp0bC1CM0VSLWF5VG9sSEdfN2U1dG5kSEZldy05Wi1Ta0d6NDY0RDQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -6305,23 +6650,6 @@
       "summary": "Food & Beverage Automated Storage and Retrieval System (ASRS) Market MarketsandMarkets"
     },
     {
-      "title": "North America Automated Material Handling Equipment Market Report 2025-2030 [280 Pages & 130 Tables] - MarketsandMarkets",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEM1LW50Y0lmdnRuZmZHM08zTGF6aDlNM3ZERXRQWHB2aXBQbjJLQ3Y2RmlrMV9vSk9XV1hHWmJzZ1RBckctTEhpQUV3Y3lYYm9ab2U2VGQ1Y2N4WHpRbjNJWU9sZGNxRFJnWFJYNDVpMXhvc2I4dlEybHgzd2l5YS1BM1VSdm91YmNpQ1FIV0VHbV9nYm0yUkNWYndTLVhlQ2gtMDRwbkNwTkNNNzJYU3BENF9OMFBYSXAtT3JRbw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "North America Automated Material",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "material-handling",
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2025-12-17T20:15:44.000Z",
-      "summary": "North America Automated Material Handling Equipment Market Report 2025-2030 [280 Pages & 130 Tables] MarketsandMarkets"
-    },
-    {
       "title": "You can buy iPhone 15 for as low as Rs 30,000: A deal that’s hard to ignore - MSN",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcE5ZSUt0c19WN3F5UkxRcy1BaHlzTThneGJjQW9ha1d3N3h2TG1nZXFhTi1mVEpsRk90TE9qbXZmeVhHSjI4LU94YUVxUEFLZEJRT3NpVkdNYXpTY1pMTFlYbjVmQzVQR2NNejdGMTd1QUdsTi1FRTM4ZmJQZUFoWTBFbjV6UUJwMGZFTEpSOW1QYjVXTVkwemw1NWljMjVIa2RqVV9PakhfdTJKc3p0MUVGZEkyb3l3WWlLV016b0NoR2sweEgxRGlZMmxlMWZkZnNnVWlVdVNuR2xjLXJKZVZadkc3dWJEa3FzSWZpem52QQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -6334,34 +6662,6 @@
       "signal_bucket": "low",
       "published_at": "2025-12-17T10:04:18.000Z",
       "summary": "You can buy iPhone 15 for as low as Rs 30,000: A deal that’s hard to ignore MSN"
-    },
-    {
-      "title": "FIFA World Cup 2026 to have tickets as low as Rs. 5400 amid criticism against ticket prices - Sportstar",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMldVbnYydW1nVUo2dUNwY1Q2NDE0ZVNQMHJob0lJZFNVb05VUUFiTnRET2hLOVRBWEt5WXhMR1c1bzYyblU0S0tNeUt3WDJEblEwTThSX3NqWmhSMW1xRG4wLTN2azc0NlVaenMwU2tJUV9HNjZPMENuRnFxN2d3WVBqLTM2ekF6WUV1SWNuZnVFMU1IYVZlOGZQQVhXSzlvNDYteURVN21mV1gwaU0xd2pPZWdDNTloOTA3ZllGZmRYWEhoN1BiME8wbVlYSU4zbVHSAdgBQVVfeXFMT04zVGRBSWdlM0kyNG9WN2pDVWExVzVxMms5cmJ1Y1BzcDNzYW5LYmdVLXdqdzFERERfMnVyQjBSWi1peE02dlFrTDRqSWZ1QmNETS1ONjNCT05EX18xNjhEVE1CX18yNEQ0VllpeUlYeG5qbmhPZWRvaXl6Q241M3lYWTluZTNfcXUzSGF0TEU2bEIyTWFadUFtd3lEUzdvQjlBdGZJMWk1TXVwaDI4cUxXMXhLcHZFeDRfUmRHOGxDQlE1YjRJNXA4UGdock1lN3ZybGxnOFcy?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "FIFA World Cup",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-17T08:00:00.000Z",
-      "summary": "FIFA World Cup 2026 to have tickets as low as Rs. 5400 amid criticism against ticket prices Sportstar"
-    },
-    {
-      "title": "Loan nightmare: Maharashtra farmer forced to sell kidney in Cambodia as Rs 1 lakh debt soars to Rs 74 lak - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQM2RGOTVLODN1R2JhNkpKdHB5ZTJudXdJM1ZVS1djek9CbnNDb3pUdkRQeTNDbDVIMnRUQnNvWlBvSmFPTGtiYnF3LTVEUkU2TExDTklNRHJUYThKQ3ExRGlUSnhRampzOTFCQ3Q5cTNmUzBadU52ZTlrX1dLRW5HVG84XzFJNzFzM0xCaEFfcmo4bGwteHpwRV92OUtDTHUxZVpHZC10X09tRm5jd0k5TmFiWHg4aGk1WDBndjEyazVMT3pkRWdGRU9BUHZpM0hhYnIwdUN2U3NsZXZYaU53bnFRWDdPSjR0T0ZVY2xENTA5NDAxUUJPT3NacVFxcjlISFhQMjN30gGLAkFVX3lxTE9PMG5tQXkya0t3OG1xUkdZWUNsUzRGbmxWT3dxVE81TGxVY29Qc1VockltcDlaX0VLREdVdEZtWTc0Z3V0RW5XMjlZdjlVV2xJWWd1cEFud29IM1VCSlpTU0V1akdILTg0clFTaFYtYml3REJaOFByb3JqdUpoWUZicVVfWTNNUVVKUlp6ODRaQ1BUaUw5bnI0OTlHT1A4WTVEeXFDd2pCQkxoejJzZjJvMmFHc0NmOTVVY0JMbURyWkl2UERDZWhSYWdyOVBiYnZPc3AxNjA5MUZqUnNzRDZFamlycG9IQTZ2Q1ZCdFRUN1NNSFpERTdNcnZmQV9vaml2aWl4TWJjel9TOA?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Loan nightmare",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-17T08:00:00.000Z",
-      "summary": "Loan nightmare: Maharashtra farmer forced to sell kidney in Cambodia as Rs 1 lakh debt soars to Rs 74 lak The Times of India"
     },
     {
       "title": "Supply Technologies Announces New Dayton Distribution Center to Support North American Customers - Yahoo Finance",
@@ -6531,21 +6831,7 @@
       "summary": "Study Finds AI Now Embedded in 60% of Warehouses Roofing Contractor"
     },
     {
-      "title": "Adani Enterprises shares in focus as Rs 25,000-crore rights issue ends oversubscribed - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPX1ZLVldyZUc5eThSQi15bnl1ODFIZjNSWUptXzdDUzl3dWFjTjAzOHVOVmNjd1pmbEVQSXBoY2FBeVlqV3Q2UHpIbFhkVEpRQjZlWUZZOTlQSHZGdFgzR1pWdHRPNS1qRWRXYkp4V3BTaGpxeE8tR2lMRGtFR1pEUHYxYk5LZzF4RDR5QnJTTkZkb09tY0lUVkFGRk83a2NZZDE3S1hQb2t1bzNFUUJ6dC1yUWd4bEJ2LV8zaW9Mal81TTE0RzUwZmY0QzVzYnB0SjZxUGFka0Njb000eFp5MTRNMjdfZWFySlhtTUdsY9IB9AFBVV95cUxNRTJxZVZHc1ZEdm14VkZMMXlTNVFHWU9lekRJb25WRFVZaktKcjk3emtZUXRnc0tjYnVWaHBfdkl1Nzh1NjhNYXNwc0Z6ZG03d19hQ1ZUSGM2dTZYNXc1SkM5bmpmN0UyaGxxb1ptUWNUREdUaENSeGNYTjRaSVpEbVRaWXN2eF8xaER5eS0xV1gzRUtYUWVjRUVVbGpKNWZ5emNpRmd5VjZfQndfcE1fWlNRdnNWdnNQN0hWWFFubE52bmRHejl3Z0Fud25PbG40X2M3OFZKMzZMd19kb3FTU1AzOU5CNElNb2xBS1R4TEZyNm4z?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Adani Enterprises",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-11T08:00:00.000Z",
-      "summary": "Adani Enterprises shares in focus as Rs 25,000-crore rights issue ends oversubscribed The Economic Times"
-    },
-    {
-      "title": "Rezoning approved for potential Walmart Distribution Center expansion in New Braunfels - Community Impact",
+      "title": "Rezoning approved for potential Walmart Distribution Center expansion in New Braunfels - Community Impact | News",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQTXM2akw4cWdaZTQ4dFIwZEtYeVp5Szk1Vi1RREtrSWEycHVOeFVWaUhza0QxVnRncVVBVFd4dUN4VHVYcjZxd3hxZWhQWkJ3REduVno4a1F0VUtYXy14dklzTW00cGZUelRocEtfeXdQU2VDZXFsTjFibHZCZlR2SVdIS1RxNkpZb25PRkJlb2pubUdsSFA4dmR5YzZmTlJXUVdSNnRNcE5lSWZ6blFPR01kaS1BN2gxSTEtR2Z3ZU82MUFrYy1rQ0lTdFJzS0hwLUV4OWQ1V29fRzNpQkFuZnFoZEJ5ZFpnMUFjaHBMR0JabW9vd1dv?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Rezoning",
@@ -6559,21 +6845,7 @@
       "signal_score": 2,
       "signal_bucket": "low",
       "published_at": "2025-12-10T08:00:00.000Z",
-      "summary": "Rezoning approved for potential Walmart Distribution Center expansion in New Braunfels Community Impact"
-    },
-    {
-      "title": "57% of gains from cryptocurrency investment in one Indian state as Rs 293 crore TDS collected in FY25 - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNLVRhUElJaG9Ca01sSmY0S0xTMDdMVUxVcjlhVHBWbnFoU09iYkw3RjZQa3l3cGhqS1FxaVBpU1BwalRVdHBOQjlKeElGYlJWSWRveWQzdnFCWkg1UDJIYlBxUjlwX1ljZmNPeVZwNnA5VXZ3STZEVmQ3RlVtS1RPOHFia1BhTjFSbzVWWXRHNVhmcUt1MUNRNEtfN1ZpQUoxcHl3aFNKRUZNaUExZ1R0UUFFLTVpdUdVMjcwR1FwOUVwaUFqclhwTDk3ZWdFVVhvNXpwR3pDdTJvS05nekJCWGJxSUlXR2tyOU1z0gHwAUFVX3lxTE9ROW52ZmFtcVFNNlpzUkRHN2VKOHRYUjNDajBDTWstNUdzTC1xdnVpQkdHRV9DSmRaUHZnRFBKRnZJVUxBQjBBTllfNDEwN2VrbU1BdHpLSjVBMXQ4cE9SRC04YkFmOFJnbmVHVnNXSmdRdUVaT1BhNmdmV1NoYjR0a1hXZS1MbkUwOHZHQ2xlMjZJWGFzNEFXbkN4TU1CckVpX1lDamJTRG1Bb1M3VkFPVkNoaEd1TTNBVmVrNG0tNFppb0hSclNfNTYyVUZCbGdfaGs1a0xCdkdOeXdRUTJsRmNpSklLM3cwSWgtdUhEdw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Indian",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-10T08:00:00.000Z",
-      "summary": "57% of gains from cryptocurrency investment in one Indian state as Rs 293 crore TDS collected in FY25 The Economic Times"
+      "summary": "Rezoning approved for potential Walmart Distribution Center expansion in New Braunfels Community Impact | News"
     },
     {
       "title": "AECI Utility Solutions Invests in Missouri Expansion with Boonville Distribution Center - PR Newswire",
@@ -6590,20 +6862,6 @@
       "signal_bucket": "low",
       "published_at": "2025-12-09T08:00:00.000Z",
       "summary": "AECI Utility Solutions Invests in Missouri Expansion with Boonville Distribution Center PR Newswire"
-    },
-    {
-      "title": "L&T shares slip as Rs 6,297 crore realty deal kicks in—What investors should watch - Zee Business",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSUhicXdPMVVLZVpFRVg2Ykg0VFJDYi1YaGR3V0V6QmZJVWs0dFZheDVMMjNlQ18zTnRXUW1ZM3Izb09reGJMdy1HdlJxaFZKSEJ0Q0pkMWw1YmIya3V4ZTZra1c3RHBCZDA2VlVGckd0ZFFxNFVpY2d3SXl1Ty1LRlczQVFmNmR6YU1YLTJCY3FRTEtLRUdhUXE3ZkJtdTVSSFJGS0dBWk9QWWg5eTNSckQyQjUxRWl4WXkzYnZhdC1FbXhHX0IyM3B3?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "L&T",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-09T08:00:00.000Z",
-      "summary": "L&T shares slip as Rs 6,297 crore realty deal kicks in—What investors should watch Zee Business"
     },
     {
       "title": "Kroger, Ocado said to proceed with Phoenix warehouse - Supermarket News",
@@ -6636,8 +6894,8 @@
       "summary": "Kroger to pay $350 million to automation partner as it scales back robotic warehouses Chain Store Age"
     },
     {
-      "title": "Block deal today: Eternal stock in focus as Rs 1,500 cr worth shares to change hands today - Business Today",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPOFpiQ0tUd1pfUXcxSTc4OUl3aG5UVjY2NXczX3EtM2NqVkVHOFhQY1BvSnRhNHN1Qjl1QlNLLU5UcGUwMGR6Z28xMEJBNnpycEYweG1IRFVlODZWLUN5WElEX3lrbGYxUmdXd2dXWVJSREM0N0pGLU5lUm14N0lWNkROOEwtN3AySm00STlGbEROUjVyejd3N2xkOU1xV1FHX01ET0RfUksyZjlNbzNLU0ZWeHQwLWxUQ1k2NFIxenlWX3hOQzBaaDRyQkxvQ3ZsOWV4RHFwd3Y1MmZWWWNEeS1KNGs0bC05VFQtT9IB8gFBVV95cUxPQlA2WUlHam1ndS1ZZDBocXJQQ0gxYV9MaTc2T3RqS3RRQnQtZUhORllFVlpfbm4zbnpycHQyU1Z4UkE1b19OYjg5UUNLY3JELU5KV1loRWhhRjR2aWpXWE9JblZkdXotMld5dG15SmZERGU1MEt0N1pFcjVKM2NTczBvYm1VYWJJanRxT203TTJKTER3alNxU0Y3TGRnUTM2dTFDdUIyMV9mRVhoS2tZNFcycTM3VnY0M2JaSmVuTUdvcHhZUzNFWkRFaEJ4OEl2bVhFR1ZNdVVUMGZxdjJkanhmT3BoUzlhdWxacU52Z2hIZw?oc=5",
+      "title": "Block deal today: Eternal stock in focus as Rs 1,500 cr worth shares to change hands today - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOVWgtRFd5cDhGZ0c3cEUzNkJEbTBwVFFEc3FMME1wdFhZeS10WnppUzVoQmk0YXc0ZmhSUEVTbmtETlFiSWNTTFp6SHh0RHRaU0prMGVXX0tGS2ZaMmtWYWhpZUtPOEJXekVteVdtNGxYOHZlalIzSXVRMVZWd1FaUUI1aDc0RjF2UVhnR21faVNDenJyS2RJcHB1anRMaVhkY2RpU3NRNWVFaE00QVFfZzJNX2xUVW1aWHJ1SlJYR3VQamVyU0pmN2pGMFRZcEpHV1JGbm45SzJYRllKU1A4bExBSWpod0piXzluM1BobVRVSXZwTE9vX0pDQ2pfMVU?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Block deal today",
       "matched_queries": [
@@ -6646,8 +6904,8 @@
       "tags": [],
       "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2025-12-08T08:00:00.000Z",
-      "summary": "Block deal today: Eternal stock in focus as Rs 1,500 cr worth shares to change hands today Business Today"
+      "published_at": "2025-12-08T04:01:49.000Z",
+      "summary": "Block deal today: Eternal stock in focus as Rs 1,500 cr worth shares to change hands today MSN"
     },
     {
       "title": "E-commerce fulfillment in APAC: maximize your sales with professional logistics - DHL",
@@ -6831,20 +7089,6 @@
       "summary": "Chick-fil-A to open Florida distribution center Supply Chain Dive"
     },
     {
-      "title": "Parliament winter session: On CPR’s 1st day as RS chairman, Congress raises Dhankhar issue - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORlpkU3N2dEUyNlRCZVlzYkhiVEIzZHgzVDNacGRzZ203TGhPekR3UG1nWjFMNkdDRFhZdlkyYVl5MmFPWXV1TVF2NU1KVEI2ck5Ya0hwUEVVcjdZeDFsUGVGODNTSnZkX0NDZ3NPQ19MeVh0NmptVFlhRkRUcElXQl9mVDVsYU54Uk9BWFNHNmVTNWN0UHZzV0ZxQjNtNWIyN1B3enVnanY0Z0prYnp2LWV0OFh1Ul81UWtoM2hXQTZhMi1pQml5WUNVV1BlbFotYk9VMHNHM2hIODZhVEVrcnNnWmVmb0tpTHFr0gHwAUFVX3lxTE50VjBXaDc4ZXVUX3F5VXZFaWJTeXFjTnlpZGk2cTd4QldZNGlRRVkzbjFFRU8tNXRVWnQ1NzR6Y0dTZFpPYTNFRU1Ib3FLRlV1U3dhOFh5MWdtWDVWajd5Y09ZZHZ1MlpsMExwb21DRnBOcUgwbWVHV3Z0bzZsUVRFYXRNZGtyWHZuV2lFRjJpZEhTZmxEVGxoa0x2STNJUGxzZk84TmU4THJycC12QUxkMXNuTWE4UHltdVhXcS1pTk9lazNXckZZRllGai1heGpRaExMOU9ISE0zYmZxeGhKNThrRU16NXFfb1h0TnZXYQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Parliament winter session",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-12-02T08:00:00.000Z",
-      "summary": "Parliament winter session: On CPR’s 1st day as RS chairman, Congress raises Dhankhar issue The Times of India"
-    },
-    {
       "title": "Brooklyn Park warehouse sold; expansion planned - Finance & Commerce",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQkdVZ0dWSXpaUHBmaGtDR29ZZGFhb2JGbWxmNWZnampTYW1tajNFTnE3NVJzOGQ4NmJtT0RNLVJrSzg4d185X3V2ZzVMcngzVWpoRzAxdGRxbU5EVFo1bldOd2xNQkFzbW96YzdkM0pmVzNXUDdqaHpCaGZYdTd1VlkwTjVheF9rS1RTNnhn?oc=5",
       "source": "Google News (RSS Search)",
@@ -6859,6 +7103,20 @@
       "signal_bucket": "low",
       "published_at": "2025-12-01T08:00:00.000Z",
       "summary": "Brooklyn Park warehouse sold; expansion planned Finance & Commerce"
+    },
+    {
+      "title": "Modi, Kharge welcome VP Radhakrishnan as he takes charge as RS Chairman - The Federal",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVjVnRzJSazVjeFVOYlFBa1ZXMzVyeUExbzlSZWE0WkhybndEVlFFSU54VXhBeXBoRlNGZ2VYMFc4QTJ5VVdOV19TMzdNNEdBS1lfWFMwQU9iMTFNb1QtZjZxbVRUWF9OVHRfTUhMbUNwQXJMcUZhS1ZFS2U1VjljTGgtZVY5SXg2U1ZMRndsUW9wT3hGNEZtRXNLelBIZWtFMXpWUFhldjItdzVIVWZlZWFlZk4?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Modi, Kharge welcome VP Radhakrishnan as he takes charge as RS Chairman",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-12-01T08:00:00.000Z",
+      "summary": "Modi, Kharge welcome VP Radhakrishnan as he takes charge as RS Chairman The Federal"
     },
     {
       "title": "Tutor Intelligence raises $34 million to scale AI-powered warehouse robotics offering - Modern Materials Handling",
@@ -6924,34 +7182,6 @@
       "summary": "Number of warehouse automation companies worldwide in 2024, by segment Statista"
     },
     {
-      "title": "Bandhan Bank shares in focus as Rs 6,931 crore NPA, write-off portfolio goes on auction - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeWNNOU93MWpybUNCTlFDczdfZnpSZDZjNXN5cW41ejRmd2VUWVBzZFV2WXYyX0R5Z3pmbjhHVDc0V2NxZDlZYWdId2N4Z19pTkMyZy04YUR0bUlXSENNbmFHSVB5VkhfbnhUdEJVTjE0N3VmNF9Ib2lCamQyZmFNTzgtVUVYN2JRT0xkLWRiNmUxT3hocnVUcTU4VmFPTDNaZm5XOWlNQUF4cEl1TFdDU3dnSURFYi1KblpmOTAwblpxYk43RzhrMzc1X29yZGI3QTYzcXVoVQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Bandhan Bank",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-28T22:42:29.000Z",
-      "summary": "Bandhan Bank shares in focus as Rs 6,931 crore NPA, write-off portfolio goes on auction MSN"
-    },
-    {
-      "title": "CAF Champions League: Heartbreak for Rivers United as RS Berkane snatch late dramatic win in Uyo - Premium Times Nigeria",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQS2Rtc0FnTlg2M1ZSYm9RZTVMNkh0aTk4MGxjSENKZU93Qmh0SEVFcW5RV0FaQjBzWGNYamZLbThocjJsbnlIYjFyc3NscVkwMEZBbjRJRXR1enZZRWI5aElGeVlSM1Q4ZTU4WmRkNXR5enZaQmpTUmlQTUtxMTJqaVlGdVF0NnZWNEc5MGFsRGxtVUdtdFRnck1vd2ZXYTlTSXFRb3FXRlNYcWFRdU1RLUh3ZEd4TGFKLUl2TF8yaHhTUlVONzRFRktLeFR2N2tkY1AtMEVsbEpTbl9Va1pWdjEwREFUem8?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "CAF Champions League",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-28T08:00:00.000Z",
-      "summary": "CAF Champions League: Heartbreak for Rivers United as RS Berkane snatch late dramatic win in Uyo Premium Times Nigeria"
-    },
-    {
       "title": "Distribution share of e-commerce fulfillment costs in the U.S. 2023 - Statista",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQXdrSzRYd3gyT3plWndaNXpLbVMxaHg4OXVpYjlWWHRCaHUtdjhqdTkyaVNGY0c4Mm5mWDJ0X2U2NjhiNWRSUnFJSGh5SW1GR0o5T0xPZlFhS2JmWVlVcFlsME5LUGtUaklNcFNCaTlwUjJDSUpJcGVSNnRGWVFnTnFPbm1EUF9BY1pJMndWcFVqVmp0cTZNRVBsZ2tWWlU?oc=5",
       "source": "Google News (RSS Search)",
@@ -6984,6 +7214,20 @@
       "summary": "Walmart e-commerce fulfillment centers 2022-2023 Statista"
     },
     {
+      "title": "Bandhan Bank shares in focus as Rs 6,931 crore NPA, write-off portfolio goes on auction - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMF9vc0lGZEN4OTJpSW9XS0RhRkV1TGFZSW9ZOG9fVnNjZnhvSWs5LUliYTNMbERTdE1lRWx4UjJpdVhyRkpTNUdZVXgtTThrWDBWYzRybG9sX284ZlZtb2JNVXhsekkycGN0c2tHOVdvWnB4OXk5TVVSVGJDeVhqdUVvUEVoU0ktX3NmTHlYTUtWczlyTl9qZVp4OTVJT3RYTnNPQTlDN3ZhV2xDMkVXYUxEMmZPclBJdFQwRTJlZVFWc2xNVERsV1N6Y0FLcTN0OVRudDNPbzkzUFoyVnU1a0RQWXhpWmV2dXNfLVVhcUd2Zw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Bandhan Bank",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-11-28T03:09:54.000Z",
+      "summary": "Bandhan Bank shares in focus as Rs 6,931 crore NPA, write-off portfolio goes on auction MSN"
+    },
+    {
       "title": "Warehouse automation market size in the UK 2020-2025 - Statista",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZWNRZHUwWXNUNEw4R0lmQ2UyVWFCU0hxVUV3VGFrSmt4dUREcmJjRGVwdUtmYmduS1FTcVVKVzJUNWlQZlU5TXlEUEdxRnBvdERDclJuaFdWVEVlUjBnNTFrVXFVRzl6ZDllcF9UM3Q3UjBmcENrdWNLMDlPZXgyaHg3ek1YWTQzdU9LVlRkNF8yWnhlT1R3?oc=5",
       "source": "Google News (RSS Search)",
@@ -7013,36 +7257,6 @@
       "signal_bucket": "low",
       "published_at": "2025-11-26T08:00:00.000Z",
       "summary": "High-tech and huge robots: Inside Amazon's massive £550m warehouse BBC"
-    },
-    {
-      "title": "Dexion launches new Smart Roller Conveyor and MDS ASRS solutions - mhdsupplychain.com.au",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQjNPMkp4ZFNhZ25kMldacG1nak5fQ1RYUC1OYU43Q3dwcDZ0OWlaUFBKeVBhRE1aYmJFVVBPblhiVTRtQk1SMm5KdEhXdUFib29odDJvMHI5N3hWdlR4bFJITWk1TVFnMW51UXM2anVnSWVMXzV1eDlUbG9hUEJJNkFfWElsaWIxOEc4RFBMcExncERsZ2pyZ2hTTmh1ZlhmZFd5aTVlTUFIdw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Dexion launches new Smart Roller Conveyor and MDS ASRS solutions",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "material-handling"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-25T08:00:00.000Z",
-      "summary": "Dexion launches new Smart Roller Conveyor and MDS ASRS solutions mhdsupplychain.com.au"
-    },
-    {
-      "title": "Shraddha Kapoor's brother Siddhanth Kapoor arrives at Ghatkopar narcotics office as Rs 250 Crore drug... - Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNMGJRang3ZFpWbXhQM05DT2xWanpXa1JKYzZtTEExQzJaS2ZRYXNtQkgwaWxCRmNKdGNRNHJFcnhGRUFqaUEtcGFVcFljWmgyQV82TU9zNGNBV0pMZjQtaURqM09wSWMyaXpvY2dmZEVuX2J3NGpsdkpGUHpSV1loRDctLTk0LXlyWk0wYlVIN3F4RUVpMGFwaVBkbHA5UnBsWWVabEV3TXNMOVRKYmZnRWVGWjNhY21OX1c1YlVWWDIxWXM2bUVTYi1qU3Q1VG9kVzlGRVVjdkUyNjFzOFZNWWlfYTluSlVncVVTbVlITVVDWjBPLTVteGZiTHBzN0Y3YmMzVTU0NzhDQUXSAZACQVVfeXFMTUhpWUJYNk1nbXVMYk04eGxNNmFpeG1VX05PUWw4OVhqUmNJVEJMYTJhMkNMOU91bXpkaWNUd1RUeEFKTjdBSzE4bjVSM3RsRzdPWHl0bWVLXzg1cm9YY3ZCZTRZQlNBNXlJY29yTTdwNkgzWUZHY0NER0Z2bHUwTVctZVZpOVNKNnFTeTZ6RUtzUmdFYWhncDltSGFJcEp2MzJicW1wdUlSNk8xLTJUWUluZEF4SG1DN0NrU1gzN0J4b1c5WDFGMVhtX2hKcDZUZnJVcTg5ZjQ0Ym90N1k3Xzl5OFl6TUhhR3FzeUkyRlBrcXphVFM0RGs3YWtTYnJ3U0Y2RW01TEZwMkxmU1JNMUU?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Shraddha Kapoor",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-25T08:00:00.000Z",
-      "summary": "Shraddha Kapoor's brother Siddhanth Kapoor arrives at Ghatkopar narcotics office as Rs 250 Crore drug... Moneycontrol.com"
     },
     {
       "title": "2026 Will Force a Warehouse Robotics Shakeout - Automation.com",
@@ -7235,20 +7449,6 @@
       "summary": "Couche-Tard Opens New Midwest Distribution Center Convenience Store News"
     },
     {
-      "title": "PhysicsWallah stock slide: Shares sink for third day as Rs 8,600 crore wiped out since debut - what's nex - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOMmVrbzBhUG41LWIzM3hsbnh6WlFQb29QVTZiU0xodFN2bkktMUV3eU9zQ1R2NHhKYjlaQlA5U2N0OUJiM0RhYmRMWThuWjFvV0RfaDd3OFRHYl9XYXFWUUJybmlCb0FWR2lOSmZudEtlMTdDRkpoekV3UnNLSzdWU1JKOURPblZWTWhQWG11SXd1bGw0eWVGU1pLWU9rbXprWGFpUjV6RklNc0VVNEEwY01yMEt0b3RDMW9lOHpKRi1vS1dQaV9Zb3NtZHJpRWkxWHdvZVJScFBHMnZVQjdKb1Q1ZlVnUzJwc3o4QWl4eGNMZjViS0h3eER0eFp4dUZUYlJUVTVudHF2U1BWRGJzSVlWMEtMUdIBmwJBVV95cUxPOGNpeWZkVnYyYVBMT2FoSkZwcUhCd1Ryd3NndUpaQnFMb2hRZXpqZE82WmdXZEFveFdZdTVfZ2VKNENaRm9qVUU1ekpsRGJ2N0VnRXVERDNoVUFSd2FwSnZUM0VubG1OS1hqem9ZM2JCWXZfWEY0RUh4dGc2allDQ3ZQZWNwU3o0b3JEYUJsRm9tNmEwcjZ3ay0tbkFjWm1RWnRYb19RM3ZPN01nbVpGZjhrTFJ1X0NhSHFUWHJlTkU1MTAwNFNBQm41clJFOFc4ZWJGTThxdEE0SElsS0dLNUJwazAxU2NyWUlEdFJmcVdoYjRucEFzRXlXZE0yOVNiaUZ6V2UxN2YzUzQ0aE9rVkdGWi1SU3lpbG5J?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "PhysicsWallah stock slide",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-20T08:00:00.000Z",
-      "summary": "PhysicsWallah stock slide: Shares sink for third day as Rs 8,600 crore wiped out since debut - what's nex The Times of India"
-    },
-    {
       "title": "Why does Kroger find Ocado's customer fulfillment centers so unfulfilling that it's shuttering nearly half of them? - diginomica",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbWZzbXR1Tlk4cjVWZVQ2MHRGaUt3VkY2UWE5Q3FyclVXaTJ3QWRwZHY5U0VwQnFGc1VpSkc1c3dHZkZfOUNYQkFRR3Y4cUpwckRDdWVvZTJMUmRtdVVITUYyRTRiU1VNVjk0TGgtRTNJS3hVc3RSUDJOc2U5RVRfa0ZKZkgwaGpEUkRKQU5wNWxlaXN5VTJJcDV2VWIyWXZhRl8xRzNobHdwZ0JMQTVkSzhXNjFhdTlncWpmaV9NQdIBxAFBVV95cUxNeF80NWRDUnE0LUg2MFdsSzBRbEhkSkdiei1jYzRrTHgxRjNYSkR5bU9OcGI5R3BTbWtBVXZ3ckk0dENRUlEtc1Y5VmpZZ3IyTzlvU2dWMXNFOVM1dHNMU3huU1RCeTZWY3RUdHJCZU5vR2dLMll0S0Z4bWhzdVBnOC02emlKdGlEc0xhVHZEcTFVR255NmtTZ24taG5wSDNCa09xSHBxOHNKODFpd1YyR0J6dWNKbGs3b0ZGVUJGeVpTUXhU?oc=5",
       "source": "Google News (RSS Search)",
@@ -7291,20 +7491,6 @@
       "signal_bucket": "low",
       "published_at": "2025-11-19T08:00:00.000Z",
       "summary": "Kroger acknowledges that its bet on robotics went too far Grocery Dive"
-    },
-    {
-      "title": "Infosys shares rise 3% as Rs 18,000-crore share buyback window opens on Thursday; Nifty IT index up 2.8% - Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYmVORFV3b28wbks1WmphZ085OHlKWGJiWU1kR2JldlJjYU51TWFFeTNVUVVrRElwNlgyRUZGNkE3VmdrbHctNVp1djZTSkdGRGc1dnR3NVFoTl9YamlIaXpwbXVTb2NkY2hWR0hObTVvRi0wa1ZtckxOUjNRVmxrT25QUG9meWlJdkx5YjhnZjV6VnRKcjdoSmFPbHh0VU5Yc3R0Tk1HcmZIenNvRGk0WnN3THhvcEx6UXltTnY3Z28wYnVfYldSRkxiMHdBZ0otWkdscHpHM2JreFFSNmJkTnlyZEVrT0hOM1Bn0gHwAUFVX3lxTE5BS0NBZEktcGoyOTdFNFZmclJKZXZvNEh5VmJHY0xpNk50NlRGNTFZNU9lWjhFa2txc0dXXzVnUzRkeDRJTTdpUVFCTHYzY3E4RlVKNzFoOFFQVVR1Um00YlNGZXBBTnpYcmhQSDBraXUzanQyUG5RWmdZYTZCYzNIX2FuRGMtTEtNYlJiQWpiZ1lqcHBsT0tLTGdKb1QtRDFoczFwa3ZlaVRycUFrdl9zb053dXhNaUZFdVpoa2Q3VFlsSVY4QlRKTjQ1bnA5WUh5M19OM0xMN3RSczJXRk5iYkhRSXVvbzhXQ09XOGJDdw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Infosys",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-19T08:00:00.000Z",
-      "summary": "Infosys shares rise 3% as Rs 18,000-crore share buyback window opens on Thursday; Nifty IT index up 2.8% Moneycontrol.com"
     },
     {
       "title": "Kroger to expand partnerships in updated ecommerce fulfillment plan - Digital Commerce 360",
@@ -7574,20 +7760,6 @@
       "signal_bucket": "low",
       "published_at": "2025-11-11T08:00:00.000Z",
       "summary": "Kwik Trip Opens New Distribution Center NACS"
-    },
-    {
-      "title": "NSE IPO Nears Launch as Rs 1,300 Cr Set Aside for SEBI - HDFC Sky",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmJLWWd2Z2RxTDY2ZFhiWXl0YVgyT3pwNVlaTnRwa0tMLVlLMXI4aU1saTRUYXlFNHN5T3VpUFZ4a0c2WnlsWFJUR19MdnF5OFRxNVh2Y2N3SGlMUnQ4aThQU0NsQWRpQ1RmRDFyRkU5MmF5QUdidW53NHVxVUlGOEpzTEo1QUJLaFN6TVhqcm0wbWZuZGxiWlhLaUxfQWlJM1hoVA?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "NSE IPO Nears Launch as Rs 1,300 Cr Set Aside for SEBI",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-06T08:00:00.000Z",
-      "summary": "NSE IPO Nears Launch as Rs 1,300 Cr Set Aside for SEBI HDFC Sky"
     },
     {
       "title": "Unlocking the last mile: A strategic framework for in-store fulfillment - Supply Chain Management Review",
@@ -7992,7 +8164,7 @@
       "summary": "Automating the Dock Boston Dynamics"
     },
     {
-      "title": "Watch Amazon Unveils New Tech for Warehouse Automation - Bloomberg.com",
+      "title": "Watch Amazon Unveils New Tech for Warehouse Automation - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWIyZEtmbzdQMmxuQmhrUlEyOHlvc2VxV3ZQZ2lfemxBZjRqb2hPdmZZS2I2d2NwOVh4ZGdYVjhYWDJYOGVCNUxBQUF0cXgwQTdWbHV3eXM0c3c1a01XVmJHN3JDc29DV2FsNktqZ3RheUFRUnNiQkRZQ0JzUEt0SWo0R0tyclN3cGFneEdtWEpRNWFldTBCZ2xiR09oUzBORUNoREt3?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Watch Amazon Unveils New Tech for Warehouse Automation",
@@ -8005,7 +8177,7 @@
       "signal_score": 3,
       "signal_bucket": "medium",
       "published_at": "2025-10-22T07:00:00.000Z",
-      "summary": "Watch Amazon Unveils New Tech for Warehouse Automation Bloomberg.com"
+      "summary": "Watch Amazon Unveils New Tech for Warehouse Automation Bloomberg"
     },
     {
       "title": "Report: Amazon Mulls Plan to Automate 600K Warehouse Jobs - Supply Chain Brain",
@@ -8156,22 +8328,6 @@
       "summary": "New Balance expands distribution network into the West Supply Chain Dive"
     },
     {
-      "title": "Cube Robotic ASRS to Solve Warehouse Space Challenges - Supply & Demand Chain Executive",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSXJINVJVemZyMXdUS19DWmQ0aXViejB4MjF5b0tPSS1tak5XSmxxYzQzejRoR0YyeXFNUHlnTnM0WG5iTTJsU1RfLXVaRFA5VlVYcDNWbzJiLTVma2FWTU83MTZ1TjBFa2wyaWZMZTBtSXZTRGJuR0xGd0c3SmlVM1NOeGFndkJRTkNVWDJBZTFwUDI4OEowVGZLcVRXcHA5a3BYc2otRVBlMENqdEVxY2dkNnIxUUUtUDhGNEhjRERKZzBqQXZDZ0ZyYUd4NmdPVFhROXBGdVlvaXh0cUVFUDZ1a3FqZ1FEY0xpbW5R?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Cube Robotic ASRS to Solve Warehouse Space Challenges",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "robotics"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-10-21T07:00:00.000Z",
-      "summary": "Cube Robotic ASRS to Solve Warehouse Space Challenges Supply & Demand Chain Executive"
-    },
-    {
       "title": "The Robots Fueling Amazon’s Automation - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaGs2cTVqYTdsaUpfeEZ6cVh5d2RUR0M2VTFmTFp4aGZFSTNia1NXWENfRFBMUlF5MmVWY1hBbXpFeWhqWmdZd2FqeVdES2NiUmhPQ045UGNtTlF5c0pJZkdHcEcwX1VPcXZMOEhWakc0UE9LcHVQNzc1MnFpT0pOaW9tVQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -8229,24 +8385,6 @@
       "signal_bucket": "low",
       "published_at": "2025-10-17T07:00:00.000Z",
       "summary": "How is Dexory using $165 million to transform the warehouse industry with AI-powered robots? DC Velocity"
-    },
-    {
-      "title": "The New Face of AS/RS: Trends in autonomous picking, application flexibility, and robotic AS/RS - Modern Materials Handling",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOUl2MXhGcEJ0TDFDalJjOXViSk1pQS1HMXM0TFprR1FVR2wwckJkU1N4Umxfc3k1OXdjMF92VHFEVFdRWWRzSXZUTmNDeUo0X19NQk94elRueDdfWFNIbVBaWGp5Q3JRcktnbDZsOHJyakVqMjBIS1JTSVp0aDljUDNTZHpXak9xS3VzWnVlREpQQW1lanpKblk0aE9aS1k4RzVJaFZXOHl3MzJKNUxpNVB4RHQ2RUhiQU5rcw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "The New Face of AS/RS",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "asrs",
-        "robotics",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-10-16T19:50:48.000Z",
-      "summary": "The New Face of AS/RS: Trends in autonomous picking, application flexibility, and robotic AS/RS Modern Materials Handling"
     },
     {
       "title": "Kuehne+Nagel accelerates India growth with 100,000 sqm fulfilment centre expansion - Kuehne+Nagel",
@@ -8443,6 +8581,7 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Top 20 Chinese warehouse robotics companies",
       "matched_queries": [
+        "goods-to-person",
         "AMR warehouse"
       ],
       "tags": [
@@ -8701,6 +8840,20 @@
       "summary": "In Japan, robots are replacing people in warehouses due to an aging population Mezha"
     },
     {
+      "title": "TCS & The Warehouse Group: Digital Transformation - Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSG5RaE91Um9EQXhTazlpRUxsa180NXdWVW5SMGpOUnBjeDdEZTZ1c2EzZTk2VllqM01Qb3hlbkduc25FOEdBU2lNV0dJVlg3TnNmSndhMWJ6d2RuMThKbW9IeXJYSG5JWG1MaE9tT3A5LXJLRVRudjZ4LXhRVVJZZlIzSFJYaW1fa1pSTG1wSDlnSlc1RDFBVDZwVlJOdFnSAaQBQVVfeXFMTjIwXzJoZmxVaUN6cldjTURMNndaY2wwbXlqckNhVFJuUnAxd2dWMDZyZXVGSUNfNXRQVDF2TE40NFhSR0NNTXdGWG94aDBWaG1sa1RveVg1OUxkclhKZnE2MVVrU2V2NHFaRlBpQkFCaDZTeldwdGNsc2tyRFc3dlZ3NGFDOXJTTm5iM3ozbExmam5aYzVIczFEZm01RnRmSEc0R2E?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "TCS & The Warehouse Group: Digital Transformation",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-09-15T07:00:00.000Z",
+      "summary": "TCS & The Warehouse Group: Digital Transformation Rediff MoneyWiz"
+    },
+    {
       "title": "In ageing Japan, warehouse work becomes a job for machines - Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb1VEcThYTnZiTlhlcndNVzB1NmFmZ1QtcElDRjNIMHl3cVZOMl9tUnd4R2pDQXRoSFFqMDhFYmNoRUxIc1RfOFhaZzJXQmdrRzV6azVhVEVkTW5lQTRzRFI2MFZPT00tOUQyVDV5Wldoalk2TWdFOWxva0NwX1h1cVZBczg?oc=5",
       "source": "Google News (RSS Search)",
@@ -8825,24 +8978,6 @@
       "signal_bucket": "low",
       "published_at": "2025-09-10T07:00:00.000Z",
       "summary": "New Distribution Facility Breaks Ground in DeKalb Connect CRE"
-    },
-    {
-      "title": "Matthews Automation boosts investment in AS/RS vendor Freespace Robotics - DC Velocity",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSHJJZS0zNUtEYWJuYjdvMGtOcWczbDZaZE5wdXNiMzZpVG5BWFFDNEdHWkN2R1ZYcFpsODNYZ2pONmFCOV83S2lpNHBtWENBRGk2NWJKd0MwZnF2TFVNLW1PaU8wUHpkRkk3dy1SdFdnYV9KWTdHR0U5aE41VlcweGpQMGlQQjNkQ2g3bU1BZE8wUmxHbHExcmhrYTZYS3Zxb0ppX21iZHdqdXJwXzNacUpXZlFqNlhhYW8wNkN5Y0d5OTQ5ZHY5WTBGY0dZRE1ZRzBfR2lkMA?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Matthews Automation boosts investment in AS/RS vendor Freespace Robotics",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "asrs",
-        "robotics",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-09-10T07:00:00.000Z",
-      "summary": "Matthews Automation boosts investment in AS/RS vendor Freespace Robotics DC Velocity"
     },
     {
       "title": "Walmart opens perishable distribution center in South Carolina - Supply Chain Dive",
@@ -9118,20 +9253,6 @@
       "summary": "Trader Joe’s buys Islandia site for $118.5M, begins LI distribution hub project Long Island Business News"
     },
     {
-      "title": "ASRS 2025: David Liao, MD, PhD, shares the 126-week results from the REMAIN study - Ophthalmology Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTHBMVkVFQXg1NURkX095ZHdHR0tkN0ZrWC1wUF81M1dPYWptZy1rUENFQWZuT1BlYk9YN1VBNHNXNWxKWFUxaDVJTml1Umg0MHduUjJDS3BTRlNnRE9hcF9zSDJGazd4U25aRmhHU045RUthRGtEWi0zUUFFYjJVQ3dGMDFTX0tQNWxLeno1bWZwdllDMFlQNlNOLUg0VEpIeHgtMzZ2d0lxc09fVGxCOFEybGFldFBj?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "ASRS 2025",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-08-15T07:00:00.000Z",
-      "summary": "ASRS 2025: David Liao, MD, PhD, shares the 126-week results from the REMAIN study Ophthalmology Times"
-    },
-    {
       "title": "Shed 7 Expansion at Eastern Market to Transform Facility into Cold Storage, Distribution Hub - DBusiness Magazine",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONzZlNENka0QwYkcyb0xXdWJnZWJHNHpJaUMyUFFQZTAtYXdEYktEV05ZSC1CckJLWFFyVnFQWHNCcnVqVm9iWWo2dmFVNWJRdWk2RU5kVWZzbTc3RU9QS0UtRUhJS2R6X0VyOGVMRURQN2syUWpUNnY5RVpiV0NfSHc4XzJpSTNKTllPOFBWNTRxRzNrTFZkS0wyY0EzUDBSSHhWeGxjX3A4VlZWSVJENE5hVDltX0lDNzJscWR2Y0dtTHFRQ0hsMQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -9278,23 +9399,6 @@
       "summary": "Amazon-Linked Distribution Center Slated for Terrell, Texas, in $70B Expansion Effort ConstructConnect News"
     },
     {
-      "title": "Democratizing the AS/RS - DC Velocity",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fX0dYZ0o0ZWR4UkF1XzhoSTI1ZVFReWRfZ1VYLVlfM3V2ckNKWm5pS053V1U4Wmo3SmxKSmFwX3BsSDJsVnV2MU1XR21TbThLTDhadjRHd1NueC1vSkllZGJDY21UZWVvSnYxRDl4dlJsdVVhdjJV?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Democratizing the AS/RS",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "asrs",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-08-05T07:00:00.000Z",
-      "summary": "Democratizing the AS/RS DC Velocity"
-    },
-    {
       "title": "College Merch Trends and the Shifting Demand in E-Commerce Fulfillment - Global Trade Magazine",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdUw5aktsekhlcllaMDAyNXBjSzY0dzV2eF9ZbUlIdWtWYmp6YkgzeWRxN2h2RGpMelRtMlVrQWF0aU1pVUItUk94Y2l0WTdzSVUyUjRwZkdGSlNRbU9vS3NEM2RJZEVNdVd3ZTMyOFB1VExqUkJ6eXdnNlk3Qk9EMmRRTi1DUDl5WUNGcnhINVV3cmMyblh2UFZvVnc0V1Q1SDJoeg?oc=5",
       "source": "Google News (RSS Search)",
@@ -9361,20 +9465,6 @@
       "summary": "KeHe opens new distribution center in Florida Supply Chain Dive"
     },
     {
-      "title": "ASRS 2025: Neuro-ophthalmology: What every retina doctor needs to know - Ophthalmology Times",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOENERkgxQU10cnhYUG9FTkJ2UHA1ZjdqN3lreGZFdHhld252TkNaYm9ZN21IOG55OHJNQ0NlN0ZPZzIyTTNvQVhGeFJKWXpKd2JSUEM0TVhrZXZacjZJTW1ZeWV4ZjM3am43bFBXUjNyWUZMb1dkMFFWcXd0R1NWaXF4UktNOVJxUXFydldDSHFMWlo4MURPMk1RbFZjMkZUU3ZObFdGei02ZXBX?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "ASRS 2025: Neuro-ophthalmology: What every retina doctor needs to know",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-08-01T07:00:00.000Z",
-      "summary": "ASRS 2025: Neuro-ophthalmology: What every retina doctor needs to know Ophthalmology Times"
-    },
-    {
       "title": "Siemens builds fully automated warehouse with digital twin - cio.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObm5yUzhjUGw1WFJzYllyNkJyT2kxYUxhNXhJZDJTeTNPX29YdWFYNlotNUFURDlpelp3SnBLeVNHcllqVkxtR29KYzcta0ZhN1pUdWV6LXRJNG5peGlrNnMwUzZ6Y1h2UUsza0NBM18tMUM4d0tNZmZCbmF0cVh5M2Q2aGZOYkZ4Z3RGbGtVYlZRWUExVkFERWd2djI2bDVX?oc=5",
       "source": "Google News (RSS Search)",
@@ -9389,20 +9479,6 @@
       "signal_bucket": "medium",
       "published_at": "2025-07-30T07:00:00.000Z",
       "summary": "Siemens builds fully automated warehouse with digital twin cio.com"
-    },
-    {
-      "title": "What to expect from ASRS 2025 - Ophthalmology Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BMlFtVUtSSnNiOWV0c2U0cGVjNnAxOHlteUZweUhrMWM4WFVSYm5HU3BSaGxvVUYzZndDSXhBX2xXeXZFMldrdzkxbnJsWGJoQnRrTVFEWkMzZTdjTndyOXhBOFU0di1zMUh1SWloMU9HYXI1WjAxaQ?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "What to expect from ASRS 2025",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-07-29T07:00:00.000Z",
-      "summary": "What to expect from ASRS 2025 Ophthalmology Times"
     },
     {
       "title": "KeHe opens new distribution center in Florida - Grocery Dive",
@@ -9561,23 +9637,6 @@
       "signal_bucket": "low",
       "published_at": "2025-07-10T07:00:00.000Z",
       "summary": "FEATURE: Achieving speed and efficiency in e-commerce fulfillment Parcel and Postal Technology International"
-    },
-    {
-      "title": "Emotional Rollercoaster: How Did Attabotics, the AS/RS Startup, Meet Its Demise? - DC Velocity",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOExMcFpPSExZVnBvSFRHN0Njc0ZBVVRUUGpnSzdCYVZONnd3V2Z4UVEwbXYzUjZKOWU2Ymt5RllyN25IZTVlYzBqYzVVYlBKZFhkaTdkVll3MVZMZzJWLXg1TTk5SXB5clQ0Q3VSbThRemxwanBHTmROYWZfQnNfTk1YeUpQaTFHRTV4QVBMYWdyM0FUVDQzWmsxaFFPbzhLb1lsM0MySFd5SU9J?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Emotional Rollercoaster: How Did Attabotics, the AS/RS Startup, Meet Its Demise?",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "asrs",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-07-09T07:00:00.000Z",
-      "summary": "Emotional Rollercoaster: How Did Attabotics, the AS/RS Startup, Meet Its Demise? DC Velocity"
     },
     {
       "title": "Metcash boosts efficiency with new automated Truganina facility - CFOtech Australia",
@@ -9863,22 +9922,6 @@
       "signal_bucket": "low",
       "published_at": "2025-06-28T07:00:00.000Z",
       "summary": "Port to start $25M rehab of huge warehouse NEOtrans"
-    },
-    {
-      "title": "Warehouse automation surging ahead despite projected slowdown - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVRNS0VadTVIU0FNZDVTd3BuNVd4QVR4MGotTS1EOWlBWWY0RGI2VGtoVndmQVZrMlNBa2pKLTJ4U2JpYktKSXVhQ2U5cVV3N3NwRGF4djVMbkJJakdiWG5ZSEVhMExJcGh0SFpJMzZyMlBTSS1NdG5tNlVKME1LT082dnYzemktSUVLQ0Nvc2RZODRGaU9WWllMYw?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Warehouse automation surging ahead despite projected slowdown",
-      "matched_queries": [
-        "warehouse automation"
-      ],
-      "tags": [
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2025-06-27T07:00:00.000Z",
-      "summary": "Warehouse automation surging ahead despite projected slowdown FreightWaves"
     },
     {
       "title": "Editorials: Top 16 Warehouse Automation Trends to Know | Cyngn - A3 Association for Advancing Automation",
@@ -10707,24 +10750,6 @@
       "summary": "Associated Food Stores in 1st Phase of DC Automation Project Progressive Grocer"
     },
     {
-      "title": "Robotic automated storage and retrieval systems (AS/RS) on the move - Modern Materials Handling",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWWJ2bDU4dzdFekM3T2dvREFOTDZ3Vll5LUpkbzlEMGlwLTJVVkM0eHNRX0lKSzhrc3lZZU5nLUlpeU1tQmdkbHktazE5bWZOTXZHSlBnbHJrVGpzOFdlM3NFVW9KUnBEdVdPN0VNdTlnY18yQW5OcjVPY3VfN2cyTTkwTjVVei0yeE56M1doeFlmd3M1bl81Wg?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Robotic automated storage and retrieval systems (AS/RS) on the move",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "asrs",
-        "robotics",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2025-03-01T08:00:00.000Z",
-      "summary": "Robotic automated storage and retrieval systems (AS/RS) on the move Modern Materials Handling"
-    },
-    {
       "title": "Hai Robotics’ Goods-to-Person System to Revolutionize Warehouse Automation - Supply & Demand Chain Executive",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZzdtOC1KYndIRHl1SmNtclE0SXFuZlhZZ29nb3JLazMzWkFpWGo4UGo5MjVMM0FpMEdIVzVuMGpfQmc0dXlOUmZtT0JXNy1oTTRnQ1N5M1ozMlVGWGdoZlI4U0dTMm85emtkVC1HenVLeTdrNHF5YW1rNHJxMzl1cERjSkRaVG5yTnZIdkxYazAxOFMxZkVISERWOTg3eEZDWm9pdHFXUmF2Qkl2Y3hRSS1EZmFhRU5rSlhDWjRya0JsN1VWSkRWTEJQREFLT2l2ODBad0FoR1ZvOWd1aXc?oc=5",
       "source": "Google News (RSS Search)",
@@ -10866,6 +10891,20 @@
       "signal_bucket": "low",
       "published_at": "2025-01-15T08:00:00.000Z",
       "summary": "Persistent Labor Shortages are Endangering US Manufacturing Output Manufacturing Today"
+    },
+    {
+      "title": "KION Teams with NVIDIA and Accenture to Optimize Supply Chains with AI-Powered Robots and Digital Twins - ERP Today",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMlZVTnl5OG9hQ1MtTVZWclp0RTRqUm9Yc2NKcjR1NThUWnpnXzNuZW5kaWQ0YWFxYTQ5LWpkMC1ZMEdBLVB6WjZLbUxhdW9KcnJndDNucmw0RHc4ZElycVduY2NBTEpKdGFCYTlDOWg5NjVzcTQtZ09razlGQ0VsemVjRml4OC1TemxHelNOdFhlbmFteTI1X2w5VDVDN3ByM0U4WXdWalVYbWFyNmFaRlNONDE1ODFvb19vbTZjZw?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "KION Teams",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-01-10T08:00:00.000Z",
+      "summary": "KION Teams with NVIDIA and Accenture to Optimize Supply Chains with AI-Powered Robots and Digital Twins ERP Today"
     },
     {
       "title": "How Automation Is Helping Companies Prep for Labor Shortages - Time Magazine",
@@ -11034,23 +11073,6 @@
       "signal_bucket": "low",
       "published_at": "2024-10-20T07:00:00.000Z",
       "summary": "Warehouses Increasingly Turn To Automation, But That Creates New Problems Bisnow"
-    },
-    {
-      "title": "AI in Automated Storage and Retrieval Systems (AS/RS) in North America: Revolutionizing Warehouse Operations - MarketsandMarkets",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNXIwSnVRMVFzbC16Z0FZbEhzY2FZNnB6VTUydHF1QWlDclFSQ3cxUllDU0t5ZDBLUjlHSThqN2NYczRLTkduXzJ0SDdpLWR2MVNQRGlsVXdXZTJaMmpuUTU1OUphZjlXb0NEN2hjZ0ZlR1UzSnUtbWdOT0t3S3pGVzVWQnVpSlE?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "AI in Automated Storage and Retrieval Systems (AS/RS) in North America",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "asrs",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2024-10-14T07:00:00.000Z",
-      "summary": "AI in Automated Storage and Retrieval Systems (AS/RS) in North America: Revolutionizing Warehouse Operations MarketsandMarkets"
     },
     {
       "title": "Army logistics expert learns first-hand about DLA Distribution modernized sustainment solutions - dla.mil",
@@ -11310,20 +11332,6 @@
       "signal_bucket": "low",
       "published_at": "2024-07-22T07:00:00.000Z",
       "summary": "Trend Watch: The Latest Innovations in AMR and Logistics Automation A3 Association for Advancing Automation"
-    },
-    {
-      "title": "Modernizing the CDC's National Quitline Data Warehouse - Guidehouse",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdUdoUlZ3VnVoZFVxQ25XSWptTUNwdTZqZ080WGltTzF1dnhHdmVvcUhtYk14c2dJWHBWN254amxEUDdhTTl1ZWJ4RGlzS1pmamJ3Tl9fZ29mWnl2cHpZSkVjN2dxUFNuM1NadF9Wc29RV0t6OW1YWjJyZEtXcFBOdE02SVMzOTdmZVVyUmFaQ29GZE82ejFEOGs5MA?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Modernizing the CDC's National Quitline Data Warehouse",
-      "matched_queries": [
-        "warehouse modernization"
-      ],
-      "tags": [],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2024-07-18T07:14:22.000Z",
-      "summary": "Modernizing the CDC's National Quitline Data Warehouse Guidehouse"
     },
     {
       "title": "Automated guided vehicles provide relief in beverage warehouses - Beverage Industry",
@@ -12585,21 +12593,18 @@
       "summary": "Warehouses and Distributions Centers Turn to Automation in Response to Ongoing Labor Shortage Jackson Lewis"
     },
     {
-      "title": "Ace Hardware continues store, distribution center expansion - Chain Store Age",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVXlUNHhnVFZJZ0otREhDRW9Pd0lfVnZRa3VPQWNEM2MzNFY2OU1sRDcxYzZMN3pPRWRrYUVwdkdMVS1kOGVPRjE4eFV0RGpoV01TYXppRDZrNFA4ZTBnOEdTZS12Tmt4WkpQUmlZRFlENERPRUFVekFwQXQyR1NWM1ZNdWRicnpSY2lhOA?oc=5",
+      "title": "USACE supports readiness in Europe by modernizing Army’s Prepositioned Stock facilities - army.mil",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1V1WUQwbW5vaHRjNko2S0Vzc0FOTmxjUUVjU1RrUlo1QkNmZkxPLURBNDVobjRGWDY2dndqdXVCX3dIRVN6cVNKYVBuV2FCNW1wNVY0alVZTlN5aDlUYUJNZllyanh2YkpablRMMUgzVWNUNGVNQ1hRN2hCRVY3UzdlS0QySnVXb0lFSEFVTndNejV1NGVzM1RVMi1aUGR5bEhvZ2dwT016Z2hsVTFWSHdyTDIxbWFWVEV4WnktSdIBxAFBVV95cUxQeVhmZDFRNUdraXBJUTVPZmlFdUt5WHJLOHdjTXJNX28zQzQxVlR1NTBGWWZGeU05LVQxS2JoV0VuRm1OS1daMlJtcU5FVU1VcGktYldKNlhybUNuV2xLS25maU9VdkN3dXdvb0Q1RTgtYkhaUlpkd3BvS3RoeWxBamxYbkNiZjlfYzh3VU9rTExtYlZFZm90eTU4TGVUN3IxMl81eDRjUVRMNHhqaTBQUmpKWnJuV0VlYUhUODl3aGxGSE1k?oc=5",
       "source": "Google News (RSS Search)",
-      "company_guess": "Ace Hardware continues store, distribution center expansion",
+      "company_guess": "USACE",
       "matched_queries": [
-        "distribution center expansion"
+        "warehouse modernization"
       ],
-      "tags": [
-        "expansion",
-        "signal"
-      ],
-      "signal_score": 2,
+      "tags": [],
+      "signal_score": 0,
       "signal_bucket": "low",
-      "published_at": "2022-08-10T07:00:00.000Z",
-      "summary": "Ace Hardware continues store, distribution center expansion Chain Store Age"
+      "published_at": "2022-09-07T07:00:00.000Z",
+      "summary": "USACE supports readiness in Europe by modernizing Army’s Prepositioned Stock facilities army.mil"
     },
     {
       "title": "Automated guided vehicles help warehouses address labor shortage - Beverage Industry",
@@ -12617,6 +12622,22 @@
       "signal_bucket": "low",
       "published_at": "2022-07-21T07:00:00.000Z",
       "summary": "Automated guided vehicles help warehouses address labor shortage Beverage Industry"
+    },
+    {
+      "title": "Cigars International’s $20 Million Warehouse Upgrade Goes Online - halfwheel",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTkY2ZHd4a1NMM2tsN3pYYXFQdGRadUZ2UThJaVZyd3Y1Q0s3dXdqeU02azk2SUFhdHN1WnJkTnFLZmE5ZFp6Ykp6bDZKcFNPWHA3c3o3TnZsOXZMUnBvUGFQLXVweXY1LTgxWi1XYlhKcEl6clFSOVNpejlTcU93UEw4aGVwYU81NVVqS1F5TGo2dzFzMUo0?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Cigars International’s $20 Million Warehouse Upgrade Goes Online",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [
+        "modernization"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2022-06-28T07:00:00.000Z",
+      "summary": "Cigars International’s $20 Million Warehouse Upgrade Goes Online halfwheel"
     },
     {
       "title": "What Amazon’s first fully autonomous robot means for warehouse workers - FreightWaves",
@@ -12704,6 +12725,23 @@
       "signal_bucket": "low",
       "published_at": "2022-06-02T07:00:00.000Z",
       "summary": "Cardinal Health expands warehouse footprint HME News"
+    },
+    {
+      "title": "Cardinal Health continues at-Home Solutions growth with new distribution center in Central Ohio - Cardinal Health",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQS3JxOWVTcks4dVJVa1VuUnhzY19HLUtjV3dtUERkTWRmZHkxUXV6Mlp5eTR4cmc1YmRvU201Rk1KTU5pNEI5Snd6cVd2VmZVM1VJVzBaMFJia05fSkZxbGpiVlRXb2tfdHJKZlJzUkV3MWhpOHhiRkpXX2FzT1pfbGtSS251d0lrU3FtYUlzd3ZkMmZZOWpQSEdRRFZ4UGZSVkVoNnZ3MUI5ZWp0aEptNUlvSWxkeXJDT3JuTWZQSnhQRWc4bkJhVlptM3I5RmxlNVpDVTJ6MWpjQQ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Cardinal Health",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [
+        "expansion",
+        "signal"
+      ],
+      "signal_score": 2,
+      "signal_bucket": "low",
+      "published_at": "2022-06-02T07:00:00.000Z",
+      "summary": "Cardinal Health continues at-Home Solutions growth with new distribution center in Central Ohio Cardinal Health"
     },
     {
       "title": "Cardinal Health to create 100 jobs with Grove City distribution center - The Columbus Dispatch",
@@ -12870,6 +12908,20 @@
       "signal_bucket": "low",
       "published_at": "2022-03-16T07:00:00.000Z",
       "summary": "Geek+ Technology Upgrades World's Largest Smart LED Manufacturing Facility RoboticsTomorrow"
+    },
+    {
+      "title": "Distribution tests out wireless technology - dla.mil",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTUdROUhfRVNXa2NBMU00bmRJRDdKeXBMcjhGRzhySXlHTGtqTzJVSThkY2FBVTdLVDhQT1VMT05FRm1vT0Y0Qzg4Rkh4ZnhTRzlEWVdVNjZFNTRvbHA4QUdSb0pJeUtuekJLb2lnUWV6S0YwYkFPeDhFUGpXQ25naE40Y2VtNzVSYXZoRXdtNXctWU9uSlFhaUJmclNQYnNzSUhJ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Distribution tests out wireless technology",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2022-03-11T05:06:29.000Z",
+      "summary": "Distribution tests out wireless technology dla.mil"
     },
     {
       "title": "Automated storage and retrieval systems create cost-effective solutions - Beverage Industry",
@@ -13091,7 +13143,7 @@
       "summary": "12 notable warehouse-focused AMR acquisitions The Robot Report"
     },
     {
-      "title": "Amazon Boosts Pay, Targets 125,000 Hires Amid Labor Shortage - Bloomberg.com",
+      "title": "Amazon Boosts Pay, Targets 125,000 Hires Amid Labor Shortage - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdThxakp4RjJNREllX1dzaXNBSUUwLUF1U0ZxNnYtdUtFY0FYUmUtUHR3ZmxrUU1kdGhwN0dfeGIzcEliZjFWeUd6UlA4SXdBR1RHek1WLTU1clgxZ0VRSW9vVURiMi1FcUZqeF9ZR0o3VFNCdFhCYTY1eXZkdUhyVFJoOVFCWFozckRpNmVjdUEyX1VzQUF1cU1aYjhUb05Fc3Y4dnZMcjZlcFRy?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Amazon Boosts Pay, Targets 125,000 Hires Amid Labor Shortage",
@@ -13105,7 +13157,7 @@
       "signal_score": 1,
       "signal_bucket": "low",
       "published_at": "2021-09-14T07:00:00.000Z",
-      "summary": "Amazon Boosts Pay, Targets 125,000 Hires Amid Labor Shortage Bloomberg.com"
+      "summary": "Amazon Boosts Pay, Targets 125,000 Hires Amid Labor Shortage Bloomberg"
     },
     {
       "title": "Cosmetics: To Cope with Booming E-commerce, Manufacturers Deploy Warehouse Robots - Global Trade Magazine",
@@ -13227,6 +13279,20 @@
       "signal_bucket": "low",
       "published_at": "2021-04-23T07:00:00.000Z",
       "summary": "Lufthansa Cargo begins modernizing Frankfurt warehouse FreightWaves"
+    },
+    {
+      "title": "5 Things to Consider for a Cloud-Native Data Management Solution - Informatica",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU2FQRGg0clFjSHdZbnl2alIyeE55QUJpX2t2NnhrNWFISHJHLUJlSExBWHJMLWJKVXhsYndMWVVtb2t5YVI3TjVVMnktNGRTN1o3a1VKZVpXOGJ1UFlucWNMVUswMFZpWWg1ZFNORjhNckNudEhXM056REx4VFBMdTlqZHl6YVJzTlVaQ1c5U3BrQkQ0UUs1TDMtbXlHRk92XzJwN09n?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "5 Things to Consider for a Cloud-Native Data Management Solution",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2021-04-05T07:00:00.000Z",
+      "summary": "5 Things to Consider for a Cloud-Native Data Management Solution Informatica"
     },
     {
       "title": "What to Know About No-code Data Pipelines for Data Warehouse Modernization - Informatica",
@@ -13507,6 +13573,34 @@
       "signal_bucket": "low",
       "published_at": "2019-03-20T07:00:00.000Z",
       "summary": "The Warehouse Labor Gap is Unsustainable Logistics Viewpoints"
+    },
+    {
+      "title": "Azure SQL Data Warehouse introduces new productivity and security capabilities - Microsoft Azure",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOC1NU1RjbklGczlUQ01TelByUlBOV3N2NFhpR0YyT2RSWTZQNUkxdngwaGZFQVFmRHVub3B5OGthOFFjc2VWZ1JMcElBZ0NaZkRla3hiVV9maVJuRHRic25aRVVsZGFQdVlMOUJhSVNYZEZRd1JpNkI1TmhZYUsweUV4LWw2SVR3d21sZ2pkZEt5X2FLSC0xa0hEa0FTZ2ZlZnFNN0RvRnBvRVNSenFEV0ZsTXZ4ZW9hRkhBTkRoZHZ0QlU?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Azure SQL Data Warehouse introduces new productivity and security capabilities",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2018-11-07T08:00:00.000Z",
+      "summary": "Azure SQL Data Warehouse introduces new productivity and security capabilities Microsoft Azure"
+    },
+    {
+      "title": "Amway digitises warehouse management across India - Express Computer",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY0JlM1VPWWM5ZE0wb0NGd0x2d1ZRMnNVclhaSWdsT3RMQzdpTVJoYWdpdm1KaXhuMmlzWWhHVWdvemdpdzFpQmd1N1VpNUVVdXlmOUR6a0JIOWg2VFFILTB1TkFyN0tTOWl0ZURkOUkxWlBiNDhoUmdxd3RtazBIT1k0bFpqaW9VTTB6bVJSTVhWSzFzZnlJ0gGcAUFVX3lxTE1TQ01Md042ZGp4SkZVMjFqRmhpRFVSQzhRSENpandpcmg0Z0Q2MDEzVm1tcG9nNWNkdmROSmRzeVRIWEV5MFpRV050YUNoUjVEeVBJd0c0bV9tVlVwQlZvQ1pFdjdkODhpdzROQVRrZXlJTk9WSHZQblNxdVphdUY1NENJQWpuVEp6SDBFNUMxTTgzYU9sd1hycmFuaA?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Amway digitises warehouse management across India",
+      "matched_queries": [
+        "warehouse modernization"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2018-10-12T07:00:00.000Z",
+      "summary": "Amway digitises warehouse management across India Express Computer"
     },
     {
       "title": "Cognizant Leads Amway India's Warehouse Modernization Program - Cognizant Technology Solutions",
