@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-21T23:13:44.748Z",
+  "generated_at": "2026-07-22T00:10:12.063Z",
   "mode": "google_news_rss_search",
   "query_count": 11,
-  "item_count": 895,
+  "item_count": 894,
   "errors": [],
   "items": [
     {
@@ -99,7 +99,8 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Ocado to build new robotic warehouse for European retail giant",
       "matched_queries": [
-        "automated warehouse"
+        "automated warehouse",
+        "warehouse robotics"
       ],
       "tags": [
         "robotics"
@@ -2185,7 +2186,8 @@
       "source": "Google News (RSS Search)",
       "company_guess": "Ambi Robotics",
       "matched_queries": [
-        "warehouse automation"
+        "warehouse automation",
+        "warehouse robotics"
       ],
       "tags": [
         "robotics"
@@ -2821,8 +2823,7 @@
       "company_guess": "Elephant Received Strategic Investment",
       "matched_queries": [
         "warehouse automation",
-        "automated warehouse",
-        "warehouse robotics"
+        "automated warehouse"
       ],
       "tags": [
         "signal"
@@ -4218,6 +4219,22 @@
       "summary": "Paxon in action: Active Ants and Staci deploy an automated e-commerce platform in Lyon Bnode"
     },
     {
+      "title": "Fast deliveries worsen conditions for e-commerce warehouse workers - Digital Information World",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa19uWk00cFY1QTV2ZXpVSUFwVHdyd0haUnpsT2ttX0d5cVJHbk5QQmdjUnRid0hZcFM3T1M4dTl6VmhSeWZWWlozMVcyeldTT2E0UVpXUEhqem15R1ZmTWNOd09kZ0dUSVZDTTF2aURQY1A4QmpXTTRUZmc3Y252cGZXSHo4WWFyQ0JnWkJ4ckJxNGNiNFlZ?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Fast deliveries worsen conditions for e-commerce warehouse workers",
+      "matched_queries": [
+        "e-commerce fulfillment"
+      ],
+      "tags": [
+        "ecommerce"
+      ],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-06-03T07:00:00.000Z",
+      "summary": "Fast deliveries worsen conditions for e-commerce warehouse workers Digital Information World"
+    },
+    {
       "title": "Miami-Dade County snags warehouse near MIA for $19.2M to support expansion - The Business Journals",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaHdoWURnWkloUmpXSXpGWjU1R1FMT2ZmemdvUU15LVlvOTdtUGxtQmRYbnA0QVBOZ2dfbEtXdXJScE1vejBTbXRhWVhSUDA3eTVBWnh6WjVqZlBQMkZRQlo3TWtRRmk0TzVRRTFlOHFOT3V0Mjh3RUdMQ29HMWNJVmZJd21VUjI0MF9ZQ3lJb2xCdG5oUlpUOXh3dUpSdDFIcm5TcURkbWhJcUk?oc=5",
       "source": "Google News (RSS Search)",
@@ -4657,23 +4674,6 @@
       "signal_bucket": "low",
       "published_at": "2026-05-23T07:00:00.000Z",
       "summary": "Ask Us: Walmart expansion still a year from completion | Local News Mankato Free Press"
-    },
-    {
-      "title": "Plus One Robotics streams eight hours of live warehouse automation performance - Robotics & Automation News",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObnpIeDNKbG0tQjlRU2h6Wno5WFFoVUVoM1dVRElsMlg4UjEzeU1tNWROeXAxWjR4Q3dfZGJtQ0xzSXI3djVCcXNwdnMxamNDcmRvNUVaaGM5MFYzNFFoVWNIMThHSTQ5QUEwall1ZnAzdnFtb3dzVEY5RG5kbW5PMzY3TklrOHl6eUNZTW9kWWd3QmxNVUVEaEVFOUxwWFhzZVY3VE82MmxoLVpLSFNuOGRkcGNISE5wRnJyQXVFTkVYU1o0eE9SUkNaVnRkb3lx?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Plus One Robotics streams eight hours of live warehouse automation performance",
-      "matched_queries": [
-        "warehouse robotics"
-      ],
-      "tags": [
-        "robotics",
-        "signal"
-      ],
-      "signal_score": 3,
-      "signal_bucket": "medium",
-      "published_at": "2026-05-22T07:00:00.000Z",
-      "summary": "Plus One Robotics streams eight hours of live warehouse automation performance Robotics & Automation News"
     },
     {
       "title": "The Rise of Warehouse Automation in India: From Early Trials to Mainstream Integration - Spherical Insights",
@@ -6627,6 +6627,20 @@
       "summary": "Harivansh likely to be renominated as RS Deputy Chairman, Opposition raises objection The New Indian Express"
     },
     {
+      "title": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects - MillenniumPost",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbVNfY1Bta3NtZHc5WVgxbDV2dEdqOGxuMlVoZmgtSHg1YTZPaG14cVE3SlRkME1JV0hKemVPTmRicVE3U1RVUHJtRk1oeXlFQjVhNGc3Q1JzbERlOC1BWHY3cGt1bDl3QXJLMkhsQlVnRklXMVJMUVNQRHJIQnExMVBsRGMza1ZFV2NNWVloalZkQzl1aGRXcExsQVhxc215MlZjcFVqN3VMb1FOWFowbm9uVdIBuAFBVV95cUxOZjdCLWFRU3VkeGwtSlMwVFJqYTBlcFl2aUpyMFJxd21qMGdKcEdKelYtOFNtbUJDRjdqYkJ2VHQwRTFqTzl0ZkpVLThqclBMWE1OUTJYVEtXRXR6NHNxMEdkakIxM2JUTThQbThBVVRBMThFRzRTWjIxa2RxTWJWME8xc0pWZ2xpNXJPTm9CZTJiX0lSTndvZ1U1WHRVeVA2eTN2WEFzb1NnM3FPS3kzX2xXQTVfUDhh?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects",
+      "matched_queries": [
+        "AS/RS"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2026-04-13T07:00:00.000Z",
+      "summary": "NDA likely to renominate Harivansh as RS deputy chairman, Oppn objects MillenniumPost"
+    },
+    {
       "title": "Locus Robotics launches fully autonomous fulfillment system - DC Velocity",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRmd3dkNVV0RxY0tZX3FadVcyVkIzNTlKa0JpWlVsYTdNTG1jTXdXMGFKM2VSTGJxQk5MeVlndW1XZ3UydzhYNEwyREJxNmN2c3k4eGhITHJQRl94OEEyR251c1FUamZaVDIxcHU2WGtiaFlJaXJyeTlVRW9wZGtFRV9lQ0VNM3liMjB6QmZtSzl4MzRJbjI5dmhzbERHVlUyMkZJS0NUUQ?oc=5",
       "source": "Google News (RSS Search)",
@@ -7158,23 +7172,6 @@
       "signal_bucket": "medium",
       "published_at": "2026-03-31T07:00:00.000Z",
       "summary": "Associated Wholesale Grocers Chooses Symbotic for Major Warehouse Automation Project Progressive Grocer"
-    },
-    {
-      "title": "Lightweight Aluminum Pallet for AS/RS From: New Age Industrial - Packaging World",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOHV0d0d6WmdLcHEzbHpramhDTm5IZFlZc01DSk9FckdHOVFrd1ROSFZORFVBdGNlWjFuV0hvZ0dOWjBaQkVqN3A1blM3dUtlVWxyajM4SVpYZ2ZUQm0tbC1MNUpPdWkyOEpGX2gzUHp4Rmg1ZzBQQlNJWE1weE5nM2tLLVpVVEktWnhhU3lfYVNMT0ZFMTBlYlNEc2NQTmU2bmlpaHpval9IX3c1ODFZTDdzaFVMX0FVRUdiaXdOajQ0NXlOZTU4?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Lightweight Aluminum Pallet for AS/RS From: New Age Industrial",
-      "matched_queries": [
-        "AS/RS"
-      ],
-      "tags": [
-        "asrs",
-        "signal"
-      ],
-      "signal_score": 2,
-      "signal_bucket": "low",
-      "published_at": "2026-03-31T07:00:00.000Z",
-      "summary": "Lightweight Aluminum Pallet for AS/RS From: New Age Industrial Packaging World"
     },
     {
       "title": "Applied Automation in the Warehouse Boosts Value Across Stakeholders - Prologis",
@@ -7863,8 +7860,8 @@
       "summary": "Ocado turns to store-based e-commerce fulfillment as it looks beyond Kroger Grocery Dive"
     },
     {
-      "title": "Dropship China Pro Expands Dropshipping Supplier Network to Meet Growing US E-commerce Demand - The Register-Guard",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWXRhUm1tOVJUMndtV0s2YjVONXB2Sk5LMDZkU1huc1g0ZDJBWHhXMkpMWm5yNkx4MGI0OGxnNjVqZzQtZ2FfdEEtYVA5aDFEYW93bE9KZGpqM0xQRHlqRkZmTjM3SlBwWDRoZVBOMTVDVDZRU1E0elBjT2Y2MnR1VTAxR2RmUDRtSzhxekVaRzBWcHVKNzVBS0RQcDBDUTFELUQyNVNkRk5tUUpGcjJQZnNSbGNIY0hyejROWWJSQVRHNVBNYmY4c1Z6T1FEaTJYRS1UNTZna2xBNFh5WU5WVnFHUUY?oc=5",
+      "title": "Dropship China Pro Expands Dropshipping Supplier Network to Meet Growing US E-commerce Demand - The Desert Sun",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVkpZaG5LLTJKaWZFVExyd3NObndkRG1DRmx6dXFoeU91YmhDbnV1cmpHaG9LMXAxY0Z3X1hFMW5GZVhaQ1B4M0o3Z0JrcllJY01Ld09WczVYTk9tWnFWZXh3b2JUcTNxMWh3cFlOOGlKa2RaVGJBNXQ3SEotMW5peXdfQW5wUG8yNHgtOTg3c1BidW1CSXd3eVM5ZTFFQTFCSWw2TXZGQnp3TjZmd2lxcFJ3Y1drSFVOZnQ4RGFPaXBsbkpfNGZta25OcElQNXlrbkxDWTVfNG1oT24xb3E5OA?oc=5",
       "source": "Google News (RSS Search)",
       "company_guess": "Dropship China Pro Expands",
       "matched_queries": [
@@ -7876,7 +7873,7 @@
       "signal_score": 0,
       "signal_bucket": "low",
       "published_at": "2026-03-11T07:00:00.000Z",
-      "summary": "Dropship China Pro Expands Dropshipping Supplier Network to Meet Growing US E-commerce Demand The Register-Guard"
+      "summary": "Dropship China Pro Expands Dropshipping Supplier Network to Meet Growing US E-commerce Demand The Desert Sun"
     },
     {
       "title": "Rethinking customization in warehouse automation - Supply Chain Management Review",
@@ -9159,22 +9156,6 @@
       "summary": "E-commerce startup Stord buys AI fulfillment platform Shipwire CNBC"
     },
     {
-      "title": "Stord buys e-commerce specialist Shipwire from Ceva Logistics - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdW9wN0hmQ0k2TTdNeWtoNVJxMjJHdXVKU0xGYTFlZ19FMEN4eHZrdWJ6SFk0VWNDbkxDUk9uTkM5YmNWQm5vRHY5N2I5ai1sbnZkRlVTRHVCQVJxeUZzcG1TX3daOEJJMnJpazkwSldsY2ltQ3dzNnAxYkFpVkFCTmZXSk4?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "Stord buys e-commerce specialist Shipwire from Ceva Logistics",
-      "matched_queries": [
-        "e-commerce fulfillment"
-      ],
-      "tags": [
-        "ecommerce"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2026-01-05T08:00:00.000Z",
-      "summary": "Stord buys e-commerce specialist Shipwire from Ceva Logistics Yahoo Finance"
-    },
-    {
       "title": "Unified Platforms and Agentic AI Will Define E-Commerce in 2026 - E-Commerce Times",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSEVMZ0ZNQnZyYkVWTldseU5zb3R0ZmhWdlhvNE43bVlhbm9OaWxPYjMzaFpFZ2poZGtpR1dDWXJPckFqQjFpSGRISlBEOG5mZEpOcUNOZnVuRlg4NzFraGUyZVJBVnptai1SZV9lR2lDM1hOeldtXzlGaXZ4LUxfWTZnNDRNbVdBQ3pSUzIzUzViSFZFZWdGMG1CelhjRHlTa3RUaXZVSXQ2bF83aDBIYlZR?oc=5",
       "source": "Google News (RSS Search)",
@@ -9726,22 +9707,6 @@
       "signal_bucket": "low",
       "published_at": "2025-11-20T08:00:00.000Z",
       "summary": "Couche-Tard opens new distribution center C-Store Dive"
-    },
-    {
-      "title": "ASICS expands Vanderlande partnership with new automation upgrade - mhdsupplychain.com.au",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS1NBcF9DZHlRbHJCeXFpVFNqd251UlhKZlR0ajRaRXlOZzgxSTVPQ2JGR3ByUkNoOUdZa2E1TjdoSG85QVZKOVdjZ21uOG9BOEtoR1FGOFplOHkxQjM2UUhPTVZPa2lUcmUzNmViMmtzekw0VWZnbVQwUGJLMUtzb0dPeTU5azQzRVRGR25ieWxMT1k?oc=5",
-      "source": "Google News (RSS Search)",
-      "company_guess": "ASICS expands Vanderlande partnership with new automation upgrade",
-      "matched_queries": [
-        "goods-to-person"
-      ],
-      "tags": [
-        "modernization"
-      ],
-      "signal_score": 0,
-      "signal_bucket": "low",
-      "published_at": "2025-11-20T08:00:00.000Z",
-      "summary": "ASICS expands Vanderlande partnership with new automation upgrade mhdsupplychain.com.au"
     },
     {
       "title": "Thai cashier, Sri Lankan warehouse worker: thousands of foreign workers flood Israel’s supermarkets - Ynetnews",
@@ -10301,6 +10266,20 @@
       "signal_bucket": "low",
       "published_at": "2025-07-11T07:00:00.000Z",
       "summary": "Geekplus lists on Hong Kong exchange, in pioneering step for an AMR vendor Modern Materials Handling"
+    },
+    {
+      "title": "Metcash boosts efficiency with new automated Truganina facility - CFOtech Australia",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM2Jua29NbGU3VmlsTHg2X0lrWlUtaU4zbFNTNlFCYlZNSVV2b3RmU25velpvOUxqalg3VmRJcU9KYm1ZV1VRakhSZHdQa2tKSW5La3F1NHd0Vk1Va1FyZkZSNTI2LUZCTWpXWldpNkJlVl9hVXlSXzlTWnF4djdZMnBpS2tkNmU1WmJlWll0VE9pNW9NY2xF?oc=5",
+      "source": "Google News (RSS Search)",
+      "company_guess": "Metcash boosts efficiency with new automated Truganina facility",
+      "matched_queries": [
+        "goods-to-person"
+      ],
+      "tags": [],
+      "signal_score": 0,
+      "signal_bucket": "low",
+      "published_at": "2025-07-09T07:00:00.000Z",
+      "summary": "Metcash boosts efficiency with new automated Truganina facility CFOtech Australia"
     },
     {
       "title": "Tsinghua Group's Robotics Firm, Highest - Revenue in Hong Kong Stock Market, Eyes IPO - 36 Kr",
